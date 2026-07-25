@@ -1,0 +1,97 @@
+---
+// 站点页脚 —— 柔和暗色表面 + 合规声明
+import { SITE } from '../data/site';
+
+const year = new Date().getFullYear();
+
+const footerNav = [
+  {
+    title: 'Guides',
+    links: [
+      { label: 'Release Date', href: '/release-date/' },
+      { label: 'Beginner Guide', href: '/beginner-guide/' },
+      { label: 'All Shells', href: '/shells/' },
+      { label: 'Tiel', href: '/tiel/' },
+      { label: 'Boss Guide', href: '/bosses/' },
+      { label: 'Map', href: '/map/' },
+    ],
+  },
+  {
+    title: 'Open Beta',
+    links: [
+      { label: 'Download Open Beta', href: '/download/' },
+      { label: 'Open Beta Guide', href: '/open-beta/' },
+      { label: 'Editions', href: '/editions/' },
+      { label: 'Beta Save Progress', href: '/beta-progress/' },
+      { label: 'PC Settings', href: '/pc-settings/' },
+      { label: 'Need Mortal Shell 1?', href: '/do-you-need-mortal-shell-1/' },
+    ],
+  },
+  {
+    title: 'Site',
+    links: [
+      { label: 'About', href: '/about/' },
+      { label: 'Contact', href: '/contact/' },
+      { label: 'Privacy Policy', href: '/privacy/' },
+    ],
+  },
+];
+---
+
+<footer class="mt-16 border-t border-white/5 bg-gradient-to-b from-ash-900/40 to-ash-950">
+  <div class="mx-auto max-w-6xl px-4 py-14">
+    <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+      <div>
+        <div class="flex items-center gap-3">
+          <span
+            class="grid h-9 w-9 place-items-center rounded-lg border border-amber-glow/25 bg-amber-glow/10 text-amber-glow"
+            aria-hidden="true"
+          >
+            ◆
+          </span>
+          <div class="leading-tight">
+            <div class="text-sm font-semibold tracking-[0.04em] text-ash-100">MORTAL SHELL II</div>
+            <div class="text-[0.65rem] font-medium tracking-[0.16em] text-ash-500 uppercase">Wiki & Field Guide</div>
+          </div>
+        </div>
+        <p class="mt-4 max-w-xs text-sm leading-relaxed text-ash-400">
+          A verified, source-tracked wiki for Mortal Shell II. Every fact carries a confirmation status and a source.
+        </p>
+        <a href={SITE.openBetaUrl} target="_blank" rel="noopener noreferrer" class="btn-primary mt-5 !px-3.5 !py-2 text-xs">
+          Steam Open Beta ↗
+        </a>
+      </div>
+
+      {
+        footerNav.map((col) => (
+          <nav aria-label={col.title}>
+            <p class="text-xs font-semibold uppercase tracking-[0.16em] text-ash-300">{col.title}</p>
+            <ul class="mt-4 space-y-2.5">
+              {col.links.map((link) => (
+                <li>
+                  <a href={link.href} class="text-sm text-ash-400 transition-colors hover:text-amber-glow">
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))
+      }
+    </div>
+
+    <div class="mt-12 space-y-3 border-t border-white/5 pt-7 text-xs leading-relaxed text-ash-500">
+      <p>
+        <strong class="text-ash-400">Independent fan site.</strong> This is an independent fan site. Not affiliated with
+        or endorsed by {SITE.developer} / {SITE.publisher}. All trademarks are the property of their respective owners.
+      </p>
+      <p>
+        <strong class="text-ash-400">Sources &amp; imagery.</strong> Screenshots are captured in-game or taken from
+        official media kits. Every page notes the source and confirmation status of its information. To request removal
+        of any content, see our <a href="/contact/" class="underline hover:text-ash-300">contact page</a>.
+      </p>
+      <p class="pt-1 text-ash-600">&copy; {year} {SITE.name}. Content licensed for personal use.</p>
+    </div>
+  </div>
+</footer>
+

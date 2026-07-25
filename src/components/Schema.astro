@@ -1,0 +1,137 @@
+---
+// JSON-LD 注入组件 —— 实现方案第三章 Schema 矩阵。
+// 按页面类型传入不同 type，避免机械套用单一 Schema。
+import { SITE } from '../data/site';
+import { toDateString } from '../utils/dates';
+
+interface Crumb {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  // 页面类型，决定生成哪种 Schema
+  type: 'home' | 'article' | 'news' | 'collection';
+  // 当前页面绝对路径（含尾斜杠），用于 @id 与 url
+  path: string;
+  title?: string;
+  description?: string;
+  // 面包屑层级（article/news/collection 需要），须与用户实际看到的导航一致
+  breadcrumb?: Crumb[];
+  // Article/NewsArticle 的发布/更新时间
+  datePublished?: string;
+  dateModified?: string;
+  ogImage?: string;
+}
+
+const {
+  type,
+  path,
+  title,
+  description,
+  breadcrumb = [],
+  datePublished,
+  dateModified,
+  ogImage,
+} = Astro.props;
+
+const abs = (p: string) => new URL(p, SITE.url).href;
+const pageUrl = abs(path);
+const published = toDateString(datePublished);
+const modified = toDateString(dateModified);
+const imageUrl = ogImage || abs('/og-default.jpg');
+
+// Organization —— 站点身份，被其他 Schema 以 @id 引用
+const organization = {
+  '@type': 'Organization',
+  '@id': `${SITE.url}/#organization`,
+  name: SITE.name,
+  url: SITE.url + '/',
+};
+
+const author = {
+  '@type': 'Organization',
+  '@id': `${SITE.url}/#organization`,
+  name: SITE.name,
+  url: SITE.url + '/',
+};
+
+// BreadcrumbList —— 从传入层级生成
+const breadcrumbList =
+  breadcrumb.length > 0
+    ? {
+        '@type': 'BreadcrumbList',
+        '@id': `${pageUrl}#breadcrumb`,
+        itemListElement: breadcrumb.map((c, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: c.name,
+          item: abs(c.url),
+        })),
+      }
+    : null;
+
+// 按页面类型组装 @graph
+const graph: Record<string, unknown>[] = [];
+
+if (type === 'home') {
+  // 首页：WebSite + Organization。不做无效 SearchAction（站内搜索页尚未上线）。
+  graph.push(organization);
+  graph.push({
+    '@type': 'WebSite',
+    '@id': `${SITE.url}/#website`,
+    name: SITE.name,
+    url: SITE.url + '/',
+    description: SITE.description,
+    publisher: { '@id': `${SITE.url}/#organization` },
+    inLanguage: 'en',
+    about: {
+      // VideoGame 辅助实体：帮助 Google 理解游戏，不期待富结果
+      '@type': 'VideoGame',
+      name: 'Mortal Shell II',
+      gamePlatform: ['PC', 'PlayStation 5', 'Xbox Series X|S'],
+      applicationCategory: 'Game',
+      author: { '@type': 'Organization', name: SITE.developer },
+      publisher: { '@type': 'Organization', name: SITE.publisher },
+      datePublished: SITE.releaseDate,
+    },
+  });
+} else if (type === 'article' || type === 'news') {
+  graph.push(organization);
+  graph.push({
+    '@type': type === 'news' ? 'NewsArticle' : 'Article',
+    '@id': `${pageUrl}#article`,
+    headline: title,
+    description,
+    inLanguage: 'en',
+    url: pageUrl,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+    author,
+    publisher: { '@id': `${SITE.url}/#organization` },
+    image: [imageUrl],
+    ...(published ? { datePublished: published } : {}),
+    ...(modified ? { dateModified: modified } : {}),
+  });
+  if (breadcrumbList) graph.push(breadcrumbList);
+} else if (type === 'collection') {
+  // 分类聚合页：CollectionPage + BreadcrumbList（不要标成 Article）
+  graph.push(organization);
+  graph.push({
+    '@type': 'CollectionPage',
+    '@id': `${pageUrl}#collection`,
+    name: title,
+    description,
+    url: pageUrl,
+    inLanguage: 'en',
+    isPartOf: { '@id': `${SITE.url}/#website` },
+  });
+  if (breadcrumbList) graph.push(breadcrumbList);
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': graph,
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />

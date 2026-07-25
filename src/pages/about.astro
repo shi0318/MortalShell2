@@ -1,0 +1,105 @@
+---
+// 关于页 —— AdSense 条件（8.1）：说明站点定位、编辑团队、内容来源标注方式。
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE } from '../data/site';
+import { STATUS_META } from '../data/sources';
+
+const title = 'About Mortal Shell II Wiki — Editorial & Sourcing';
+const description =
+  'Who runs Mortal Shell II Wiki, how we verify every fact with a confirmation status, and where our information comes from. An independent fan-made resource.';
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'About', url: '/about/' },
+];
+
+const statuses = Object.values(STATUS_META);
+---
+
+<Layout title={title} description={description} schemaType="article" breadcrumb={crumbs}>
+  <article class="mx-auto max-w-3xl">
+    <Breadcrumb items={crumbs} />
+
+    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">About this wiki</h1>
+    <p class="mt-3 text-lg text-ash-400">
+      An independent, fan-made guide to Mortal Shell II — built on one rule: every fact
+      carries a source and a confirmation status.
+    </p>
+
+    <div class="prose-body mt-8 space-y-6 text-ash-200">
+      <section>
+        <h2 class="text-xl font-semibold text-ash-100">Image sources</h2>
+        <p class="mt-2">
+          Screenshots and promotional images on this site come from the Mortal Shell II Steam store page and the official Cold Symmetry page at
+          <a href="https://www.coldsymmetry.com/mortal-shell-2" class="text-amber-glow underline underline-offset-2" rel="noopener noreferrer" target="_blank">coldsymmetry.com/mortal-shell-2</a>.
+          We use them for fan-site documentation with attribution under each figure where practical.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-ash-100">What this site is</h2>
+        <p class="mt-2">
+          Mortal Shell II Wiki is a community resource covering Shells, weapons, bosses,
+          mechanics, and walkthroughs for {SITE.developer}'s Mortal Shell II. We are not
+          affiliated with {SITE.developer} or {SITE.publisher}. This is a fan project.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-ash-100">Who writes it</h2>
+        <p class="mt-2">
+          The wiki is maintained by an independent editor who plays the game, captures
+          footage, and cross-checks every claim against official sources. Pre-release, much
+          of the content is drawn from trailers and the first game — and it is clearly
+          labelled as such, never presented as confirmed fact.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-ash-100">How we mark confirmation status</h2>
+        <p class="mt-2">
+          This is the core of the site. Instead of blending official facts with rumours,
+          every entry carries one of these labels so you always know how reliable it is:
+        </p>
+        <ul class="mt-3 space-y-2">
+          {
+            statuses.map((s) => (
+              <li class="flex gap-2">
+                <span class="shrink-0">{s.icon}</span>
+                <span>
+                  <strong class="text-ash-100">{s.label}</strong> — {s.description}
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-ash-100">Where our information comes from</h2>
+        <p class="mt-2">Our sources, in order of authority:</p>
+        <ul class="mt-2 list-disc space-y-1 pl-5">
+          <li>Official developer channels — Steam store and news, official Discord, verified social accounts</li>
+          <li>Hands-on testing in Beta builds, with the version number and test date recorded</li>
+          <li>Official trailers, cited with a timestamp where relevant</li>
+          <li>The first Mortal Shell (2020), used only for clearly-labelled inference</li>
+        </ul>
+        <p class="mt-2">
+          Every article ends with a "Sources &amp; verification" table listing the source,
+          game version, and the date we last checked it.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-ash-100">Game images and assets</h2>
+        <p class="mt-2">
+          Screenshots are captured in-game or taken from official press material.
+          Trademarks and game assets belong to their respective owners. If you own rights to
+          content used here and would like it removed, contact us via the
+          <a href="/contact/" class="text-amber-glow underline underline-offset-2">contact page</a>.
+        </p>
+      </section>
+    </div>
+  </article>
+</Layout>

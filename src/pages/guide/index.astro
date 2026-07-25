@@ -1,0 +1,201 @@
+---
+// 攻略聚合页 — CollectionPage schema（方案 3.1：列表页不标 Article）。
+// 卡片式列表：缩略图 + 分类标签 + 日期 + 摘要，对齐竞品列表页体验。
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { getCollection } from 'astro:content';
+import { SITE_IMAGES } from '../../data/images';
+import { formatDate } from '../../utils/dates';
+
+const title = 'Mortal Shell II Guides — Verified Pre-release Hub';
+const description =
+  'Browse every Mortal Shell II guide on this wiki: Open Beta, release date, Shells, beacons, Gloom, map, and PC requirements — each page tagged with a confirmation status.';
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Guide', url: '/guide/' },
+];
+
+const CATEGORY_LABEL: Record<string, string> = {
+  guide: 'Overview',
+  mechanics: 'Mechanics',
+  shells: 'Shells',
+  weapons: 'Weapons',
+  bosses: 'Bosses',
+  walkthrough: 'Walkthrough',
+  news: 'News',
+};
+
+const CATEGORY_ORDER = ['guide', 'mechanics', 'shells', 'weapons', 'bosses', 'walkthrough', 'news'];
+
+// fallback covers if a guide has no frontmatter cover
+const FALLBACK_COVER: Record<string, string> = {
+  guide: SITE_IMAGES.heroCombat.src,
+  mechanics: SITE_IMAGES.gloomCreature.src,
+  shells: SITE_IMAGES.shellsPortrait.src,
+  weapons: SITE_IMAGES.weaponsCloseup.src,
+  bosses: SITE_IMAGES.cathedralBoss.src,
+  walkthrough: SITE_IMAGES.heroBanner.src,
+  news: SITE_IMAGES.officialKeyart2.src,
+};
+
+const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+
+const featured = guides.slice(0, 3);
+const grouped = new Map<string, typeof guides>();
+for (const g of guides) {
+  const cat = g.data.category;
+  if (!grouped.has(cat)) grouped.set(cat, []);
+  grouped.get(cat)!.push(g);
+}
+
+const sections = CATEGORY_ORDER.filter((c) => grouped.has(c)).map((c) => ({
+  key: c,
+  label: CATEGORY_LABEL[c] ?? c,
+  items: grouped.get(c)!,
+}));
+
+function coverOf(g: (typeof guides)[number]) {
+  return g.data.cover ?? FALLBACK_COVER[g.data.category] ?? SITE_IMAGES.heroCombat.src;
+}
+
+function labelOf(cat: string) {
+  return CATEGORY_LABEL[cat] ?? cat;
+}
+
+function cardAlt(g: (typeof guides)[number]) {
+  const name = g.data.heading ?? g.data.title;
+  return `${name} cover image`;
+}
+---
+
+<Layout title={title} description={description} schemaType="collection" breadcrumb={crumbs}>
+  <Breadcrumb items={crumbs} />
+
+  <header class="mb-8">
+    <p class="section-kicker">Start here</p>
+    <h1 class="section-title mt-3 md:text-5xl">
+      Verified Mortal Shell II guides
+    </h1>
+    <p class="mt-3 max-w-2xl text-lg text-ash-400">
+      Pre-release pages only. Every card shows a confirmation status and a last-verified date
+      so you can tell official Steam notes from trailer clues or prequel inference.
+    </p>
+  </header>
+
+  <div class="mb-8"><PreReleaseNotice /></div>
+
+  {
+    featured.length > 0 && (
+      <section class="mb-12" aria-label="Featured guides">
+        <ul class="grid gap-5 md:grid-cols-3">
+          {featured.map((g) => {
+            const verified = formatDate(g.data.updatedAt);
+            return (
+              <li>
+                <a
+                  href={`/${g.id}/`}
+                  class="surface-card group flex h-full flex-col overflow-hidden"
+                >
+                  <div class="aspect-[16/10] overflow-hidden bg-ash-950">
+                    <img
+                      src={coverOf(g)}
+                      alt={cardAlt(g)}
+                      width="640"
+                      height="400"
+                      loading="lazy"
+                      decoding="async"
+                      class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                    />
+                  </div>
+                  <div class="flex flex-1 flex-col p-4">
+                    <div class="mb-2 flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-amber-glow/90">
+                      <span>{labelOf(g.data.category)}</span>
+                      <span class="text-ash-600">•</span>
+                      <time datetime={verified}>{verified}</time>
+                    </div>
+                    <div class="mb-2 flex items-start justify-between gap-2">
+                      <h2 class="text-base font-semibold leading-snug text-ash-100 group-hover:text-amber-glow md:text-lg">
+                        {g.data.heading ?? g.data.title}
+                      </h2>
+                      <StatusBadge status={g.data.status} size="sm" />
+                    </div>
+                    <p class="line-clamp-3 flex-1 text-sm leading-relaxed text-ash-400">
+                      {g.data.description}
+                    </p>
+                    <span class="mt-4 text-sm font-medium text-amber-glow/90 group-hover:text-amber-glow">
+                      Read guide →
+                    </span>
+                  </div>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    sections.length === 0 ? (
+      <p class="text-ash-400">Guides are being written. Check back soon.</p>
+    ) : (
+      <div class="space-y-12">
+        {sections.map((section) => (
+          <section aria-labelledby={`sec-${section.key}`}>
+            <p class="section-kicker">Browse by topic</p>
+            <h2 id={`sec-${section.key}`} class="section-title mt-2 mb-5 md:text-3xl">
+              {section.label}
+            </h2>
+            <ul class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {section.items.map((g) => {
+                const verified = formatDate(g.data.updatedAt);
+                return (
+                  <li>
+                    <a
+                      href={`/${g.id}/`}
+                      class="surface-card group flex h-full flex-col overflow-hidden"
+                    >
+                      <div class="aspect-[16/10] overflow-hidden bg-ash-950">
+                        <img
+                          src={coverOf(g)}
+                          alt={cardAlt(g)}
+                          width="640"
+                          height="400"
+                          loading="lazy"
+                          decoding="async"
+                          class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                        />
+                      </div>
+                      <div class="flex flex-1 flex-col p-4">
+                        <div class="mb-2 flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-amber-glow/90">
+                          <span>{labelOf(g.data.category)}</span>
+                          <span class="text-ash-600">•</span>
+                          <time datetime={verified}>{verified}</time>
+                        </div>
+                        <div class="mb-2 flex items-start justify-between gap-2">
+                          <h3 class="text-base font-semibold leading-snug text-ash-100 group-hover:text-amber-glow">
+                            {g.data.heading ?? g.data.title}
+                          </h3>
+                          <StatusBadge status={g.data.status} size="sm" />
+                        </div>
+                        <p class="line-clamp-3 flex-1 text-sm leading-relaxed text-ash-400">
+                          {g.data.description}
+                        </p>
+                        <span class="mt-4 text-sm font-medium text-amber-glow/90">Read guide →</span>
+                      </div>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        ))}
+      </div>
+    )
+  }
+</Layout>

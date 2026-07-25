@@ -1,0 +1,173 @@
+---
+// 攻略文章布局 —— 内容集合 guides 的每篇 .md 都用它渲染。
+// 统一输出：面包屑 → Pre-release 提示 → H1 → Steam CTA（下载相关页）→ 正文 → 来源表。
+import Layout from './Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import PreReleaseNotice from '../components/PreReleaseNotice.astro';
+import SourceTable from '../components/SourceTable.astro';
+import StatusBadge from '../components/StatusBadge.astro';
+import { SITE } from '../data/site';
+import type { ConfidenceStatus, SourceRef } from '../data/sources';
+import { formatDate, toDateString } from '../utils/dates';
+
+interface Crumb {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  title: string; // <title>
+  heading?: string; // H1（默认取 title）
+  description: string;
+  category: 'guide' | 'shells' | 'weapons' | 'bosses' | 'mechanics' | 'walkthrough' | 'news';
+  status: ConfidenceStatus;
+  sources?: SourceRef[];
+  preRelease?: boolean;
+  updatedAt: string | Date;
+  datePublished?: string | Date;
+}
+
+const {
+  title,
+  heading,
+  description,
+  category,
+  status,
+  sources = [],
+  preRelease = true,
+  updatedAt,
+  datePublished,
+} = Astro.props;
+
+// 已知路径段的友好显示名（未列出的段用标题化的 slug）
+const SEGMENT_LABEL: Record<string, string> = {
+  guide: 'Guide',
+  shells: 'Shells',
+  weapons: 'Weapons',
+  bosses: 'Bosses',
+  mechanics: 'Mechanics',
+  walkthrough: 'Walkthrough',
+  news: 'News',
+  gloom: 'Gloom',
+  beacons: 'Beacons',
+  map: 'Map',
+  'pc-settings': 'PC Settings',
+  'beta-progress': 'Beta Progress',
+  'open-beta': 'Open Beta',
+  download: 'Download',
+  'release-date': 'Release Date',
+  editions: 'Editions',
+  'beginner-guide': 'Beginner Guide',
+  tiel: 'Tiel',
+  magdalena: 'Magdalena',
+  'do-you-need-mortal-shell-1': 'Need Mortal Shell 1?',
+  tarstones: 'Tarstones',
+  'best-shell': 'Best Shell',
+};
+
+const h1 = heading ?? title;
+const verifiedDate = formatDate(updatedAt);
+const publishedDate = toDateString(datePublished ?? updatedAt);
+const titleize = (s: string) =>
+  s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+// 面包屑从真实 URL 段推导，保证与 URL 层级严格一致（方案 3.2）。
+const segments = Astro.url.pathname.split('/').filter(Boolean);
+const crumbs: Crumb[] = [
+  { name: 'Home', url: '/' },
+  ...segments.map((seg, i) => {
+    const url = '/' + segments.slice(0, i + 1).join('/') + '/';
+    const name =
+      i === segments.length - 1 ? h1 : (SEGMENT_LABEL[seg] ?? titleize(seg));
+    return { name, url };
+  }),
+];
+
+// news 分类用 NewsArticle，其余用 Article
+const schemaType = category === 'news' ? 'news' : 'article';
+
+// noindex 策略：只有 official / beta（基于已发布内容的可核实事实）允许进索引。
+// trailer / prequel / unconfirmed 属预告臆测，暂不收录，待正式发售核实后再放开。
+const INDEXABLE_STATUS: ConfidenceStatus[] = ['official', 'beta'];
+const noindex = !INDEXABLE_STATUS.includes(status);
+
+// 下载意图页：在正文前放官方 Steam 按钮，对齐竞品 open-beta walkthrough 的跳转行为
+const pageKey = segments[0] ?? '';
+const showSteamCta = ['download', 'open-beta', 'pc-settings', 'beta-progress', 'beginner-guide', 'release-date'].includes(pageKey);
+const steamCtaLabel =
+  pageKey === 'download'
+    ? 'Play Mortal Shell II Open Beta on Steam'
+    : 'Download Open Beta on Steam';
+---
+
+<Layout
+  title={title}
+  description={description}
+  schemaType={schemaType}
+  breadcrumb={crumbs}
+  datePublished={publishedDate}
+  dateModified={verifiedDate}
+  noindex={noindex}
+>
+  <article class="mx-auto max-w-3xl">
+    <Breadcrumb items={crumbs} />
+
+    {preRelease && <PreReleaseNotice />}
+
+    <header class="mt-4 border-b border-white/5 pb-6">
+      <div class="mb-3">
+        <StatusBadge status={status} />
+      </div>
+      <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">{h1}</h1>
+      <p class="mt-3 text-lg text-ash-400">{description}</p>
+      <p class="mt-4 text-sm text-ash-500">
+        Last verified <time datetime={verifiedDate}>{verifiedDate}</time>
+      </p>
+    </header>
+
+    {
+      showSteamCta && (
+        <div class="surface-card mt-6 border-amber-glow/25 bg-amber-glow/5 p-5">
+          <p class="text-xs font-semibold uppercase tracking-[0.16em] text-amber-glow">
+            Official Steam install
+          </p>
+          <p class="mt-2 text-sm text-ash-300">
+            This wiki never hosts game files. Use the official Steam Open Beta page only.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-3">
+            <a
+              href={SITE.openBetaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-primary !px-4 !py-2.5 text-sm"
+            >
+              {steamCtaLabel} ↗
+            </a>
+            {pageKey !== 'download' && (
+              <a
+                href="/download/"
+                class="btn-ghost !px-4 !py-2.5 text-sm"
+              >
+                Download hub
+              </a>
+            )}
+            {pageKey !== 'pc-settings' && (
+              <a
+                href="/pc-settings/"
+                class="btn-ghost !px-4 !py-2.5 text-sm"
+              >
+                System requirements
+              </a>
+            )}
+          </div>
+        </div>
+      )
+    }
+
+    <div class="prose-body mt-8 space-y-4 text-ash-200">
+      <slot />
+    </div>
+
+    <SourceTable sources={sources} />
+  </article>
+</Layout>

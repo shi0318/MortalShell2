@@ -1,0 +1,49 @@
+---
+// 发售倒计时 —— 首页 Hero 使用（沉浸式卡片风格）。
+import { SITE, daysUntilRelease, isReleased } from '../data/site';
+
+const days = daysUntilRelease();
+const released = isReleased();
+---
+
+{
+  released ? (
+    <div class="inline-flex items-center gap-2 rounded-2xl border border-emerald-400/25 bg-emerald-500/10 px-5 py-3 text-sm font-medium text-emerald-300 backdrop-blur-md">
+      <span class="h-2 w-2 rounded-full bg-emerald-400" />
+      Out now — verified guides live
+    </div>
+  ) : (
+    <div
+      class="inline-flex min-w-[10.5rem] flex-col items-center rounded-2xl border border-white/10 bg-black/40 px-5 py-4 text-center shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-md"
+      data-countdown
+      data-release={SITE.releaseDate}
+    >
+      <span class="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-ash-400">Launches in</span>
+      <span class="mt-1 text-4xl font-bold tabular-nums tracking-tight text-amber-glow" data-countdown-value>
+        {days}
+      </span>
+      <span class="mt-1 text-xs text-ash-400">
+        days · <time datetime={SITE.releaseDate}>{SITE.releaseDate}</time>
+      </span>
+    </div>
+  )
+}
+
+<script>
+  const el = document.querySelector<HTMLElement>('[data-countdown]');
+  if (el) {
+    const release = new Date(el.dataset.release + 'T00:00:00Z').getTime();
+    const out = el.querySelector<HTMLElement>('[data-countdown-value]');
+    const tick = () => {
+      const diff = release - Date.now();
+      if (diff <= 0) {
+        if (out) out.textContent = '0';
+        return;
+      }
+      const d = Math.floor(diff / 86400000);
+      if (out) out.textContent = String(d);
+    };
+    tick();
+    setInterval(tick, 60000);
+  }
+</script>

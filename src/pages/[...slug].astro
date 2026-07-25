@@ -1,0 +1,38 @@
+---
+// 根级 catch-all —— guides 内容集合的每篇 .md 生成一个页面。
+// URL 直接等于内容文件路径，与方案 5.1 网站地图一致：
+//   src/content/guides/gloom.md            → /gloom/
+//   src/content/guides/bosses/xxx.md        → /bosses/xxx/
+//   src/content/guides/walkthrough/ch1.md   → /walkthrough/ch1/
+// 加新文章：在 src/content/guides/ 对应目录丢一个 .md，无需改这里。
+//
+// 更具体的路由（/shells/index.astro 等）优先级高于本 catch-all，不会冲突。
+import { getCollection, render } from 'astro:content';
+import GuideLayout from '../layouts/GuideLayout.astro';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides', ({ data }) => !data.draft);
+  return guides.map((entry) => ({
+    // entry.id 即相对 guides 目录的路径（不含扩展名），直接作为 URL slug
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<GuideLayout
+  title={d.title}
+  heading={d.heading}
+  description={d.description}
+  category={d.category}
+  status={d.status}
+  sources={d.sources}
+  preRelease={d.preRelease}
+  updatedAt={d.updatedAt}
+>
+  <Content />
+</GuideLayout>

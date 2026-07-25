@@ -1,0 +1,22 @@
+---
+// 发售前提示条 —— 柔和提示，不抢主内容
+interface Props {
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+
+<aside
+  class:list={[
+    'rounded-xl border border-amber-glow/20 bg-amber-glow/[0.06] text-ash-200 backdrop-blur-sm',
+    compact ? 'px-3 py-2 text-xs' : 'px-4 py-3 text-sm',
+  ]}
+  role="note"
+>
+  <p>
+    <span class="font-semibold text-amber-glow">Pre-release guide.</span>
+    Mortal Shell II launches on 2026-08-20. Facts below are marked with a confirmation
+    status — anything based on trailers or the first game is flagged and will be replaced
+    with verified data at launch.
+  </p>
+</aside>

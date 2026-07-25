@@ -1,0 +1,86 @@
+---
+// 站点头部 —— 参考舒适型 field-guide 顶栏：半透明、品牌+副标、轻导航
+import { SITE, NAV } from '../data/site';
+
+const current = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? current === '/' : current.startsWith(href);
+---
+
+<header class="sticky top-0 z-40 border-b border-white/5 bg-[#070709]/70 backdrop-blur-xl">
+  <nav
+    class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3.5"
+    aria-label="Primary"
+  >
+    <a href="/" class="group flex min-w-0 items-center gap-3">
+      <span
+        class="grid h-9 w-9 place-items-center rounded-lg border border-amber-glow/25 bg-amber-glow/10 text-amber-glow shadow-[0_0_24px_rgba(224,177,90,0.15)]"
+        aria-hidden="true"
+      >
+        ◆
+      </span>
+      <span class="min-w-0 leading-tight">
+        <span class="block truncate text-[0.95rem] font-semibold tracking-[0.04em] text-ash-100 group-hover:text-amber-glow">
+          MORTAL SHELL II
+        </span>
+        <span class="block text-[0.65rem] font-medium tracking-[0.18em] text-ash-500 uppercase">
+          Wiki & Field Guide
+        </span>
+      </span>
+    </a>
+
+    <ul class="hidden items-center gap-0.5 lg:flex">
+      {
+        NAV.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class:list={[
+                'rounded-md px-3 py-2 text-sm transition-colors',
+                isActive(item.href)
+                  ? 'bg-white/5 text-amber-glow'
+                  : 'text-ash-300 hover:bg-white/5 hover:text-ash-100',
+              ]}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <details class="relative lg:hidden">
+      <summary
+        class="flex cursor-pointer list-none items-center rounded-md border border-white/10 p-2 text-ash-200 hover:bg-white/5"
+        aria-label="Open menu"
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </summary>
+      <ul class="absolute right-0 mt-2 w-52 overflow-hidden rounded-xl border border-white/10 bg-ash-900/95 p-2 shadow-2xl backdrop-blur-xl">
+        {
+          NAV.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class:list={[
+                  'block rounded-lg px-3 py-2.5 text-sm',
+                  isActive(item.href)
+                    ? 'bg-white/5 text-amber-glow'
+                    : 'text-ash-300 hover:bg-white/5 hover:text-ash-100',
+                ]}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </details>
+  </nav>
+</header>

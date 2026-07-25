@@ -1,0 +1,43 @@
+---
+// 媒体图块 —— 统一圆角、柔边、署名
+interface Props {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  credit?: string;
+  class?: string;
+  priority?: boolean;
+}
+
+const {
+  src,
+  alt,
+  width = 1600,
+  height = 900,
+  credit,
+  class: className = '',
+  priority = false,
+} = Astro.props;
+---
+
+<figure class:list={['surface-card overflow-hidden', className]}>
+  <img
+    src={src}
+    alt={alt}
+    width={width}
+    height={height}
+    loading={priority ? 'eager' : 'lazy'}
+    decoding={priority ? 'sync' : 'async'}
+    fetchpriority={priority ? 'high' : 'auto'}
+    sizes="(max-width: 768px) 100vw, 960px"
+    class="h-auto w-full object-cover"
+  />
+  {
+    credit && (
+      <figcaption class="border-t border-white/5 px-3 py-2.5 text-xs text-ash-500">
+        {credit}
+      </figcaption>
+    )
+  }
+</figure>

@@ -1,0 +1,59 @@
+---
+// 联系页 —— AdSense 条件（8.1）：至少一个有效联系渠道 + 侵权移除入口。
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE } from '../data/site';
+
+const title = 'Contact — Mortal Shell II Wiki';
+const description =
+  'Get in touch with Mortal Shell II Wiki. Report a correction, suggest a guide, or request content removal. We read every message.';
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Contact', url: '/contact/' },
+];
+---
+
+<Layout title={title} description={description} schemaType="article" breadcrumb={crumbs}>
+  <article class="mx-auto max-w-3xl">
+    <Breadcrumb items={crumbs} />
+
+    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Contact us</h1>
+    <p class="mt-3 text-lg text-ash-400">
+      Corrections, suggestions, and takedown requests all reach the same inbox.
+    </p>
+
+    <div class="prose-body mt-8 space-y-6 text-ash-200">
+      <section class="rounded-lg border border-ash-800 bg-ash-900/60 p-5">
+        <h2 class="text-lg font-semibold text-ash-100">Email</h2>
+        <p class="mt-2">
+          Reach the editor directly at
+          <a
+            href={`mailto:${SITE.contactEmail}`}
+            class="text-amber-glow underline underline-offset-2"
+          >
+            {SITE.contactEmail}
+          </a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-ash-100">Spotted something wrong?</h2>
+        <p class="mt-2">
+          Accuracy is the whole point of this site. If a fact is out of date, mislabelled,
+          or contradicted by an official source, tell us which page and what you found — a
+          link to the source helps us verify and fix it fast.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-ash-100">Content removal</h2>
+        <p class="mt-2">
+          If you hold rights to an image or other material used on this site and want it
+          removed, email us with the specific page and asset. We honour valid requests
+          promptly.
+        </p>
+      </section>
+    </div>
+  </article>
+</Layout>

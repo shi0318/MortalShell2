@@ -1,0 +1,5 @@
+# Mortal Shell II Wiki — 允许全部路径，指向 sitemap（方案阶段 0）
+User-agent: *
+Allow: /
+
+Sitemap: https://mortalshell2.wiki/sitemap-index.xml

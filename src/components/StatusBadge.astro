@@ -1,0 +1,22 @@
+---
+// 确认状态徽章 —— 本站与竞品的核心差异：每条信息可信度一眼可见（方案 4.2）
+import { STATUS_META, type ConfidenceStatus } from '../data/sources';
+
+interface Props {
+  status: ConfidenceStatus;
+  // 是否显示完整文字标签（false 时仅图标 + 短标签）
+  size?: 'sm' | 'md';
+}
+
+const { status, size = 'md' } = Astro.props;
+const meta = STATUS_META[status];
+const pad = size === 'sm' ? 'px-1.5 py-0.5 text-[11px]' : 'px-2 py-0.5 text-xs';
+---
+
+<span
+  class={`inline-flex items-center gap-1 rounded border font-medium whitespace-nowrap ${pad} ${meta.classes}`}
+  title={meta.description}
+>
+  <span aria-hidden="true">{meta.icon}</span>
+  <span>{meta.label}</span>
+</span>

@@ -1,0 +1,65 @@
+---
+// 来源与核对表 —— 渲染方案 4.1 要求的溯源信息：状态 / 来源 / 版本 / 核对日期
+import StatusBadge from './StatusBadge.astro';
+import type { SourceRef } from '../data/sources';
+import { formatDate } from '../utils/dates';
+
+interface Props {
+  sources: SourceRef[];
+  title?: string;
+}
+
+const { sources, title = 'Sources & verification' } = Astro.props;
+---
+
+{
+  sources.length > 0 && (
+    <section class="mt-10 rounded-lg border border-ash-700 bg-ash-900/60 p-4" aria-label={title}>
+      <h2 class="mb-3 text-sm font-semibold tracking-wide text-ash-300 uppercase">{title}</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-ash-700 text-left text-ash-400">
+              <th class="py-2 pr-4 font-medium">Status</th>
+              <th class="py-2 pr-4 font-medium">Source</th>
+              <th class="py-2 pr-4 font-medium">Game version</th>
+              <th class="py-2 font-medium">Last checked</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sources.map((s) => {
+              const checked = formatDate(s.lastChecked);
+              const published = formatDate(s.sourceDate);
+              return (
+                <tr class="border-b border-ash-800 align-top">
+                  <td class="py-2 pr-4">
+                    <StatusBadge status={s.status} size="sm" />
+                  </td>
+                  <td class="py-2 pr-4 text-ash-300">
+                    {s.sourceUrl ? (
+                      <a
+                        href={s.sourceUrl}
+                        rel="nofollow noopener"
+                        target="_blank"
+                        class="text-amber-glow underline underline-offset-2 hover:text-amber-deep"
+                      >
+                        {s.note ?? 'View source'}
+                      </a>
+                    ) : (
+                      <span>{s.note ?? '—'}</span>
+                    )}
+                    {published && <span class="block text-xs text-ash-500">Published {published}</span>}
+                  </td>
+                  <td class="py-2 pr-4 text-ash-400">{s.gameVersion ?? '—'}</td>
+                  <td class="py-2 text-ash-400">
+                    <time datetime={checked}>{checked}</time>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}

@@ -1,0 +1,92 @@
+---
+// Bosses 分类聚合页 —— CollectionPage schema（方案 3.1：列表页不标 Article）。
+// 发售前：预告片可见的 Boss 以表格呈现；发售日优先补全并拆独立攻略页。
+import Layout from '../../layouts/Layout.astro';
+import MediaFigure from '../../components/MediaFigure.astro';
+import { SITE_IMAGES } from '../../data/images';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { BOSSES } from '../../data/bosses';
+
+const title = 'Mortal Shell II Boss Tracker — Named Encounters Pre-release';
+const description =
+  'Pre-release Mortal Shell II boss tracker. Official Open Beta text names Magdalena and mini-bosses; full strategies wait until verified encounters.';
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Bosses', url: '/bosses/' },
+];
+---
+
+<Layout title={title} description={description} schemaType="collection" breadcrumb={crumbs}>
+  <Breadcrumb items={crumbs} />
+
+  <header class="mb-8">
+    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell II Boss Tracker</h1>
+    <p class="mt-3 max-w-2xl text-lg text-ash-400">
+      Named encounters and boss-like fights tracked so far. Official Open Beta text names
+      <a href="/magdalena/" class="text-amber-glow hover:underline">Magdalena, the Lady of the Woods</a>
+      and optional mini-bosses; attack patterns and rewards are not claimed until verified.
+    </p>
+  </header>
+
+  <div class="mb-6"><PreReleaseNotice /></div>
+  <div class="mb-8">
+    <MediaFigure
+      src={SITE_IMAGES.cathedralBoss.src}
+      alt={SITE_IMAGES.cathedralBoss.alt}
+      width={SITE_IMAGES.cathedralBoss.width}
+      height={SITE_IMAGES.cathedralBoss.height}
+      credit={SITE_IMAGES.cathedralBoss.credit}
+    />
+  </div>
+
+  <div class="overflow-x-auto surface-card">
+    <table class="w-full border-collapse text-sm">
+      <thead class="bg-ash-900 text-left text-ash-300">
+        <tr>
+          <th class="px-4 py-3 font-semibold">Boss / encounter</th>
+          <th class="px-4 py-3 font-semibold">Known info</th>
+          <th class="px-4 py-3 font-semibold">Location</th>
+          <th class="px-4 py-3 font-semibold">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          BOSSES.map((b) => (
+            <tr class="border-t border-white/5 align-top hover:bg-ash-900/50">
+              <td class="px-4 py-3 font-medium text-ash-100">
+                {b.hasDetailPage ? (
+                  <a href={b.detailHref ?? `/bosses/${b.slug}/`} class="text-amber-glow hover:underline">
+                    {b.name}
+                  </a>
+                ) : (
+                  b.name
+                )}
+              </td>
+              <td class="px-4 py-3 text-ash-300">
+                <ul class="list-disc space-y-1 pl-4">
+                  {b.knownInfo.map((i) => (
+                    <li>{i}</li>
+                  ))}
+                </ul>
+              </td>
+              <td class="px-4 py-3 text-ash-400">{b.location}</td>
+              <td class="px-4 py-3"><StatusBadge status={b.source.status} /></td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">What this page does not claim yet</h2>
+    <ul class="list-disc space-y-2 pl-5">
+      <li>No invented phase charts, parry windows, or guaranteed drop tables.</li>
+      <li>Trailer-only silhouettes stay marked as Trailer until a store note or hands-on pass confirms them.</li>
+      <li>Full strategy pages publish only after an encounter is verified in-game.</li>
+    </ul>
+  </section>
+</Layout>

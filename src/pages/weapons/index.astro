@@ -1,0 +1,85 @@
+---
+// Weapons 分类聚合页 —— CollectionPage schema（方案 3.1：列表页不标 Article）。
+// 发售前：已知武器以表格呈现，每行带确认状态；满足门槛后再拆独立详情页。
+import Layout from '../../layouts/Layout.astro';
+import MediaFigure from '../../components/MediaFigure.astro';
+import { SITE_IMAGES } from '../../data/images';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { WEAPONS } from '../../data/weapons';
+
+const title = 'Mortal Shell II Weapons Tracker — Known Arsenal Pre-release';
+const description =
+  'Pre-release Mortal Shell II weapons tracker. Entries from the first game and trailers are labelled until official sequel stats and locations are verified.';
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Weapons', url: '/weapons/' },
+];
+---
+
+<Layout title={title} description={description} schemaType="collection" breadcrumb={crumbs}>
+  <Breadcrumb items={crumbs} />
+
+  <header class="mb-8">
+    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell II Weapons</h1>
+    <p class="mt-3 max-w-2xl text-lg text-ash-400">
+      A pre-release arsenal tracker, not a finished locations-and-stats database. Most rows are still
+      prequel-based or trailer-visible until Cold Symmetry publishes sequel-specific weapon data.
+    </p>
+  </header>
+
+  <div class="mb-6"><PreReleaseNotice /></div>
+  <div class="mb-8">
+    <MediaFigure
+      src={SITE_IMAGES.weaponsCloseup.src}
+      alt={SITE_IMAGES.weaponsCloseup.alt}
+      width={SITE_IMAGES.weaponsCloseup.width}
+      height={SITE_IMAGES.weaponsCloseup.height}
+      credit={SITE_IMAGES.weaponsCloseup.credit}
+    />
+  </div>
+
+  <div class="overflow-x-auto surface-card">
+    <table class="w-full border-collapse text-sm">
+      <thead class="bg-ash-900 text-left text-ash-300">
+        <tr>
+          <th class="px-4 py-3 font-semibold">Weapon</th>
+          <th class="px-4 py-3 font-semibold">Type</th>
+          <th class="px-4 py-3 font-semibold">Known notes</th>
+          <th class="px-4 py-3 font-semibold">Acquisition</th>
+          <th class="px-4 py-3 font-semibold">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          WEAPONS.map((w) => (
+            <tr class="border-t border-white/5 align-top hover:bg-ash-900/50">
+              <td class="px-4 py-3 font-medium text-ash-100">{w.name}</td>
+              <td class="px-4 py-3 text-ash-400">{w.type}</td>
+              <td class="px-4 py-3 text-ash-300">
+                <ul class="list-disc space-y-1 pl-4">
+                  {w.knownStats.map((s) => (
+                    <li>{s}</li>
+                  ))}
+                </ul>
+              </td>
+              <td class="px-4 py-3 text-ash-400">{w.acquisition}</td>
+              <td class="px-4 py-3"><StatusBadge status={w.source.status} /></td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">Reading this table correctly</h2>
+    <ul class="list-disc space-y-2 pl-5">
+      <li><strong>Prequel-based</strong> means the weapon identity comes from Mortal Shell (2020), not a sequel confirmation.</li>
+      <li>Damage numbers, upgrade paths, and exact drop locations are intentionally absent until verified.</li>
+      <li>When a weapon is confirmed in Open Beta or launch patch notes, its status badge and notes update first.</li>
+    </ul>
+  </section>
+</Layout>

@@ -1,0 +1,113 @@
+---
+// Shells 分类聚合页（CollectionPage）—— 方案 5.1
+// 表格形式：名称 | 描述 | 已知能力 | 获取方式 | 确认状态（方案第一周任务）
+import Layout from '../../layouts/Layout.astro';
+import MediaFigure from '../../components/MediaFigure.astro';
+import { SITE_IMAGES } from '../../data/images';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { SHELLS } from '../../data/shells';
+
+const title = 'Mortal Shell II Shells Tracker — Known Roster & Status';
+const description =
+  'Pre-release tracker for Mortal Shell II Shells. Official Open Beta confirms eight playable Shells and names Tiel; other entries stay labelled until verified.';
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Shells', url: '/shells/' },
+];
+
+const officialCount = SHELLS.filter((s) => s.source.status === 'official').length;
+---
+
+<Layout
+  title={title}
+  description={description}
+  schemaType="collection"
+  breadcrumb={crumbs}
+>
+  <Breadcrumb items={crumbs} />
+
+  <PreReleaseNotice />
+  <div class="mb-8">
+    <MediaFigure
+      src={SITE_IMAGES.shellsPortrait.src}
+      alt={SITE_IMAGES.shellsPortrait.alt}
+      width={SITE_IMAGES.shellsPortrait.width}
+      height={SITE_IMAGES.shellsPortrait.height}
+      credit={SITE_IMAGES.shellsPortrait.credit}
+    />
+  </div>
+
+  <header class="mt-4 max-w-3xl">
+    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">
+      Mortal Shell II Shells
+    </h1>
+    <p class="mt-3 text-lg text-ash-400">
+      Shells are the bodies you possess in combat. Official materials state Mortal Shell II has
+      <strong>eight playable Shells</strong>; public store text currently names
+      <a href="/tiel/" class="text-amber-glow hover:underline">Tiel, the Acolyte</a> among them.
+      This page is a <strong>pre-release tracker</strong>, not a finished build guide:
+      {officialCount} of {SHELLS.length} listed entries currently carry Official status.
+    </p>
+  </header>
+
+  <div class="mt-8 overflow-x-auto surface-card">
+    <table class="w-full border-collapse text-sm">
+      <thead>
+        <tr class="border-b border-ash-700 bg-ash-900/50 text-left text-ash-400">
+          <th class="px-4 py-3 font-medium">Shell</th>
+          <th class="px-4 py-3 font-medium">Known abilities</th>
+          <th class="px-4 py-3 font-medium">Acquisition</th>
+          <th class="px-4 py-3 font-medium">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          SHELLS.map((shell) => (
+            <tr class="border-b border-white/5 align-top last:border-0 hover:bg-ash-900/35">
+              <td class="px-4 py-3">
+                <div class="font-semibold text-ash-100">
+                  {shell.hasDetailPage ? (
+                    <a href={shell.detailHref ?? `/shells/${shell.slug}/`} class="text-amber-glow hover:underline">
+                      {shell.name}
+                    </a>
+                  ) : (
+                    shell.name
+                  )}
+                </div>
+                <div class="mt-1 text-ash-400">{shell.summary}</div>
+              </td>
+              <td class="px-4 py-3 text-ash-300">
+                <ul class="list-inside list-disc space-y-1">
+                  {shell.knownAbilities.map((a) => (
+                    <li>{a}</li>
+                  ))}
+                </ul>
+              </td>
+              <td class="px-4 py-3 text-ash-400">{shell.acquisition}</td>
+              <td class="px-4 py-3">
+                <StatusBadge status={shell.source.status} size="sm" />
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">What is confirmed right now</h2>
+    <ul class="list-disc space-y-2 pl-5">
+      <li>Open Beta store text confirms an eight-Shell roster.</li>
+      <li>Tiel is discoverable and possessable in the Open Beta path.</li>
+      <li>Detailed kits, stats, and best builds stay unconfirmed until launch verification.</li>
+    </ul>
+    <p class="text-sm text-ash-500">
+      Detailed Shell pages (with stat tables, upgrade paths, and recommended builds) go live once
+      each entry meets our publishing threshold — real acquisition routes, verified stats, and at
+      least one build. Until then, everything lives here so you never land on an empty page.
+    </p>
+  </section>
+</Layout>
