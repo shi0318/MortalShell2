@@ -1,0 +1,274 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - navigation "Primary" [ref=e4]:
+      - link "Mortal Shell 2 Wiki & Guide" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: ◆
+        - generic [ref=e7]:
+          - generic [ref=e8]: Mortal Shell 2
+          - generic [ref=e9]: Wiki & Guide
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Guide" [ref=e12] [cursor=pointer]:
+            - /url: /guide/
+        - listitem [ref=e13]:
+          - link "Shells" [ref=e14] [cursor=pointer]:
+            - /url: /shells/
+        - listitem [ref=e15]:
+          - link "Weapons" [ref=e16] [cursor=pointer]:
+            - /url: /weapons/
+        - listitem [ref=e17]:
+          - link "Bosses" [ref=e18] [cursor=pointer]:
+            - /url: /bosses/
+        - listitem [ref=e19]:
+          - link "Map" [ref=e20] [cursor=pointer]:
+            - /url: /map/
+        - listitem [ref=e21]:
+          - link "Download" [ref=e22] [cursor=pointer]:
+            - /url: /download/
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Mortal Shell II player facing a bear-headed shaman enemy in a dark forest clearing" [ref=e26]
+      - generic [ref=e30]:
+        - paragraph [ref=e31]:
+          - text: Wiki & Field Guide
+          - generic [ref=e32]: ·
+          - generic [ref=e33]: Releases August 20, 2026
+        - heading "MORTAL SHELL 2 WIKI & GUIDE RELEASE DATE · SHELLS · GUIDES" [level=1] [ref=e34]:
+          - text: MORTAL SHELL 2 WIKI & GUIDE
+          - generic [ref=e35]: RELEASE DATE · SHELLS · GUIDES
+        - paragraph [ref=e36]: Your complete guide to Cold Symmetry's soulslike sequel. Shells, weapons, bosses, Open Beta routes, and every fact tagged with a confirmation status.
+        - generic [ref=e37]:
+          - link "Download Open Beta →" [ref=e38] [cursor=pointer]:
+            - /url: /download/
+          - link "Beginner first hours" [ref=e39] [cursor=pointer]:
+            - /url: /beginner-guide/
+          - link "All guides" [ref=e40] [cursor=pointer]:
+            - /url: /guide/
+        - generic [ref=e42]:
+          - generic [ref=e43]: Launches in
+          - generic [ref=e44]: "22"
+          - generic [ref=e45]:
+            - text: days ·
+            - time [ref=e46]: 2026-08-20
+        - paragraph [ref=e47]: Start with verified pages below
+    - generic [ref=e48]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Official Steam only
+          - heading "Play the Mortal Shell II Open Beta" [level=2] [ref=e53]
+          - paragraph [ref=e54]: Install from Steam, check minimum PC requirements (SSD required), and review the mature content description before you launch. This wiki never hosts game files.
+          - list [ref=e55]:
+            - listitem [ref=e56]: Windows 10/11 · 16 GB RAM · DX12
+            - listitem [ref=e57]: RTX 2060 SUPER / RX 6600 class GPU
+            - listitem [ref=e58]: 30 GB free space · SSD required
+            - listitem [ref=e59]: Violence, blood sprays, executions, firearms
+          - generic [ref=e60]:
+            - link "Open download hub" [ref=e61] [cursor=pointer]:
+              - /url: /download/
+            - link "Steam Open Beta ↗" [ref=e62] [cursor=pointer]:
+              - /url: https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/
+            - link "Full system requirements" [ref=e63] [cursor=pointer]:
+              - /url: /pc-settings/
+        - link [ref=e64] [cursor=pointer]:
+          - /url: /map/
+          - img "Mortal Shell II world map cover thumbnail" [ref=e65]
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: World map overview
+            - paragraph [ref=e68]: Open the map page for early regions and named landmarks.
+      - generic [ref=e70]:
+        - paragraph [ref=e71]: Why this wiki
+        - heading "Every fact is sourced" [level=2] [ref=e72]
+        - paragraph [ref=e73]: "Before launch, most guides mix confirmed details with forum rumours. We don't. Each entry is tagged so you always know what's verified and what isn't:"
+        - generic [ref=e74]:
+          - generic "Confirmed by the developer via official website, Steam, or Discord." [ref=e75]:
+            - generic [ref=e76]: ✅
+            - generic [ref=e77]: Official
+          - generic "Personally verified in a Beta build. Version and test date noted." [ref=e78]:
+            - generic [ref=e79]: 🔬
+            - generic [ref=e80]: Beta-tested
+          - generic "Seen in a trailer, but system details are still unknown." [ref=e81]:
+            - generic [ref=e82]: 👁️
+            - generic [ref=e83]: Trailer
+          - generic "Inferred from Mortal Shell (2020). To be verified after launch." [ref=e84]:
+            - generic [ref=e85]: 📖
+            - generic [ref=e86]: Prequel-based
+          - generic "Circulating on forums without an official source. Not used as primary content." [ref=e87]:
+            - generic [ref=e88]: ❓
+            - generic [ref=e89]: Unconfirmed
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: Essential guides
+            - heading "Where to begin" [level=2] [ref=e94]
+          - link "All guides →" [ref=e95] [cursor=pointer]:
+            - /url: /guide/
+        - generic [ref=e96]:
+          - link "Release Date (Aug 20, 2026) guide cover Release Date (Aug 20, 2026) Confirmed platforms, current Open Beta status, and what to do before launch day. Open page →" [ref=e97] [cursor=pointer]:
+            - /url: /release-date/
+            - img "Release Date (Aug 20, 2026) guide cover" [ref=e99]
+            - generic [ref=e100]:
+              - heading "Release Date (Aug 20, 2026)" [level=3] [ref=e101]
+              - paragraph [ref=e102]: Confirmed platforms, current Open Beta status, and what to do before launch day.
+              - generic [ref=e103]: Open page →
+          - 'link "Beginner First Hours guide cover Beginner First Hours Official Open Beta route priorities: Prologue, beacons, Tiel, Marrow Keep, Magdalena. Open page →" [ref=e104] [cursor=pointer]':
+            - /url: /beginner-guide/
+            - img "Beginner First Hours guide cover" [ref=e106]
+            - generic [ref=e107]:
+              - heading "Beginner First Hours" [level=3] [ref=e108]
+              - paragraph [ref=e109]: "Official Open Beta route priorities: Prologue, beacons, Tiel, Marrow Keep, Magdalena."
+              - generic [ref=e110]: Open page →
+          - link "Download Open Beta guide cover Download Open Beta Official Steam install link, system requirements check, and first steps after download. Open page →" [ref=e111] [cursor=pointer]:
+            - /url: /download/
+            - img "Download Open Beta guide cover" [ref=e113]
+            - generic [ref=e114]:
+              - heading "Download Open Beta" [level=3] [ref=e115]
+              - paragraph [ref=e116]: Official Steam install link, system requirements check, and first steps after download.
+              - generic [ref=e117]: Open page →
+          - link "Devout vs Revered Editions guide cover Devout vs Revered Editions Obsidian skins, 72-hour early access, and PS5 collector contents from official pages. Open page →" [ref=e118] [cursor=pointer]:
+            - /url: /editions/
+            - img "Devout vs Revered Editions guide cover" [ref=e120]
+            - generic [ref=e121]:
+              - heading "Devout vs Revered Editions" [level=3] [ref=e122]
+              - paragraph [ref=e123]: Obsidian skins, 72-hour early access, and PS5 collector contents from official pages.
+              - generic [ref=e124]: Open page →
+      - generic [ref=e125]:
+        - paragraph [ref=e126]: Browse the wiki
+        - heading "Explore by category" [level=2] [ref=e127]
+        - generic [ref=e128]:
+          - link "Download Official Steam Open Beta install only. No third-party files." [ref=e129] [cursor=pointer]:
+            - /url: /download/
+            - generic [ref=e130]: Download
+            - generic [ref=e131]: Official Steam Open Beta install only. No third-party files.
+          - link "Shells Eight-Shell roster tracker with Official and prequel-labelled entries. 5 Shells tracked" [ref=e132] [cursor=pointer]:
+            - /url: /shells/
+            - generic [ref=e133]: Shells
+            - generic [ref=e134]: Eight-Shell roster tracker with Official and prequel-labelled entries.
+            - generic [ref=e135]: 5 Shells tracked
+          - link "Weapons Pre-release arsenal tracker. Confirmed notes only; no invented stats." [ref=e136] [cursor=pointer]:
+            - /url: /weapons/
+            - generic [ref=e137]: Weapons
+            - generic [ref=e138]: Pre-release arsenal tracker. Confirmed notes only; no invented stats.
+          - link "Bosses Named encounters and mini-bosses tracked before full strategy pages. 4 Bosses tracked" [ref=e139] [cursor=pointer]:
+            - /url: /bosses/
+            - generic [ref=e140]: Bosses
+            - generic [ref=e141]: Named encounters and mini-bosses tracked before full strategy pages.
+            - generic [ref=e142]: 4 Bosses tracked
+      - generic [ref=e143]:
+        - paragraph [ref=e144]: Visual archive
+        - heading "Featured imagery" [level=2] [ref=e145]
+        - paragraph [ref=e146]: Screenshots from Steam and official Cold Symmetry media. Every image is attributed so you know whether it comes from the store page or the developer site.
+        - generic [ref=e147]:
+          - figure "Official image | coldsymmetry.com/mortal-shell-2" [ref=e148]:
+            - img "Official Mortal Shell II key art from Cold Symmetry" [ref=e149]
+          - figure "Steam store screenshot | Mortal Shell II" [ref=e151]:
+            - img "Mortal Shell II hooded warrior approaching an enemy through a rainy torch-lit village path" [ref=e152]
+          - figure "Steam store screenshot | Mortal Shell II" [ref=e154]:
+            - img "Close-up of a pale Mortal Shell II warrior holding a greatsword over one shoulder" [ref=e155]
+          - figure "Steam store screenshot | Mortal Shell II" [ref=e157]:
+            - img "Player facing a massive crystal-crowned cathedral guardian boss in Mortal Shell II" [ref=e158]
+      - generic [ref=e160]:
+        - paragraph [ref=e161]: Release desk
+        - heading "Release information" [level=2] [ref=e162]
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - term [ref=e165]: Release date
+            - definition [ref=e166]: August 20, 2026
+          - generic [ref=e167]:
+            - term [ref=e168]: Platforms
+            - definition [ref=e169]: Steam · PS5 · Xbox Series X|S
+          - generic [ref=e170]:
+            - term [ref=e171]: Developer
+            - definition [ref=e172]: Cold Symmetry
+          - generic [ref=e173]:
+            - term [ref=e174]: Publisher
+            - definition [ref=e175]: Playstack
+        - paragraph [ref=e176]:
+          - text: "Full breakdown:"
+          - link "release date guide" [ref=e177] [cursor=pointer]:
+            - /url: /release-date/
+          - text: ·
+          - link "editions" [ref=e178] [cursor=pointer]:
+            - /url: /editions/
+          - text: ·
+          - link "beginner guide" [ref=e179] [cursor=pointer]:
+            - /url: /beginner-guide/
+  - contentinfo [ref=e180]:
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: ◆
+            - generic [ref=e186]:
+              - generic [ref=e187]: Mortal Shell 2
+              - generic [ref=e188]: Wiki & Guide
+          - paragraph [ref=e189]: A verified, source-tracked wiki for Mortal Shell II. Every fact carries a confirmation status and a source.
+          - link "Steam Open Beta ↗" [ref=e190] [cursor=pointer]:
+            - /url: https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/
+        - navigation "Guides" [ref=e191]:
+          - paragraph [ref=e192]: Guides
+          - list [ref=e193]:
+            - listitem [ref=e194]:
+              - link "Release Date" [ref=e195] [cursor=pointer]:
+                - /url: /release-date/
+            - listitem [ref=e196]:
+              - link "Beginner Guide" [ref=e197] [cursor=pointer]:
+                - /url: /beginner-guide/
+            - listitem [ref=e198]:
+              - link "All Shells" [ref=e199] [cursor=pointer]:
+                - /url: /shells/
+            - listitem [ref=e200]:
+              - link "Tiel" [ref=e201] [cursor=pointer]:
+                - /url: /tiel/
+            - listitem [ref=e202]:
+              - link "Boss Guide" [ref=e203] [cursor=pointer]:
+                - /url: /bosses/
+            - listitem [ref=e204]:
+              - link "Map" [ref=e205] [cursor=pointer]:
+                - /url: /map/
+        - navigation "Open Beta" [ref=e206]:
+          - paragraph [ref=e207]: Open Beta
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "Download Open Beta" [ref=e210] [cursor=pointer]:
+                - /url: /download/
+            - listitem [ref=e211]:
+              - link "Open Beta Guide" [ref=e212] [cursor=pointer]:
+                - /url: /open-beta/
+            - listitem [ref=e213]:
+              - link "Editions" [ref=e214] [cursor=pointer]:
+                - /url: /editions/
+            - listitem [ref=e215]:
+              - link "Beta Save Progress" [ref=e216] [cursor=pointer]:
+                - /url: /beta-progress/
+            - listitem [ref=e217]:
+              - link "PC Settings" [ref=e218] [cursor=pointer]:
+                - /url: /pc-settings/
+            - listitem [ref=e219]:
+              - link "Need Mortal Shell 1?" [ref=e220] [cursor=pointer]:
+                - /url: /do-you-need-mortal-shell-1/
+        - navigation "Site" [ref=e221]:
+          - paragraph [ref=e222]: Site
+          - list [ref=e223]:
+            - listitem [ref=e224]:
+              - link "About" [ref=e225] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e226]:
+              - link "Contact" [ref=e227] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e228]:
+              - link "Privacy Policy" [ref=e229] [cursor=pointer]:
+                - /url: /privacy/
+      - generic [ref=e230]:
+        - paragraph [ref=e231]:
+          - strong [ref=e232]: Independent fan site.
+          - text: This is an independent fan site. Not affiliated with or endorsed by Cold Symmetry / Playstack. All trademarks are the property of their respective owners.
+        - paragraph [ref=e233]:
+          - strong [ref=e234]: Sources & imagery.
+          - text: Screenshots are captured in-game or taken from official media kits. Every page notes the source and confirmation status of its information. To request removal of any content, see our
+          - link "contact page" [ref=e235] [cursor=pointer]:
+            - /url: /contact/
+          - text: .
+        - paragraph [ref=e236]: © 2026 Mortal Shell 2 Wiki. Content licensed for personal use.

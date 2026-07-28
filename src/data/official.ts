@@ -1,4 +1,4 @@
-// Official confirmed facts only — used by homepage and trust surfaces.
+// Official confirmed facts only - used by homepage and trust surfaces.
 import { SITE } from './site';
 
 export interface OfficialFact {
@@ -23,8 +23,8 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   },
   {
     label: 'Developer / publisher',
-    value: ${SITE.developer} / ,
-    sourceLabel: 'Steam',
+    value: SITE.developer + ' / ' + SITE.publisher,
+    sourceLabel: 'Steam full game',
     sourceUrl: SITE.fullGameUrl,
   },
   {
@@ -36,37 +36,37 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   {
     label: 'Combat framing',
     value: 'Combat is unrestricted by stamina; focus on shattering enemy posture for critical strikes',
-    sourceLabel: 'Steam + mortalshell.com',
+    sourceLabel: 'Steam + official site',
     sourceUrl: SITE.fullGameUrl,
   },
   {
     label: 'Shell roster size',
-    value: 'Eight playable Shells (Open Beta names Tiel, the Acolyte among them)',
+    value: 'Eight playable Shells; Open Beta names Tiel, the Acolyte',
     sourceLabel: 'Steam Open Beta',
     sourceUrl: SITE.openBetaUrl,
   },
   {
     label: 'Open Beta scope',
-    value: 'Opening hours / opening three hours: Prologue into the first explorable region',
+    value: 'Opening three hours: Prologue into the first explorable region',
     sourceLabel: 'Steam Open Beta',
     sourceUrl: SITE.openBetaUrl,
   },
   {
     label: 'Open Beta carry-over',
-    value: 'Full inventory resets; Flayed Harbinger cosmetic + optional prologue skip after Marrow Keep',
+    value: 'Inventory resets; Flayed Harbinger cosmetic plus optional prologue skip after Marrow Keep',
     sourceLabel: 'Steam Open Beta',
     sourceUrl: SITE.openBetaUrl,
   },
   {
     label: 'Steam packages (USD)',
-    value: Base game ; Devout Edition ,
+    value: 'Base game ' + SITE.steamStandardPriceUsd + '; Devout Edition ' + SITE.steamDevoutPriceUsd,
     sourceLabel: 'Steam full game',
     sourceUrl: SITE.fullGameUrl,
   },
   {
     label: 'PC minimum bar',
     value: 'Win 10/11, 16 GB RAM, RTX 2060 SUPER / RX 6600 class GPU, 30 GB, SSD required',
-    sourceLabel: 'Steam',
+    sourceLabel: 'Steam Open Beta',
     sourceUrl: SITE.openBetaUrl,
   },
 ];
