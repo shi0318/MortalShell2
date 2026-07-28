@@ -1,5 +1,9 @@
 # Mortal Shell II Wiki
 
+Independent, source-tracked fan guide for **Mortal Shell II** (Cold Symmetry / Playstack).
+
+🔗 **Live site: https://mortalshell2.wiki**
+
 按执行手册搭建的攻略 Wiki，技术栈：Astro（静态输出）+ Tailwind CSS v4 + 自动 sitemap。
 核心差异化：每条信息带**确认状态徽章**（✅Official / 🔬Beta / 👁️Trailer / 📖前作 / ❓未确认）+ 来源核对表。
 
