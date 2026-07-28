@@ -1,6 +1,6 @@
 // 站点全局常量 —— 单一数据源，避免各页面硬编码不一致
 export const SITE = {
-  name: 'Mortal Shell II Wiki',
+  name: 'Mortal Shell 2 Wiki',
   shortName: 'MS2 Wiki',
   url: 'https://mortalshell2.wiki',
   // Official full release date (Playstack + Steam full game page)

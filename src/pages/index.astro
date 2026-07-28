@@ -4,17 +4,15 @@ import Layout from '../layouts/Layout.astro';
 import Countdown from '../components/Countdown.astro';
 import StatusBadge from '../components/StatusBadge.astro';
 import { SITE, isReleased } from '../data/site';
-import { SHELLS } from '../data/shells';
-import { BOSSES } from '../data/bosses';
 import MediaFigure from '../components/MediaFigure.astro';
 import { SITE_IMAGES } from '../data/images';
 import { OFFICIAL_FACTS, OFFICIAL_LINKS } from '../data/official';
 
 const released = isReleased();
 
-const title = 'Mortal Shell II Wiki — Official Facts & Open Beta Guides';
+const title = 'Mortal Shell 2 Wiki — Official Facts & Open Beta Guides';
 const description =
-  'Independent Mortal Shell II wiki built around official Steam, Playstack, and Cold Symmetry facts: release date, Open Beta, Shells, PC requirements, and editions.';
+  'Independent Mortal Shell 2 wiki built around official Steam, Playstack, and Cold Symmetry facts: release date, Open Beta, Shells, PC requirements, and editions.';
 
 const heroFacts = OFFICIAL_FACTS.filter((fact) =>
   ['Full release', 'Open Beta scope', 'Open Beta carry-over', 'Steam packages (USD)'].includes(fact.label),
@@ -31,9 +29,9 @@ const categories = [
   {
     href: '/shells/',
     title: 'Shells',
-    desc: 'Eight-Shell roster tracker with Official and prequel-labelled entries.',
-    count: SHELLS.length,
-    countLabel: 'Shells tracked',
+    desc: 'Official roster fact: eight playable Shells; Tiel is the only named Open Beta Shell so far.',
+    count: null,
+    countLabel: '',
   },
   {
     href: '/weapons/',
@@ -45,9 +43,9 @@ const categories = [
   {
     href: '/bosses/',
     title: 'Bosses',
-    desc: 'Named encounters and mini-bosses tracked before full strategy pages.',
-    count: BOSSES.length,
-    countLabel: 'Bosses tracked',
+    desc: 'Magdalena and hidden mini-bosses are official; full boss strategies wait for verification.',
+    count: null,
+    countLabel: '',
   },
 ];
 
@@ -106,7 +104,7 @@ const startHere = [
       </p>
 
       <h1 class="mt-6 max-w-4xl text-4xl font-bold tracking-[-0.03em] text-ash-100 sm:text-5xl md:text-6xl">
-        MORTAL SHELL II
+        MORTAL SHELL 2
         <span class="mt-2 block bg-gradient-to-r from-amber-glow via-ember-soft to-amber-glow bg-clip-text text-transparent">
           OFFICIAL FACTS & OPEN BETA
         </span>
