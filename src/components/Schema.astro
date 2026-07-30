@@ -47,6 +47,14 @@ const organization = {
   '@id': `${SITE.url}/#organization`,
   name: SITE.name,
   url: SITE.url + '/',
+  logo: {
+    '@type': 'ImageObject',
+    '@id': SITE.url + '/#logo',
+    url: SITE.url + '/logo-512.png',
+    width: 512,
+    height: 512,
+    caption: SITE.name,
+  },
 };
 
 const author = {
