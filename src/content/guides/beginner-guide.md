@@ -102,6 +102,7 @@ What this means for beginners:
 
 - [Download Open Beta](/download/)
 - [Open Beta guide](/open-beta/)
+- [Story & lore: who is the Harbinger?](/story-and-lore/)
 - [Tiel, the Acolyte](/tiel/)
 - [Beacons](/beacons/)
 - [Shells](/shells/)

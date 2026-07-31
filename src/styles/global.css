@@ -163,6 +163,19 @@ input:focus-visible {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
 }
 
+.prose-body figure {
+  margin: 1.5rem 0;
+}
+
+.prose-body figure img {
+  margin-bottom: 0.5rem;
+}
+
+.prose-body figcaption {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
 .line-clamp-3 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
