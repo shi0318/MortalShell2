@@ -69,6 +69,8 @@ What this means for beginners:
 - Test weapon reach early before investing time in temporary beta gear
 - Treat deaths as route learning — beta progress is not permanent inventory
 
+Full breakdown of the posture-and-criticals loop, the sidearm pillar, and what has **not** been published: [Mortal Shell II combat system](/combat-system/).
+
 ## What to farm vs what to ignore
 
 ### Worth doing
