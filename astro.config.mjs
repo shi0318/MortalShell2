@@ -56,6 +56,21 @@ const isNoindexUrl = (page) => {
   return NOINDEX_URLS.includes(path);
 };
 
+// Markdown 正文里的站外链接统一带 rel="nofollow noopener noreferrer"（.astro 页面里手写的锚点已逐个标注）。
+// 站内相对链接不受影响，权重照常在站内流转。
+function rehypeExternalNofollow() {
+  const isExternal = (href) =>
+    typeof href === 'string' && /^https?:\/\//i.test(href) && !href.startsWith(SITE);
+  const walk = (node) => {
+    if (node.tagName === 'a' && isExternal(node.properties?.href)) {
+      node.properties.rel = ['nofollow', 'noopener', 'noreferrer'];
+      node.properties.target = '_blank';
+    }
+    for (const child of node.children ?? []) walk(child);
+  };
+  return (tree) => walk(tree);
+}
+
 export default defineConfig({
   site: SITE,
   output: 'static',
@@ -74,5 +89,8 @@ export default defineConfig({
   ],
   vite: {
     plugins: [tailwindcss()],
+  },
+  markdown: {
+    rehypePlugins: [rehypeExternalNofollow],
   },
 });
