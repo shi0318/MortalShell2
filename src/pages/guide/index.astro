@@ -45,7 +45,12 @@ const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
   (a, b) => a.data.order - b.data.order,
 );
 
-const featured = guides.slice(0, 3);
+const featured = [...guides]
+  .sort(
+    (a, b) =>
+      b.data.updatedAt.localeCompare(a.data.updatedAt) || a.data.order - b.data.order,
+  )
+  .slice(0, 3);
 const grouped = new Map<string, typeof guides>();
 for (const g of guides) {
   const cat = g.data.category;
@@ -91,7 +96,7 @@ function cardAlt(g: (typeof guides)[number]) {
 
   {
     featured.length > 0 && (
-      <section class="mb-12" aria-label="Featured guides">
+      <section class="latest-guides mb-12" aria-label="Latest guides">
         <ul class="grid gap-5 md:grid-cols-3">
           {featured.map((g) => {
             const verified = formatDate(g.data.updatedAt);
