@@ -1,9 +1,10 @@
 ---
 // 发售倒计时 —— 首页 Hero 使用（沉浸式卡片风格）。
-import { SITE, daysUntilRelease, isReleased } from '../data/site';
+import { SITE, isReleased } from '../data/site';
+import { formatReleaseDate } from '../utils/release-date.js';
 
-const days = daysUntilRelease();
 const released = isReleased();
+const releaseDate = formatReleaseDate(SITE.releaseDate);
 ---
 
 {
@@ -18,30 +19,44 @@ const released = isReleased();
       data-countdown
       data-release={SITE.releaseDate}
     >
-      <span class="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-ash-400">Launches in</span>
-      <span class="mt-1 text-4xl font-bold tabular-nums tracking-tight text-amber-glow" data-countdown-value>
-        {days}
+      <span class="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-ash-400" data-countdown-prefix>Launches in</span>
+      <span class="mt-1 text-4xl font-bold tabular-nums tracking-tight text-amber-glow" data-countdown-value aria-live="polite">
+        --
       </span>
       <span class="mt-1 text-xs text-ash-400">
-        days · <time datetime={SITE.releaseDate}>{SITE.releaseDate}</time>
+        <span data-countdown-suffix>days</span> · <time datetime={SITE.releaseDate}>{releaseDate}</time>
       </span>
     </div>
   )
 }
 
 <script>
+  import { getReleaseState } from '../utils/release-date.js';
+
   const el = document.querySelector<HTMLElement>('[data-countdown]');
   if (el) {
-    const release = new Date(el.dataset.release + 'T00:00:00Z').getTime();
     const out = el.querySelector<HTMLElement>('[data-countdown-value]');
+    const prefix = el.querySelector<HTMLElement>('[data-countdown-prefix]');
+    const suffix = el.querySelector<HTMLElement>('[data-countdown-suffix]');
     const tick = () => {
-      const diff = release - Date.now();
-      if (diff <= 0) {
-        if (out) out.textContent = '0';
+      const release = el.dataset.release;
+      if (!release) return;
+      const state = getReleaseState(release);
+      if (state.kind === 'released') {
+        if (prefix) prefix.textContent = '';
+        if (out) out.textContent = 'Out now';
+        if (suffix) suffix.textContent = '';
         return;
       }
-      const d = Math.floor(diff / 86400000);
-      if (out) out.textContent = String(d);
+      if (state.kind === 'today') {
+        if (prefix) prefix.textContent = '';
+        if (out) out.textContent = 'Launches today';
+        if (suffix) suffix.textContent = '';
+        return;
+      }
+      if (prefix) prefix.textContent = 'Launches in';
+      if (out) out.textContent = String(state.days);
+      if (suffix) suffix.textContent = state.days === 1 ? 'day' : 'days';
     };
     tick();
     setInterval(tick, 60000);
