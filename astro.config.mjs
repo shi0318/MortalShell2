@@ -1,8 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
-import { execFileSync } from 'node:child_process';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -10,42 +9,19 @@ import { dirname, join } from 'node:path';
 const SITE = 'https://mortalshell2.wiki';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
-// 构建时刻，作为无 git 记录时的兜底（等同于旧行为，绝不比原来差）
-const BUILD_TIME = new Date().toISOString();
+function frontmatterDate(file) {
+  const source = readFileSync(join(ROOT, file), 'utf8');
+  const match = source.match(/^updatedAt:\s*["']?(\d{4}-\d{2}-\d{2})/m);
+  return match?.[1];
+}
 
-// 把一个 sitemap URL 映射到它的源文件，返回该文件「最后一次 git 提交时间」。
-// 静态页（src/pages/*.astro）与内容集合（src/content/guides/*.md）都覆盖。
-// 好处：只改了某个页面，就只有那个页面的 lastmod 变化 —— 给 Google 可信信号。
-// 若源文件找不到或不在 git 历史里（如 CI 浅克隆），退回构建时间。
+// Only guide frontmatter supplies a sitemap date; static routes omit it.
 function lastmodFor(url) {
-  let pathname;
-  try {
-    pathname = new URL(url).pathname;
-  } catch {
-    return BUILD_TIME;
-  }
+  const pathname = new URL(url).pathname;
   const slug = pathname.replace(/^\/+|\/+$/g, ''); // 去首尾斜杠
-  const candidates =
-    slug === ''
-      ? ['src/pages/index.astro']
-      : [
-          `src/pages/${slug}.astro`,
-          `src/pages/${slug}/index.astro`,
-          `src/content/guides/${slug}.md`,
-          `src/content/guides/${slug}.mdx`,
-        ];
+  const candidates = [`src/content/guides/${slug}.md`, `src/content/guides/${slug}.mdx`];
   const file = candidates.find((rel) => existsSync(join(ROOT, rel)));
-  if (!file) return BUILD_TIME;
-  try {
-    const out = execFileSync('git', ['log', '-1', '--format=%cI', '--', file], {
-      cwd: ROOT,
-      encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'ignore'],
-    }).trim();
-    return out ? new Date(out).toISOString() : BUILD_TIME;
-  } catch {
-    return BUILD_TIME;
-  }
+  return file ? frontmatterDate(file) : undefined;
 }
 
 // 与 GuideLayout 的 noindex 策略保持一致：trailer/prequel/unconfirmed 臆测页不进 sitemap。
@@ -80,10 +56,8 @@ export default defineConfig({
       filter: (page) => !isNoindexUrl(page),
       // Prefer lastmod over low-signal changefreq/priority defaults.
       serialize(item) {
-        return {
-          ...item,
-          lastmod: lastmodFor(item.url),
-        };
+        const lastmod = lastmodFor(item.url);
+        return lastmod ? { ...item, lastmod } : item;
       },
     }),
   ],
