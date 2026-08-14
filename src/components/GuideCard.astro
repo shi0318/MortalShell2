@@ -1,0 +1,49 @@
+---
+import StatusBadge from './StatusBadge.astro';
+import type { ConfidenceStatus } from '../data/sources';
+
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  cover: string;
+  label: string;
+  verified: string;
+  status: ConfidenceStatus;
+}
+
+const { href, title, description, cover, label, verified, status } = Astro.props;
+---
+
+<li>
+  <a href={href} class="surface-card group flex h-full flex-col overflow-hidden">
+    <div class="aspect-[16/10] overflow-hidden bg-ash-950">
+      <img
+        src={cover}
+        alt={`${title} cover image`}
+        width="640"
+        height="400"
+        loading="lazy"
+        decoding="async"
+        class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+      />
+    </div>
+    <div class="flex flex-1 flex-col p-4">
+      <div class="mb-2 flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-amber-glow/90">
+        <span>{label}</span>
+        <span class="text-ash-600">•</span>
+        <time datetime={verified}>{verified}</time>
+      </div>
+      <div class="mb-2 flex items-start justify-between gap-2">
+        <h2 class="text-base font-semibold leading-snug text-ash-100 group-hover:text-amber-glow md:text-lg">
+          {title}
+        </h2>
+        <StatusBadge status={status} size="sm" />
+      </div>
+      <p class="line-clamp-3 flex-1 text-sm leading-relaxed text-ash-400">{description}</p>
+      <span class="mt-4 text-sm font-medium text-amber-glow/90 group-hover:text-amber-glow">
+        Read guide →
+      </span>
+    </div>
+  </a>
+</li>

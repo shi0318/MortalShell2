@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import PreReleaseNotice from '../../../components/PreReleaseNotice.astro';
+import GuideCard from '../../../components/GuideCard.astro';
+import Pagination from '../../../components/Pagination.astro';
+import { SITE_IMAGES } from '../../../data/images';
+import { formatDate } from '../../../utils/dates';
+
+const title = 'Mortal Shell II Guides — Page ' + Astro.params.page;
+const description = 'More Mortal Shell II guides, sorted by the latest verified update date.';
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Guide', url: '/guide/' },
+  { name: `Page ${Astro.params.page}`, url: `/guide/page/${Astro.params.page}/` },
+];
+const CATEGORY_LABEL: Record<string, string> = {
+  guide: 'Overview', mechanics: 'Mechanics', shells: 'Shells', weapons: 'Weapons',
+  bosses: 'Bosses', walkthrough: 'Walkthrough', news: 'News',
+};
+const FALLBACK_COVER: Record<string, string> = {
+  guide: SITE_IMAGES.heroCombat.src, mechanics: SITE_IMAGES.gloomCreature.src,
+  shells: SITE_IMAGES.shellsPortrait.src, weapons: SITE_IMAGES.weaponsCloseup.src,
+  bosses: SITE_IMAGES.cathedralBoss.src, walkthrough: SITE_IMAGES.heroBanner.src,
+  news: SITE_IMAGES.officialKeyart2.src,
+};
+const PAGE_SIZE = 9;
+
+export async function getStaticPaths() {
+  const PAGE_SIZE = 9;
+  const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
+    (a, b) => b.data.updatedAt.localeCompare(a.data.updatedAt) || a.id.localeCompare(b.id),
+  );
+  const totalPages = Math.ceil(guides.length / PAGE_SIZE);
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => {
+    const page = i + 2;
+    return { params: { page: String(page) }, props: { guides, page, totalPages } };
+  });
+}
+
+const { guides, page, totalPages } = Astro.props;
+const visibleGuides = guides.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+function coverOf(g: (typeof guides)[number]) {
+  return g.data.cover ?? FALLBACK_COVER[g.data.category] ?? SITE_IMAGES.heroCombat.src;
+}
+function labelOf(cat: string) {
+  return CATEGORY_LABEL[cat] ?? cat;
+}
+---
+
+<Layout title={title} description={description} schemaType="collection" breadcrumb={crumbs}>
+  <Breadcrumb items={crumbs} />
+  <header class="mb-8">
+    <p class="section-kicker">Latest guides first</p>
+    <h1 class="section-title mt-3 md:text-5xl">Mortal Shell II guides — page {page}</h1>
+    <p class="mt-3 max-w-2xl text-lg text-ash-400">Page {page} of {totalPages}; entries are sorted by their latest verified update.</p>
+  </header>
+  <div class="mb-8"><PreReleaseNotice /></div>
+  <ul class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    {visibleGuides.map((g) => (
+      <GuideCard
+        href={`/${g.id}/`}
+        title={g.data.heading ?? g.data.title}
+        description={g.data.description}
+        cover={coverOf(g)}
+        label={labelOf(g.data.category)}
+        verified={formatDate(g.data.updatedAt)}
+        status={g.data.status}
+      />
+    ))}
+  </ul>
+  <Pagination currentPage={page} totalPages={totalPages} basePath="/guide/" />
+</Layout>
