@@ -5,7 +5,7 @@ import { glob } from 'astro/loaders';
 import { toDateString } from './utils/dates';
 
 // 确认状态枚举 —— 与 src/data/sources.ts 的 ConfidenceStatus 保持一致
-const confidenceStatus = z.enum(['official', 'beta', 'trailer', 'prequel', 'unconfirmed']);
+const confidenceStatus = z.enum(['official', 'beta', 'community', 'trailer', 'prequel', 'unconfirmed']);
 
 // YAML bare dates become Date objects; always normalize to YYYY-MM-DD strings.
 const dateString = z.preprocess((value) => toDateString(value as string | Date | null | undefined), z.string().min(1));

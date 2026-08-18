@@ -88,7 +88,7 @@ const schemaType = category === 'news' ? 'news' : 'article';
 
 // noindex 策略：只有 official / beta（基于已发布内容的可核实事实）允许进索引。
 // trailer / prequel / unconfirmed 属预告臆测，暂不收录，待正式发售核实后再放开。
-const INDEXABLE_STATUS: ConfidenceStatus[] = ['official', 'beta'];
+const INDEXABLE_STATUS: ConfidenceStatus[] = ['official', 'beta', 'community'];
 const noindex = !INDEXABLE_STATUS.includes(status);
 
 // 下载意图页：在正文前放官方 Steam 按钮，对齐竞品 open-beta walkthrough 的跳转行为

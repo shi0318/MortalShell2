@@ -5,6 +5,7 @@
 export type ConfidenceStatus =
   | 'official' // ✅ 开发商在官网/Steam/Discord 正式公布
   | 'beta' // 🔬 在 Beta 版本中亲自验证
+  | 'community' // 💬 汇总公开 Steam 玩家反馈，不等同于官方确认
   | 'trailer' // 👁️ 预告片中出现但系统细节未知
   | 'prequel' // 📖 基于 Mortal Shell 一代系统推测
   | 'unconfirmed'; // ❓ 论坛流传但无官方来源（不作页面主体）
@@ -29,6 +30,12 @@ export const STATUS_META: Record<ConfidenceStatus, StatusMeta> = {
     icon: '🔬',
     classes: 'bg-sky-500/15 text-sky-300 border-sky-500/30',
     description: 'Personally verified in a Beta build. Version and test date noted.',
+  },
+  community: {
+    label: 'Open Beta reports',
+    icon: '💬',
+    classes: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
+    description: 'Aggregated from public Open Beta player reports; not developer-confirmed.',
   },
   trailer: {
     label: 'Trailer',
