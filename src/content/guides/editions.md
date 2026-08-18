@@ -44,6 +44,8 @@ Official points:
 
 If your main goal is simply to try the game now, use the free [Open Beta download](/download/) instead of waiting for early access.
 
+For the Xbox physical-disc question, see [Will Mortal Shell 2 Have a Physical Disc for Xbox?](/mortal-shell-2-physical-xbox-disc/).
+
 ## Revered Edition
 
 Official points:

@@ -1,7 +1,7 @@
 ---
-title: "Eredrim the Venerable — Confirmed Shell Notes (Pre-release)"
-heading: "Eredrim, the Venerable"
-description: "Eredrim, The Venerable is confirmed as a playable Shell in Mortal Shell II via the Official Gameplay Reveal. What is official, and the prequel tank context."
+title: "Mortal Shell 2 Eredrim Guide — The Venerable Shell"
+heading: "Mortal Shell 2 Eredrim, the Venerable"
+description: "Mortal Shell 2 Eredrim, the Venerable, is confirmed as a playable Shell in the Official Gameplay Reveal. Official facts and prequel context."
 category: shells
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 status: official

@@ -47,6 +47,13 @@ const categories = [
     count: null,
     countLabel: '',
   },
+  {
+    href: '/tools/',
+    title: 'Tools',
+    desc: 'Beta route checklist, weapons evidence, map notes and PC performance checks.',
+    count: null,
+    countLabel: '',
+  },
 ];
 
 const startHere = [
@@ -296,7 +303,7 @@ const startHere = [
     <section class="mt-16">
       <p class="section-kicker">Browse the wiki</p>
       <h2 class="section-title mt-3">Explore by category</h2>
-      <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
         {
           categories.map((c) => (
             <a href={c.href} class="surface-card group flex h-full flex-col p-5">

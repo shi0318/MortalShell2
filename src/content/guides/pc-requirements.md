@@ -1,7 +1,7 @@
 ---
-title: "Mortal Shell II System Requirements: Official PC Specs"
-heading: "Mortal Shell II PC System Requirements"
-description: "Official Mortal Shell II PC system requirements from Steam: minimum CPU, GPU, RAM, storage, Windows version, and the SSD requirement before launch."
+title: "Mortal Shell 2 PC Requirements — Official System Specs"
+heading: "Mortal Shell 2 PC System Requirements"
+description: "Official Mortal Shell 2 PC requirements from Steam: minimum CPU, GPU, RAM, storage, Windows version, DirectX 12 and the SSD requirement."
 category: guide
 status: official
 preRelease: true

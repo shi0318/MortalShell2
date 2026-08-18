@@ -1,19 +1,19 @@
 ---
-title: "Mortal Shell II Open Beta Guide — Dates, Content & Rewards"
-heading: "Mortal Shell II Open Beta"
-description: "Everything confirmed about the Mortal Shell II Open Beta on Steam: access length, regions, Shells, beacons, carry-over rewards, and system requirements."
+title: "Mortal Shell 2 Beta Guide — Download, Content & Rewards"
+heading: "Mortal Shell 2 Beta: Download, Content and Rewards"
+description: "Everything confirmed about the Mortal Shell 2 Beta on Steam: download access, opening length, regions, Shells, beacons, carry-over rewards and system requirements."
 category: guide
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: official
 preRelease: true
 order: 5
-updatedAt: "2026-07-24"
+updatedAt: "2026-08-18"
 sources:
   - status: official
     sourceUrl: "https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/"
     sourceDate: "2026-06-05"
     gameVersion: "Open Beta store listing"
-    lastChecked: "2026-07-24"
+    lastChecked: "2026-08-18"
     note: "Steam Open Beta page - About This Demo and Progress Carry-Over sections"
 ---
 
@@ -22,6 +22,12 @@ sources:
 **[Download Mortal Shell II Open Beta on Steam →](/download/)**
 
 This wiki never hosts game files. The download hub sends you to the official Steam app page only.
+
+## Do you need to sign up for the Mortal Shell 2 Beta?
+
+The official Steam listing presents the Open Beta as a **free public demo** with a direct install button. The official sources checked here do not identify a separate registration form or email sign-up requirement. Use the Steam page rather than entering personal details on an unofficial “Beta sign up” page.
+
+For a route checklist, use the [Mortal Shell 2 Open Beta walkthrough](/mortal-shell-ii-open-beta-walkthrough/). For PC problems reported by Beta players, see the [Mortal Shell 2 Beta performance checks](/mortal-shell-2-beta-performance-fixes/).
 
 ## Short answer
 

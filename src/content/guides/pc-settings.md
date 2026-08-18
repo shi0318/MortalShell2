@@ -1,7 +1,7 @@
 ---
-title: "Mortal Shell II PC Settings & System Requirements"
-heading: "PC Settings & Performance Guide"
-description: "Official Mortal Shell II Open Beta system requirements and mature content description from Steam, plus SSD notes and pre-launch PC setup checklist."
+title: "Mortal Shell 2 PC Settings & Performance Checklist"
+heading: "Mortal Shell 2 PC Settings and Performance Checklist"
+description: "Mortal Shell 2 Open Beta PC requirements, mature-content notes and pre-launch settings checklist from the official Steam listing."
 category: guide
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 status: official
@@ -18,6 +18,8 @@ sources:
 ---
 
 This page collects what Steam officially publishes about **running Mortal Shell II on PC** and the game's **mature content description**. Figures below are developer targets from the Open Beta store listing, not personal benchmarks.
+
+For player-reported crashes, stutter and camera checks, continue to the [Mortal Shell 2 Beta performance guide](/mortal-shell-2-beta-performance-fixes/).
 
 ## Mature content description (official)
 

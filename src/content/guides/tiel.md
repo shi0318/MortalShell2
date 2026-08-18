@@ -1,7 +1,7 @@
 ---
-title: "Tiel the Acolyte — Confirmed Shell Notes (Pre-release)"
-heading: "Tiel, the Acolyte"
-description: "Tiel the Acolyte is one of eight playable Shells in Mortal Shell II. Official Open Beta notes on discovery and possession, without invented kit stats."
+title: "Mortal Shell 2 Tiel Guide — How to Find and Claim Tiel"
+heading: "Mortal Shell 2 Tiel, the Acolyte"
+description: "Mortal Shell 2 Tiel is one of eight playable Shells. Official Open Beta notes explain how Tiel is discovered and possessed without invented kit stats."
 category: shells
 cover: /images/mortalshell2-masked-shell-portrait.webp
 status: official

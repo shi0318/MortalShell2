@@ -1,7 +1,7 @@
 ---
-title: "Magdalena, Lady of the Woods — Confirmed Path Notes"
-heading: "Magdalena, the Lady of the Woods"
-description: "Magdalena, the Lady of the Woods is named on the Mortal Shell II Open Beta path. Confirmed mentions only, plus what is still unknown."
+title: "Mortal Shell 2 Lady of the Woods — Open Beta Route Notes"
+heading: "Mortal Shell 2 Lady of the Woods: Open Beta Route Notes"
+description: "Mortal Shell 2 names Lady of the Woods on the Open Beta route. This page records the confirmed path mention without inventing a boss fight or reward table."
 category: bosses
 cover: /images/mortalshell2-bear-shaman-encounter.webp
 status: official

@@ -25,7 +25,7 @@ export const SITE = {
   fullGameShellCount: 8,
   steamStandardPriceUsd: '$49.99',
   steamDevoutPriceUsd: '$59.99',
-  lastVerified: '2026-07-31',
+  lastVerified: '2026-08-18',
 } as const;
 
 export const NAV = [
@@ -34,6 +34,7 @@ export const NAV = [
   { label: 'Weapons', href: '/weapons/' },
   { label: 'Bosses', href: '/bosses/' },
   { label: 'Map', href: '/map/' },
+  { label: 'Tools', href: '/tools/' },
   { label: 'Download', href: '/download/' },
 ] as const;
 

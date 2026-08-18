@@ -1,23 +1,23 @@
 ---
-title: "Mortal Shell II Release Date — August 20, 2026"
-heading: "Mortal Shell II Release Date"
-description: "Mortal Shell II releases August 20, 2026 on PS5, Xbox Series X|S, and Steam. Platforms, Open Beta status, and official edition notes in one place."
+title: "Mortal Shell 2 Release Date — Mortal Shell II Launch Details"
+heading: "Mortal Shell 2 Release Date — August 20, 2026"
+description: "Mortal Shell 2, officially titled Mortal Shell II, releases August 20, 2026 on PS5, Xbox Series X|S and Steam. Platforms, Beta status and editions explained."
 category: guide
 cover: /images/mortalshell2-official-keyart-1.webp
 status: official
 preRelease: true
 order: 2
-updatedAt: "2026-07-24"
+updatedAt: "2026-08-18"
 sources:
   - status: official
     sourceUrl: "https://www.playstack.com/news/mortal-shell-ii-release-date/"
     sourceDate: "2026-07-08"
     gameVersion: "Playstack release announcement"
-    lastChecked: "2026-07-24"
+    lastChecked: "2026-08-18"
     note: "Playstack confirms worldwide digital launch date and platforms"
   - status: official
     sourceUrl: "https://mortalshell.com/"
-    lastChecked: "2026-07-24"
+    lastChecked: "2026-08-18"
     note: "Official Mortal Shell II site lists August 20, 2026 and edition messaging"
   - status: official
     sourceUrl: "https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/"
@@ -36,6 +36,8 @@ sources:
 - **Xbox Series X|S**
 
 Sources: [Playstack release announcement](https://www.playstack.com/news/mortal-shell-ii-release-date/) and the official site [mortalshell.com](https://mortalshell.com/).
+
+The [Mortal Shell 2 physical Xbox disc guide](/mortal-shell-2-physical-xbox-disc/) explains what the current official edition information says about digital Xbox release and the physical PS5 Revered Edition. For the Beta and full-game scope, see [How Long Is Mortal Shell 2?](/how-long-is-mortal-shell-ii/).
 
 ## Current status before launch
 

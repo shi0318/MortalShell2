@@ -1,7 +1,7 @@
 ---
-title: "Mortal Shell II Gameplay Preview: Open Beta Combat & Shells"
-heading: "Mortal Shell II Gameplay Preview: What the Open Beta Actually Shows"
-description: "A source-backed Mortal Shell II gameplay preview covering the Open Beta scope, Shell roles, no-stamina combat, sidearms, and launch-day limits."
+title: "Mortal Shell 2 Gameplay Preview — Open Beta Combat & Shells"
+heading: "Mortal Shell 2 Gameplay Preview: What the Open Beta Shows"
+description: "A source-backed Mortal Shell 2 gameplay preview covering the Open Beta scope, Shell roles, stamina-free combat, sidearms and launch-day limits."
 category: guide
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: beta
@@ -71,4 +71,3 @@ On August 20, record the retail build before converting Beta observations into a
 ## Source boundary
 
 The Open Beta is real playable evidence, but it is still Beta evidence. The official sources support the release date, platform list, Shell count, combat pillars, Beta scope, reset rules, Flayed Harbinger reward, and Marrow Keep condition. They do not support a complete boss route, final Shell tier list, or exact damage table before the retail build is checked.
-

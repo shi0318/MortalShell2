@@ -1,0 +1,78 @@
+---
+// 工具聚合页：只收录当前已有实际内容的路线、装备证据、地图和 PC 排查入口。
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const title = 'Mortal Shell 2 Tools — Beta Route, Weapons, Map & PC Checks';
+const description =
+  'Mortal Shell 2 tools for the Open Beta: route checklist, weapons evidence, Shell roster, map notes and PC performance checks with source boundaries.';
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Tools', url: '/tools/' },
+];
+
+const tools = [
+  {
+    href: '/mortal-shell-ii-open-beta-walkthrough/',
+    label: 'Route checklist',
+    title: 'Open Beta Walkthrough',
+    description: 'Track the Prologue, first region, Tiel, Beacons, optional dungeons, challenges and Marrow Keep.',
+  },
+  {
+    href: '/mortal-shell-ii-open-beta-weapons-guide/',
+    label: 'Weapons evidence',
+    title: 'Open Beta Weapons Guide',
+    description: 'Review the confirmed Axe-and-Dagger objective and separate Beta evidence from unverified retail stats.',
+  },
+  {
+    href: '/shells/',
+    label: 'Shell roster',
+    title: 'Verified Shells Tracker',
+    description: 'Compare the Shell information that official Open Beta and reveal material currently confirm.',
+  },
+  {
+    href: '/map/',
+    label: 'Route map',
+    title: 'Known Regions Map',
+    description: 'Use the current official region, Beacon, Shell and route notes without treating the pre-release map as complete.',
+  },
+  {
+    href: '/mortal-shell-2-beta-performance-fixes/',
+    label: 'PC checks',
+    title: 'Beta Performance Checks',
+    description: 'Work through official requirements and public reports about crashes, stutter and camera problems.',
+  },
+];
+---
+
+<Layout title={title} description={description} schemaType="collection" breadcrumb={crumbs}>
+  <Breadcrumb items={crumbs} />
+
+  <header class="mb-8">
+    <p class="section-kicker">Play while you check</p>
+    <h1 class="section-title mt-3 md:text-5xl">Mortal Shell 2 Tools</h1>
+    <p class="mt-3 max-w-3xl text-lg text-ash-400">
+      These tools are deliberately small and evidence-led. Each one answers a task you can act on in the Mortal Shell II Open Beta instead of presenting an unverified database full of empty fields.
+    </p>
+  </header>
+
+  <section class="grid gap-5 md:grid-cols-2" aria-label="Mortal Shell 2 tools">
+    {tools.map((tool) => (
+      <a href={tool.href} class="surface-card group block p-5 transition-colors hover:border-amber-glow/30">
+        <p class="section-kicker">{tool.label}</p>
+        <h2 class="mt-2 text-xl font-semibold text-ash-100 group-hover:text-amber-glow">{tool.title}</h2>
+        <p class="mt-2 text-sm leading-relaxed text-ash-400">{tool.description}</p>
+        <span class="mt-4 inline-flex text-sm font-medium text-amber-glow">Open tool →</span>
+      </a>
+    ))}
+  </section>
+
+  <section class="surface-card mt-10 p-6 md:p-8">
+    <p class="section-kicker">Evidence boundary</p>
+    <h2 class="section-title mt-3">What these tools do not invent</h2>
+    <p class="mt-3 max-w-3xl text-ash-400">
+      The public Beta confirms only a limited opening route. Exact retail weapon locations, final Shell stats, complete boss order and full-game completion time remain separate verification tasks for the August 20 launch build.
+    </p>
+  </section>
+</Layout>

@@ -1,7 +1,7 @@
 ---
-title: "Mortal Shell II Open Beta Download — Official Steam Link"
-heading: "Download Mortal Shell II Open Beta"
-description: "Official Mortal Shell II Open Beta download via Steam. System requirements, mature content notes, install steps, and what progress carries to the full release."
+title: "Mortal Shell 2 Beta Download — Official Steam Link"
+heading: "Download the Mortal Shell 2 Beta"
+description: "Official Mortal Shell 2 Beta download via Steam, with the public-demo scope, system requirements, install steps and progress-transfer rules."
 category: guide
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: official

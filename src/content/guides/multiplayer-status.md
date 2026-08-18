@@ -1,7 +1,7 @@
 ---
-title: "Is Mortal Shell II Multiplayer? Single-Player Status"
-heading: "Is Mortal Shell II Multiplayer? What Steam Confirms"
-description: "Is Mortal Shell II multiplayer? Steam currently lists Mortal Shell II as a single-player action RPG with no official co-op mode announced."
+title: "Is Mortal Shell 2 Multiplayer? Steam Status"
+heading: "Is Mortal Shell 2 Multiplayer? What Steam Confirms"
+description: "Is Mortal Shell 2 multiplayer? Steam lists Mortal Shell II as a single-player action RPG with no official co-op mode announced."
 category: guide
 cover: /images/mortalshell2-official-keyart-2.webp
 status: official
@@ -57,4 +57,3 @@ There is no official announcement in the sources checked for this page that prom
 ## Source boundary
 
 This page answers the multiplayer question from Steam's current feature categories and published store description. It does not infer a final mode from earlier games, fan wikis, or Soulslike comparisons. Checked August 12, 2026.
-
