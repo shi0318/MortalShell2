@@ -101,3 +101,18 @@ test('homepage includes the local gameplay video without a visible Steam source 
   assert.match(home, /preload="none"/);
   assert.doesNotMatch(home, /Steam source|Source: Steam/i);
 });
+
+test('homepage presents concise post-launch facts instead of a pre-release fact wall', async () => {
+  const home = await source('pages/index.astro');
+  const facts = await source('data/official.ts');
+  const start = home.indexOf('<!-- Official facts -->');
+  const end = home.indexOf('<!-- Essential guides -->', start);
+  const factsSection = home.slice(start, end);
+
+  assert.match(factsSection, /Mortal Shell II at a Glance/);
+  assert.match(factsSection, /Core facts for the released Mortal Shell II/);
+  assert.match(facts, /label: 'Shells & World'/);
+  assert.doesNotMatch(factsSection, /What is actually confirmed/);
+  assert.doesNotMatch(factsSection, /current retail build confirms/);
+  assert.doesNotMatch(factsSection, /Three are named so far|remaining five/i);
+});
