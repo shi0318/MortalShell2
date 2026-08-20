@@ -1,13 +1,13 @@
 ---
-title: "Mortal Shell 2 PC Settings & Performance Checklist"
-heading: "Mortal Shell 2 PC Settings and Performance Checklist"
-description: "Mortal Shell 2 Open Beta PC requirements, mature-content notes and pre-launch settings checklist from the official Steam listing."
+title: "Mortal Shell II Open Beta PC Settings — Archived Requirements"
+heading: "Mortal Shell II Open Beta PC Settings Archive"
+description: "Mortal Shell II Open Beta PC settings archive with historical Steam requirements, mature-content notes and clearly separated retail PC guidance."
 category: guide
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 status: official
-preRelease: true
+preRelease: false
 order: 20
-updatedAt: "2026-07-24"
+updatedAt: "2026-08-20"
 sources:
   - status: official
     sourceUrl: https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/
@@ -17,7 +17,7 @@ sources:
     note: "Steam Open Beta system requirements and mature content description"
 ---
 
-This page collects what Steam officially publishes about **running Mortal Shell II on PC** and the game's **mature content description**. Figures below are developer targets from the Open Beta store listing, not personal benchmarks.
+This page preserves what Steam published for the **Mortal Shell II Open Beta** on PC and the game's **mature content description**. The figures below are historical developer targets for the test build, not retail benchmarks. For the released game's published minimum hardware, use [Mortal Shell II PC Requirements](/pc-requirements/).
 
 For player-reported crashes, stutter and camera checks, continue to the [Mortal Shell 2 Beta performance guide](/mortal-shell-2-beta-performance-fixes/).
 
@@ -29,7 +29,7 @@ Steam lists the following mature-content description from the developer:
 
 Use this when deciding whether the game is appropriate for your household or content policy reviews. This wiki is an independent fan resource and does not alter or soften official ratings language.
 
-## System requirements (Open Beta Steam page)
+## Historical system requirements (Open Beta Steam page)
 
 ### Minimum
 
@@ -47,9 +47,9 @@ Steam currently shows the Recommended column mainly as:
 
 - Requires a 64-bit processor and operating system
 
-A full recommended CPU/GPU list was not fully populated in the public listing we verified on 2026-07-24. When the store page publishes complete recommended hardware, this section will be updated and re-checked.
+A full recommended CPU/GPU list was not populated in the public Beta listing checked on July 24, 2026. Do not use this archived block as a substitute for current retail requirements.
 
-## What these numbers mean for players
+## What these Beta numbers meant for players
 
 Compared with many soulslike PC listings, the **minimum bar is high**:
 
@@ -57,22 +57,22 @@ Compared with many soulslike PC listings, the **minimum bar is high**:
 - RTX 2060 SUPER / RX 6600 class GPU minimum
 - SSD is mandatory
 
-If you are near the minimum GPU, prioritize a stable framerate cap over max settings.
+If you are reviewing an old Beta report, note that these were test-build targets rather than a promise about the released game.
 
-## Before you download
+## Before you play the retail PC version
 
-1. Confirm storage on an **SSD** (required)
-2. Update GPU drivers
-3. Open the official install page via our [Download hub](/download/)
-4. Expect beta-side bugs and performance variance
+1. Check [Mortal Shell II PC Requirements](/pc-requirements/) for the published retail minimum.
+2. Confirm that the game is installed on an **SSD**.
+3. Update GPU drivers before troubleshooting a repeatable retail issue.
+4. Keep Beta crash and stutter reports separate from the current patch.
 
 ## Graphics options
 
-A complete in-game options menu has not been published as a separate official document. Once verified from the live client, we will replace this section with the real settings list.
+A complete retail in-game options menu has not been published in the Beta source used by this archive. Only current-build, reproducible settings information belongs in a retail performance guide.
 
 ## Related pages
 
-- [Download Open Beta on Steam](/download/)
-- [Open Beta guide](/open-beta/)
+- [Mortal Shell II PC Requirements](/pc-requirements/)
+- [Open Beta archive](/open-beta/)
 - [Beta progress carry-over](/beta-progress/)
 

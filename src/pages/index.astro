@@ -10,9 +10,9 @@ import { OFFICIAL_FACTS, OFFICIAL_LINKS } from '../data/official';
 
 const released = isReleased();
 
-const title = 'Mortal Shell II Wiki — Shells, Weapons, Bosses, Walkthrough & Map';
+const title = 'Mortal Shell 2 Wiki — Weapons, Shells, Bosses & Beginner Guide';
 const description =
-  'Independent Mortal Shell 2 wiki built around official Steam, Playstack, and Cold Symmetry facts: release date, Open Beta, Shells, PC requirements, and editions.';
+  'Independent Mortal Shell II wiki with launch guides for Mortal Shell II PC requirements, combat tips, Shells, weapons, bosses, walkthroughs, maps, Steam reviews, and editions.';
 
 const heroFacts = OFFICIAL_FACTS.filter((fact) =>
   ['Full release', 'Open Beta scope', 'Open Beta carry-over', 'Steam packages (USD)'].includes(fact.label),
@@ -22,35 +22,35 @@ const categories = [
   {
     href: '/download/',
     title: 'Download',
-    desc: 'Official Steam Open Beta install only. No third-party files.',
+    desc: 'Official Steam links for the full game and the archived Open Beta. No third-party files.',
     count: null as number | null,
     countLabel: '',
   },
   {
     href: '/shells/',
     title: 'Shells',
-    desc: 'Official roster fact: eight playable Shells; Tiel is the only named Open Beta Shell so far.',
+    desc: 'Track the eight-Shell roster and keep Beta evidence separate from retail verification.',
     count: null,
     countLabel: '',
   },
   {
     href: '/weapons/',
     title: 'Weapons',
-    desc: 'Pre-release arsenal tracker. Confirmed notes only; no invented stats.',
+    desc: 'Weapon evidence and launch updates, with unverified locations and stats left out.',
     count: null,
     countLabel: '',
   },
   {
     href: '/bosses/',
     title: 'Bosses',
-    desc: 'Magdalena and hidden mini-bosses are official; full boss strategies wait for verification.',
+    desc: 'Boss encounters and verified launch strategies, with no invented phase charts.',
     count: null,
     countLabel: '',
   },
   {
     href: '/tools/',
     title: 'Tools',
-    desc: 'Beta route checklist, weapons evidence, map notes and PC performance checks.',
+    desc: 'PC requirements, launch checklists, map notes and archived Beta tools.',
     count: null,
     countLabel: '',
   },
@@ -58,28 +58,28 @@ const categories = [
 
 const startHere = [
   {
-    href: '/release-date/',
-    title: 'Release Date (August 20, 2026)',
-    desc: 'Confirmed platforms, current Open Beta status, and what to do before launch day.',
-    cover: SITE_IMAGES.officialKeyart1.src,
-  },
-  {
-    href: '/beginner-guide/',
-    title: 'Beginner First Hours',
-    desc: 'Official Open Beta route priorities: Prologue, beacons, Tiel, Marrow Keep, Magdalena.',
-    cover: SITE_IMAGES.heroCombat.src,
-  },
-  {
-    href: '/download/',
-    title: 'Download Open Beta',
-    desc: 'Official Steam install link, system requirements check, and first steps after download.',
+    href: '/pc-requirements/',
+    title: 'Mortal Shell II PC Requirements',
+    desc: 'Official Steam minimum CPU, GPU, RAM, storage and SSD requirements for the released PC version.',
     cover: SITE_IMAGES.weaponsCloseup.src,
   },
   {
-    href: '/editions/',
-    title: 'Devout vs Revered Editions',
-    desc: 'Obsidian skins, 72-hour early access, and PS5 collector contents from official pages.',
-    cover: SITE_IMAGES.officialKeyart2.src,
+    href: '/mortal-shell-2-beginner-combat-tips/',
+    title: 'Mortal Shell 2 Beginner Combat Tips',
+    desc: 'Launch-day Steam guide notes on dodging, parrying, hardening, red attack sigils and healing.',
+    cover: SITE_IMAGES.heroCombat.src,
+  },
+  {
+    href: '/mortal-shell-2-steam-reviews/',
+    title: 'Mortal Shell 2 Steam Reviews',
+    desc: 'A launch-day snapshot of player feedback on combat, Shells, weapons, bosses and performance.',
+    cover: SITE_IMAGES.officialKeyart5.src,
+  },
+  {
+    href: '/mortal-shell-2-missable-achievements/',
+    title: 'Mortal Shell 2 Missable Achievements',
+    desc: 'Three achievement names currently flagged as missable in a public Steam Community guide.',
+    cover: SITE_IMAGES.cathedralBoss.src,
   },
 ];
 ---
@@ -107,26 +107,25 @@ const startHere = [
       <p class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/30 px-3.5 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-ash-200 backdrop-blur-md">
         Official fact sheet
         <span class="text-ash-500">·</span>
-        <span class="text-amber-glow">Releases August 20, 2026</span>
+        <span class="text-amber-glow">Available now · August 20, 2026</span>
       </p>
 
       <h1 class="mt-6 max-w-4xl text-4xl font-bold tracking-[-0.03em] text-ash-100 sm:text-5xl md:text-6xl">
-        MORTAL SHELL II WIKI
+        Mortal Shell 2 Wiki: Weapons, Shells, Bosses & Beginner's Guide
         <span class="mt-2 block bg-gradient-to-r from-amber-glow via-ember-soft to-amber-glow bg-clip-text text-transparent">
-          SHELLS, WEAPONS, BOSSES, WALKTHROUGH & MAP
+          WALKTHROUGH, MAP & LAUNCH TIPS
         </span>
       </h1>
 
       <p class="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-ash-300 md:text-lg">
-        Mortal Shell 2 launches August 20, 2026 on PS5, Xbox Series X|S, and Steam. The Open Beta
-        is live now — play the Prologue, unlock The Flayed Harbinger cosmetic, and, if you push
-        past Marrow Keep, earn a Prologue skip for the full game. Eight Shells are confirmed, three
-        named so far. The PC minimum asks for an RTX 2060 SUPER or RX 6600, 16 GB RAM, and an SSD.
+        Mortal Shell II is available on PS5, Xbox Series X|S, and Steam. This launch-ready wiki
+        answers practical searches for Mortal Shell II PC requirements, combat, Shells, weapons,
+        bosses, walkthroughs and maps using official Steam material and clearly labelled player reports.
       </p>
 
       <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
-        <a href="/download/" class="btn-primary">
-          Download Open Beta →
+        <a href={SITE.fullGameUrl} target="_blank" rel="nofollow noopener noreferrer" class="btn-primary">
+          Buy Mortal Shell II on Steam ↗
         </a>
         <a href="/release-date/" class="btn-ghost">
           Full Game Details
@@ -170,32 +169,34 @@ const startHere = [
   </section>
 
   <div class="mx-auto max-w-6xl px-4 pb-16 pt-12 md:pt-16">
-    <!-- Open Beta conversion band -->
+    <!-- Launch conversion band -->
     <section class="surface-card overflow-hidden p-6 md:p-8">
       <div class="grid gap-7 lg:grid-cols-[1.35fr_1fr] lg:items-center">
         <div>
           <p class="section-kicker">Official Steam only</p>
-          <h2 class="section-title mt-3">Play the Mortal Shell II Open Beta</h2>
+          <h2 class="section-title mt-3">Mortal Shell II PC launch checklist</h2>
           <p class="mt-3 max-w-2xl text-ash-300">
-            Install from Steam, check minimum PC requirements (SSD required), and review the mature content description before you launch. This wiki never hosts game files.
+            Check the official Mortal Shell II PC requirements before launching the full game. The
+            retail listing requires an SSD, 16 GB RAM and an RTX 2060 SUPER or RX 6600 class GPU.
+            This wiki never hosts game files.
           </p>
           <ul class="mt-5 grid gap-2 text-sm text-ash-300 sm:grid-cols-2">
             <li class="rounded-lg border border-white/5 bg-white/[0.02] px-3 py-2">Windows 10/11 · 16 GB RAM · DX12</li>
             <li class="rounded-lg border border-white/5 bg-white/[0.02] px-3 py-2">RTX 2060 SUPER / RX 6600 class GPU</li>
-            <li class="rounded-lg border border-white/5 bg-white/[0.02] px-3 py-2">30 GB free space · SSD required</li>
+            <li class="rounded-lg border border-white/5 bg-white/[0.02] px-3 py-2">70 GB free space · SSD required</li>
             <li class="rounded-lg border border-white/5 bg-white/[0.02] px-3 py-2">Violence, blood sprays, executions, firearms</li>
           </ul>
           <div class="mt-6 flex flex-wrap gap-3">
-            <a href="/download/" class="btn-primary !px-4 !py-2.5 text-sm">Open download hub</a>
+            <a href="/pc-requirements/" class="btn-primary !px-4 !py-2.5 text-sm">View PC requirements</a>
             <a
-              href={SITE.openBetaUrl}
+              href={SITE.fullGameUrl}
               target="_blank"
               rel="nofollow noopener noreferrer"
               class="btn-ghost !px-4 !py-2.5 text-sm"
             >
-              Steam Open Beta ↗
+              Steam full game ↗
             </a>
-            <a href="/pc-settings/" class="btn-ghost !px-4 !py-2.5 text-sm">Full system requirements</a>
+            <a href="/download/" class="btn-ghost !px-4 !py-2.5 text-sm">Archived Open Beta</a>
           </div>
         </div>
 
@@ -224,7 +225,7 @@ const startHere = [
         <h2 class="section-title mt-3">What is actually confirmed</h2>
         <p class="mt-3 max-w-3xl text-ash-400">
           These homepage facts are taken from Steam, Playstack, and the official Mortal Shell site.
-          Anything outside this table stays labelled as Trailer or Prequel-based until a first-party source confirms it.
+          Anything outside this table stays labelled as Beta, Community, Trailer or Prequel-based until the current retail build confirms it.
         </p>
         <div class="mt-6 grid gap-3 md:grid-cols-2">
           {
@@ -303,6 +304,12 @@ const startHere = [
     <section class="mt-16">
       <p class="section-kicker">Browse the wiki</p>
       <h2 class="section-title mt-3">Explore by category</h2>
+      <p class="mt-3 max-w-3xl text-ash-400">
+        Start with the <a href="/weapons/" class="text-amber-glow hover:text-ember-soft">Mortal Shell 2 weapons guide</a>,
+        compare the <a href="/shells/" class="text-amber-glow hover:text-ember-soft">Mortal Shell 2 Shells guide</a>,
+        open the <a href="/bosses/" class="text-amber-glow hover:text-ember-soft">Mortal Shell 2 Bosses guide</a>,
+        or follow the <a href="/beginner-guide/" class="text-amber-glow hover:text-ember-soft">Mortal Shell 2 beginner guide</a>.
+      </p>
       <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
         {
           categories.map((c) => (

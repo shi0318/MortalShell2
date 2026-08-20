@@ -3,7 +3,9 @@
 interface Props {
   compact?: boolean;
 }
+import { isReleased } from '../data/site';
 const { compact = false } = Astro.props;
+const released = isReleased();
 ---
 
 <aside
@@ -14,9 +16,19 @@ const { compact = false } = Astro.props;
   role="note"
 >
   <p>
-    <span class="font-semibold text-amber-glow">Pre-release guide.</span>
-    Mortal Shell II launches on August 20, 2026. Facts below are marked with a confirmation
-    status — anything based on trailers or the first game is flagged and will be replaced
-    with verified data at launch.
+    {released ? (
+      <>
+        <span class="font-semibold text-amber-glow">Launch update.</span>
+        Mortal Shell II is now available. Retail facts are being added as the launch build and
+        public Steam reports are verified; Beta, trailer, and prequel evidence remains labelled.
+      </>
+    ) : (
+      <>
+        <span class="font-semibold text-amber-glow">Pre-release guide.</span>
+        Mortal Shell II launches on August 20, 2026. Facts below are marked with a confirmation
+        status — anything based on trailers or the first game is flagged and will be replaced
+        with verified data at launch.
+      </>
+    )}
   </p>
 </aside>

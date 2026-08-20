@@ -6,7 +6,7 @@ import Breadcrumb from '../components/Breadcrumb.astro';
 import PreReleaseNotice from '../components/PreReleaseNotice.astro';
 import SourceTable from '../components/SourceTable.astro';
 import StatusBadge from '../components/StatusBadge.astro';
-import { SITE } from '../data/site';
+import { SITE, isReleased } from '../data/site';
 import type { ConfidenceStatus, SourceRef } from '../data/sources';
 import { formatDate, toDateString } from '../utils/dates';
 
@@ -52,6 +52,7 @@ const SEGMENT_LABEL: Record<string, string> = {
   beacons: 'Beacons',
   map: 'Map',
   'pc-settings': 'PC Settings',
+  'pc-requirements': 'PC Requirements',
   'beta-progress': 'Beta Progress',
   'open-beta': 'Open Beta',
   download: 'Download',
@@ -90,14 +91,19 @@ const schemaType = category === 'news' ? 'news' : 'article';
 // trailer / prequel / unconfirmed 属预告臆测，暂不收录，待正式发售核实后再放开。
 const INDEXABLE_STATUS: ConfidenceStatus[] = ['official', 'beta', 'community'];
 const noindex = !INDEXABLE_STATUS.includes(status);
+const released = isReleased();
 
 // 下载意图页：在正文前放官方 Steam 按钮，对齐竞品 open-beta walkthrough 的跳转行为
 const pageKey = segments[0] ?? '';
-const showSteamCta = ['download', 'open-beta', 'pc-settings', 'beta-progress', 'beginner-guide', 'release-date'].includes(pageKey);
+const showSteamCta = ['download', 'open-beta', 'pc-settings', 'pc-requirements', 'beta-progress', 'beginner-guide', 'release-date'].includes(pageKey);
+const useFullGameCta = released && !preRelease && !['download', 'open-beta'].includes(pageKey);
+const steamCtaUrl = useFullGameCta ? SITE.fullGameUrl : SITE.openBetaUrl;
 const steamCtaLabel =
-  pageKey === 'download'
-    ? 'Play Mortal Shell II Open Beta on Steam'
-    : 'Download Open Beta on Steam';
+  useFullGameCta
+    ? 'Buy Mortal Shell II on Steam'
+    : pageKey === 'download'
+      ? 'Play Mortal Shell II Open Beta on Steam'
+      : 'Open Mortal Shell II Open Beta on Steam';
 ---
 
 <Layout
@@ -129,14 +135,15 @@ const steamCtaLabel =
       showSteamCta && (
         <div class="surface-card mt-6 border-amber-glow/25 bg-amber-glow/5 p-5">
           <p class="text-xs font-semibold uppercase tracking-[0.16em] text-amber-glow">
-            Official Steam install
+            {useFullGameCta ? 'Official Steam purchase' : 'Official Steam page'}
           </p>
           <p class="mt-2 text-sm text-ash-300">
-            This wiki never hosts game files. Use the official Steam Open Beta page only.
+            This wiki never hosts game files. Use the official Steam page for the full game or
+            Open Beta as labelled.
           </p>
           <div class="mt-4 flex flex-wrap gap-3">
             <a
-              href={SITE.openBetaUrl}
+              href={steamCtaUrl}
               target="_blank"
               rel="nofollow noopener noreferrer"
               class="btn-primary !px-4 !py-2.5 text-sm"

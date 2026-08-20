@@ -5,9 +5,9 @@ export const SITE = {
   url: 'https://mortalshell2.wiki',
   // Official full release date (Playstack + Steam full game page)
   releaseDate: '2026-08-20',
-  tagline: 'Verified Pre-release Guides',
+  tagline: 'Verified Launch Guides',
   description:
-    'Independent Mortal Shell 2 wiki with source-tracked guides for Open Beta, release date, Shells, bosses, map, and systems. Every fact carries a confirmation status.',
+    'Independent Mortal Shell 2 wiki with source-tracked launch guides for PC, combat, Shells, weapons, bosses, maps, Steam reviews, and systems. Every fact carries a confirmation status.',
   locale: 'en',
   developer: 'Cold Symmetry',
   publisher: 'Playstack',
@@ -25,7 +25,7 @@ export const SITE = {
   fullGameShellCount: 8,
   steamStandardPriceUsd: '$49.99',
   steamDevoutPriceUsd: '$59.99',
-  lastVerified: '2026-08-18',
+  lastVerified: '2026-08-20',
 } as const;
 
 export const NAV = [

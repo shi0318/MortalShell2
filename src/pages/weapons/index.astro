@@ -1,6 +1,6 @@
 ---
 // Weapons 分类聚合页 —— CollectionPage schema（方案 3.1：列表页不标 Article）。
-// 发售前：已知武器以表格呈现，每行带确认状态；满足门槛后再拆独立详情页。
+// 发售后：保留来源状态，已核实内容优先，避免把 Beta/前作信息误写成零售版事实。
 import Layout from '../../layouts/Layout.astro';
 import MediaFigure from '../../components/MediaFigure.astro';
 import { SITE_IMAGES } from '../../data/images';
@@ -9,9 +9,9 @@ import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
 import StatusBadge from '../../components/StatusBadge.astro';
 import { WEAPONS } from '../../data/weapons';
 
-const title = 'Mortal Shell II Weapons Tracker — Known Arsenal Pre-release';
+const title = 'Mortal Shell 2 Weapons — Weapon Types, Upgrade Evidence & Guide';
 const description =
-  'Pre-release Mortal Shell II weapons tracker. Entries from the first game and trailers are labelled until official sequel stats and locations are verified.';
+  'Mortal Shell 2 weapons guide with weapon types, upgrade evidence and source labels for Beta, trailer, prequel and retail information.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -23,23 +23,24 @@ const crumbs = [
   <Breadcrumb items={crumbs} />
 
   <header class="mb-8">
-    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell II Weapons</h1>
+    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell 2 Weapons Guide</h1>
     <p class="mt-3 max-w-2xl text-lg text-ash-400">
-      A pre-release arsenal tracker, not a finished locations-and-stats database. Most rows are still
-      prequel-based or trailer-visible until Cold Symmetry publishes sequel-specific weapon data.
+      A source-tracked Mortal Shell II weapons page for launch research. Retail locations, upgrade
+      costs and damage values are listed only when the current game or a repeatable source verifies them;
+      Beta, trailer and prequel rows remain clearly labelled.
     </p>
   </header>
 
   <div class="mb-6"><PreReleaseNotice /></div>
   <section class="surface-card mb-8 border-amber-glow/20 bg-amber-glow/[0.04] p-5">
-    <p class="section-kicker">Open Beta guide</p>
+    <p class="section-kicker">Launch evidence</p>
     <h2 class="mt-2 text-xl font-semibold text-ash-100">
       <a href="/mortal-shell-ii-open-beta-weapons-guide/" class="hover:text-amber-glow">
         Mortal Shell II Open Beta Weapons Guide
       </a>
     </h2>
     <p class="mt-2 max-w-2xl text-sm leading-relaxed text-ash-400">
-      Review the confirmed Axe-and-Dagger objective, safe upgrade planning and Beta reset rules before treating any prequel weapon entry as a sequel fact.
+      Review the confirmed Axe-and-Dagger objective and the Beta reset rules, then keep those historical notes separate from retail weapon data.
     </p>
   </section>
   <div class="mb-8">
@@ -90,7 +91,7 @@ const crumbs = [
     <ul class="list-disc space-y-2 pl-5">
       <li><strong>Prequel-based</strong> means the weapon identity comes from Mortal Shell (2020), not a sequel confirmation.</li>
       <li>Damage numbers, upgrade paths, and exact drop locations are intentionally absent until verified.</li>
-      <li>When a weapon is confirmed in Open Beta or launch patch notes, its status badge and notes update first.</li>
+          <li>When a weapon is confirmed in the retail build or launch patch notes, its status badge and notes update first.</li>
     </ul>
   </section>
 </Layout>

@@ -5,9 +5,9 @@ description: "A source-tracked Mortal Shell II launch checklist covering the Aug
 category: guide
 cover: /images/mortalshell2-official-keyart-2.webp
 status: official
-preRelease: true
+preRelease: false
 order: 1
-updatedAt: "2026-08-14"
+updatedAt: "2026-08-20"
 sources:
   - status: official
     sourceUrl: "https://www.playstack.com/news/mortal-shell-ii-release-date/"
@@ -26,7 +26,7 @@ sources:
     note: "Official site edition and launch messaging, including the eight Shells and Devout advanced access."
 ---
 
-If you are searching for a **Mortal Shell II launch checklist**, the most important preparation is understanding the difference between the Open Beta and the retail game. The full release is scheduled for **August 20, 2026** on Steam, PlayStation 5, and Xbox Series X|S.
+If you are searching for a **Mortal Shell II launch checklist**, the important distinction is between the Open Beta and the retail game. **Mortal Shell II launched on August 20, 2026** for Steam, PlayStation 5, and Xbox Series X|S.
 
 ## Confirmed launch platforms
 
@@ -36,7 +36,7 @@ Playstack’s release announcement gives a worldwide digital launch on three pla
 - PlayStation 5
 - Xbox Series X|S
 
-The Open Beta is a separate Steam product. Installing the Beta does not mean that the retail campaign has already unlocked.
+The Open Beta is a separate Steam product. Its historical app page does not replace access to the retail campaign.
 
 ## What the Open Beta actually contains
 
@@ -44,11 +44,11 @@ The official Beta listing describes the opening section of the game: the Prologu
 
 Use the Beta to learn the feel of combat and to test whether your PC can run the build. Do not treat an unverified Beta route as a guaranteed retail walkthrough.
 
-## What resets when the full game launches?
+## What reset when the full game launched?
 
-The official Steam Beta information says the full Beta inventory resets. That includes the temporary currency, weapons, Shells, and collectibles gathered in the test. The time spent learning the opening area is still useful, but it should not be described as permanent retail progression.
+The official Steam Beta information says the full Beta inventory reset. That included the temporary currency, weapons, Shells, and collectibles gathered in the test. The time spent learning the opening area may still be useful, but it is not permanent retail progression.
 
-Two rewards are explicitly tied to Beta participation:
+Two rewards were explicitly tied to Beta participation:
 
 - Playing the Beta unlocks the **Flayed Harbinger** cosmetic.
 - Progress beyond **Marrow Keep** unlocks an optional prologue skip for the full game.
@@ -61,9 +61,9 @@ The official edition messaging gives the Devout Edition up to **72 hours of adva
 
 Edition contents and early-access timing can be store-specific. Check the store where you intend to buy before assuming that an item, platform, or access window applies everywhere.
 
-## A safe first-day route
+## A safe retail-first route
 
-On release day, record the retail build version before writing down any numbers. Then verify:
+When collecting a retail guide, record the current build version before writing down any numbers. Then verify:
 
 1. Which Shells are available at the start and how the retail opening differs from the Beta.
 2. Whether the prologue skip is visible after the Marrow Keep condition is met.

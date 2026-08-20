@@ -12,14 +12,14 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   {
     label: 'Full release',
     value:
-      'August 20, 2026, launching worldwide on all three platforms at once — announced by Cold Symmetry with the release-date trailer and carried on the Steam store page. Pre-orders opened across every store the same day. The only officially sanctioned way in before the 20th is a Devout Edition pre-order, which plays up to three days early.',
+      'Mortal Shell II is available from August 20, 2026, with the worldwide digital launch on PlayStation 5, Xbox Series X|S, and Steam. Devout Edition pre-orders provided up to three days of early access before the general launch.',
     sourceLabel: 'Playstack + Steam',
     sourceUrl: SITE.playstackReleaseUrl,
   },
   {
     label: 'Platforms',
     value:
-      'PlayStation 5, Xbox Series X|S, and Steam, all day one — the same three platforms Cold Symmetry has named consistently since the gameplay reveal. No Switch or Switch 2 version has been announced, and neither Microsoft nor Sony has announced a subscription deal. The Open Beta was PC-only, so no console player has touched a build yet.',
+      'PlayStation 5, Xbox Series X|S, and Steam are the three launch platforms named by Cold Symmetry and Playstack. No Switch or Switch 2 version has been announced, and neither Microsoft nor Sony has announced a subscription deal. The Open Beta was PC-only, while the full game is available on all three listed platforms.',
     sourceLabel: 'Playstack',
     sourceUrl: SITE.playstackReleaseUrl,
   },
@@ -82,9 +82,9 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   {
     label: 'PC minimum bar',
     value:
-      'Windows 10/11, an Intel Core i7-10700K or Ryzen 5 3600, 16 GB RAM, an RTX 2060 SUPER 8 GB or RX 6600 8 GB, DirectX 12, and 30 GB of space. That is a steep climb from the 2020 game\'s Steam minimum of a GTX 970 and 8 GB RAM with no storage-type requirement at all. The SSD line is a hard requirement rather than a recommendation, so mechanical drives are out. Recommended specs are still blank on both Steam pages.',
-    sourceLabel: 'Steam Open Beta',
-    sourceUrl: SITE.openBetaUrl,
+      'Windows 10/11, an Intel Core i7-10700K or Ryzen 5 3600, 16 GB RAM, an RTX 2060 SUPER 8 GB or RX 6600 8 GB, DirectX 12, and 70 GB of space. That is a steep climb from the 2020 game\'s Steam minimum of a GTX 970 and 8 GB RAM with no storage-type requirement at all. The SSD line is a hard requirement rather than a recommendation, so mechanical drives are out. Recommended specs are still blank on the full Steam listing.',
+    sourceLabel: 'Steam full game',
+    sourceUrl: SITE.fullGameUrl,
   },
 ];
 

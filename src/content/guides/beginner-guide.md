@@ -1,13 +1,13 @@
 ---
-title: "Mortal Shell II Beginner Guide — Open Beta First Hours"
-heading: "Mortal Shell II Beginner Guide: First Hours"
-description: "Mortal Shell II beginner guide for Open Beta first hours: Prologue path, beacons, Tiel, Marrow Keep rewards, and official combat basics."
+title: "Mortal Shell 2 Beginner Guide — Open Beta First Hours & Launch Tips"
+heading: "Mortal Shell 2 Beginner Guide: First Hours"
+description: "Mortal Shell 2 beginner guide covering the archived Open Beta first hours, Prologue route, beacons, Tiel, Marrow Keep rewards and launch combat tips."
 category: walkthrough
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: official
 preRelease: true
 order: 3
-updatedAt: "2026-07-24"
+updatedAt: "2026-08-20"
 sources:
   - status: official
     sourceUrl: "https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/"
@@ -20,6 +20,8 @@ sources:
     lastChecked: "2026-07-24"
     note: "Official combat framing: stamina-unrestricted combat and sidearms"
 ---
+
+This **Mortal Shell 2 beginner guide** preserves the official Open Beta route and links the current launch combat advice separately. The Beta inventory reset at release, so use this page for route context and the [Mortal Shell 2 Beginner Combat Tips](/mortal-shell-2-beginner-combat-tips/) page for launch-day Steam guidance.
 
 ## Who this is for
 

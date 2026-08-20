@@ -10,9 +10,9 @@ import { getCollection } from 'astro:content';
 import { SITE_IMAGES } from '../../data/images';
 import { formatDate } from '../../utils/dates';
 
-const title = 'Mortal Shell II Guides — Verified Pre-release Hub';
+const title = 'Mortal Shell 2 Guides — PC, Combat, Shells, Weapons & Bosses';
 const description =
-  'Browse every Mortal Shell II guide on this wiki: Open Beta, release date, Shells, beacons, Gloom, map, and PC requirements — each page tagged with a confirmation status.';
+  'Browse Mortal Shell II launch guides for PC requirements, combat, Shells, weapons, bosses, walkthroughs, maps, Steam reviews and archived Open Beta pages.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -68,11 +68,12 @@ function cardAlt(g: (typeof guides)[number]) {
   <header class="mb-8">
     <p class="section-kicker">Start here</p>
     <h1 class="section-title mt-3 md:text-5xl">
-      Verified Mortal Shell II guides
+      Mortal Shell 2 Guides — PC, Combat, Shells, Weapons & Bosses
     </h1>
     <p class="mt-3 max-w-2xl text-lg text-ash-400">
-      Pre-release pages only. Every card shows a confirmation status and a last-verified date
-      so you can tell official Steam notes from trailer clues or prequel inference.
+      Launch guides, PC requirements, combat, Shells, weapons, bosses, map, and Steam reports are
+      listed newest first. Every card shows a confirmation status and a last-verified date so you
+      can separate official facts, Beta evidence and community reports.
     </p>
   </header>
 

@@ -1,13 +1,13 @@
 ---
-title: "Mortal Shell 2 Beta Guide — Download, Content & Rewards"
-heading: "Mortal Shell 2 Beta: Download, Content and Rewards"
-description: "Everything confirmed about the Mortal Shell 2 Beta on Steam: download access, opening length, regions, Shells, beacons, carry-over rewards and system requirements."
+title: "Mortal Shell II Open Beta Archive — Content & Rewards"
+heading: "Mortal Shell II Open Beta Archive: Content and Rewards"
+description: "Mortal Shell II Open Beta archive covering the official Steam test build, opening scope, Shells, beacons, carry-over rewards and historical PC requirements."
 category: guide
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: official
-preRelease: true
+preRelease: false
 order: 5
-updatedAt: "2026-08-18"
+updatedAt: "2026-08-20"
 sources:
   - status: official
     sourceUrl: "https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/"
@@ -17,21 +17,21 @@ sources:
     note: "Steam Open Beta page - About This Demo and Progress Carry-Over sections"
 ---
 
-## Official download
+## Official Open Beta archive
 
 **[Download Mortal Shell II Open Beta on Steam →](/download/)**
 
-This wiki never hosts game files. The download hub sends you to the official Steam app page only.
+This wiki never hosts game files. The link above records the official Steam app page for the original Open Beta; for the released game, use the [Mortal Shell II Steam page](https://store.steampowered.com/app/2584270/Mortal_Shell_II/).
 
 ## Do you need to sign up for the Mortal Shell 2 Beta?
 
-The official Steam listing presents the Open Beta as a **free public demo** with a direct install button. The official sources checked here do not identify a separate registration form or email sign-up requirement. Use the Steam page rather than entering personal details on an unofficial “Beta sign up” page.
+When it was live, the official Steam listing presented the Open Beta as a **free public demo** with a direct install button. The official sources checked here did not identify a separate registration form or email sign-up requirement. Use only the Steam page rather than entering personal details on an unofficial “Beta sign up” page.
 
 For a route checklist, use the [Mortal Shell 2 Open Beta walkthrough](/mortal-shell-ii-open-beta-walkthrough/). For PC problems reported by Beta players, see the [Mortal Shell 2 Beta performance checks](/mortal-shell-2-beta-performance-fixes/).
 
 ## Short answer
 
-The **Mortal Shell II Open Beta** is a limited Steam build covering the **opening hours** of the full game - from the **Prologue** into the **first explorable region**. It is an in-development build (bugs and performance issues are expected), and **full save progress does not transfer** to launch. Beta players do unlock specific full-game rewards.
+The **Mortal Shell II Open Beta** was a limited Steam build covering the **opening hours** of the full game - from the **Prologue** into the **first explorable region**. It was an in-development build, and **full save progress did not transfer** to launch. Beta players could unlock specific full-game rewards.
 
 Source: [Steam Open Beta store page](https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/).
 
@@ -65,17 +65,17 @@ You awaken as the **Harbinger**, a prophesied being sent to reclaim the blessed 
 - **Marrow Keep** - used as a progress checkpoint for a launch reward
 - **Magdalena, the Lady of the Woods** - a destination / figure on the early path
 
-## Progress carry-over (official)
+## Progress carry-over at launch (official)
 
 | What | Official outcome |
 |---|---|
-| Full beta save (currency, weapons, Shells, collectibles, items) | **Does not carry over** - resets at launch |
-| Playing the Open Beta | Unlocks **The Flayed Harbinger** cosmetic in the full game |
-| Progressing beyond **Marrow Keep** | Unlocks option to **skip the Prologue** in the full game |
+| Full Beta save (currency, weapons, Shells, collectibles, items) | **Did not carry over** - it reset at launch |
+| Playing the Open Beta | Unlocked **The Flayed Harbinger** cosmetic in the full game |
+| Progressing beyond **Marrow Keep** | Unlocked the option to **skip the Prologue** in the full game |
 
 For a dedicated write-up, see [Beta save transfer](/beta-progress/).
 
-## System requirements (Open Beta listing)
+## Historical system requirements (Open Beta listing)
 
 Minimum requirements published on the Open Beta Steam page:
 
@@ -89,15 +89,14 @@ Minimum requirements published on the Open Beta Steam page:
 
 The Recommended column on the listing was incomplete in the public HTML we captured; we will fill it once the store page shows a complete recommended set.
 
-Full PC notes live on [PC settings](/pc-settings/).
+Full retail PC requirements live on [Mortal Shell II PC Requirements](/pc-requirements/).
 
-## Practical tips before you boot the beta
+## What this archive is useful for
 
-1. **Expect rough edges.** The developer explicitly calls this an in-development build.
-2. **Report bugs** through the official Discord channel linked from the Steam page.
-3. **Play for rewards, not permanent inventory.** Treat gear and currency as temporary.
-4. **Push past Marrow Keep** if you want the prologue-skip unlock at launch.
-5. **Look for Tiel** if you want early hands-on with a confirmed sequel Shell.
+1. **Understanding Beta evidence.** The developer explicitly labelled the build in development.
+2. **Checking rewards.** Gear and currency were temporary, while the listed cosmetic and prologue-skip condition were separate.
+3. **Comparing the opening route.** Do not assume its encounters or performance match the retail patch.
+4. **Finding first-party wording.** Tiel, beacons and the early route appear in the original Steam description.
 
 ## Related pages
 
@@ -108,6 +107,6 @@ Full PC notes live on [PC settings](/pc-settings/).
 - [Magdalena](/magdalena/)
 - [Beacons](/beacons/)
 - [Shells overview](/shells/)
-- [PC settings & requirements](/pc-settings/)
+- [Mortal Shell II PC Requirements](/pc-requirements/)
 - [Map / known regions](/map/)
 

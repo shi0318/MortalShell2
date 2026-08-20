@@ -32,10 +32,10 @@ export const STATUS_META: Record<ConfidenceStatus, StatusMeta> = {
     description: 'Personally verified in a Beta build. Version and test date noted.',
   },
   community: {
-    label: 'Open Beta reports',
+    label: 'Community reports',
     icon: '💬',
     classes: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
-    description: 'Aggregated from public Open Beta player reports; not developer-confirmed.',
+    description: 'Aggregated from public Steam player reports and guides; not developer-confirmed.',
   },
   trailer: {
     label: 'Trailer',
