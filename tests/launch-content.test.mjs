@@ -92,3 +92,12 @@ test('homepage has contextual links into the main Mortal Shell 2 guide cluster',
   assert.match(home, /Mortal Shell 2 Bosses guide/);
   assert.match(home, /Mortal Shell 2 beginner guide/);
 });
+
+test('homepage includes the local gameplay video without a visible Steam source note', async () => {
+  const home = await source('pages/index.astro');
+
+  assert.match(home, /Mortal Shell II Gameplay Video/);
+  assert.match(home, /src="\/videos\/mortal-shell-2-gameplay\.webm"/);
+  assert.match(home, /preload="none"/);
+  assert.doesNotMatch(home, /Steam source|Source: Steam/i);
+});
