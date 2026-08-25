@@ -1,31 +1,13 @@
 ---
 title: "Mortal Shell 2 Gloom Farming Guide — Endgame Chest Room and Sacrifice Order"
 heading: "Mortal Shell 2 Gloom Farming: Handle the Endgame Chest Room Safely"
-description: "Mortal Shell 2 Gloom farming advice from a launch Steam discussion: why the chest room can ask for your Gloom and the safer order to use it."
+description: "Mortal Shell 2 Gloom farming guide for the endgame chest room: when to handle the sacrifice prompt, how to protect your Gloom, and when to return for rewards."
 category: guide
 status: community
 preRelease: false
 order: 2
 updatedAt: "2026-08-24"
 cover: /images/mortalshell2-world-map-overview.webp
-sources:
-  - status: community
-    sourceUrl: "https://steamcommunity.com/app/2584270/discussions/0/582806239606663822/"
-    sourceDate: "2026-08-24"
-    gameVersion: "Mortal Shell II retail launch discussion"
-    lastChecked: "2026-08-24"
-    note: "Public endgame discussion with four replies describing a chest-filled cave, respawning Gloom trees, a sacrifice prompt and a return-after-clear suggestion."
-  - status: official
-    sourceUrl: "https://steamcommunity.com/app/2584270/discussions/0/582805931178489108/"
-    sourceDate: "2026-08-20"
-    gameVersion: "Mortal Shell II Balance Patch 1"
-    lastChecked: "2026-08-24"
-    note: "Official patch post confirms Gloom economy changes and a 75% Tarforge smelting-cost reduction."
-  - status: official
-    sourceUrl: "https://store.steampowered.com/app/2584270/Mortal_Shell_II/"
-    gameVersion: "Mortal Shell II retail listing"
-    lastChecked: "2026-08-24"
-    note: "Official retail page used for the game's exploration and progression context."
 ---
 
 The current **Mortal Shell 2 Gloom farming** question comes from a launch discussion about a late-game cave filled with chests and respawning Gloom trees. The player reported seeing roughly **120,000 Gloom** in the room, then discovered that the route forward asks for the Gloom to be given up. A reply describes the room as a deliberate trap and recommends completing the sacrifice before collecting the chest rewards.
@@ -34,12 +16,12 @@ This is a player-reported endgame interaction, not an official location name or 
 
 <figure>
   <img src="/images/mortalshell2-world-map-overview.webp" alt="Mortal Shell 2 world map overview for planning a Gloom farming route" width="1800" height="1800" loading="lazy" decoding="async" />
-  <figcaption>World-map documentation asset used to plan a return route; it is not a claim that the Gloom room is marked here.</figcaption>
+  <figcaption>World-map image for planning a return route; it is not a claim that the Gloom room is marked here.</figcaption>
 </figure>
 
 ## The safe order for the reported Gloom room
 
-Based on the public Steam discussion and its replies:
+The reported order is:
 
 1. **Do not open every chest immediately.** First inspect the room and the door or route that continues the dungeon.
 2. **Read the prompt before crossing the exit.** The reported interaction asks the player to give up the Gloom currently being carried.
@@ -90,4 +72,3 @@ For the reported Mortal Shell 2 Gloom room, **sacrifice first, collect the chest
 - [Mortal Shell 2 weapons hub](/weapons/)
 - [Mortal Shell 2 respawn points](/mortal-shell-2-respawn-points/)
 - [Mortal Shell 2 boss runback guide](/mortal-shell-2-boss-runback/)
-

@@ -1,30 +1,13 @@
 ---
 title: "Mortal Shell 2 Night Mode Guide — Challenge Modifier and New Game+ Questions"
 heading: "Mortal Shell 2 Night Mode: What the Challenge Modifier Actually Confirms"
-description: "Mortal Shell 2 Night Mode explained from launch reporting and a 27-reply Steam discussion: the sun modifier, preparation, and what remains unconfirmed."
+description: "Mortal Shell 2 Night Mode explained: the sun modifier, how to prepare for a darker challenge run, and what remains unconfirmed after launch."
 category: mechanics
 status: community
 preRelease: false
 order: 1
 updatedAt: "2026-08-24"
 cover: /images/mortalshell2-gloom-spider-creature.webp
-sources:
-  - status: community
-    sourceUrl: "https://steamcommunity.com/app/2584270/discussions/0/418424310691202991/"
-    sourceDate: "2026-08-18"
-    gameVersion: "Mortal Shell II retail launch discussion"
-    lastChecked: "2026-08-24"
-    note: "Public Night Mode discussion with 27 replies; used to establish the player question and debate, not a hidden unlock route."
-  - status: community
-    sourceUrl: "https://www.rockpapershotgun.com/mortal-shell-2-will-let-you-lower-its-difficulty-by-making-executions-refill-your-health-or-up-the-challenge-by-turning-off-the-sun"
-    gameVersion: "Mortal Shell II launch reporting"
-    lastChecked: "2026-08-24"
-    note: "Public launch reporting describes special items that can make executions refill health or turn off the sun."
-  - status: official
-    sourceUrl: "https://store.steampowered.com/app/2584270/Mortal_Shell_II/"
-    gameVersion: "Mortal Shell II retail listing"
-    lastChecked: "2026-08-24"
-    note: "Official retail page used for the released game's combat and exploration context."
 ---
 
 If you are searching for a **Mortal Shell 2 Night Mode guide**, the important answer is that Night Mode is discussed as a voluntary challenge modifier, not as a normal Easy, Normal, or Hard menu. Public launch reporting describes an option that turns off the sun, while the largest current Steam thread about the idea has **27 replies** debating how a harder run should work.
@@ -85,4 +68,3 @@ The honest answer to “how do I turn on Mortal Shell 2 Night Mode?” is theref
 - [Mortal Shell 2 beginner combat tips](/mortal-shell-2-beginner-combat-tips/)
 - [Mortal Shell 2 Shell selection guide](/shell-selection-guide/)
 - [Mortal Shell 2 Patch 1 notes](/mortal-shell-2-balance-patch-1/)
-
