@@ -1,7 +1,7 @@
 ---
 title: "Mortal Shell 2 Gameplay Preview — Open Beta Combat & Shells"
 heading: "Mortal Shell 2 Gameplay Preview: What the Open Beta Shows"
-description: "A source-backed Mortal Shell 2 gameplay preview covering the Open Beta scope, Shell roles, stamina-free combat, sidearms and launch-day limits."
+description: "A source-backed Mortal Shell 2 gameplay preview covering the historical Open Beta scope, Shell roles, stamina-free combat, sidearms, and retail-build limits."
 category: guide
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: beta
@@ -29,14 +29,14 @@ If you are searching for a **Mortal Shell II gameplay preview**, the Open Beta g
 
 <figure>
   <img src="/images/mortalshell2-rainy-path-combat.webp" alt="A Mortal Shell II warrior fighting on a rainy path" width="1600" height="900" loading="lazy" decoding="async" />
-  <figcaption>Official Mortal Shell II media used to illustrate the pre-release combat scope.</figcaption>
+  <figcaption>Official Mortal Shell II media used to illustrate the historical Open Beta combat scope.</figcaption>
 </figure>
 
 ## What the Open Beta actually covers
 
 The official Steam Open Beta listing describes the **Prologue** and the first explorable region. Its approximate three-hour description is a scope marker, not a promise that every player will finish it in exactly three hours. The Beta is an in-development build, so its enemy placement, numbers, performance, and route details should be labelled Beta when quoted.
 
-The full game is scheduled for **August 20, 2026** on Steam, PlayStation 5, and Xbox Series X|S. The retail game should therefore be treated as a new evidence point. A Beta route can teach controls, but it cannot establish a final boss order or a guaranteed early build.
+The full game released on **August 20, 2026** on Steam, PlayStation 5, and Xbox Series X|S. The retail build is therefore a separate evidence point. A Beta route can teach controls, but it cannot establish a final boss order or a guaranteed early build.
 
 ## The combat signals that are officially confirmed
 

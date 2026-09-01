@@ -5,18 +5,18 @@ description: "Is Mortal Shell 2 multiplayer? Steam lists Mortal Shell II as a si
 category: guide
 cover: /images/mortalshell2-official-keyart-2.webp
 status: official
-preRelease: true
+preRelease: false
 order: 18
-updatedAt: "2026-08-12"
+updatedAt: "2026-09-01"
 sources:
   - status: official
     sourceUrl: "https://store.steampowered.com/app/2584270/Mortal_Shell_II/"
     sourceDate: "2026-08-12"
-    lastChecked: "2026-08-12"
+    lastChecked: "2026-09-01"
     note: "Steam App 2584270 lists Single-player and does not list co-op or multiplayer categories."
 ---
 
-**Mortal Shell II is currently listed as single-player on Steam.** The official Steam page does not announce co-op, online multiplayer, PvP, or a shared campaign. That is the reliable pre-release answer as of **August 12, 2026**; it is not a claim that a future announcement is impossible.
+**Mortal Shell II is currently listed as single-player on Steam.** The official Steam page does not announce co-op, online multiplayer, PvP, or a shared campaign. That is the current retail-store answer as checked on **September 1, 2026**; it does not rule out a future announcement or update.
 
 <figure>
   <img src="/images/mortalshell2-official-keyart-2.webp" alt="Official Mortal Shell II key art showing a warrior in the ruined world" width="1600" height="900" loading="lazy" decoding="async" />
@@ -42,7 +42,7 @@ The [Shell selection guide](/shell-selection-guide/) explains what is confirmed 
 
 ## Will Mortal Shell II add multiplayer later?
 
-There is no official announcement in the sources checked for this page that promises a post-launch multiplayer update. The game is scheduled for **August 20, 2026**, but a release date is not evidence of an online mode. Check the official Steam page and Cold Symmetry or Playstack announcements for any change.
+There is no official announcement in the sources checked for this page that promises a post-launch multiplayer update. Mortal Shell II released on **August 20, 2026**, but a release date is not evidence of an online mode. Check the official Steam page and Cold Symmetry or Playstack announcements for any change.
 
 ## Quick answer table
 
@@ -56,4 +56,4 @@ There is no official announcement in the sources checked for this page that prom
 
 ## Source boundary
 
-This page answers the multiplayer question from Steam's current feature categories and published store description. It does not infer a final mode from earlier games, fan wikis, or Soulslike comparisons. Checked August 12, 2026.
+This page answers the multiplayer question from Steam's current feature categories and published store description. It does not infer a final mode from earlier games, fan wikis, or Soulslike comparisons. Checked September 1, 2026.

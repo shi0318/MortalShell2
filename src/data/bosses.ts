@@ -1,6 +1,6 @@
-// Boss 数据（发售前已知信息）
+// Boss 数据：正式版已发售，条目仍按证据版本区分。
 // 遵循方案第四章：每个 Boss 都带确认状态与来源。
-// 发售日（D-Day）优先补全 Boss 攻略，满足门槛后写完就发独立详情页。
+// 只有记录了当前版本遭遇信息，才把条目扩展为零售版独立攻略。
 import type { SourceRef } from './sources';
 
 export interface Boss {
@@ -8,7 +8,7 @@ export interface Boss {
   name: string;
   // 一句话定位
   summary: string;
-  // 已知信息（发售前多为预告片线索）
+  // 已知信息（按来源版本标记，避免把预告片线索写成零售版数据）
   knownInfo: string[];
   // 出现区域（若已知）
   location: string;
@@ -35,7 +35,7 @@ export const BOSSES: Boss[] = [
       sourceUrl: 'https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/',
       sourceDate: '2026-06-05',
       gameVersion: 'Open Beta store listing',
-      note: 'Named in the Open Beta About section. Full encounter details pending hands-on verification.',
+      note: 'Named in the Open Beta About section. The current record does not include a complete retail encounter log.',
       lastChecked: '2026-07-24',
     },
     hasDetailPage: true,

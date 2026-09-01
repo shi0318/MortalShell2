@@ -5,13 +5,13 @@ description: "What the official Mortal Shell 2 Steam listing confirms about sing
 category: guide
 cover: /images/mortalshell2-world-map-cover.webp
 status: official
-preRelease: true
+preRelease: false
 order: 13
-updatedAt: "2026-08-07"
+updatedAt: "2026-09-01"
 sources:
   - status: official
     sourceUrl: "https://store.steampowered.com/app/2584270/Mortal_Shell_II/"
-    lastChecked: "2026-08-07"
+    lastChecked: "2026-09-01"
     note: "Live official Steam listing for App 2584270: Single-player, Steam Achievements, Full Controller Support, DualSense Controller Support, Steam Cloud, and Family Sharing categories."
 ---
 
@@ -39,7 +39,7 @@ The same official listing does **not** announce co-op, PvP, multiplayer matchmak
 
 It also does not publish a complete control-remapping, accessibility, vibration, or graphics-options matrix. Do not treat an icon in the Steam feature block as proof of a specific setting until Cold Symmetry or Playstack documents it.
 
-## A practical pre-launch check
+## A practical retail-build check
 
 1. Use the official Steam page to confirm the feature tags in your own region before purchase.
 2. If you plan to use a controller, check the final build's in-game prompt style and remapping options rather than assuming all DualSense features are present.

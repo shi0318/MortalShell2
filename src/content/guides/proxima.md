@@ -5,16 +5,16 @@ description: "Mortal Shell 2 Proxima, the Broodseeker, is a new playable Shell c
 category: shells
 cover: /images/mortalshell2-gloom-spider-creature.webp
 status: official
-preRelease: true
+preRelease: false
 order: 11
-updatedAt: "2026-07-30"
+updatedAt: "2026-09-01"
 sources:
   - status: official
     sourceUrl: "https://store.steampowered.com/news/app/2584270"
     sourceDate: "2026-04-01"
     gameVersion: "Official Gameplay Reveal"
     note: "Cold Symmetry's Official Gameplay Reveal names Proxima, The Broodseeker as one of three playable Shells shown, each carving a different trail through the open world."
-    lastChecked: "2026-07-30"
+    lastChecked: "2026-09-01"
 ---
 
 ## Short answer
@@ -53,7 +53,7 @@ Proxima is the clearest signal that Mortal Shell II's roster is not just the 202
 
 ## Roster context
 
-Mortal Shell II has **eight playable Shells**. Three are named: **Tiel**, **Eredrim**, and **Proxima**. We add stats and acquisition routes here after hands-on verification at launch — until then this page tracks only what is sourced.
+Mortal Shell II has **eight playable Shells**. Three are named: **Tiel**, **Eredrim**, and **Proxima**. This page tracks the sourced identity of Proxima; retail stats and the acquisition route are added only when they are documented in the current build.
 
 ## Related pages
 

@@ -21,7 +21,7 @@ sources:
 
 **Gloom** is a mechanic featured prominently in Mortal Shell II's reveal marketing. As of 2026-07-23, its exact rules have **not** been detailed by the developer. What follows separates what the trailer shows (👁️) from what we are inferring based on the first game (📖).
 
-Everything on this page will be replaced with verified, hands-on data once the full game is out.
+This page remains a historical trailer reference. Retail Gloom details belong in a separate current-build record rather than being inferred from the reveal footage.
 
 ## What the trailer shows
 
@@ -43,16 +43,16 @@ The first game built its identity on two systems that Gloom may extend or replac
 - **Harden** — turning to stone to negate an incoming hit
 - **Resolve** — a resource spent on weapon abilities and parries
 
-It is reasonable to expect Gloom to interact with one of these, but we are explicitly **not** claiming that. This is flagged as prequel-based inference and will be verified at launch.
+It is reasonable to expect Gloom to interact with one of these, but we are explicitly **not** claiming that. This remains prequel-based inference, not retail data.
 
-## What we will confirm at launch
+## Retail details still needed for a complete Gloom guide
 
 - The precise activation and resource cost of Gloom
 - Whether it is offensive, defensive, or both
 - Which enemies and areas it applies to
 - Any build or Shell synergies
 
-Check the confirmation badge at the top of this page — when it reads 🔬 Beta-tested or ✅ Official, the content below has been verified.
+Check the confirmation badge at the top of this page: this article is Trailer evidence, not a retail mechanics table.
 
 
 ## Related official combat note

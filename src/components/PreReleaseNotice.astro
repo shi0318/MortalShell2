@@ -1,5 +1,5 @@
 ---
-// 发售前提示条 —— 柔和提示，不抢主内容
+// 发售状态提示条 —— 发售后保留 Beta/预告历史边界，不把它写成当前版本结论。
 interface Props {
   compact?: boolean;
 }
@@ -18,9 +18,10 @@ const released = isReleased();
   <p>
     {released ? (
       <>
-        <span class="font-semibold text-amber-glow">Launch update.</span>
-        Mortal Shell II is now available. Retail facts are being added as the launch build and
-        public Steam reports are verified; Beta, trailer, and prequel evidence remains labelled.
+        <span class="font-semibold text-amber-glow">Available now.</span>
+        Mortal Shell II released on August 20, 2026. This page keeps Open Beta, trailer, and
+        prequel observations labelled as historical context; current retail guides are linked
+        separately where the shipped build has been checked.
       </>
     ) : (
       <>

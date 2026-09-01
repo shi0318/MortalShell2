@@ -1,6 +1,6 @@
 ---
 // 攻略文章布局 —— 内容集合 guides 的每篇 .md 都用它渲染。
-// 统一输出：面包屑 → Pre-release 提示 → H1 → Steam CTA（下载相关页）→ 正文 → 来源表。
+// 统一输出：面包屑 → 状态提示 → H1 → Steam CTA（相关页）→ 正文 → 来源表。
 import Layout from './Layout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import PreReleaseNotice from '../components/PreReleaseNotice.astro';
@@ -87,8 +87,8 @@ const crumbs: Crumb[] = [
 // news 分类用 NewsArticle，其余用 Article
 const schemaType = category === 'news' ? 'news' : 'article';
 
-// noindex 策略：只有 official / beta（基于已发布内容的可核实事实）允许进索引。
-// trailer / prequel / unconfirmed 属预告臆测，暂不收录，待正式发售核实后再放开。
+// noindex 策略：只有 official / beta / community（有明确证据边界）允许进索引。
+// trailer / prequel / unconfirmed 仍可保留为历史参考，但不作为当前攻略索引入口。
 const INDEXABLE_STATUS: ConfidenceStatus[] = ['official', 'beta', 'community'];
 const noindex = !INDEXABLE_STATUS.includes(status);
 const released = isReleased();
@@ -96,7 +96,9 @@ const released = isReleased();
 // 下载意图页：在正文前放官方 Steam 按钮，对齐竞品 open-beta walkthrough 的跳转行为
 const pageKey = segments[0] ?? '';
 const showSteamCta = ['download', 'open-beta', 'pc-settings', 'pc-requirements', 'beta-progress', 'beginner-guide', 'release-date'].includes(pageKey);
-const useFullGameCta = released && !preRelease && !['download', 'open-beta'].includes(pageKey);
+// 发售后即使某页保留 Beta/预告历史，也应把普通页面指向零售版；只有明确的
+// download/open-beta 归档页继续指向 Open Beta，避免已发售站把读者送回测试版。
+const useFullGameCta = released && !['download', 'open-beta'].includes(pageKey);
 const steamCtaUrl = useFullGameCta ? SITE.fullGameUrl : SITE.openBetaUrl;
 const steamCtaLabel =
   useFullGameCta
@@ -138,8 +140,8 @@ const steamCtaLabel =
             {useFullGameCta ? 'Official Steam purchase' : 'Official Steam page'}
           </p>
           <p class="mt-2 text-sm text-ash-300">
-            This wiki never hosts game files. Use the official Steam page for the full game or
-            Open Beta as labelled.
+            This wiki never hosts game files. Use the official Steam page for the full game, or
+            the archived Open Beta page when this article is explicitly about that test build.
           </p>
           <div class="mt-4 flex flex-wrap gap-3">
             <a

@@ -1,6 +1,6 @@
 ---
 // Bosses 分类聚合页 —— CollectionPage schema（方案 3.1：列表页不标 Article）。
-// 发售后：预告片、Beta 和社区信息继续保留来源状态，正式攻略逐项核实后补充。
+// 正式版已发售；Open Beta、预告片和前作信息继续保留为历史证据，零售版结论逐项核实。
 import Layout from '../../layouts/Layout.astro';
 import MediaFigure from '../../components/MediaFigure.astro';
 import { SITE_IMAGES } from '../../data/images';
@@ -9,9 +9,9 @@ import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
 import StatusBadge from '../../components/StatusBadge.astro';
 import { BOSSES } from '../../data/bosses';
 
-const title = 'Mortal Shell 2 Bosses — Boss Tracker & Verified Strategies';
+const title = 'Mortal Shell 2 Bosses — Encounter Guide & Strategy Status';
 const description =
-  'Mortal Shell 2 bosses guide with named encounters, verified strategy links and clear boundaries between official, Beta and community information.';
+  'Mortal Shell 2 bosses guide with named encounters, retail-build verification status, and clear boundaries between official, Open Beta, trailer, and community information.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -25,9 +25,10 @@ const crumbs = [
   <header class="mb-8">
     <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell 2 Bosses Guide</h1>
     <p class="mt-3 max-w-2xl text-lg text-ash-400">
-      Named encounters and boss-like fights tracked so far. Official Open Beta text names
+      Named encounters and boss-like fights tracked so far. The official Open Beta text names
       <a href="/magdalena/" class="text-amber-glow hover:underline">Magdalena, the Lady of the Woods</a>
-      and optional mini-bosses; attack patterns, rewards and locations are added only after current-build verification.
+      and optional mini-bosses. Those Beta names remain historical evidence; attack patterns, rewards, and locations
+      are shown as retail data only when the current build is directly documented.
     </p>
   </header>
 
@@ -82,11 +83,11 @@ const crumbs = [
   </div>
 
   <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
-    <h2 class="text-xl font-semibold text-ash-100">What this page does not claim yet</h2>
+    <h2 class="text-xl font-semibold text-ash-100">How this boss index separates evidence</h2>
     <ul class="list-disc space-y-2 pl-5">
       <li>No invented phase charts, parry windows, or guaranteed drop tables.</li>
-      <li>Trailer-only silhouettes stay marked as Trailer until a store note or hands-on pass confirms them.</li>
-      <li>Full strategy pages publish only after an encounter is verified in-game.</li>
+      <li>Trailer-only silhouettes stay marked as Trailer and are not presented as named retail bosses.</li>
+      <li>Open Beta names stay tied to the Beta build; a retail strategy page needs a current-build result.</li>
     </ul>
   </section>
 </Layout>

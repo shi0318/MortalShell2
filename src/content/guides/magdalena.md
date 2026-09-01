@@ -37,11 +37,11 @@ sources:
 | Exact boss phases / HP / resists | Not officially published |
 | Guaranteed to be a single arena boss vs broader figure | Not fully detailed on the store page |
 
-## What we will not invent
+## What this historical Beta record does not claim
 
-Many pre-launch pages publish full move lists before verification. This wiki will not.
+Some unofficial pages publish full move lists without a matching build record. This wiki does not.
 
-Until hands-on notes are checked, we **do not** publish:
+Without a current-build encounter record, we **do not** publish:
 
 - Frame-perfect punish windows
 - Fake HP bars

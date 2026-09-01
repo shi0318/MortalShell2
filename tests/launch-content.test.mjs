@@ -75,7 +75,7 @@ test('SEO hubs target distinct Mortal Shell 2 search intents', async () => {
   assert.match(guide, /Mortal Shell 2 Guides — PC, Combat, Shells, Weapons & Bosses/);
   assert.match(weapons, /Mortal Shell 2 Weapons — Weapon Types, Upgrade Evidence & Guide/);
   assert.match(weapons, /Mortal Shell 2 Weapons Guide/);
-  assert.match(bosses, /Mortal Shell 2 Bosses — Boss Tracker & Verified Strategies/);
+  assert.match(bosses, /Mortal Shell 2 Bosses — Encounter Guide & Strategy Status/);
   assert.match(bosses, /Mortal Shell 2 Bosses Guide/);
   assert.match(shells, /Mortal Shell 2 Shells — Roster, Abilities & Build Evidence/);
   assert.match(shells, /Mortal Shell 2 Shells Guide/);

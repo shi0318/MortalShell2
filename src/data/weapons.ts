@@ -1,6 +1,6 @@
-// Weapon 数据（发售前已知信息）
+// Weapon 数据：正式版已发售，条目仍按证据版本区分。
 // 遵循方案第四章：每件武器都带确认状态与来源。
-// 发售后用正式版实测数据替换 trailer/prequel 标记，满足门槛的拆独立详情页。
+// 零售版武器名、位置和数值必须有当前版本记录后才能写入。
 import type { SourceRef } from './sources';
 
 export interface Weapon {
@@ -10,7 +10,7 @@ export interface Weapon {
   type: string;
   // 一句话定位
   summary: string;
-  // 已知属性（发售前多为推测/预告片信息）
+  // 已知属性（按来源版本标记，未记录的零售版数值不补猜）
   knownStats: string[];
   // 获取方式
   acquisition: string;

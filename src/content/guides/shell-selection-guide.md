@@ -5,9 +5,9 @@ description: "A source-backed Mortal Shell II Shell guide comparing the confirme
 category: shells
 status: official
 cover: /images/mortalshell2-official-keyart-3.webp
-preRelease: true
+preRelease: false
 order: 14
-updatedAt: "2026-08-05"
+updatedAt: "2026-09-01"
 sources:
   - status: official
     sourceUrl: "https://www.mortalshell.com/"
@@ -28,7 +28,7 @@ sources:
 
 In **Mortal Shell II**, a Shell is not just a costume. The official premise is that you possess Shells while recovering lost memories, and the developer has confirmed **eight playable Shells**. That makes selection a build decision, but there is not enough published data for a reliable tier list yet.
 
-This guide turns the confirmed character descriptions into a practical way to choose a first test build. It does not invent health, damage, resolve, weapon, or ability numbers.
+This guide turns the confirmed character descriptions into a practical way to compare a first retail build. It does not invent health, damage, resolve, weapon, or ability numbers.
 
 <figure>
   <img src="/images/mortalshell2-official-keyart-3.webp" alt="A masked Mortal Shell II warrior standing in a dark blue ruin" width="1600" height="900" loading="lazy" decoding="async" />
@@ -72,7 +72,7 @@ The first game is useful context for the studio's design language, but Harden, R
 
 ## What to record at launch
 
-When the full game releases, update your notebook with:
+With the full game now released, use your notebook to record:
 
 1. Shell acquisition point and whether switching requires a hub or a field interaction.
 2. Confirmed stats, abilities, and upgrade paths.
@@ -80,7 +80,6 @@ When the full game releases, update your notebook with:
 4. Any Shell-specific route, dungeon shortcut, or memory requirement.
 5. Whether respec or weapon upgrades are limited by a resource.
 
-Until those values are published or tested in the retail build, the safest recommendation is role-first selection: choose the Shell whose movement and posture loop you can read, then build around the weapon and sidearm that make that loop consistent.
+Until those values are documented for the retail build, the safest recommendation is role-first selection: choose the Shell whose movement and posture loop you can read, then build around the weapon and sidearm that make that loop consistent.
 
 For the combat foundation, see [Mortal Shell II combat system](/combat-system/). For the world scale and route planning, see [the dungeon exploration guide](/dungeon-exploration-guide/).
-

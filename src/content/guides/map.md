@@ -1,34 +1,34 @@
 ---
 title: "Mortal Shell II Map — Known Regions Overview"
 heading: "Mortal Shell II Map: Known Regions Overview"
-description: "Mortal Shell II world map overview with officially named Open Beta regions: Prologue path, Marrow Keep, Magdalena, beacons, and early open-world landmarks."
+description: "Mortal Shell II world map overview with officially named Open Beta regions, Marrow Keep, Magdalena, beacons, and the retail-build verification boundary."
 category: "guide"
 cover: /images/mortalshell2-world-map-cover.webp
 status: "official"
-preRelease: true
+preRelease: false
 order: 40
-updatedAt: "2026-07-24"
+updatedAt: "2026-09-01"
 sources:
   - status: official
     sourceUrl: https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/
     sourceDate: "2026-06-05"
     gameVersion: "Open Beta store listing"
-    lastChecked: "2026-07-24"
-    note: "Steam Open Beta page names early path structure, Marrow Keep, and Magdalena."
+    lastChecked: "2026-09-01"
+    note: "Historical Steam Open Beta page names the early path structure, Marrow Keep, and Magdalena."
   - status: trailer
-    note: "World layout art / environment overview used for orientation before launch."
-    lastChecked: "2026-07-24"
+    note: "World layout art / environment overview retained as historical orientation; it is not a complete retail map."
+    lastChecked: "2026-09-01"
 ---
 
-This is a **pre-release map overview**, not a finished interactive collectibles map. Use it to orient the early-game path while we keep every named landmark tied to a confirmation status.
+This is an **Open Beta map archive and region overview**, not a finished interactive retail collectibles map. Use it to orient the historical early-game path while every named landmark remains tied to a confirmation status.
 
 ## World map overview
 
 ![Mortal Shell II world map overview showing interconnected regions in fog](/images/mortalshell2-world-map-overview.webp)
 
-*World layout overview used for early-game orientation. Fogged islands and incomplete edges stay unverified until launch.*
+*World layout overview used for early-game orientation. Fogged islands and incomplete edges are not treated as confirmed retail locations.*
 
-The overview above is a world-layout reference for planning the early run. Fogged or incomplete areas should be treated as **unknown until verified in-game**. At launch this page will become a pin-based map for Shells, weapons, beacons, and bosses.
+The overview above is a world-layout reference for the Open Beta route. Fogged or incomplete areas should be treated as **unconfirmed** in the current evidence set. Retail pins for Shells, weapons, beacons, and bosses belong on this page only after a current-build location is documented.
 
 ## Officially named early-game structure
 
@@ -45,11 +45,11 @@ From the [Open Beta Steam page](https://store.steampowered.com/app/4711740/Morta
 
 ![Mortal Shell II swamp region with a serpent-like creature in shallow water](/images/mortalshell2-swamp-serpent-encounter.webp)
 
-## How to use this map before launch
+## How to use this map with the released game
 
 | Player goal | What to do |
 |---|---|
-| Start the Open Beta | [Download page](/download/) → official Steam install |
+| Compare the historical opening route | [Open Beta archive](/open-beta/) → official Steam record |
 | Reach prologue-skip unlock | Progress beyond **Marrow Keep** |
 | Track checkpoints | Read [Beacons](/beacons/) |
 | Plan first hours | Read [Open Beta guide](/open-beta/) |
@@ -62,9 +62,9 @@ These are visual labels from trailer footage, **not** confirmed map names:
 - Blighted wetland / fog-heavy exterior
 - Subterranean amber-lit passages
 
-## What the launch map will include
+## What a complete retail map still needs
 
-When verified data is available, this page will show:
+When a current-build result is documented, this page can show:
 
 - Every Shell pickup location with acquisition route
 - Weapon locations and the region they are found in
@@ -72,7 +72,7 @@ When verified data is available, this page will show:
 - Tarstone and collectible markers
 - Boss arena entrances
 
-Each marker will carry a confirmation status so you can tell verified locations from early data.
+Each marker will carry a confirmation status so you can tell current-build locations from historical Beta data.
 
 ## Related pages
 

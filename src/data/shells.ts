@@ -1,6 +1,6 @@
-// Shell 数据（发售前已知信息）
+// Shell 数据：正式版已发售，条目仍按证据版本区分。
 // 严格遵循方案第四章：每个 Shell 都带确认状态与来源。
-// 发售后（D-Day）用正式版实测数据替换 trailer/prequel 标记。
+// Open Beta、Trailer、Prequel 条目不能被当作零售版实测结论。
 import type { SourceRef } from './sources';
 
 export interface Shell {
@@ -8,7 +8,7 @@ export interface Shell {
   name: string;
   // 一句话定位
   summary: string;
-  // 已知能力（发售前多为推测/预告片信息）
+  // 已知能力（按来源版本标记，未记录的零售版数值不补猜）
   knownAbilities: string[];
   // 获取方式
   acquisition: string;
@@ -32,7 +32,7 @@ export const SHELLS: Shell[] = [
     acquisition: 'Believed to be the default starting Shell, as in the first game.',
     source: {
       status: 'prequel',
-      note: 'Based on Mortal Shell (2020), where Harros is the first Shell found. To be verified at launch.',
+      note: 'Based on Mortal Shell (2020), where Harros is the first Shell found. This row has no attached retail-sequel verification.',
       lastChecked: '2026-07-23',
     },
     hasDetailPage: false,
