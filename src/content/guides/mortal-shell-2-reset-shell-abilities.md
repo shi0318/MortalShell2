@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Reset Shell Abilities — Build Experiment Guide"
 heading: "Mortal Shell 2 Reset Shell Abilities: What Players Report"
 description: "Mortal Shell 2 Shell ability resets are reported as free in launch feedback, making early build experiments less risky."
 category: shells
+keyword: "mortal shell 2 reset shell abilities"
 status: community
 preRelease: false
 order: 14

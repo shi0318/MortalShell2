@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Beginner Guide — Open Beta First Hours & Launch Tips"
 heading: "Mortal Shell 2 Beginner Guide: First Hours"
 description: "Mortal Shell 2 beginner guide covering the archived Open Beta first hours, Prologue route, beacons, Tiel, Marrow Keep rewards and launch combat tips."
 category: walkthrough
+keyword: "mortal shell 2 beginner guide"
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: official
 preRelease: true

@@ -3,6 +3,7 @@ title: "Mortal Shell II Open Beta Review — Player Experience, Performance & Is
 heading: "Mortal Shell II Open Beta Review: Player Experience, Performance and Reported Issues"
 description: "A transparent Mortal Shell II Open Beta review based on the current Steam player-review sample: combat feel, performance, crashes, camera issues and Beta scope."
 category: news
+keyword: "mortal shell 2 open beta player experience"
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: community
 preRelease: true

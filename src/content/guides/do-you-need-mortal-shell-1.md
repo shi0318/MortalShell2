@@ -3,6 +3,7 @@ title: "Do You Need Mortal Shell 1 Before Mortal Shell II?"
 heading: "Do You Need Mortal Shell 1 Before Mortal Shell II?"
 description: "Do you need Mortal Shell 1 before Mortal Shell II? Official sequel framing, what returns, and what new players can expect without the original."
 category: guide
+keyword: "do you need to play mortal shell 1 first"
 cover: /images/mortalshell2-official-keyart-3.webp
 status: official
 preRelease: true

@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Language Support — Audio, Text & Subtitles"
 heading: "Mortal Shell 2 Language Support: Full Audio and Text Languages"
 description: "Mortal Shell 2 language support on Steam includes Chinese, Japanese, Korean and more; only English is marked with full audio in the retail listing."
 category: guide
+keyword: "mortal shell 2 language support"
 status: official
 preRelease: false
 order: 3

@@ -3,6 +3,7 @@ title: "Will Mortal Shell 2 Have a Physical Disc for Xbox? Official Edition Fact
 heading: "Will Mortal Shell 2 Have a Physical Disc for Xbox?"
 description: "Does Mortal Shell 2 have a physical Xbox disc? Official Playstack and Mortal Shell site details on the digital Xbox launch and PS5 Revered Edition."
 category: guide
+keyword: "mortal shell 2 physical xbox disc"
 cover: /images/mortalshell2-official-keyart-2.webp
 status: official
 preRelease: true

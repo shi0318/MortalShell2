@@ -3,6 +3,7 @@ title: "Mortal Shell II Combat System — No Stamina, Posture & Criticals"
 heading: "How Mortal Shell II combat works: no stamina bar, posture breaks, sidearms"
 description: "Mortal Shell II combat is unrestricted by stamina and built on shattering enemy posture for criticals. What Cold Symmetry confirmed, and what is unpublished."
 category: mechanics
+keyword: "mortal shell 2 combat system"
 status: official
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 preRelease: true

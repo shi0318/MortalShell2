@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Executions Heal — Health Recovery Modifier Guide"
 heading: "Mortal Shell 2 Executions Heal: What the Modifier Does"
 description: "Mortal Shell 2 executions that refill health are part of its alternative difficulty system, according to public launch reporting."
 category: mechanics
+keyword: "mortal shell 2 executions heal"
 status: community
 preRelease: false
 order: 11

@@ -1,0 +1,57 @@
+---
+// 同分类相关攻略 —— 每篇 guide 底部渲染，给内容页补稳定内链。
+// 按 category 关联，不是随机推荐；order 小的优先，并列时更新时间新的优先。
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentPath: string;
+  category: string;
+  limit?: number;
+}
+
+const { currentPath, category, limit = 6 } = Astro.props;
+
+const CATEGORY_LABEL: Record<string, string> = {
+  guide: 'Mortal Shell 2 guides',
+  shells: 'Shell guides',
+  weapons: 'weapon guides',
+  bosses: 'boss guides',
+  mechanics: 'mechanics guides',
+  walkthrough: 'walkthrough pages',
+  news: 'news pages',
+};
+
+const currentSlug = currentPath.replace(/^\/|\/$/g, '');
+
+const related = (await getCollection('guides', ({ data }) => !data.draft))
+  .filter((entry) => entry.data.category === category && entry.id !== currentSlug)
+  .sort((a, b) =>
+    a.data.order === b.data.order
+      ? b.data.updatedAt.localeCompare(a.data.updatedAt)
+      : a.data.order - b.data.order,
+  )
+  .slice(0, limit);
+---
+
+{
+  related.length > 0 && (
+    <nav class="mt-12 border-t border-white/10 pt-8" aria-labelledby="related-guides">
+      <h2 id="related-guides" class="text-xl font-semibold text-ash-100">
+        More {CATEGORY_LABEL[category] ?? 'guides'}
+      </h2>
+      <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+        {related.map((entry) => (
+          <li class="surface-card p-4">
+            <a href={`/${entry.id}/`} class="font-semibold text-ash-100 hover:text-amber-glow">
+              {entry.data.heading ?? entry.data.title}
+            </a>
+            <p class="mt-1 text-sm leading-relaxed text-ash-400">{entry.data.description}</p>
+          </li>
+        ))}
+      </ul>
+      <p class="mt-4 text-sm text-ash-400">
+        Or browse <a href="/guide/" class="text-amber-glow hover:underline">every Mortal Shell 2 guide</a>.
+      </p>
+    </nav>
+  )
+}

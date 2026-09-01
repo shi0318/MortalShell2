@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Engine.ini Settings — Safe PC Troubleshooting"
 heading: "Mortal Shell 2 Engine.ini Settings: What to Know Before Editing"
 description: "Mortal Shell 2 engine.ini edits are mentioned in player feedback for stutter and image settings; use backups and reversible checks first."
 category: guide
+keyword: "mortal shell 2 engine ini settings"
 status: community
 preRelease: false
 order: 28

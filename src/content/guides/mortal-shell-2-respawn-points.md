@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Respawn Points — Bonefires, Routes and Deaths"
 heading: "Mortal Shell 2 Respawn Points: What Players Are Reporting"
 description: "Mortal Shell 2 respawn-point spacing is a launch discussion topic on Steam; this guide separates player reports from confirmed systems."
 category: bosses
+keyword: "mortal shell 2 respawn points"
 status: community
 preRelease: false
 order: 24

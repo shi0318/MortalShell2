@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Difficulty Options — Special Items Explained"
 heading: "Mortal Shell 2 Difficulty Options: How the Challenge System Works"
 description: "Mortal Shell 2 difficulty options explained from public launch reporting: special items can make combat more forgiving or more demanding."
 category: guide
+keyword: "mortal shell 2 difficulty options"
 status: community
 preRelease: false
 order: 10

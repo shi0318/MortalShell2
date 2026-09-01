@@ -3,6 +3,7 @@ title: "Mortal Shell II Controller Support Guide"
 heading: "Mortal Shell II Controller Support Guide"
 description: "Mortal Shell II controller support guide covering Full Controller Support, DualSense, Steam Cloud, Family Sharing, single-player limits, and PC settings boundaries."
 category: guide
+keyword: "mortal shell 2 controller support guide"
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 status: official
 preRelease: false

@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Proxima Guide — The Broodseeker"
 heading: "Mortal Shell 2 Proxima, the Broodseeker"
 description: "Mortal Shell 2 Proxima, the Broodseeker, is a new playable Shell confirmed in the Official Gameplay Reveal. Confirmed facts and unknown details."
 category: shells
+keyword: "mortal shell 2 proxima"
 cover: /images/mortalshell2-gloom-spider-creature.webp
 status: official
 preRelease: false

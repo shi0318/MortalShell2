@@ -3,6 +3,7 @@ title: "How Many Dungeons in Mortal Shell 2? Official World Scale"
 heading: "How Many Dungeons Are in Mortal Shell 2?"
 description: "Mortal Shell 2 is advertised with more than 80 dungeons, according to the official Steam product description and launch facts."
 category: guide
+keyword: "mortal shell 2 how many dungeons"
 status: official
 preRelease: false
 order: 19

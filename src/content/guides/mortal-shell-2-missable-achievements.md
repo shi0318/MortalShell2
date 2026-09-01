@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Missable Achievements — 3 Names to Track"
 heading: "Mortal Shell 2 Missable Achievements"
 description: "Mortal Shell 2 missable achievements reported in a launch-day Steam guide: Midsommar?, No, You Still Can't Win, and Peter's Perfect Parry."
 category: guide
+keyword: "mortal shell 2 missable achievements"
 status: community
 preRelease: false
 order: 2

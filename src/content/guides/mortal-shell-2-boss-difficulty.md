@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Boss Difficulty — Player Reports and Fight Planning"
 heading: "Mortal Shell 2 Boss Difficulty: What Launch Players Report"
 description: "Mortal Shell 2 boss difficulty is debated in early Steam reviews, with reports ranging from approachable fights to punishing first attempts."
 category: bosses
+keyword: "mortal shell 2 boss difficulty"
 status: community
 preRelease: false
 order: 22

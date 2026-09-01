@@ -3,6 +3,7 @@ title: "Is Mortal Shell 2 Multiplayer? Steam Status"
 heading: "Is Mortal Shell 2 Multiplayer? What Steam Confirms"
 description: "Is Mortal Shell 2 multiplayer? Steam lists Mortal Shell II as a single-player action RPG with no official co-op mode announced."
 category: guide
+keyword: "mortal shell 2 multiplayer"
 cover: /images/mortalshell2-official-keyart-2.webp
 status: official
 preRelease: false
@@ -35,7 +36,7 @@ The solo structure still leaves room for build decisions and route planning:
 
 - Possess different warrior Shells and compare their confirmed identity and role.
 - Plan around high-stakes combat and the game's published open-world and dungeon structure.
-- Use the Open Beta to learn routes and encounters, while remembering that most beta inventory resets at launch.
+- The Open Beta is closed. It ran before the 20 August 2026 release, and beta inventory did not carry into the retail save — see the [Open Beta record](/open-beta/) for the carry-over rules that applied.
 - Track the full game's eight playable Shells as a roster rather than as multiplayer classes.
 
 The [Shell selection guide](/shell-selection-guide/) explains what is confirmed about Shell planning. The [Steam features page](/steam-features-single-player-cloud/) records the storefront categories and controller/cloud information.

@@ -3,6 +3,7 @@ title: "Mortal Shell II Open Beta PC Settings — Archived Requirements"
 heading: "Mortal Shell II Open Beta PC Settings Archive"
 description: "Mortal Shell II Open Beta PC settings archive with historical Steam requirements, mature-content notes and clearly separated retail PC guidance."
 category: guide
+keyword: "mortal shell 2 pc settings"
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 status: official
 preRelease: false

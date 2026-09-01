@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Tiel Guide — How to Find and Claim Tiel"
 heading: "Mortal Shell 2 Tiel, the Acolyte"
 description: "Mortal Shell 2 Tiel is one of eight playable Shells. Official Open Beta notes explain how Tiel is discovered and possessed without invented kit stats."
 category: shells
+keyword: "mortal shell 2 tiel"
 cover: /images/mortalshell2-masked-shell-portrait.webp
 status: official
 preRelease: true
@@ -68,7 +69,7 @@ See the full tracker: [All Shells](/shells/).
 ## Practical beta advice
 
 - Finding Tiel is one of the best beta goals because the Shell fantasy is core to the sequel pitch
-- Remember: possessed Shell progress from beta **resets** at launch
+- Historical note: possessed Shell progress from the Open Beta **did not** carry into retail saves
 - The permanent beta rewards are the **Flayed Harbinger** cosmetic and optional **prologue skip** after Marrow Keep — not the Shell itself
 
 ## Related pages

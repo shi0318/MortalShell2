@@ -3,6 +3,7 @@ title: "Beacons in Mortal Shell II — What Open Beta Confirms"
 heading: Beacons in Mortal Shell II
 description: "Official Open Beta confirmation that Mortal Shell II includes beacons you can cleanse, plus what is still unverified about checkpoints and upgrades."
 category: mechanics
+keyword: "mortal shell 2 beacons"
 cover: /images/mortalshell2-village-accordion-npc.webp
 status: official
 preRelease: true

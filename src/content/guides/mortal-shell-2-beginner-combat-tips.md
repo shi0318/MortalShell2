@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Beginner Combat Tips — Dodge, Parry and Harden"
 heading: "Mortal Shell 2 Beginner Combat Tips"
 description: "Mortal Shell 2 beginner combat tips from a launch-day Steam guide: dodge i-frames, parry and harden timing, red attack sigils, healing and shielded enemies."
 category: mechanics
+keyword: "mortal shell 2 beginner combat tips"
 status: community
 preRelease: false
 order: 0

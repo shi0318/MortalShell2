@@ -30,6 +30,10 @@ const guides = defineCollection({
     description: z.string().min(50).max(170),
     // 页面所属分类（决定 Breadcrumb 与 CollectionPage 归属）
     category: z.enum(['guide', 'shells', 'weapons', 'bosses', 'mechanics', 'walkthrough', 'news']),
+    // 首选关键词，仅用于内部标注：一页一个主关键词，防止站内自相竞争。
+    // 不渲染到页面上，也不当 meta keywords 用（Google 早就忽略那个标签）。
+    // 暂为 optional：现有 62 篇尚未全部标注，新页面应当填写。
+    keyword: z.string().optional(),
     // 整篇文章的整体确认状态（多数事实的主导状态）
     status: confidenceStatus,
     // 逐条来源清单，渲染成页面底部"来源与核对"表

@@ -3,6 +3,7 @@ title: "Mortal Shell II Open World — What the Gameplay Reveal Showed"
 heading: "Mortal Shell II's open world, explained from the Gameplay Reveal"
 description: "Mortal Shell II swaps Fullgrim for a compact, interconnected open world. What the 12-minute Official Gameplay Reveal confirmed about regions, Shells, and fast travel."
 category: news
+keyword: "mortal shell 2 open world"
 cover: /images/mortalshell2-world-map-overview.webp
 status: official
 preRelease: true
@@ -58,4 +59,4 @@ One detail from the showcase coverage: Shells were seen **opening to reveal what
 
 ## How this fits the launch picture
 
-Mortal Shell II releases **worldwide on 20 August 2026** on PC, PlayStation 5, and Xbox Series X|S. The Open Beta already lets you test the Prologue and an early open-world slice — see our [Open Beta guide](/open-beta/) — but remember beta progress **resets** at launch. For the full early-game path, see the [map overview](/map/) and [beginner guide](/beginner-guide/).
+Mortal Shell II released **worldwide on 20 August 2026** on PC, PlayStation 5, and Xbox Series X|S. The Open Beta, which ran before release, let players test the Prologue and an early open-world slice — see our [Open Beta record](/open-beta/) — and beta progress **did not** carry into retail saves. For the full early-game path, see the [map overview](/map/) and [beginner guide](/beginner-guide/).

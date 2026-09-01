@@ -3,6 +3,7 @@ title: "Mortal Shell II Map — Known Regions Overview"
 heading: "Mortal Shell II Map: Known Regions Overview"
 description: "Mortal Shell II world map overview with officially named Open Beta regions, Marrow Keep, Magdalena, beacons, and the retail-build verification boundary."
 category: "guide"
+keyword: "mortal shell 2 map"
 cover: /images/mortalshell2-world-map-cover.webp
 status: "official"
 preRelease: false

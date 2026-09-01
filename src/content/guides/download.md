@@ -3,6 +3,7 @@ title: "Mortal Shell II Open Beta Download — Steam Archive"
 heading: "Mortal Shell II Open Beta Download Archive"
 description: "Mortal Shell II Open Beta archive: the official Steam app, test-build scope, recorded PC requirements and launch carry-over rewards."
 category: guide
+keyword: "mortal shell 2 download"
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: official
 preRelease: false

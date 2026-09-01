@@ -3,6 +3,7 @@ title: "Mortal Shell II Dungeon and Open World Guide - Route Planning"
 heading: "Dungeon Planning: Read the Compact Open World as a Network"
 description: "How to plan exploration in Mortal Shell II's compact interconnected world and 80-plus dungeons without treating Open Beta map notes as a complete retail map."
 category: walkthrough
+keyword: "mortal shell 2 dungeon exploration"
 status: official
 cover: /images/mortalshell2-world-map-overview.webp
 preRelease: false

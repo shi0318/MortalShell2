@@ -3,6 +3,7 @@ title: "Gloom in Mortal Shell II — Trailer Clues & Open Questions"
 heading: "The Gloom mechanic in Mortal Shell II"
 description: "What Mortal Shell II trailers show about Gloom so far, what remains unconfirmed, and how it may relate to systems from the first game."
 category: mechanics
+keyword: "mortal shell 2 gloom"
 cover: /images/mortalshell2-gloom-spider-creature.webp
 status: trailer
 preRelease: true

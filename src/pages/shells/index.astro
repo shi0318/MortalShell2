@@ -7,11 +7,11 @@ import { SITE_IMAGES } from '../../data/images';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
 import StatusBadge from '../../components/StatusBadge.astro';
-import { SHELLS } from '../../data/shells';
+import { SHELLS, PREQUEL_ONLY_SHELLS, SHELL_CLASSIFICATION_NOTE, SHELL_BONDING } from '../../data/shells';
 
-const title = 'Mortal Shell 2 Shells — Roster, Abilities & Build Evidence';
+const title = 'Mortal Shell 2 Shells — All 8 Shell Names & Unlock Rates';
 const description =
-  'Mortal Shell 2 Shells guide covering the eight-Shell roster, abilities, acquisition evidence and launch-build status.';
+  'All eight Mortal Shell 2 Shells — Tiel, Proxima, Eredrim, Smert, Gragu, Sariel, Sester Genessa, Lazlo — with unlock rates and the Tier IV bonding cap.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -19,6 +19,7 @@ const crumbs = [
 ];
 
 const officialCount = SHELLS.filter((s) => s.source.status === 'official').length;
+const orderedByRate = [...SHELLS].filter((s) => typeof s.unlockRate === 'number');
 ---
 
 <Layout
@@ -45,12 +46,18 @@ const officialCount = SHELLS.filter((s) => s.source.status === 'official').lengt
       Mortal Shell 2 Shells Guide
     </h1>
     <p class="mt-3 text-lg text-ash-400">
-      Shells are the bodies you possess in combat. Official materials state Mortal Shell II has
-      <strong>eight playable Shells</strong>; the public store and reveal material name
-      <a href="/tiel/" class="text-amber-glow hover:underline">Tiel, the Acolyte</a> among them.
-      This page is a <strong>source-tracked roster</strong>, not a guessed tier list. Beta and
-      prequel entries remain marked as historical context:
-      {officialCount} of {SHELLS.length} listed entries currently carry Official status.
+      Shells are the bodies you possess in combat, and Mortal Shell II has
+      <strong>eight of them</strong>. All eight are now named:
+      <a href="/tiel/" class="text-amber-glow hover:underline">Tiel</a>,
+      <a href="/proxima/" class="text-amber-glow hover:underline">Proxima</a>,
+      <a href="/eredrim/" class="text-amber-glow hover:underline">Eredrim</a>, Smert, Gragu, Sariel,
+      Sester Genessa and Lazlo. Seven of their bodies sit near <strong>Zhirelle, the Shellkeeper</strong>
+      and can be tracked by spending Gloom; Sester Genessa is the hidden one and has to be earned
+      through a side quest. The table is <strong>sorted by global unlock rate</strong>, which is the
+      closest published proxy for the order players find them.
+      {officialCount} of {SHELLS.length} rows carry Official status; the rest rest on player-compiled
+      routes and are labelled Community. No stats or abilities are published for any Shell, and this
+      page does not invent them.
     </p>
   </header>
 
@@ -59,6 +66,9 @@ const officialCount = SHELLS.filter((s) => s.source.status === 'official').lengt
       <thead>
         <tr class="border-b border-ash-700 bg-ash-900/50 text-left text-ash-400">
           <th class="px-4 py-3 font-medium">Shell</th>
+          <th class="px-4 py-3 font-medium">Unlock achievement</th>
+          <th class="px-4 py-3 font-medium">Global unlock</th>
+          <th class="px-4 py-3 font-medium">Confirmed as a Shell by</th>
           <th class="px-4 py-3 font-medium">Known abilities</th>
           <th class="px-4 py-3 font-medium">Acquisition</th>
           <th class="px-4 py-3 font-medium">Status</th>
@@ -80,6 +90,11 @@ const officialCount = SHELLS.filter((s) => s.source.status === 'official').lengt
                 </div>
                 <div class="mt-1 text-ash-400">{shell.summary}</div>
               </td>
+              <td class="px-4 py-3 text-ash-300">{shell.unlockAchievement ?? '—'}</td>
+              <td class="px-4 py-3 tabular-nums text-ash-300">
+                {typeof shell.unlockRate === 'number' ? `${shell.unlockRate}%` : '—'}
+              </td>
+              <td class="px-4 py-3 text-ash-400">{shell.shellConfirmedBy}</td>
               <td class="px-4 py-3 text-ash-300">
                 <ul class="list-inside list-disc space-y-1">
                   {shell.knownAbilities.map((a) => (
@@ -99,12 +114,55 @@ const officialCount = SHELLS.filter((s) => s.source.status === 'official').lengt
   </div>
 
   <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
-    <h2 class="text-xl font-semibold text-ash-100">What the current evidence supports</h2>
-    <ul class="list-disc space-y-2 pl-5">
-      <li>Open Beta store text confirms an eight-Shell roster.</li>
-      <li>Tiel is discoverable and possessable in the Open Beta path.</li>
-      <li>Detailed kits, stats, and best builds are labeled by build and evidence level.</li>
-    </ul>
+    <h2 class="text-xl font-semibold text-ash-100">How the eight names were identified</h2>
+    <p>{SHELL_CLASSIFICATION_NOTE}</p>
+    <p>
+      The practical upshot: <strong>Sariel is the one row to treat with caution.</strong> Every other
+      Shell on this table is named as a Shell by Cold Symmetry or by the Official Gameplay Reveal.
+      Sariel is not, anywhere. If the retail roster turns out to differ from the eight above, that is
+      the row that changes.
+    </p>
+    <p>
+      The full list, including all 53 achievements and the thirteen Weapons and Sidearms, is on the
+      <a href="/mortal-shell-2-achievements/" class="text-amber-glow hover:underline">achievements page</a>.
+    </p>
+
+    <h2 class="text-xl font-semibold text-ash-100">What the unlock rates suggest about order</h2>
+    <p>
+      Tiel ({orderedByRate[0]?.unlockRate}%) and Proxima ({orderedByRate[1]?.unlockRate}%) are
+      within two points of each other, so both are opening-hours acquisitions — Proxima is not a
+      late unlock despite being new to the series. The first real drop is to Eredrim at
+      {orderedByRate[2]?.unlockRate}%, and Smert and Gragu sit less than a point apart, which
+      usually means two pickups in the same stretch of the game rather than a strict sequence.
+      Lazlo is the rarest at {orderedByRate[7]?.unlockRate}%, making it the best candidate for a
+      late Shell — and notably the hidden Sester Genessa at {orderedByRate[6]?.unlockRate}% is
+      found by <em>more</em> players than Lazlo, so being hidden did not make her the hardest to get.
+    </p>
+    <p class="text-sm text-ash-500">
+      Unlock percentages are a snapshot read on 1 September 2026, twelve days after release. They
+      rise as more accounts play, and the gaps between them narrow over time. Order inferred from
+      rates is a probability statement about where players find things, not a published route.
+    </p>
+
+    <h2 class="text-xl font-semibold text-ash-100">Bonding caps at {SHELL_BONDING.maxTier}</h2>
+    <p>
+      Reaching the maximum bonding tier for one Shell at the Shellkeeper is its own achievement
+      ("Decked Out", 46.9%). Community testing puts that cap at <strong>{SHELL_BONDING.maxTier}</strong>,
+      costing roughly <strong>{SHELL_BONDING.glimpsesPerShell} Glimpses per Shell</strong> —
+      about {SHELL_BONDING.glimpsesTotal} in total if you want it on all eight, which is what the
+      "Seeking the Past" achievement (3.8%, the rarest in the game after the completion one) requires.
+      Breaking a Glimpse Stone after twenty enemy kills reportedly yields three Glimpses, and up to
+      thirteen Glimpse Stones can be bought from the hub merchant. Those figures come from a
+      player-compiled guide, not from the developer.
+    </p>
+
+    <h2 class="text-xl font-semibold text-ash-100">Prequel Shells that did not return</h2>
+    <p>
+      {PREQUEL_ONLY_SHELLS.join(' and ')} were Shells in Mortal Shell (2020). Neither appears
+      anywhere in the retail achievement list, and the eight names above already account for the
+      full roster. Earlier drafts of this page listed Harros as the probable starting Shell on the
+      strength of the first game; that guess is now retired.
+    </p>
     <p class="text-sm text-ash-500">
       Detailed Shell pages (with stat tables, upgrade paths, and recommended builds) are expanded
       only when a real acquisition route and reproducible current-build details are recorded. Until

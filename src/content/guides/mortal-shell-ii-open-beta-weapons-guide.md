@@ -3,6 +3,7 @@ title: "Mortal Shell II Open Beta Weapons Guide — Axe, Dagger & What Is Confir
 heading: "Mortal Shell II Open Beta Weapons Guide: Axe, Dagger and Upgrade Planning"
 description: "What the Mortal Shell II Open Beta officially confirms about the Axe and Dagger objective, weapon discovery, upgrades, carry-over rules and missing retail details."
 category: weapons
+keyword: "mortal shell 2 open beta weapons guide"
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 status: official
 preRelease: true
@@ -53,10 +54,12 @@ A sensible approach is to upgrade the weapon you are actively using, but keep en
 
 ## Do Beta weapons carry over?
 
-No. The official Steam Beta page says that currency, weapons, Shells, collectibles and other items found in the Beta reset at launch. The confirmed carry-over rewards are the **Flayed Harbinger** cosmetic and the option to skip the Prologue after reaching Marrow Keep.
+No. The official Steam Beta page said that currency, weapons, Shells, collectibles and other items found in the Beta would reset at launch, and that is what happened on 20 August 2026. The confirmed carry-over rewards were the **Flayed Harbinger** cosmetic and the option to skip the Prologue after reaching Marrow Keep.
 
 ## Why this page does not list invented locations or stats
 
-The official Beta page confirms the Axe-and-Dagger objective but does not provide a complete map, exact coordinates, damage values or upgrade table. The existing Weapons tracker therefore keeps prequel-based entries separate from sequel evidence. Retail weapon pages will be added after direct verification in the full build.
+The official Beta page confirmed the Axe-and-Dagger objective but never provided a complete map, exact coordinates, damage values or an upgrade table. The Weapons tracker therefore keeps prequel-based entries separate from sequel evidence.
 
-For the current evidence-backed route, use the [Mortal Shell II Open Beta walkthrough](/mortal-shell-ii-open-beta-walkthrough/) and the [Weapons tracker](/weapons/).
+The retail achievement list has since named all twelve Weapons and Sidearms in the shipped game — Axe and Dagger, Forgotten Crossbow, Veteran's Battle Axe, Great Martyr's Blade, Salvaged Trebuchaxe, Axatana, Triarch Repeater, Clockwork Scythe, Caged Hystrix, Obsidian Hammer, Ballistazooka and Cursed Child. See [all 53 achievements](/mortal-shell-2-achievements/) for the source. Valve publishes the names, not the stats or which of the twelve are Sidearms, so per-weapon pages are still gated on direct verification rather than guesswork.
+
+For the Beta-era route record, use the [Mortal Shell II Open Beta walkthrough](/mortal-shell-ii-open-beta-walkthrough/) and the [Weapons tracker](/weapons/).

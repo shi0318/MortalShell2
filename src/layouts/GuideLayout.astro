@@ -5,6 +5,7 @@ import Layout from './Layout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import PreReleaseNotice from '../components/PreReleaseNotice.astro';
 import SourceTable from '../components/SourceTable.astro';
+import RelatedGuides from '../components/RelatedGuides.astro';
 import StatusBadge from '../components/StatusBadge.astro';
 import { SITE, isReleased } from '../data/site';
 import type { ConfidenceStatus, SourceRef } from '../data/sources';
@@ -178,5 +179,6 @@ const steamCtaLabel =
     </div>
 
     <SourceTable sources={sources} />
+    <RelatedGuides currentPath={Astro.url.pathname} category={category} />
   </article>
 </Layout>

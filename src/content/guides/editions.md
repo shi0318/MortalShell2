@@ -3,6 +3,7 @@ title: "Mortal Shell II Editions — Devout vs Revered (Official)"
 heading: "Mortal Shell II Editions: Devout vs Revered"
 description: "Compare Mortal Shell II Devout and Revered editions from official pages: Obsidian Shell skins, 72-hour early access, and PS5 collector notes."
 category: guide
+keyword: "mortal shell 2 editions"
 cover: /images/mortalshell2-official-keyart-2.webp
 status: official
 preRelease: true
@@ -59,7 +60,7 @@ Official points:
 Regardless of edition:
 
 - Core story and open-world structure are the same game
-- Open Beta inventory still **resets** at launch
+- Open Beta inventory **did not** carry into retail saves
 - Platform availability for physical collector content can differ (Revered is called out for PS5)
 
 ## Release date reminder

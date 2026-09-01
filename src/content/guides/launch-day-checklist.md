@@ -3,6 +3,7 @@ title: "Mortal Shell II Launch-Day Checklist — Beta Reset, Editions & Platform
 heading: "Mortal Shell II launch-day checklist"
 description: "A source-tracked Mortal Shell II launch checklist covering the August 20 release, Open Beta reset, carry-over rewards, editions, and confirmed platforms."
 category: guide
+keyword: "mortal shell 2 launch checklist"
 cover: /images/mortalshell2-official-keyart-2.webp
 status: official
 preRelease: false

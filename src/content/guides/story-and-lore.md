@@ -3,6 +3,7 @@ title: "Who Is the Harbinger? Mortal Shell II Story & Lore"
 heading: "Mortal Shell II story and lore: the Harbinger, the Undermether, and the stolen Ova"
 description: "What Mortal Shell II's official Steam text actually says about the Harbinger, the Undermether's stolen Ova, disciples, false gods, and possessing Shells."
 category: guide
+keyword: "mortal shell 2 story"
 cover: /images/mortalshell2-official-keyart-3.webp
 status: official
 preRelease: true

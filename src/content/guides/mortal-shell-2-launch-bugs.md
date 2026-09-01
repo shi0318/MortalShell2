@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Launch Bugs — Steam Reports and Safe Checks"
 heading: "Mortal Shell 2 Launch Bugs: Reports, Scope and First Checks"
 description: "Mortal Shell 2 launch bugs reported on Steam include stutter, blur, camera and crash concerns; separate player reports from confirmed fixes."
 category: news
+keyword: "mortal shell 2 launch bugs"
 status: community
 preRelease: false
 order: 29

@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Leveling System — Stats, Shells and Progression"
 heading: "Mortal Shell 2 Leveling System Explained"
 description: "Mortal Shell 2 leveling is described by launch players as permanent main-stat growth with Shell abilities providing build flexibility."
 category: guide
+keyword: "mortal shell 2 leveling system"
 status: community
 preRelease: false
 order: 13

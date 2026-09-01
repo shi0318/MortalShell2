@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Steam Reviews — First-Day Player Feedback"
 heading: "Mortal Shell 2 Steam Reviews: Launch-Day Player Feedback"
 description: "Mortal Shell 2 Steam reviews from launch day: player feedback on combat, Shells, weapons, bosses, performance, crashes, runbacks and enemy aggro."
 category: news
+keyword: "mortal shell 2 steam reviews"
 status: community
 preRelease: false
 order: 1

@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Release Date — Mortal Shell II Launch Details"
 heading: "Mortal Shell 2 Release Date — August 20, 2026"
 description: "Mortal Shell 2, officially titled Mortal Shell II, is available from August 20, 2026 on PS5, Xbox Series X|S and Steam. Platforms, Beta status and editions explained."
 category: guide
+keyword: "mortal shell 2 release date"
 cover: /images/mortalshell2-official-keyart-1.webp
 status: official
 preRelease: false
@@ -59,13 +60,13 @@ If you are searching "Mortal Shell 2 release date" because you want to play toda
 2. Check [Mortal Shell II PC requirements](/pc-requirements/) first (SSD required)
 3. Use the [Mortal Shell II beginner combat tips](/mortal-shell-2-beginner-combat-tips/) before your first serious run
 
-## Progress that matters at launch
+## What the Open Beta carried into launch
 
-Official Steam carry-over rules:
+Official Steam carry-over rules, as they applied on 20 August 2026:
 
-- Full beta inventory **resets** (currency, weapons, Shells, collectibles)
-- Playing the beta unlocks **The Flayed Harbinger** cosmetic
-- Progress beyond **Marrow Keep** unlocks optional **prologue skip**
+- Full beta inventory **did not** transfer (currency, weapons, Shells, collectibles)
+- Playing the beta unlocked **The Flayed Harbinger** cosmetic, claimable in the full game
+- Progress beyond **Marrow Keep** unlocked an optional **prologue skip** (the retail achievement spells the location "Marrowkeep")
 
 Details: [Beta save transfer](/beta-progress/).
 

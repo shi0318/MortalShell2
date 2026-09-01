@@ -3,6 +3,7 @@ title: "Mortal Shell II Open Beta Walkthrough — Prologue, Tiel & Marrow Keep"
 heading: "Mortal Shell II Open Beta Walkthrough: Prologue, Tiel, Beacons and Marrow Keep"
 description: "A source-backed Mortal Shell II Open Beta walkthrough covering the Prologue, first region, Tiel, beacons, optional dungeons, mini-bosses, Magdalena and Marrow Keep."
 category: walkthrough
+keyword: "mortal shell 2 open beta walkthrough"
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: official
 preRelease: true
@@ -71,11 +72,11 @@ The Steam Beta page states that progressing beyond **Marrow Keep** unlocks the o
 - [ ] Test the hidden mini-bosses and challenges.
 - [ ] Find the Axe and Dagger objective listed by Steam achievements.
 - [ ] Complete the Beta route toward Magdalena.
-- [ ] Reach Marrow Keep if you want the Prologue-skip option at launch.
+- [ ] Reach Marrow Keep for the Prologue-skip option in the full game.
 
-## What carries into the full release?
+## What carried into the full release?
 
-The Beta does **not** transfer currency, weapons, Shells, collectibles or other normal items. The official carry-over is limited to the **Flayed Harbinger** cosmetic reward and the Prologue-skip option after reaching Marrow Keep.
+The Beta did **not** transfer currency, weapons, Shells, collectibles or other normal items. The official carry-over was limited to the **Flayed Harbinger** cosmetic reward and the Prologue-skip option after reaching Marrow Keep.
 
 ## Scope note
 

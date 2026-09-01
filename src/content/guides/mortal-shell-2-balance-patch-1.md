@@ -3,10 +3,11 @@ title: "Mortal Shell 2 Patch 1 Notes — Balance, Weapons & Crash Fixes"
 heading: "Mortal Shell 2 Patch 1: Official Balance and Weapon Changes"
 description: "Mortal Shell 2 Patch 1 notes cover Gloom, gold, Tarforge costs, boss health, weapon buffs, Guard changes and crash fixes from the official Steam post."
 category: news
+keyword: "mortal shell 2 balance patch 1"
 status: official
 preRelease: false
 order: 1
-updatedAt: "2026-08-21"
+updatedAt: "2026-09-01"
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 sources:
   - status: official
@@ -39,7 +40,7 @@ The patch focuses on launch balance and stability rather than adding a new campa
 | Gold | Enemy gold drops were significantly increased; enemies in Mammon now drop double gold. |
 | Tarforge | Smelting a weapon costs 75% less Gloom. |
 | Bosses | The Lost Child and Monolith received base-damage and maximum-health reductions; some Monolith attacks were retimed. |
-| Weapons | Great Martyr's Blade Attack Damage +20%; Troubador's Lute Attack Damage +100%. |
+| Weapons | Great Martyr's Blade Attack Damage +20% (**never shipped** — see below); Troubador's Lute Attack Damage +100%. |
 | Seals | Guard can now be used while walking. |
 
 ## Economy changes: Gloom, Glimpses and gold
@@ -82,12 +83,12 @@ These are patch-note values, not a complete enemy database. They do not tell us 
 
 The official post lists four weapon-related changes:
 
-1. **Great Martyr's Blade attack damage:** increased by 20%.
-2. **Troubador's Lute attack damage:** increased by 100%.
-3. **Caged Hystrix and Triarch Repeater:** no longer require a minimum Resolve to fire.
-4. **Axatana, Black Needle and Clockwork Scythe:** improved tracking for light attacks.
+1. **Great Martyr's Blade attack damage:** increased by 20%. **This one did not actually ship.** In the Week 1 Update on 29 August, Cold Symmetry wrote that the buff "didn't actually make it in the last patch" and replaced it with a larger, unquantified increase. If you tested the Blade in the nine days after this patch, you were testing an unbuffed weapon.
+2. **Troubador's Lute attack damage:** increased by 100% — the largest single buff in the patch, and notable because the Lute has no unlock achievement, so it does not appear in Valve's thirteen-weapon list at all.
+3. **Caged Hystrix and Triarch Repeater:** no longer require a minimum Resolve to fire. The phrase "to fire" is the only official confirmation that these two are ranged, which makes them the strongest Sidearm candidates on the roster.
+4. **Axatana, Black Needle and Clockwork Scythe:** improved tracking for light attacks. This line is how we know **Black Needle is a weapon and not a Shell** — Shells do not have light attacks, and the achievement text for Black Needle is ambiguous enough that it is widely miscategorised.
 
-The first two lines are damage buffs, not promises about total damage per second. Attack speed, reach, recovery, enemy resistance, Shell abilities and Tarstones can all affect a real build. The separate [Great Martyr's Blade patch guide](/mortal-shell-2-great-martyrs-blade-patch/) explains what is confirmed and what still needs a retail test.
+Damage buffs are not promises about total damage per second. Attack speed, reach, recovery, enemy resistance, Shell abilities and Tarstones can all affect a real build. The separate [Great Martyr's Blade patch guide](/mortal-shell-2-great-martyrs-blade-patch/) covers the two-patch buff history in full, and the [weapons hub](/weapons/) records which rows now rest on patch evidence rather than on their names.
 
 ## Seals, Tarstones and stability
 

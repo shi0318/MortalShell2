@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Fragments and Weapon Skills — Build Planning"
 heading: "Mortal Shell 2 Fragments and Weapon Skills Explained"
 description: "Mortal Shell 2 fragments are described in launch feedback as weapon skills that can support experimentation across weapon types."
 category: weapons
+keyword: "mortal shell 2 fragments weapon skills"
 status: community
 preRelease: false
 order: 15

@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Night Mode Guide — Challenge Modifier and New Game+ Que
 heading: "Mortal Shell 2 Night Mode: What the Challenge Modifier Actually Confirms"
 description: "Mortal Shell 2 Night Mode explained: the sun modifier, how to prepare for a darker challenge run, and what remains unconfirmed after launch."
 category: mechanics
+keyword: "mortal shell 2 night mode guide"
 status: community
 preRelease: false
 order: 1

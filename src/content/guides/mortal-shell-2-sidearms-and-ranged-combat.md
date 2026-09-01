@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Sidearms and Ranged Combat — Steam Guide"
 heading: "Mortal Shell 2 Sidearms and Ranged Combat: What Is Confirmed"
 description: "Mortal Shell 2 includes melee and ranged weapon upgrades; this guide explains safe planning without inventing sidearm names or ammunition data."
 category: mechanics
+keyword: "mortal shell 2 sidearms and ranged combat"
 status: official
 preRelease: false
 order: 21

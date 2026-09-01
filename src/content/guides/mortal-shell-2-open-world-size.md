@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Open World Size — How Large Is the Map?"
 heading: "Mortal Shell 2 Open World Size: Compact but Interconnected"
 description: "Mortal Shell 2 has a compact interconnected open world designed around exploration, shortcuts, dungeons, Shells and weapon upgrades."
 category: walkthrough
+keyword: "mortal shell 2 open world size"
 status: official
 preRelease: false
 order: 20

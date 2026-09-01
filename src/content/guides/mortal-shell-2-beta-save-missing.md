@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Beta Save Missing — Does Open Beta Progress Carry Over?
 heading: "Mortal Shell 2 Beta Save Missing: What Carries Over to Retail"
 description: "Is your Mortal Shell 2 Beta save missing after launch? Here is the official reset rule, the two rewards that carry over, and what to check first."
 category: guide
+keyword: "mortal shell 2 beta save missing"
 status: official
 preRelease: false
 order: 2

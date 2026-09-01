@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Dungeons and Open World — Exploration Guide"
 heading: "Mortal Shell 2 Dungeons and Open World Exploration Guide"
 description: "Mortal Shell 2 combines a compact interconnected world with optional dungeons, Shells, weapons and upgrades; this guide explains route planning."
 category: walkthrough
+keyword: "mortal shell 2 dungeons open world"
 status: official
 preRelease: false
 order: 18

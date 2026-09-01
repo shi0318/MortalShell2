@@ -3,6 +3,7 @@ title: "Mortal Shell II Open Beta Archive — Content & Rewards"
 heading: "Mortal Shell II Open Beta Archive: Content and Rewards"
 description: "Mortal Shell II Open Beta archive covering the official Steam test build, opening scope, Shells, beacons, carry-over rewards and historical PC requirements."
 category: guide
+keyword: "mortal shell 2 open beta"
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: official
 preRelease: false

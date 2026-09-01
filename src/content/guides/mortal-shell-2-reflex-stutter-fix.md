@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Reflex Stutter Fix — PC Input and Frame-Time Checks"
 heading: "Mortal Shell 2 Reflex Stutter Fix: What Steam Players Report"
 description: "Mortal Shell 2 Reflex stutter is reported in early Steam feedback; compare latency, frame time and settings before changing files."
 category: guide
+keyword: "mortal shell 2 reflex stutter fix"
 status: community
 preRelease: false
 order: 26

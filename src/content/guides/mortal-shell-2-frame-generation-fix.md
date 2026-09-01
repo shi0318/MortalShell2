@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Frame Generation Fix — PC Settings and Reports"
 heading: "Mortal Shell 2 Frame Generation Fix: Test the Option Safely"
 description: "Mortal Shell 2 frame generation is reported to behave inconsistently for some launch PC players; use a controlled settings test."
 category: guide
+keyword: "mortal shell 2 frame generation fix"
 status: community
 preRelease: false
 order: 27

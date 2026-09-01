@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Blurry Graphics Fix — PC Settings Checklist"
 heading: "Mortal Shell 2 Blurry Graphics Fix: PC Checks to Try"
 description: "Mortal Shell 2 blurry graphics are reported by launch players; use this reversible PC checklist without assuming one universal fix."
 category: guide
+keyword: "mortal shell 2 blurry graphics fix"
 status: community
 preRelease: false
 order: 25

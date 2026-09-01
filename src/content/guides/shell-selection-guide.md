@@ -3,6 +3,7 @@ title: "Mortal Shell II Shell Selection Guide - How to Plan Your First Build"
 heading: "Shell Selection: Choose a Role, Not a Tier List"
 description: "A source-backed Mortal Shell II Shell guide comparing the confirmed roles of Tiel, Eredrim, and Proxima, with a launch-day checklist for the other Shells."
 category: shells
+keyword: "mortal shell 2 best shell"
 status: official
 cover: /images/mortalshell2-official-keyart-3.webp
 preRelease: false
@@ -70,9 +71,9 @@ This keeps the comparison fair. A Shell can feel weak simply because its weapon 
 
 The first game is useful context for the studio's design language, but Harden, Resolve, Riposte values, Shell health, and weapon scaling from 2020 are not confirmed Mortal Shell II data. This site labels that material as prequel context for a reason. Do not use a first-game build chart as a sequel tier list.
 
-## What to record at launch
+## What is still worth recording yourself
 
-With the full game now released, use your notebook to record:
+The retail achievement list has since confirmed the eight Shell names and the twelve Weapons and Sidearms by name — see [all 53 achievements](/mortal-shell-2-achievements/). What it does not confirm is any number, so these are still worth recording as you play:
 
 1. Shell acquisition point and whether switching requires a hub or a field interaction.
 2. Confirmed stats, abilities, and upgrade paths.

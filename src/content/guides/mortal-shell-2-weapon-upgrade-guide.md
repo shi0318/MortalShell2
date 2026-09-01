@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Weapon Upgrade Guide — Melee and Ranged Planning"
 heading: "Mortal Shell 2 Weapon Upgrade Guide: What Steam Confirms"
 description: "Mortal Shell 2 weapon upgrades are extensive, but exact materials and costs need retail verification; use this evidence-based planning guide."
 category: weapons
+keyword: "mortal shell 2 weapon upgrade guide"
 status: official
 preRelease: false
 order: 16

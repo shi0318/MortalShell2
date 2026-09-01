@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Melee and Ranged Weapons — Combat Choices"
 heading: "Mortal Shell 2 Melee and Ranged Weapons: How They Fit Together"
 description: "Mortal Shell 2 includes melee and ranged weapon planning, with Steam confirming upgrade options but not a full retail weapon list."
 category: weapons
+keyword: "mortal shell 2 melee ranged weapons"
 status: official
 preRelease: false
 order: 17

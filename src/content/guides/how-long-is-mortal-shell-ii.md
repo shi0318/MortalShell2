@@ -3,6 +3,7 @@ title: "How Long Is Mortal Shell 2? Open Beta Length and Full-Game Facts"
 heading: "How Long Is Mortal Shell 2?"
 description: "How long is Mortal Shell 2? Steam officially describes the Open Beta as roughly three hours, while the full campaign length has not been published yet."
 category: guide
+keyword: "how long is mortal shell 2"
 cover: /images/mortalshell2-world-map-overview.webp
 status: official
 preRelease: true

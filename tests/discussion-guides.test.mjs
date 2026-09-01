@@ -6,10 +6,10 @@ const guideRoot = new URL('../src/content/guides/', import.meta.url);
 const publicRoot = new URL('../public/', import.meta.url);
 
 const slugs = [
-  'mortal-shell-2-balance-patch-1',
-  'mortal-shell-2-beta-save-missing',
-  'mortal-shell-2-language-support',
-  'mortal-shell-2-great-martyrs-blade-patch',
+  { slug: 'mortal-shell-2-balance-patch-1', updatedAt: '2026-09-01' }, // corrected with Week 1 facts
+  { slug: 'mortal-shell-2-beta-save-missing', updatedAt: '2026-08-21' },
+  { slug: 'mortal-shell-2-language-support', updatedAt: '2026-08-21' },
+  { slug: 'mortal-shell-2-great-martyrs-blade-patch', updatedAt: '2026-09-01' }, // corrected with Week 1 facts
 ];
 
 function frontmatterValue(markdown, key) {
@@ -20,7 +20,7 @@ function frontmatterValue(markdown, key) {
 test('Mortal Shell II discussion guides are source-tracked visual pages', async () => {
   assert.equal(slugs.length, 4);
 
-  for (const slug of slugs) {
+  for (const { slug, updatedAt } of slugs) {
     const markdown = await readFile(new URL(`${slug}.md`, guideRoot), 'utf8');
     const title = frontmatterValue(markdown, 'title');
     const heading = frontmatterValue(markdown, 'heading');
@@ -32,7 +32,7 @@ test('Mortal Shell II discussion guides are source-tracked visual pages', async 
     assert.match(heading, /Mortal Shell (2|II)/, `${slug} H1 must contain the game name`);
     assert.match(description, /Mortal Shell (2|II)/, `${slug} description must contain the game name`);
     assert.ok(description.length >= 50 && description.length <= 170, `${slug} description length`);
-    assert.equal(frontmatterValue(markdown, 'updatedAt'), '2026-08-21', `${slug} update date`);
+    assert.equal(frontmatterValue(markdown, 'updatedAt'), updatedAt, `${slug} update date`);
     assert.equal(frontmatterValue(markdown, 'preRelease'), 'false', `${slug} must be post-launch`);
     assert.ok(['official', 'community'].includes(status), `${slug} must be indexable`);
     assert.match(cover, /^\/images\/[\w-]+\.(webp|jpg|png)$/i, `${slug} cover path`);

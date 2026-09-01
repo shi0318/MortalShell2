@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Steam Features — Cloud, Controller & Single-Player"
 heading: "Mortal Shell 2 Steam Features: Cloud, Controller and Single-Player Support"
 description: "What the official Mortal Shell 2 Steam listing confirms about single-player support, Steam Cloud, controllers, Family Sharing and unannounced online features."
 category: guide
+keyword: "mortal shell 2 steam cloud"
 cover: /images/mortalshell2-world-map-cover.webp
 status: official
 preRelease: false

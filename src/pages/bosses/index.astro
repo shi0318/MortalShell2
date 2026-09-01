@@ -7,11 +7,11 @@ import { SITE_IMAGES } from '../../data/images';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
 import StatusBadge from '../../components/StatusBadge.astro';
-import { BOSSES } from '../../data/bosses';
+import { BOSSES, BOSS_ROSTER_NOTE, BOSS_KNOWN_ISSUE } from '../../data/bosses';
 
-const title = 'Mortal Shell 2 Bosses — Encounter Guide & Strategy Status';
+const title = 'Mortal Shell 2 Bosses — All 18 Boss Names from Official Patch Notes';
 const description =
-  'Mortal Shell 2 bosses guide with named encounters, retail-build verification status, and clear boundaries between official, Open Beta, trailer, and community information.';
+  'All eighteen Mortal Shell 2 boss names from Cold Symmetry\'s official Week 1 Update patch notes, with named attacks and balance numbers for The Monolith and The Lost Child.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -25,10 +25,13 @@ const crumbs = [
   <header class="mb-8">
     <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell 2 Bosses Guide</h1>
     <p class="mt-3 max-w-2xl text-lg text-ash-400">
-      Named encounters and boss-like fights tracked so far. The official Open Beta text names
-      <a href="/magdalena/" class="text-amber-glow hover:underline">Magdalena, the Lady of the Woods</a>
-      and optional mini-bosses. Those Beta names remain historical evidence; attack patterns, rewards, and locations
-      are shown as retail data only when the current build is directly documented.
+      Eighteen named bosses and minibosses, taken from <strong>Cold Symmetry's own patch notes</strong> rather
+      than from a community list. Valve hides every boss achievement in this game, so the roster was invisible
+      until the developer published a fix list naming each encounter. Fifteen are named in the Week 1 Update's
+      "Bosses and Minibosses" section with specific attacks; three more —
+      Vellen, Larreth and The Silent Sester — surface in its softlock and riposte fixes. Two bosses have exact
+      balance numbers from Balance Patch 1. What is not here: phase charts, parry windows and drop tables,
+      because the developer has never published them.
     </p>
   </header>
 
@@ -83,11 +86,46 @@ const crumbs = [
   </div>
 
   <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
-    <h2 class="text-xl font-semibold text-ash-100">How this boss index separates evidence</h2>
-    <ul class="list-disc space-y-2 pl-5">
-      <li>No invented phase charts, parry windows, or guaranteed drop tables.</li>
-      <li>Trailer-only silhouettes stay marked as Trailer and are not presented as named retail bosses.</li>
-      <li>Open Beta names stay tied to the Beta build; a retail strategy page needs a current-build result.</li>
+    <h2 class="text-xl font-semibold text-ash-100">Why Valve hid every boss achievement</h2>
+    <p>{BOSS_ROSTER_NOTE}</p>
+
+    <h2 class="text-xl font-semibold text-ash-100">The two bosses with exact balance numbers</h2>
+    <p>
+      <strong>Balance Patch 1</strong> (20 August 2026, smithbodie [DEVELOPER]) published exact percentage
+      reductions for two bosses:
+    </p>
+    <ul class="list-disc space-y-1 pl-5">
+      <li>
+        <strong>The Lost Child:</strong> base damage −10%, maximum health −15%
+      </li>
+      <li>
+        <strong>The Monolith:</strong> base damage −19%, maximum health −10%
+      </li>
     </ul>
+    <p>
+      Those are the only two boss health or damage numbers Cold Symmetry has published. Every other row in the
+      table describes named attacks or fixes without percentages.
+    </p>
+
+    <h2 class="text-xl font-semibold text-ash-100">The one boss bug still open</h2>
+    <p>{BOSS_KNOWN_ISSUE}</p>
+
+    <h2 class="text-xl font-semibold text-ash-100">Why most rows have no location</h2>
+    <p>
+      Patch notes name the boss and describe what was fixed — they are not a walkthrough. Fifteen of the
+      eighteen rows say "Not published" for location because Cold Symmetry did not state where the arena is.
+      Community-reported coordinates exist for several, but this page keeps official and community evidence
+      separate instead of presenting player reports as developer facts.
+    </p>
+
+    <h2 class="text-xl font-semibold text-ash-100">Pre-29-August difficulty reports are outdated</h2>
+    <p>
+      The Week 1 Update shipped on <strong>29 August 2026</strong>, nine days after launch. Anything written
+      before that date describes bosses that have since been retuned, debugged, or reworked. The Monolith's
+      attack spam was a bug. Tainted Vestige's ranged attacks missed without reason. The Warden and Urrig
+      gained new ice attacks. Sir Isaac's phase transition riposte worked wrong against a wall. If a complaint
+      or strategy predates 29 August, cross-check it against the Week 1 change list before trusting it on the
+      current build.
+    </p>
   </section>
 </Layout>

@@ -3,6 +3,7 @@ title: "Beta Save Transfer in Mortal Shell II — What Carries Over"
 heading: "Will Mortal Shell II Open Beta progress carry over to release?"
 description: "Official Mortal Shell II Open Beta carry-over rules: cosmetic unlock, prologue skip after Marrow Keep, and what resets at full launch."
 category: guide
+keyword: "mortal shell 2 beta progress transfer"
 cover: /images/mortalshell2-official-keyart-1.webp
 status: official
 preRelease: true
@@ -19,14 +20,14 @@ sources:
 
 ## Short answer
 
-**Partially.** The Open Beta does **not** transfer your full save into the 1.0 release. Currency, weapons, Shells, collectibles, and other items found in the beta **reset at launch**.
+**Partially.** The Open Beta did **not** transfer your full save into the 1.0 release. Currency, weapons, Shells, collectibles, and other items found in the beta were reset when the full game launched on 20 August 2026.
 
-What *does* carry is limited and intentional:
+What did carry over was limited and intentional:
 
-1. Play the Open Beta -> unlock **The Flayed Harbinger** cosmetic in the full game
-2. Progress beyond **Marrow Keep** -> unlock the option to **skip the Prologue** at launch
+1. Played the Open Beta -> unlocked **The Flayed Harbinger** cosmetic in the full game
+2. Progressed beyond **Marrow Keep** -> unlocked the option to **skip the Prologue**
 
-Source: [Mortal Shell II Open Beta on Steam](https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/).
+Source: [Mortal Shell II Open Beta on Steam](https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/). The beta is closed; this page is the historical record of what it granted.
 
 ## Official carry-over rules
 
@@ -34,28 +35,28 @@ Source: [Mortal Shell II Open Beta on Steam](https://store.steampowered.com/app/
 
 > To preserve the balance of the full release, beta save progress will not carry over in full. Currency, weapons, Shells, collectibles, and other items discovered during the Open Beta will reset at launch.
 
-That means you should treat beta inventory as temporary. Farming materials or perfecting a beta loadout will not preserve those items into 1.0.
+That means beta inventory was temporary. Farming materials or perfecting a beta loadout did not preserve those items into 1.0.
 
 ### Cosmetic reward
 
 > Play the Mortal Shell II Open Beta to unlock The Flayed Harbinger, an exclusive cosmetic reward available to claim in the full game at launch.
 
-This is an **exclusive cosmetic**, not a gameplay power advantage.
+This is an **exclusive cosmetic**, not a gameplay power advantage. If you played the beta, it is claimable in your retail save.
 
 ### Prologue skip
 
 > Players who progress beyond the Marrow Keep will also unlock the option to skip the Prologue in the full game.
 
-If your goal is a faster launch-day start, prioritize reaching and passing **Marrow Keep** during the beta.
+Only accounts that passed **Marrow Keep** during the beta have this option. Note that the retail achievement for the same location spells it **Marrowkeep** — reaching it is achievement #2 in the game, held by 91.3% of players. See [all 53 achievements](/mortal-shell-2-achievements/).
 
-## What this means for players
+## What the beta granted
 
-| Goal | What to do in the beta |
-|---|---|
-| Unlock the exclusive cosmetic | Simply play the Open Beta |
-| Skip the Prologue at launch | Progress beyond Marrow Keep |
-| Keep weapons / Shells / currency | Not possible - they reset |
-| Learn routes and bosses | Fully useful knowledge; only items reset |
+| Goal | What it required in the beta | Still obtainable? |
+|---|---|---|
+| The Flayed Harbinger cosmetic | Play the Open Beta at all | No — the beta is closed |
+| Skip the Prologue | Progress beyond Marrow Keep | No — the beta is closed |
+| Keep weapons / Shells / currency | Was never possible — they reset | n/a |
+| Route and boss knowledge | Carried over in the player's head only | n/a |
 
 ## Status history on this wiki
 

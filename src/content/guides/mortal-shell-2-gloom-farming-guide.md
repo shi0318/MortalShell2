@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Gloom Farming Guide — Endgame Chest Room and Sacrifice 
 heading: "Mortal Shell 2 Gloom Farming: Handle the Endgame Chest Room Safely"
 description: "Mortal Shell 2 Gloom farming guide for the endgame chest room: when to handle the sacrifice prompt, how to protect your Gloom, and when to return for rewards."
 category: guide
+keyword: "mortal shell 2 gloom farming guide"
 status: community
 preRelease: false
 order: 2

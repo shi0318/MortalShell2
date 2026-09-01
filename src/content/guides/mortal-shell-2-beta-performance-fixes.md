@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Beta Performance Fixes — Crash, Stutter & Camera Checks
 heading: "Mortal Shell 2 Beta Performance Fixes: Crash, Stutter and Camera Checks"
 description: "Mortal Shell 2 Beta performance checks for shader crashes, stutter, camera problems and PC setup, based on Steam requirements and public player reports."
 category: guide
+keyword: "mortal shell 2 beta performance fixes"
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
 status: community
 preRelease: true

@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Boss Runback — Route Planning After Death"
 heading: "Mortal Shell 2 Boss Runback: Reduce Repeated Travel"
 description: "Mortal Shell 2 Steam players discuss long boss runbacks; use route notes, shortcuts and safer recovery planning after a death."
 category: bosses
+keyword: "mortal shell 2 boss runback"
 status: community
 preRelease: false
 order: 23

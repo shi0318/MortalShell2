@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Turn Off the Sun — Challenge Modifier Explained"
 heading: "Mortal Shell 2 Turn Off the Sun: The Harder Challenge Option"
 description: "Mortal Shell 2 can raise the challenge by turning off the sun through a special modifier, based on public launch reporting."
 category: mechanics
+keyword: "mortal shell 2 turn off the sun"
 status: community
 preRelease: false
 order: 12

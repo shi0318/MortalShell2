@@ -3,6 +3,7 @@ title: "Mortal Shell 2 Gameplay Preview — Open Beta Combat & Shells"
 heading: "Mortal Shell 2 Gameplay Preview: What the Open Beta Shows"
 description: "A source-backed Mortal Shell 2 gameplay preview covering the historical Open Beta scope, Shell roles, stamina-free combat, sidearms, and retail-build limits."
 category: guide
+keyword: "mortal shell 2 gameplay preview"
 cover: /images/mortalshell2-rainy-path-combat.webp
 status: beta
 preRelease: true
