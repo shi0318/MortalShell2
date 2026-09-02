@@ -26,10 +26,10 @@ const ACHIEVEMENTS: SourceRef = {
 // Axatana / Black Needle / Clockwork Scythe 轻击追踪改进、Tarforge 熔炼成本 −75%。
 const BALANCE_PATCH_1: SourceRef = {
   status: 'official',
-  sourceUrl: 'https://steamcommunity.com/app/2584270/discussions/0/600780565993539360/',
+  sourceUrl: 'https://steamcommunity.com/app/2584270/discussions/0/582805931178489108/',
   sourceDate: '2026-08-20',
   gameVersion: 'Balance Patch 1 (PC first, consoles shortly after)',
-  lastChecked: '2026-09-01',
+  lastChecked: '2026-09-02',
   note: 'Cold Symmetry\'s Balance Patch 1 (smithbodie [DEVELOPER], August 20, 2026 @ 1:06:04 pm PDT) lists exact per-weapon balance changes: Great Martyr\'s Blade Attack Damage +20%, Troubador\'s Lute Attack Damage +100%, Caged Hystrix and Triarch Repeater no longer have minimum resolve requirements to fire, and improved tracking for Axatana, Black Needle, and Clockwork Scythe light attacks. It also confirms Black Needle as a weapon rather than a Shell by listing it under the Weapons heading.',
 };
 

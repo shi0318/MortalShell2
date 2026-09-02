@@ -56,8 +56,11 @@ const orderedByRate = [...SHELLS].filter((s) => typeof s.unlockRate === 'number'
       through a side quest. The table is <strong>sorted by global unlock rate</strong>, which is the
       closest published proxy for the order players find them.
       {officialCount} of {SHELLS.length} rows carry Official status; the rest rest on player-compiled
-      routes and are labelled Community. No stats or abilities are published for any Shell, and this
-      page does not invent them.
+      routes and are labelled Community. <strong>No stat is published for any Shell</strong> — no
+      health, resolve or scaling — but the Week 1 patch notes do name specific abilities for five of
+      the eight, so the Known abilities column stops exactly where the developer stopped. For a
+      recommendation built on those five, see the
+      <a href="/shell-selection-guide/" class="text-amber-glow hover:underline">best Shell guide</a>.
     </p>
   </header>
 
@@ -154,6 +157,11 @@ const orderedByRate = [...SHELLS].filter((s) => typeof s.unlockRate === 'number'
       Breaking a Glimpse Stone after twenty enemy kills reportedly yields three Glimpses, and up to
       thirteen Glimpse Stones can be bought from the hub merchant. Those figures come from a
       player-compiled guide, not from the developer.
+    </p>
+    <p>
+      <strong>One correction the developer published the same day:</strong> {SHELL_BONDING.economyChange}
+      So treat {SHELL_BONDING.glimpsesTotal} Glimpses as the amount of bonding the achievement asks
+      for, not as a budget you can spend wrong.
     </p>
 
     <h2 class="text-xl font-semibold text-ash-100">Prequel Shells that did not return</h2>

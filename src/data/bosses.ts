@@ -16,10 +16,10 @@ const WEEK1_PATCH: SourceRef = {
 
 const BALANCE_PATCH_1: SourceRef = {
   status: 'official',
-  sourceUrl: 'https://steamcommunity.com/app/2584270/discussions/0/600780565993539360/',
+  sourceUrl: 'https://steamcommunity.com/app/2584270/discussions/0/582805931178489108/',
   sourceDate: '2026-08-20',
   gameVersion: 'Balance Patch 1',
-  lastChecked: '2026-09-01',
+  lastChecked: '2026-09-02',
   note: 'Balance Patch 1 (smithbodie [DEVELOPER], 20 August 2026) publishes exact base-damage and maximum-health reductions for this boss.',
 };
 

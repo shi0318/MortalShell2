@@ -211,11 +211,16 @@ export const SHELLS: Shell[] = [
 export const PREQUEL_ONLY_SHELLS = ['Harros', 'Solomon'] as const;
 
 // 装备/羁绊层级：社区指南给出 Tier IV 为上限，且 8 个 Shell 全部拉满才解 Seeking the Past。
+// 注意：Week 1 Update（2026-08-29）把 Glimpses / Tarcores 改成非有限资源，并加入 respec 道具
+// Mether's Severance，所以 216 这个「总预算」只描述补丁前的经济，不能再当当前版本的稀缺上限。
 export const SHELL_BONDING = {
   maxTier: 'Tier IV',
   glimpsesPerShell: 27,
   glimpsesTotal: 216,
   note: 'Steam guide "How to unlock all Shell Memories / get Glimpses" by Zyloc, 29 August 2026, states that Seeking the Past needs Tier IV on all eight Shells, that this costs 27 Glimpses per Shell for 216 total, that breaking a Glimpse Stone after 20 enemy kills yields 3 Glimpses, and that up to 13 Glimpse Stones can be bought from the hub merchant. Player-compiled, not a developer statement.',
+  // 官方第一方改动，直接推翻上面那条的稀缺前提。
+  economyChange:
+    'The Week 1 Update, published the same day as that guide, states that "Glimpses and Tarcores are no longer finite resources, allowing all shells and Tarstones to be upgraded in a single playthrough." So 216 is the amount of bonding the achievement asks for, not a budget you can run out of. The same patch adds Mether\'s Severance, a Shell respec item given to Zhirelle, the shell keeper: she severs your bond with a Shell, resets it, and returns every Glimpse you spent. It is sold by Merrick and restocks as you progress.',
 } as const;
 
 export const SHELL_CLASSIFICATION_NOTE =
