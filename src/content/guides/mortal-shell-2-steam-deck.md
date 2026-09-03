@@ -54,6 +54,8 @@ The glyph warning means the button prompts drawn on screen are not Steam Deck gl
 
 The [beginner combat tips](/mortal-shell-2-beginner-combat-tips/) and [combat system guide](/combat-system/) list the inputs by function rather than by icon, which is the more useful reference on Deck.
 
+**One caveat on this warning specifically.** The [Week 1 Update](/mortal-shell-2-week-1-update/), published on August 29, states that **"Steam Deck and Steam Controller now display the correct buttons"** and that the game moved to the current Steamworks release for better Steam Deck detection. Valve's compatibility report still showed the glyph warning when it was read on September 2, because Valve re-tests titles on its own schedule rather than automatically after a patch. So the badge and the changelog currently disagree, and the changelog is the newer of the two. Treat the glyph mark as the more likely of the two warnings to disappear at the next re-test.
+
 ## SteamOS and Steam Machine ratings
 
 Valve now publishes three separate hardware verdicts, and Mortal Shell II is **Playable on all three**:
@@ -86,4 +88,4 @@ If your plan was to dock it and use a pad, that is the configuration Valve says 
 - **No Proton version or workaround.** Not published in the compatibility report.
 - **No claim about the OLED versus LCD Deck, or Deck 2.** The rating is per-title, not per-revision.
 
-Compatibility categories were read on **September 2, 2026**. Valve re-tests titles after patches, and Mortal Shell II has already had two balance patches — a rating can move to Verified if the glyph and text issues are addressed. For the patch record see [Balance Patch 1](/mortal-shell-2-balance-patch-1/), and for the wider platform picture see [Steam features](/steam-features-single-player-cloud/).
+Compatibility categories were read on **September 2, 2026**. Valve re-tests titles after patches, and Mortal Shell II has already had two — Balance Patch 1 and the Week 1 Update — so a rating can move to Verified if the glyph and text issues are addressed. The Week 1 Update says the Deck glyphs already were. For the patch record see [Balance Patch 1](/mortal-shell-2-balance-patch-1/) and the [Week 1 Update notes](/mortal-shell-2-week-1-update/), and for the wider platform picture see [Steam features](/steam-features-single-player-cloud/).

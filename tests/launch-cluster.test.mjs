@@ -28,8 +28,11 @@ const slugs = [
   'mortal-shell-2-launch-bugs',
 ];
 
+// Read a top-level frontmatter scalar. Quotes are stripped after capturing, so a
+// value containing an apostrophe (Mether's Severance) still parses.
 function frontmatterValue(markdown, key) {
-  return markdown.match(new RegExp(`^${key}:\\s*["']?([^"'\\r\\n]+?)["']?\\s*$`, 'm'))?.[1]?.trim() ?? '';
+  const raw = markdown.match(new RegExp(`^${key}:\\s*(.+?)\\s*$`, 'm'))?.[1]?.trim() ?? '';
+  return raw.replace(/^(["'])([\s\S]*)\1$/, '$2');
 }
 
 test('Mortal Shell 2 launch cluster contains exactly 20 source-tracked visual pages', async () => {
@@ -45,7 +48,9 @@ test('Mortal Shell 2 launch cluster contains exactly 20 source-tracked visual pa
     assert.match(title, /Mortal Shell (2|II)/, `${slug} title must contain the game name`);
     assert.match(heading, /Mortal Shell (2|II)/, `${slug} H1 must contain the game name`);
     assert.ok(description.length >= 50 && description.length <= 170, `${slug} description length`);
-    assert.equal(frontmatterValue(markdown, 'updatedAt'), '2026-08-20', `${slug} last verified date`);
+    // The cluster was verified together on 2026-08-20. A page may carry a later date
+    // once newer first-party information lands on it, but never an earlier one.
+    assert.ok(frontmatterValue(markdown, 'updatedAt') >= '2026-08-20', `${slug} last verified date`);
     assert.match(cover, /^\/images\/[\w-]+\.(webp|jpg|png)$/i, `${slug} cover path`);
     await access(new URL(cover.slice(1), publicRoot));
 
