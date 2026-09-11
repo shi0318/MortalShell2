@@ -30,10 +30,12 @@ export const SITE = {
 
 export const NAV = [
   { label: 'Guide', href: '/guide/' },
+  { label: 'Beginner Guide', href: '/beginner-guide/' },
   { label: 'Shells', href: '/shells/' },
   { label: 'Weapons', href: '/weapons/' },
   { label: 'Bosses', href: '/bosses/' },
   { label: 'Map', href: '/map/' },
+  { label: 'PC Requirements', href: '/pc-requirements/' },
   { label: 'Tools', href: '/tools/' },
   { label: 'Download', href: '/download/' },
 ] as const;

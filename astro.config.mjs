@@ -9,6 +9,10 @@ import { dirname, join } from 'node:path';
 const SITE = 'https://mortalshell2.wiki';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
+const STATIC_LASTMOD = {
+  '/': '2026-09-07',
+};
+
 function frontmatterDate(file) {
   const source = readFileSync(join(ROOT, file), 'utf8');
   const match = source.match(/^updatedAt:\s*["']?(\d{4}-\d{2}-\d{2})/m);
@@ -18,6 +22,7 @@ function frontmatterDate(file) {
 // Only guide frontmatter supplies a sitemap date; static routes omit it.
 function lastmodFor(url) {
   const pathname = new URL(url).pathname;
+  if (STATIC_LASTMOD[pathname]) return STATIC_LASTMOD[pathname];
   const slug = pathname.replace(/^\/+|\/+$/g, ''); // 去首尾斜杠
   const candidates = [`src/content/guides/${slug}.md`, `src/content/guides/${slug}.mdx`];
   const file = candidates.find((rel) => existsSync(join(ROOT, rel)));
