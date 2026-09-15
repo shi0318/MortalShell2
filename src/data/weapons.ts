@@ -138,7 +138,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Deep Cuts',
     unlockRate: 64.7,
     source: ACHIEVEMENTS,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'forgotten-crossbow',
@@ -151,7 +151,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Old School',
     unlockRate: 63.9,
     source: ACHIEVEMENTS,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'veterans-battle-axe',
@@ -163,7 +163,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Cut You Down to Size',
     unlockRate: 59.3,
     source: ACHIEVEMENTS,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'great-martyrs-blade',
@@ -181,7 +181,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Big Boi',
     unlockRate: 55.5,
     source: WEEK_1_UPDATE,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'salvaged-trebuchaxe',
@@ -198,7 +198,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Chop Chop',
     unlockRate: 47.5,
     source: WEEK_1_UPDATE,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'axatana',
@@ -217,7 +217,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Dual Wielding',
     unlockRate: 43.6,
     source: WEEK_1_UPDATE,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'triarch-repeater',
@@ -235,7 +235,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Old Painless',
     unlockRate: 39.0,
     source: BALANCE_PATCH_1,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'black-needle',
@@ -252,7 +252,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Point Taken',
     unlockRate: 38.1,
     source: BALANCE_PATCH_1,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'clockwork-scythe',
@@ -269,7 +269,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Like Clockwork',
     unlockRate: 35.8,
     source: BALANCE_PATCH_1,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'caged-hystrix',
@@ -287,7 +287,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Spiked',
     unlockRate: 35.7,
     source: BALANCE_PATCH_1,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'obsidian-hammer',
@@ -304,7 +304,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Stop - Hammer Time',
     unlockRate: 33.9,
     source: WEEK_1_UPDATE,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'cursed-child',
@@ -317,7 +317,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Beautiful Baby',
     unlockRate: 32.4,
     source: ACHIEVEMENTS,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'ballistazooka',
@@ -330,7 +330,7 @@ export const WEAPONS: Weapon[] = [
     unlockAchievement: 'Speared',
     unlockRate: 31.9,
     source: ACHIEVEMENTS,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
 ];
 

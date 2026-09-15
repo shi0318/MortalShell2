@@ -61,7 +61,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'zmey',
@@ -77,7 +77,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Final boss. Precise location not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'the-lost-child',
@@ -93,7 +93,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'droeg-the-conquerer',
@@ -109,7 +109,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Reached through a snow approach (implied by the fixed stuck spot). Not stated directly.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'sir-isaac-the-scholar-prince',
@@ -125,7 +125,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'hexapod',
@@ -141,7 +141,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Has a dedicated arena with a beacon. Location not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'the-warden',
@@ -156,7 +156,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'urrig-the-executioner',
@@ -171,7 +171,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'orrem-the-reclaimed',
@@ -185,7 +185,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'malborn-offspring',
@@ -199,7 +199,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'vrannic-the-grand-illusionist',
@@ -213,7 +213,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'magdalena-lady-of-the-woods',
@@ -245,7 +245,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'tainted-vestige',
@@ -259,7 +259,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'the-wandering-shepherd',
@@ -273,7 +273,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Has a dedicated arena. Location not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'vellen-high-lord-of-mammon',
@@ -288,7 +288,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Mammon (implied by the title).',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'larreth-the-brigand-king',
@@ -302,7 +302,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'the-silent-sester',
@@ -317,7 +317,7 @@ export const BOSSES: Boss[] = [
     ],
     location: 'Not published.',
     source: WEEK1_PATCH,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'open-beta-mini-bosses',

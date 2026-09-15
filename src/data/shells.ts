@@ -131,7 +131,7 @@ export const SHELLS: Shell[] = [
     unlockAchievement: 'My Brether',
     unlockRate: 49.1,
     source: ACHIEVEMENTS,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'gragu',
@@ -149,7 +149,7 @@ export const SHELLS: Shell[] = [
     unlockAchievement: 'Heartless',
     unlockRate: 48.3,
     source: ACH_GUIDE,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'sariel',
@@ -166,7 +166,7 @@ export const SHELLS: Shell[] = [
     unlockAchievement: 'The Alchemist',
     unlockRate: 35.2,
     source: ACHIEVEMENTS,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'sester-genessa',
@@ -185,7 +185,7 @@ export const SHELLS: Shell[] = [
     unlockAchievement: 'Sester',
     unlockRate: 33.9,
     source: ACH_GUIDE,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
   {
     slug: 'lazlo',
@@ -203,7 +203,7 @@ export const SHELLS: Shell[] = [
     unlockAchievement: 'Down with the Thickness',
     unlockRate: 31.4,
     source: ACHIEVEMENTS,
-    hasDetailPage: false,
+    hasDetailPage: true,
   },
 ];
 

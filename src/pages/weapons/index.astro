@@ -89,7 +89,9 @@ const crumbs = [
           WEAPONS.map((w) => (
             <tr class="border-t border-white/5 align-top hover:bg-ash-900/50">
               <td class="px-4 py-3">
-                <div class="font-medium text-ash-100">{w.name}</div>
+                <div class="font-medium text-ash-100">
+                  <a href={`/weapons/${w.slug}/`} class="text-amber-glow hover:underline">{w.name}</a>
+                </div>
                 <div class="mt-1 text-ash-400">{w.summary}</div>
               </td>
               <td class="px-4 py-3 text-ash-300">{w.unlockAchievement ?? '—'}</td>
@@ -156,7 +158,20 @@ const crumbs = [
       with no "Unlock X" achievement at all:
     </p>
     <ul class="list-inside list-disc space-y-1 pl-4">
-      {WEAPONS_WITHOUT_ACHIEVEMENTS.map((w) => <li><strong>{w.name}</strong>: {w.note}</li>)}
+      {WEAPONS_WITHOUT_ACHIEVEMENTS.map((w) => {
+        const slug = w.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const hasPage = slug === 'troubador-s-lute' || slug === 'weltcap';
+        return (
+          <li>
+            {hasPage ? (
+              <a href={`/weapons/${slug}/`} class="font-semibold text-amber-glow hover:underline">{w.name}</a>
+            ) : (
+              <strong>{w.name}</strong>
+            )}
+            : {w.note}
+          </li>
+        );
+      })}
     </ul>
     <p>
       The Troubador's Lute is the remarkable one: Cold Symmetry gave it the largest single buff in Balance
