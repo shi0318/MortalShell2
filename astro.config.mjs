@@ -30,8 +30,8 @@ function lastmodFor(url) {
 }
 
 // 与 GuideLayout 的 noindex 策略保持一致：trailer/prequel/unconfirmed 臆测页不进 sitemap。
-// 目前仅 /gloom/（status: trailer）。新增臆测页时在此登记，正式发售核实后移除。
-const NOINDEX_URLS = ['/gloom/'];
+// 发售前臆测页已全部清理；新增臆测页时在此登记，正式发售核实后移除。
+const NOINDEX_URLS = [];
 const isNoindexUrl = (page) => {
   const path = new URL(page).pathname;
   return NOINDEX_URLS.includes(path);
