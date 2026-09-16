@@ -46,7 +46,7 @@ const canonicalUrl = isErrorPage
   ? undefined
   : (canonical ?? new URL(path, SITE.url).href);
 const ogImageUrl = new URL(ogImage, SITE.url).href;
-const GA_ID = import.meta.env.PUBLIC_GA4_ID;
+const GA_ID = 'G-FE8CNPWM8M';
 const published = toDateString(datePublished);
 const modified = toDateString(dateModified);
 const ogType = schemaType === 'article' || schemaType === 'news' ? 'article' : 'website';
