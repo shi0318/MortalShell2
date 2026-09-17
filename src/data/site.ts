@@ -35,6 +35,7 @@ export const NAV = [
   { label: 'Weapons', href: '/weapons/' },
   { label: 'Bosses', href: '/bosses/' },
   { label: 'Map', href: '/map/' },
+  { label: 'Gloom', href: '/mortal-shell-2-gloom-farming-guide/' },
   { label: 'PC Requirements', href: '/pc-requirements/' },
   { label: 'Tools', href: '/tools/' },
   { label: 'Download', href: '/download/' },
