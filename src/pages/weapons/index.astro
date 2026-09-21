@@ -1,27 +1,13 @@
 ---
-// Weapons 分类聚合页 —— CollectionPage schema（方案 3.1：列表页不标 Article）。
-// 发售后：保留来源状态，已核实内容优先，避免把 Beta/前作信息误写成零售版事实。
 import Layout from '../../layouts/Layout.astro';
 import MediaFigure from '../../components/MediaFigure.astro';
 import { SITE_IMAGES } from '../../data/images';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
-import StatusBadge from '../../components/StatusBadge.astro';
-import {
-  WEAPONS,
-  PREQUEL_ONLY_WEAPONS,
-  WEAPON_CLASSIFICATION_NOTE,
-  WEAPON_UPGRADE,
-  UPGRADE_CAP_DISPUTE,
-  WEAPONS_WITHOUT_ACHIEVEMENTS,
-} from '../../data/weapons';
+import { MELEE_WEAPONS, SIDEARMS, UPGRADE_LADDER, MELEE_TIERS, SIDEARM_TIERS } from '../../data/loadout';
 
-const title = 'Mortal Shell 2 Weapons — All 13 Weapons & Sidearms by Name';
+const title = 'Mortal Shell 2 Weapons — 8 Melee, 8 Sidearms, Locations and Upgrades';
 const description =
-  'All thirteen Mortal Shell 2 Weapons and Sidearms named from the retail achievement list, with unlock rates, patch-note buffs, and the disputed Tarforge upgrade cap.';
-
-// 有 official 级机制事实的行数 —— 用来在正文里说明证据分布，不写死数字。
-const patchedCount = WEAPONS.filter((w) => w.source.status === 'official' && w.knownStats.length > 1).length;
+  'Mortal Shell 2 weapons guide: eight melee weapons, eight sidearms, Tarforge upgrades to +16, Merrick maps, and a player-consensus tier list.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -35,78 +21,61 @@ const crumbs = [
   <header class="mb-8">
     <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell 2 Weapons Guide</h1>
     <p class="mt-3 max-w-2xl text-lg text-ash-400">
-      Thirteen Weapons and Sidearms are named in the retail Steam achievement list, and the table is
-      sorted by global unlock rate — the closest published proxy for the order players actually find
-      them. Two post-launch patches name {patchedCount} of the thirteen with balance changes, which is the first
-      official mechanical detail for any of them. Upgrades reportedly cap at <strong>{WEAPON_UPGRADE.maxLevel} at the {WEAPON_UPGRADE.forge}</strong>,
-      though several players report pushing past that with a late-game item; location maps are sold by
-      <strong>{WEAPON_UPGRADE.mapMerchant}</strong>. Damage values, movesets and drop coordinates are
-      published by nobody, so they are absent here rather than invented. For which of them the evidence
-      actually favours, see the
-      <a href="/mortal-shell-2-best-weapon/" class="text-amber-glow hover:underline">best weapon guide</a>.
+      You always carry one melee weapon and one sidearm. There are eight of each. Pickup locations, Tarforge
+      materials, and the player-consensus ranking below are walkthrough notes for this wiki — damage numbers
+      on the HUD are not a published stat sheet.
     </p>
   </header>
 
-  <div class="mb-6"><PreReleaseNotice /></div>
-  <section class="surface-card mb-8 border-amber-glow/20 bg-amber-glow/[0.04] p-5">
-    <p class="section-kicker">Launch evidence</p>
-    <h2 class="mt-2 text-xl font-semibold text-ash-100">
-      <a href="/mortal-shell-2-achievements/" class="hover:text-amber-glow">
-        All 53 Mortal Shell 2 achievements and what they confirm
-      </a>
-    </h2>
-    <p class="mt-2 max-w-2xl text-sm leading-relaxed text-ash-400">
-      The source for every name below, plus the eight
-      <a href="/shells/" class="text-amber-glow hover:underline">Shell names</a>, the six collectible
-      sets, and the Tarforge upgrade cap. For the Beta-era record of the Axe-and-Dagger objective,
-      see the <a href="/mortal-shell-ii-open-beta-weapons-guide/" class="text-amber-glow hover:underline">Open Beta weapons guide</a>.
-    </p>
-  </section>
   <div class="mb-8">
     <MediaFigure
       src={SITE_IMAGES.weaponsCloseup.src}
       alt={SITE_IMAGES.weaponsCloseup.alt}
       width={SITE_IMAGES.weaponsCloseup.width}
       height={SITE_IMAGES.weaponsCloseup.height}
-      credit={SITE_IMAGES.weaponsCloseup.credit}
     />
   </div>
 
-  <div class="overflow-x-auto surface-card">
-    <table class="w-full border-collapse text-sm">
+  <section class="prose-body mb-10 max-w-3xl space-y-3 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">How the loadout works</h2>
+    <p>
+      Combat is Resolve and posture, not a stamina bar. Weapons stay unlocked once found and can move between
+      Shells. Tarstones are infusions, not smithing stones. Merrick in Marrow Keep sells maps that mark weapon
+      pins if you would rather spend Coins than explore.
+    </p>
+  </section>
+
+  <h2 class="mb-4 text-xl font-semibold text-ash-100">Melee weapons</h2>
+  <div class="mb-10 overflow-x-auto surface-card">
+    <table class="w-full min-w-[48rem] border-collapse text-sm">
       <thead class="bg-ash-900 text-left text-ash-300">
         <tr>
+          <th class="px-4 py-3 font-semibold">Look</th>
           <th class="px-4 py-3 font-semibold">Weapon</th>
-          <th class="px-4 py-3 font-semibold">Unlock achievement</th>
-          <th class="px-4 py-3 font-semibold">Global unlock</th>
-          <th class="px-4 py-3 font-semibold">Category</th>
-          <th class="px-4 py-3 font-semibold">Known notes</th>
-          <th class="px-4 py-3 font-semibold">Status</th>
+          <th class="px-4 py-3 font-semibold">Feel</th>
+          <th class="px-4 py-3 font-semibold">Where to get it</th>
+          <th class="px-4 py-3 font-semibold">Achievement</th>
         </tr>
       </thead>
       <tbody>
         {
-          WEAPONS.map((w) => (
-            <tr class="border-t border-white/5 align-top hover:bg-ash-900/50">
+          MELEE_WEAPONS.map((w) => (
+            <tr class="border-t border-white/5 align-top">
               <td class="px-4 py-3">
-                <div class="font-medium text-ash-100">
-                  <a href={`/weapons/${w.slug}/`} class="text-amber-glow hover:underline">{w.name}</a>
-                </div>
-                <div class="mt-1 text-ash-400">{w.summary}</div>
+                <img src={w.image} alt={w.name} width="120" height="120" loading="lazy" decoding="async" class="h-20 w-20 rounded object-cover" />
               </td>
-              <td class="px-4 py-3 text-ash-300">{w.unlockAchievement ?? '—'}</td>
-              <td class="px-4 py-3 tabular-nums text-ash-300">
-                {typeof w.unlockRate === 'number' ? `${w.unlockRate}%` : '—'}
+              <td class="px-4 py-3 font-medium text-ash-100">
+                {w.slug ? (
+                  <a href={`/weapons/${w.slug}/`} class="text-amber-glow hover:underline">
+                    {w.name}
+                  </a>
+                ) : (
+                  w.name
+                )}
               </td>
-              <td class="px-4 py-3 text-ash-400">{w.type}</td>
-              <td class="px-4 py-3 text-ash-300">
-                <ul class="list-disc space-y-1 pl-4">
-                  {w.knownStats.map((s) => (
-                    <li>{s}</li>
-                  ))}
-                </ul>
-              </td>
-              <td class="px-4 py-3"><StatusBadge status={w.source.status} /></td>
+              <td class="px-4 py-3 text-ash-400">{w.feel}</td>
+              <td class="px-4 py-3 text-ash-300">{w.location}</td>
+              <td class="px-4 py-3 text-ash-400">{w.achievement}</td>
             </tr>
           ))
         }
@@ -114,95 +83,104 @@ const crumbs = [
     </table>
   </div>
 
-  <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
-    <h2 class="text-xl font-semibold text-ash-100">What the post-launch patches confirmed</h2>
-    <p>
-      Cold Symmetry released two balance patches in the nine days after launch, and both named weapons
-      individually with exact changes. <strong>{patchedCount} of {WEAPONS.length} rows</strong> now have official
-      mechanical facts rather than only a name: the Great Martyr's Blade received (or was supposed to receive)
-      an attack damage buff; the Axatana's weapon ability grants invulnerability frames and inflicts Fragile
-      stacks; the Caged Hystrix and Triarch Repeater both fire and no longer require minimum resolve to do so;
-      the Obsidian Hammer "now hits substantially harder" after a full balance pass; and the Salvaged Trebuchaxe's
-      Tarred Fragment component was rebuilt because it was "simultaneously overpowered and broken". Those facts
-      are drawn from developer posts, not player impressions, and they settle two things: <strong>Black Needle
-      is a weapon</strong> (Balance Patch 1 lists it under "Weapons" with a light-attack improvement), and
-      <strong>{WEAPON_UPGRADE.smeltCostReduction}</strong> (also Balance Patch 1).
-    </p>
-    <p>
-      The five rows without patch mentions — Axe and Dagger, Forgotten Crossbow, Veteran's Battle Axe,
-      Cursed Child, and Ballistazooka — still have only their names and unlock rates. No stats, no abilities.
-    </p>
+  <h2 class="mb-4 text-xl font-semibold text-ash-100">Sidearms</h2>
+  <div class="mb-10 overflow-x-auto surface-card">
+    <table class="w-full min-w-[48rem] border-collapse text-sm">
+      <thead class="bg-ash-900 text-left text-ash-300">
+        <tr>
+          <th class="px-4 py-3 font-semibold">Look</th>
+          <th class="px-4 py-3 font-semibold">Sidearm</th>
+          <th class="px-4 py-3 font-semibold">Feel</th>
+          <th class="px-4 py-3 font-semibold">Where to get it</th>
+          <th class="px-4 py-3 font-semibold">Achievement</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          SIDEARMS.map((w) => (
+            <tr class="border-t border-white/5 align-top">
+              <td class="px-4 py-3">
+                <img src={w.image} alt={w.name} width="120" height="120" loading="lazy" decoding="async" class="h-20 w-20 rounded object-cover" />
+              </td>
+              <td class="px-4 py-3 font-medium text-ash-100">
+                {w.slug ? (
+                  <a href={`/weapons/${w.slug}/`} class="text-amber-glow hover:underline">
+                    {w.name}
+                  </a>
+                ) : (
+                  w.name
+                )}
+              </td>
+              <td class="px-4 py-3 text-ash-400">{w.feel}</td>
+              <td class="px-4 py-3 text-ash-300">{w.location}</td>
+              <td class="px-4 py-3 text-ash-400">{w.achievement}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
 
-    <h2 class="text-xl font-semibold text-ash-100">Why no row says "Weapon" or "Sidearm"</h2>
-    <p>{WEAPON_CLASSIFICATION_NOTE}</p>
-
-    <h2 class="text-xl font-semibold text-ash-100">The Tarforge upgrade cap: +16 or higher?</h2>
+  <section class="prose-body mb-10 max-w-3xl space-y-4 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">Tarforge levels</h2>
     <p>
-      {UPGRADE_CAP_DISPUTE.guideClaim} That is the figure most guides still cite. But at least four
-      players report going higher — as high as +25 — after finding a forge upgrade item in a late-game
-      chest. The reports:
+      Upgrade at the Tarforge in Marrow Keep. Cap for a first playthrough is +16. Materials climb
+      Ventrium (+1 to +6), Laterite (+7 to +11), then Dorsalite (+12 to +16), plus Coins. Each step is
+      about +5% damage (105% at +1, 180% at +16 on the Iconoclast table). Troubador's Lute cannot be
+      upgraded. Smelting later refunds spent stones. Players also report a late-game item that goes past
+      +16 — treat +16 as the advertised cap until you find that chest.
     </p>
-    <ul class="list-inside list-disc space-y-1 pl-4">
-      {UPGRADE_CAP_DISPUTE.contradictingReports.map((r) => <li>{r}</li>)}
-    </ul>
-    <p>
-      {UPGRADE_CAP_DISPUTE.unresolved} The +16 figure is confirmed by the achievement at that level, but
-      the higher numbers are grounded in posted builds and consistent across four independent reports. This
-      is a live disagreement rather than a settled fact.
-    </p>
-
-    <h2 class="text-xl font-semibold text-ash-100">Four weapons with no unlock achievement</h2>
-    <p>
-      The thirteen names above are the ones Valve tracks with unlock achievements, but they are not the
-      full weapon list. Four more names appear in the corpus — three of them named in the official patches —
-      with no "Unlock X" achievement at all:
-    </p>
-    <ul class="list-inside list-disc space-y-1 pl-4">
-      {WEAPONS_WITHOUT_ACHIEVEMENTS.map((w) => {
-        const slug = w.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-        const hasPage = slug === 'troubador-s-lute' || slug === 'weltcap';
-        return (
-          <li>
-            {hasPage ? (
-              <a href={`/weapons/${slug}/`} class="font-semibold text-amber-glow hover:underline">{w.name}</a>
-            ) : (
-              <strong>{w.name}</strong>
-            )}
-            : {w.note}
-          </li>
-        );
-      })}
-    </ul>
-    <p>
-      The Troubador's Lute is the remarkable one: Cold Symmetry gave it the largest single buff in Balance
-      Patch 1 — Attack Damage +100% — yet it has no achievement. That means the thirteen-weapon count from
-      Valve's achievement list is incomplete, and "Lord of War" (unlock all Weapons) does not in fact mean
-      <em>all</em> weapons.
-    </p>
-
-    <h2 class="text-xl font-semibold text-ash-100">Reading the unlock rates</h2>
-    <p>
-      Axe and Dagger (64.7%) and the Forgotten Crossbow (63.9%) are effectively tied, and both sit
-      well above the 17.3% who finished the game — meaning they are found long before the end and are
-      hard to miss. The Ballistazooka at 31.9% is the rarest, but note that the floor across all
-      thirteen is fairly high: nothing here is at collectible-hunt rarity. That is consistent with
-      "Lord of War" (unlock all Weapons) at 26.1% and "Guns. Lots of Guns" (unlock all Sidearms) at
-      23.8% — roughly a quarter of players completed each set.
-    </p>
+    <div class="overflow-x-auto">
+      <table class="w-full min-w-[28rem] border-collapse text-sm">
+        <thead class="bg-ash-900 text-left text-ash-300">
+          <tr>
+            <th class="px-4 py-3 font-semibold">Level</th>
+            <th class="px-4 py-3 font-semibold">Damage</th>
+            <th class="px-4 py-3 font-semibold">Material</th>
+            <th class="px-4 py-3 font-semibold">Coins</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            UPGRADE_LADDER.map((row) => (
+              <tr class="border-t border-white/5">
+                <td class="px-4 py-2 text-ash-100">{row.level}</td>
+                <td class="px-4 py-2 text-ash-300">{row.damage}</td>
+                <td class="px-4 py-2 text-ash-400">{row.material}</td>
+                <td class="px-4 py-2 text-ash-400">{row.coins}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
     <p class="text-sm text-ash-500">
-      Percentages are a snapshot read on 1 September 2026, twelve days after release, and they rise
-      as more accounts play. Ordering by rate is an inference about where players find things, not a
-      published route.
+      Iconoclast ladder as measured in play. Other melee weapons match through at least +9. Sidearm
+      stone counts are not fully mapped.
     </p>
+  </section>
 
-    <h2 class="text-xl font-semibold text-ash-100">Prequel weapons that did not return</h2>
+  <section class="prose-body max-w-3xl space-y-4 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">Player ranking</h2>
     <p>
-      {PREQUEL_ONLY_WEAPONS.join(', ')} were weapons in Mortal Shell (2020) and none of them appears
-      in the retail achievement list. The thirteen names above account for the complete set, so earlier
-      drafts of this page — which listed the prequel arsenal as probable sequel content — have been
-      retired. The two genuine carry-overs are the <strong>Axatana</strong> (the first game's
-      "Martelli Axatana") and <strong>Great Martyr's Blade</strong>, and even there the achievement
-      list confirms only the name, not that the moveset is unchanged.
+      Not a developer list. Axatana and Black Needle sit at the top of most player write-ups. Obsidian
+      Hammer sits at the bottom because it is slow. Patches and Shells will move this around.
     </p>
+    <h3 class="text-lg font-semibold text-ash-100">Melee</h3>
+    <ul class="list-disc space-y-1 pl-5">
+      {MELEE_TIERS.map((row) => (
+        <li>
+          <strong class="text-ash-100">{row.tier} — {row.name}.</strong> {row.why}
+        </li>
+      ))}
+    </ul>
+    <h3 class="text-lg font-semibold text-ash-100">Sidearms</h3>
+    <ul class="list-disc space-y-1 pl-5">
+      {SIDEARM_TIERS.map((row) => (
+        <li>
+          <strong class="text-ash-100">{row.tier} — {row.name}.</strong> {row.why}
+        </li>
+      ))}
+    </ul>
   </section>
 </Layout>

@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Clockwork Scythe"
 description: "Clockwork Scythe in Mortal Shell 2: A new name with no prequel counterpart, confirmed as a melee weapon by a patch line about its light attacks."
 category: weapons
 keyword: "mortal shell 2 clockwork scythe"
-cover: /images/mortalshell2-spider-boss-fight.webp
+cover: /images/weapons/clockwork-scythe.jpg
 status: official
 preRelease: false
 order: 38
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Clockwork Scythe** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Like Clockwork, unlocked by 35.8% of players.  A new name with no prequel counterpart, confirmed as a melee weapon by a patch line about its light attacks.
 
-![Player fighting a multi-limbed spider-like boss among candles in Mortal Shell II](/images/mortalshell2-spider-boss-fight.webp)
+![Clockwork Scythe in Mortal Shell 2](/images/weapons/clockwork-scythe.jpg)
 
 ## Confirmed facts
 

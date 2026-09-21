@@ -210,6 +210,22 @@ export const SHELLS: Shell[] = [
 // 一代 Shell，在零售版解锁成就里完全没有出现。
 export const PREQUEL_ONLY_SHELLS = ['Harros', 'Solomon'] as const;
 
+export const HARROS_NOTE =
+  'Harros was a Shell in Mortal Shell (2020). It is not in the retail eight, not in Valve unlock achievements, and not in Cold Symmetry\'s Week 1 Shells heading. This site does not add a Harros row to Mortal Shell II.';
+
+export const GENESSA_ROUTE = {
+  status: 'community' as const,
+  steps: [
+    'Go to the lower eastern map area and look for graves.',
+    'Find the red-petal ground surrounded by sisters.',
+    'Interact with the floating red orb by the wall to open the next space.',
+    'Defeat Sister Secunda (also written Sester Secundus in some walkthroughs) in that space.',
+    'Take the censer she drops to Sester Genessa and play out the memory to possess the Shell.',
+  ],
+  unpublished:
+    'No official map pin, no official drop table for Sister Secunda, and no Resolve or damage numbers for Genessa abilities. Bond upgrade percentages from third-party wikis are not copied here.',
+} as const;
+
 // 装备/羁绊层级：社区指南给出 Tier IV 为上限，且 8 个 Shell 全部拉满才解 Seeking the Past。
 // 注意：Week 1 Update（2026-08-29）把 Glimpses / Tarcores 改成非有限资源，并加入 respec 道具
 // Mether's Severance，所以 216 这个「总预算」只描述补丁前的经济，不能再当当前版本的稀缺上限。

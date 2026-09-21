@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Salvaged Trebuchaxe"
 description: "Salvaged Trebuchaxe in Mortal Shell 2: A new name with no prequel counterpart. Its weapon ability component, the Tarred Fragment, was rebuilt a week after launch."
 category: weapons
 keyword: "mortal shell 2 salvaged trebuchaxe"
-cover: /images/mortalshell2-village-accordion-npc.webp
+cover: /images/weapons/salvaged-trebuchaxe.jpg
 status: official
 preRelease: false
 order: 34
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Salvaged Trebuchaxe** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Chop Chop, unlocked by 47.5% of players.  A new name with no prequel counterpart. Its weapon ability component, the Tarred Fragment, was rebuilt a week after launch.
 
-![Mortal Shell II village scene with an old accordion player among wooden houses](/images/mortalshell2-village-accordion-npc.webp)
+![Salvaged Trebuchaxe sidearm in Mortal Shell 2](/images/weapons/salvaged-trebuchaxe.jpg)
 
 ## Confirmed facts
 

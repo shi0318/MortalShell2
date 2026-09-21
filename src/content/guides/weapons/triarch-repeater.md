@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Triarch Repeater"
 description: "Triarch Repeater in Mortal Shell 2: Confirmed to be a weapon that fires, because Balance Patch 1 removed its minimum resolve requirement 'to fire'. That is the…"
 category: weapons
 keyword: "mortal shell 2 triarch repeater"
-cover: /images/mortalshell2-cathedral-guardian-boss.webp
+cover: /images/weapons/triarch-repeater.jpg
 status: official
 preRelease: false
 order: 36
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Triarch Repeater** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Old Painless, unlocked by 39% of players.  Confirmed to be a weapon that fires, because Balance Patch 1 removed its minimum resolve requirement "to fire". That is the strongest published hint that it is a Sidearm rather than a Weapon.
 
-![Player facing a massive crystal-crowned cathedral guardian boss in Mortal Shell II](/images/mortalshell2-cathedral-guardian-boss.webp)
+![Triarch Repeater sidearm in Mortal Shell 2](/images/weapons/triarch-repeater.jpg)
 
 ## Confirmed facts
 

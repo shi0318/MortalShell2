@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Axatana"
 description: "Axatana in Mortal Shell 2: Returns from the first game, where it was the 'Martelli Axatana' — a switchable axe/katana. The only weapon named in both post-launch…"
 category: weapons
 keyword: "mortal shell 2 axatana"
-cover: /images/mortalshell2-rainy-path-combat.webp
+cover: /images/weapons/axatana.jpg
 status: official
 preRelease: false
 order: 35
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Axatana** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Dual Wielding, unlocked by 43.6% of players.  Returns from the first game, where it was the "Martelli Axatana" — a switchable axe/katana. The only weapon named in both post-launch patches, and the one with the most confirmed mechanics.
 
-![Mortal Shell II hooded warrior approaching an enemy through a rainy torch-lit village path](/images/mortalshell2-rainy-path-combat.webp)
+![Axatana, a transforming axe and dual-katana weapon in Mortal Shell 2](/images/weapons/axatana.jpg)
 
 ## Confirmed facts
 

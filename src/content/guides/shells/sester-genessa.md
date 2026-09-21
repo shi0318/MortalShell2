@@ -27,7 +27,17 @@ Week 1 Update notes, Shells section (as "Genessa")
 |---|---|
 | Unlock achievement | Sester |
 | Global unlock rate | 33.9% |
-| Acquisition | Community-reported route: in the lower eastern map area, head to the graves and find a red-petal-covered area surrounded by sisters. Interact with a floating red orb by the wall, defeat Sister Secunda in the opened dimension, then bring the censer she drops to Sester Genessa. |
+| Acquisition | Community-reported side quest, not a Shellkeeper body. |
+
+## Community route (not a developer walkthrough)
+
+1. Go to the lower eastern map area and look for graves.
+2. Find the red-petal ground surrounded by sisters.
+3. Interact with the floating red orb by the wall to open the next space.
+4. Defeat Sister Secunda (also written Sester Secundus in some walkthroughs) in that space.
+5. Take the censer she drops to Sester Genessa and play out the memory to possess the Shell.
+
+No official map pin and no official drop table for that fight. Bond upgrade percentages from third-party wikis are not copied here. The Silent Sester is a separate Week 1 named encounter and is not merged with Sister Secunda.
 
 ## Abilities on the record
 

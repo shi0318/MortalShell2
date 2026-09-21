@@ -346,3 +346,40 @@ export const BOSS_KNOWN_ISSUE =
 
 export const BOSS_ROSTER_NOTE =
   'Valve hides every boss achievement in Mortal Shell II, which is why a boss roster could not be assembled from the achievement list the way the Shell and weapon lists were. The names below come from Cold Symmetry\'s own patch notes instead — the Week 1 Update contains a "Bosses and Minibosses" section that names fifteen encounters and describes specific attacks for most of them, and three more names appear in its softlock and cosmetic fixes. That makes this a first-party roster rather than a community-compiled one. What patch notes do not contain is strategy: there are no phase charts, health thresholds, parry timings, or drop tables here, because the developer has never published them. Where an attack is named below, it is named because the developer named it.';
+
+export const BOSS_REWARD_NOTE =
+  'Cold Symmetry has never published a boss drop table. Patch notes describe attacks and bugs, not Tar, Gloom, weapons, or Shells awarded on kill. This page does not invent rewards for Tar Golem or anyone else.';
+
+/**
+ * Names that circulate in player lists but are absent from Cold Symmetry's
+ * Week 1 "Bosses and Minibosses" section and from its softlock/cosmetic fixes.
+ * Listed for coverage, not as a first-party roster. No detail URLs until a
+ * patch, achievement, or store page names them.
+ */
+export const COMMUNITY_NAMED_ENCOUNTERS = [
+  { name: 'Tar Golem', note: 'Named in community boss lists. No official attack, location, or reward line.' },
+  { name: 'Bor, the Deluded Monarch', note: 'Community name only.' },
+  { name: 'Caged Grisha', note: 'Community name. Distinct from the Grisha Remnant summon bug on Malborn Offspring.' },
+  { name: 'Pale Grisha', note: 'Community name only.' },
+  { name: 'Strange Grisha', note: 'Community name only.' },
+  { name: 'Grisha', note: 'Generic label in player reports; not a Week 1 named encounter.' },
+  { name: 'Gloombound Ritualist', note: 'Community name only.' },
+  { name: 'Gloombound Wraith', note: 'Community name only.' },
+  { name: 'Great Arbiter of Flesh', note: 'Community name only.' },
+  { name: 'Infested Miner', note: 'Community name only.' },
+  { name: 'Lucian, the Thirsting Knight', note: 'Community name only.' },
+  { name: 'Prophet of Profane Infinities', note: 'Community name only.' },
+  { name: 'Sester Secundus', note: 'Community / walkthrough name for the Genessa censer fight. Not merged with The Silent Sester. Steam-guide text on this site uses Sister Secunda.' },
+  { name: 'Slithering Corpseseeker', note: 'Community name only.' },
+  { name: 'Solnir, the Gloom Seeker', note: 'Community name only.' },
+  { name: 'Starved Harridan', note: 'Community name only.' },
+  { name: 'Subjugated Guardian', note: 'Community name only.' },
+  { name: 'Tarblighted Stoner', note: 'Community name only.' },
+  { name: 'The Tarblighted Shepherd', note: 'Community name. Not merged with The Wandering Shepherd.' },
+  { name: "Tishina's Confessor", note: 'Community name only.' },
+  { name: 'Viletongue Batushka', note: 'Community name only.' },
+  { name: 'Vrago, Solikar Champion', note: 'Community name only.' },
+] as const;
+
+export const NOT_A_BOSS_NOTE =
+  'Sariel, the Endless is a playable Shell on this site, not a boss row. Do not open a boss URL for Sariel.';

@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Caged Hystrix"
 description: "Caged Hystrix in Mortal Shell 2: Named like a creature rather than a weapon, but Balance Patch 1 confirms it fires — which makes it one of the two likeliest Sidearms…"
 category: weapons
 keyword: "mortal shell 2 caged hystrix"
-cover: /images/mortalshell2-swamp-serpent-encounter.webp
+cover: /images/weapons/caged-hystrix.jpg
 status: official
 preRelease: false
 order: 39
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Caged Hystrix** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Spiked, unlocked by 35.7% of players.  Named like a creature rather than a weapon, but Balance Patch 1 confirms it fires — which makes it one of the two likeliest Sidearms on the list.
 
-![Player kneeling in swamp water before a large serpent-like creature in Mortal Shell II](/images/mortalshell2-swamp-serpent-encounter.webp)
+![Caged Hystrix sidearm in Mortal Shell 2](/images/weapons/caged-hystrix.jpg)
 
 ## Confirmed facts
 

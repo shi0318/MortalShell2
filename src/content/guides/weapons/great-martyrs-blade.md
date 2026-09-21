@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Great Martyr's Blade"
 description: "Great Martyr's Blade in Mortal Shell 2: The most-buffed weapon in the game, and the closest thing to a returning name: Mortal Shell (2020) had a 'Martyr's Blade'.…"
 category: weapons
 keyword: "mortal shell 2 great martyr's blade"
-cover: /images/mortalshell2-village-accordion-npc.webp
+cover: /images/weapons/great-martyrs-blade.jpg
 status: official
 preRelease: false
 order: 33
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Great Martyr's Blade** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Big Boi, unlocked by 55.5% of players.  The most-buffed weapon in the game, and the closest thing to a returning name: Mortal Shell (2020) had a "Martyr's Blade". Whether this is the same weapon rescaled or a new one sharing the name is not stated.
 
-![Mortal Shell II village scene with an old accordion player among wooden houses](/images/mortalshell2-village-accordion-npc.webp)
+![Great Martyr's Blade in Mortal Shell 2](/images/weapons/great-martyrs-blade.jpg)
 
 ## Confirmed facts
 

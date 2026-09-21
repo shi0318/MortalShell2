@@ -1,0 +1,73 @@
+export const SHELL_FIND = [
+  {
+    slug: 'tiel',
+    href: '/tiel/',
+    name: 'Tiel, the Acolyte',
+    role: 'Agile stealth. High mobility.',
+    how: 'SE from Widow\'s Overlook Beacon, downhill to a fenced camp or graveyard. Body half-buried in a shallow grave.',
+    extra: 'Shadow: invisibility plus stagger.',
+  },
+  {
+    slug: 'proxima',
+    href: '/proxima/',
+    name: 'Proxima, the Broodseeker',
+    role: 'Lightning grapple melee.',
+    how: 'North from Widow\'s Overlook to Blackridge Cliffs, past cultists and the white spider, into Shattered Beacon.',
+    extra: 'Grapple pull or zip, then a lightning hit.',
+  },
+  {
+    slug: 'eredrim',
+    href: '/eredrim/',
+    name: 'Eredrim, the Venerable',
+    role: 'Heavy armor. Break control.',
+    how: 'Citadel of Penance elevator. Floor collapse into The Warden. Beat the Warden; the body is in the arena.',
+    extra: 'Shoulder Bash, Ethereal Diapason, Executioner.',
+  },
+  {
+    slug: 'smert',
+    href: '/shells/smert/',
+    name: 'Smert',
+    role: 'Low-health berserker with a freeze window.',
+    how: 'Western Fainweald swamp near Outskirts of Nochte. Three blood pools around the altar — one is already full, offer in the other two. Offering knocks you out of the Shell; never offer as Harbinger.',
+    extra: 'Temporal Solidification stores hits then explodes them.',
+  },
+  {
+    slug: 'gragu',
+    href: '/shells/gragu/',
+    name: 'Gragu',
+    role: 'Exploration and self-heal.',
+    how: 'One-Legged Wolf Tavern after Mother\'s Breath. He wants the Heart of Vatra from the temple east of the cliffs. Hand it over; he dies and leaves the Shell.',
+    extra: 'Heart of Vatra. Lute is on the same tavern stage.',
+  },
+  {
+    slug: 'lazlo',
+    href: '/shells/lazlo/',
+    name: 'Lazlo',
+    role: 'Heat-armor tank.',
+    how: 'West of Outskirts of Mammon to High Lord\'s Courtyard, underground cathedral, beat Vellen, interact with the sarcophagus in the crypt behind him.',
+    extra: 'Retribution heat aura. Overheat dumps the armor bonus for a few seconds.',
+  },
+  {
+    slug: 'sariel',
+    href: '/shells/sariel/',
+    name: 'Sariel',
+    role: 'Alchemy / lightning caster.',
+    how: 'SE Mammon. Beat Sariel on the Silent Steps platform, then Chamber of Becoming. Destroy the tombstones or lightning rods or she resurrects.',
+    extra: 'Same run as Clockwork Scythe and Caged Hystrix.',
+  },
+  {
+    slug: 'sester-genessa',
+    href: '/shells/sester-genessa/',
+    name: 'Sester Genessa',
+    role: 'Summon doubles. Dual form.',
+    how: 'Talk Genessa out at Marrow Keep, then Sester Censer SE of Outskirts of Mammon. Beat Sester Secundus, bring the censer back, play the memory.',
+    extra: 'Faithful Doubles and Duality. Bond with Genessa herself, not only Zhirelle.',
+  },
+] as const;
+
+export const HARROS_PROLOGUE = {
+  name: 'Harros, the Vassal',
+  how: 'Automatic in the prologue. After the opening statue you inhabit the body in the lone realm. Inventory starts with Iconoclast, Naylshotte, and Untarnished Seal.',
+  kit: 'Stone Stun petrifies a target and feeds Break for a Riposte.',
+  fate: 'Tar Golem calcifies the body. You cannot recover Harros in the main game or NG+. Harden and the Seal remain. Do not add him to the eight-Shell swap list.',
+} as const;

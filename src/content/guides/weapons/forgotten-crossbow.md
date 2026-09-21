@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Forgotten Crossbow"
 description: "Forgotten Crossbow in Mortal Shell 2: A ranged name, and the second-most-unlocked of the thirteen. Neither patch mentions it, so unlike the Caged Hystrix and Triarch…"
 category: weapons
 keyword: "mortal shell 2 forgotten crossbow"
-cover: /images/mortalshell2-hero-banner.webp
+cover: /images/weapons/forgotten-crossbow.jpg
 status: official
 preRelease: false
 order: 31
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Forgotten Crossbow** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Old School, unlocked by 63.9% of players.  A ranged name, and the second-most-unlocked of the thirteen. Neither patch mentions it, so unlike the Caged Hystrix and Triarch Repeater there is no published confirmation that it fires.
 
-![Mortal Shell II player facing a bear-headed shaman enemy in a dark forest clearing](/images/mortalshell2-hero-banner.webp)
+![Forgotten Crossbow sidearm in Mortal Shell 2](/images/weapons/forgotten-crossbow.jpg)
 
 ## Confirmed facts
 

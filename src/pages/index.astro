@@ -2,7 +2,6 @@
 // 首页 —— 沉浸式 field-guide 布局（参考舒适型暗色 wiki 的节奏与层次）
 import Layout from '../layouts/Layout.astro';
 import Countdown from '../components/Countdown.astro';
-import StatusBadge from '../components/StatusBadge.astro';
 import { SITE, isReleased } from '../data/site';
 import MediaFigure from '../components/MediaFigure.astro';
 import { SITE_IMAGES } from '../data/images';
@@ -255,7 +254,6 @@ const startHere = [
               <div class="rounded-lg border border-white/5 bg-white/[0.02] p-4">
                 <div class="flex flex-wrap items-center justify-between gap-2">
                   <h3 class="text-sm font-semibold text-ash-100">{fact.label}</h3>
-                  <StatusBadge status="official" size="sm" />
                 </div>
                 <p class="mt-2 text-sm leading-relaxed text-ash-300">{fact.value}</p>
                 <a

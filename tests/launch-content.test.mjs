@@ -71,16 +71,13 @@ test('SEO hubs target distinct Mortal Shell 2 search intents', async () => {
     source('content/guides/beginner-guide.md'),
   ]);
 
-  assert.match(home, /Mortal Shell 2 Wiki: Weapons, Shells, Bosses & Beginner's Guide/);
+  assert.match(home, /Mortal Shell 2 Wiki — Weapons, Shells, Bosses & Beginner Guide/);
   assert.match(guide, /Mortal Shell 2 Guides — PC, Combat, Shells, Weapons & Bosses/);
   assert.match(bosses, /Mortal Shell 2 Bosses Guide/);
   assert.match(beginner, /title: "Mortal Shell 2 Beginner Guide — Open Beta First Hours & Launch Tips"/);
   assert.match(beginner, /heading: "Mortal Shell 2 Beginner Guide: First Hours"/);
   assert.match(beginner, /updatedAt: "2026-08-20"/);
 
-  // Weapons and Shells hub titles change as retail evidence lands, so assert the intent
-  // rather than a copy of the current string: each hub owns its own keyword, keeps the
-  // "Mortal Shell 2 <thing>" prefix Google sees, and does not duplicate the other's title.
   const weaponsTitle = weapons.match(/const title = '([^']+)'/)?.[1] ?? '';
   const shellsTitle = shells.match(/const title = '([^']+)'/)?.[1] ?? '';
   const bossesTitle = bosses.match(/const title = '((?:[^'\\]|\\.)+)'/)?.[1] ?? '';
@@ -92,6 +89,20 @@ test('SEO hubs target distinct Mortal Shell 2 search intents', async () => {
   assert.notStrictEqual(bossesTitle, shellsTitle);
   assert.match(weapons, /Mortal Shell 2 Weapons Guide/);
   assert.match(shells, /Mortal Shell 2 Shells Guide/);
+  assert.match(weapons, /Melee weapons/);
+  assert.match(weapons, /Tarforge levels/);
+  assert.match(weapons, /Player ranking/);
+  assert.match(weapons, /\/images\/weapons\/axatana\.jpg/);
+  assert.match(weapons, /\/images\/weapons\/naylshotte\.jpg/);
+  assert.match(bosses, /Tar Golem/);
+  assert.match(bosses, /What bosses drop/);
+  assert.match(bosses, /MINIBOSSES/);
+  assert.match(shells, /Harros/);
+  assert.match(shells, /HARROS_PROLOGUE/);
+  assert.match(shells, /how to get Genessa/);
+  assert.doesNotMatch(weapons, /StatusBadge/);
+  assert.doesNotMatch(bosses, /StatusBadge/);
+  assert.doesNotMatch(shells, /StatusBadge/);
 });
 
 test('homepage has contextual links into the main Mortal Shell 2 guide cluster', async () => {

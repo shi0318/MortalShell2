@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Obsidian Hammer"
 description: "Obsidian Hammer in Mortal Shell 2: Rebuilt a week after launch: the Week 1 Update gave it a full balance pass and says it 'now hits substantially harder'. Any damage…"
 category: weapons
 keyword: "mortal shell 2 obsidian hammer"
-cover: /images/mortalshell2-gloom-spider-creature.webp
+cover: /images/weapons/obsidian-hammer.jpg
 status: official
 preRelease: false
 order: 40
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Obsidian Hammer** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Stop - Hammer Time, unlocked by 33.9% of players.  Rebuilt a week after launch: the Week 1 Update gave it a full balance pass and says it "now hits substantially harder". Any damage impression formed in the first nine days is out of date.
 
-![Gloom-wreathed spider-like creature emerging in a foggy swamp in Mortal Shell II](/images/mortalshell2-gloom-spider-creature.webp)
+![Obsidian Hammer in Mortal Shell 2](/images/weapons/obsidian-hammer.jpg)
 
 ## Confirmed facts
 

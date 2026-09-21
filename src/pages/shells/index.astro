@@ -1,114 +1,71 @@
 ---
-// Shells 分类聚合页（CollectionPage）—— 方案 5.1
-// 表格形式：名称 | 描述 | 已知能力 | 获取方式 | 确认状态。
 import Layout from '../../layouts/Layout.astro';
 import MediaFigure from '../../components/MediaFigure.astro';
 import { SITE_IMAGES } from '../../data/images';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
-import StatusBadge from '../../components/StatusBadge.astro';
-import { SHELLS, PREQUEL_ONLY_SHELLS, SHELL_CLASSIFICATION_NOTE, SHELL_BONDING } from '../../data/shells';
+import { SHELLS, SHELL_BONDING } from '../../data/shells';
+import { SHELL_FIND, HARROS_PROLOGUE } from '../../data/shell-routes';
 
-const title = 'Mortal Shell 2 Shells — All 8 Shell Names & Unlock Rates';
+const title = 'Mortal Shell 2 Shells — Harros Prologue and All 8 Unlock Routes';
 const description =
-  'All eight Mortal Shell 2 Shells — Tiel, Proxima, Eredrim, Smert, Gragu, Sariel, Sester Genessa, Lazlo — with unlock rates and the Tier IV bonding cap.';
+  'Mortal Shell 2 shells: Harros is prologue-only, then eight swappable shells with locations, Bond tiers, and how to get Genessa.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
   { name: 'Shells', url: '/shells/' },
 ];
-
-const officialCount = SHELLS.filter((s) => s.source.status === 'official').length;
-const orderedByRate = [...SHELLS].filter((s) => typeof s.unlockRate === 'number');
 ---
 
-<Layout
-  title={title}
-  description={description}
-  schemaType="collection"
-  breadcrumb={crumbs}
->
+<Layout title={title} description={description} schemaType="collection" breadcrumb={crumbs}>
   <Breadcrumb items={crumbs} />
 
-  <PreReleaseNotice />
   <div class="mb-8">
     <MediaFigure
       src={SITE_IMAGES.shellsPortrait.src}
       alt={SITE_IMAGES.shellsPortrait.alt}
       width={SITE_IMAGES.shellsPortrait.width}
       height={SITE_IMAGES.shellsPortrait.height}
-      credit={SITE_IMAGES.shellsPortrait.credit}
     />
   </div>
 
   <header class="mt-4 max-w-3xl">
-    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">
-      Mortal Shell 2 Shells Guide
-    </h1>
+    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell 2 Shells Guide</h1>
     <p class="mt-3 text-lg text-ash-400">
-      Shells are the bodies you possess in combat, and Mortal Shell II has
-      <strong>eight of them</strong>. All eight are now named:
-      <a href="/tiel/" class="text-amber-glow hover:underline">Tiel</a>,
-      <a href="/proxima/" class="text-amber-glow hover:underline">Proxima</a>,
-      <a href="/eredrim/" class="text-amber-glow hover:underline">Eredrim</a>, Smert, Gragu, Sariel,
-      Sester Genessa and Lazlo. Seven of their bodies sit near <strong>Zhirelle, the Shellkeeper</strong>
-      and can be tracked by spending Gloom; Sester Genessa is the hidden one and has to be earned
-      through a side quest. The table is <strong>sorted by global unlock rate</strong>, which is the
-      closest published proxy for the order players find them.
-      {officialCount} of {SHELLS.length} rows carry Official status; the rest rest on player-compiled
-      routes and are labelled Community. <strong>No stat is published for any Shell</strong> — no
-      health, resolve or scaling — but the Week 1 patch notes do name specific abilities for five of
-      the eight, so the Known abilities column stops exactly where the developer stopped. For a
-      recommendation built on those five, see the
-      <a href="/shell-selection-guide/" class="text-amber-glow hover:underline">best Shell guide</a>.
+      Nine named bodies, eight you keep. Harros teaches the loop and is destroyed after Tar Golem. The
+      eight below swap at Zhirelle. Bond caps at {SHELL_BONDING.maxTier}. Glimpses are no longer finite
+      after the Week 1 update; Merrick sells Mether's Severance to respec.
     </p>
   </header>
 
-  <div class="mt-8 overflow-x-auto surface-card">
-    <table class="w-full border-collapse text-sm">
+  <section class="prose-body mt-10 max-w-3xl space-y-3 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">{HARROS_PROLOGUE.name}</h2>
+    <p>{HARROS_PROLOGUE.how}</p>
+    <p>{HARROS_PROLOGUE.kit}</p>
+    <p>{HARROS_PROLOGUE.fate}</p>
+  </section>
+
+  <div class="mt-10 overflow-x-auto surface-card">
+    <table class="w-full min-w-[48rem] border-collapse text-sm">
       <thead>
         <tr class="border-b border-ash-700 bg-ash-900/50 text-left text-ash-400">
           <th class="px-4 py-3 font-medium">Shell</th>
-          <th class="px-4 py-3 font-medium">Unlock achievement</th>
-          <th class="px-4 py-3 font-medium">Global unlock</th>
-          <th class="px-4 py-3 font-medium">Confirmed as a Shell by</th>
-          <th class="px-4 py-3 font-medium">Known abilities</th>
-          <th class="px-4 py-3 font-medium">Acquisition</th>
-          <th class="px-4 py-3 font-medium">Status</th>
+          <th class="px-4 py-3 font-medium">Role</th>
+          <th class="px-4 py-3 font-medium">How to get it</th>
+          <th class="px-4 py-3 font-medium">Notes</th>
         </tr>
       </thead>
       <tbody>
         {
-          SHELLS.map((shell) => (
-            <tr class="border-b border-white/5 align-top last:border-0 hover:bg-ash-900/35">
-              <td class="px-4 py-3">
-                <div class="font-semibold text-ash-100">
-                  {shell.hasDetailPage ? (
-                    <a href={shell.detailHref ?? `/shells/${shell.slug}/`} class="text-amber-glow hover:underline">
-                      {shell.name}
-                    </a>
-                  ) : (
-                    shell.name
-                  )}
-                </div>
-                <div class="mt-1 text-ash-400">{shell.summary}</div>
+          SHELL_FIND.map((shell) => (
+            <tr class="border-b border-white/5 align-top last:border-0">
+              <td class="px-4 py-3 font-semibold text-ash-100">
+                <a href={shell.href} class="text-amber-glow hover:underline">
+                  {shell.name}
+                </a>
               </td>
-              <td class="px-4 py-3 text-ash-300">{shell.unlockAchievement ?? '—'}</td>
-              <td class="px-4 py-3 tabular-nums text-ash-300">
-                {typeof shell.unlockRate === 'number' ? `${shell.unlockRate}%` : '—'}
-              </td>
-              <td class="px-4 py-3 text-ash-400">{shell.shellConfirmedBy}</td>
-              <td class="px-4 py-3 text-ash-300">
-                <ul class="list-inside list-disc space-y-1">
-                  {shell.knownAbilities.map((a) => (
-                    <li>{a}</li>
-                  ))}
-                </ul>
-              </td>
-              <td class="px-4 py-3 text-ash-400">{shell.acquisition}</td>
-              <td class="px-4 py-3">
-                <StatusBadge status={shell.source.status} size="sm" />
-              </td>
+              <td class="px-4 py-3 text-ash-400">{shell.role}</td>
+              <td class="px-4 py-3 text-ash-300">{shell.how}</td>
+              <td class="px-4 py-3 text-ash-400">{shell.extra}</td>
             </tr>
           ))
         }
@@ -116,65 +73,16 @@ const orderedByRate = [...SHELLS].filter((s) => typeof s.unlockRate === 'number'
     </table>
   </div>
 
-  <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
-    <h2 class="text-xl font-semibold text-ash-100">How the eight names were identified</h2>
-    <p>{SHELL_CLASSIFICATION_NOTE}</p>
+  <section class="prose-body mt-10 max-w-3xl space-y-4 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">Bond and Glimpses</h2>
     <p>
-      The practical upshot: <strong>Sariel is the one row to treat with caution.</strong> Every other
-      Shell on this table is named as a Shell by Cold Symmetry or by the Official Gameplay Reveal.
-      Sariel is not, anywhere. If the retail roster turns out to differ from the eight above, that is
-      the row that changes.
+      Max Bond is {SHELL_BONDING.maxTier}, about {SHELL_BONDING.glimpsesPerShell} Glimpses per Shell.
+      Seeking the Past wants that on all eight. {SHELL_BONDING.economyChange}
     </p>
+    <h2 class="text-xl font-semibold text-ash-100">Unlock rates</h2>
     <p>
-      The full list, including all 53 achievements and the thirteen Weapons and Sidearms, is on the
-      <a href="/mortal-shell-2-achievements/" class="text-amber-glow hover:underline">achievements page</a>.
-    </p>
-
-    <h2 class="text-xl font-semibold text-ash-100">What the unlock rates suggest about order</h2>
-    <p>
-      Tiel ({orderedByRate[0]?.unlockRate}%) and Proxima ({orderedByRate[1]?.unlockRate}%) are
-      within two points of each other, so both are opening-hours acquisitions — Proxima is not a
-      late unlock despite being new to the series. The first real drop is to Eredrim at
-      {orderedByRate[2]?.unlockRate}%, and Smert and Gragu sit less than a point apart, which
-      usually means two pickups in the same stretch of the game rather than a strict sequence.
-      Lazlo is the rarest at {orderedByRate[7]?.unlockRate}%, making it the best candidate for a
-      late Shell — and notably the hidden Sester Genessa at {orderedByRate[6]?.unlockRate}% is
-      found by <em>more</em> players than Lazlo, so being hidden did not make her the hardest to get.
-    </p>
-    <p class="text-sm text-ash-500">
-      Unlock percentages are a snapshot read on 1 September 2026, twelve days after release. They
-      rise as more accounts play, and the gaps between them narrow over time. Order inferred from
-      rates is a probability statement about where players find things, not a published route.
-    </p>
-
-    <h2 class="text-xl font-semibold text-ash-100">Bonding caps at {SHELL_BONDING.maxTier}</h2>
-    <p>
-      Reaching the maximum bonding tier for one Shell at the Shellkeeper is its own achievement
-      ("Decked Out", 46.9%). Community testing puts that cap at <strong>{SHELL_BONDING.maxTier}</strong>,
-      costing roughly <strong>{SHELL_BONDING.glimpsesPerShell} Glimpses per Shell</strong> —
-      about {SHELL_BONDING.glimpsesTotal} in total if you want it on all eight, which is what the
-      "Seeking the Past" achievement (3.8%, the rarest in the game after the completion one) requires.
-      Breaking a Glimpse Stone after twenty enemy kills reportedly yields three Glimpses, and up to
-      thirteen Glimpse Stones can be bought from the hub merchant. Those figures come from a
-      player-compiled guide, not from the developer.
-    </p>
-    <p>
-      <strong>One correction the developer published the same day:</strong> {SHELL_BONDING.economyChange}
-      So treat {SHELL_BONDING.glimpsesTotal} Glimpses as the amount of bonding the achievement asks
-      for, not as a budget you can spend wrong.
-    </p>
-
-    <h2 class="text-xl font-semibold text-ash-100">Prequel Shells that did not return</h2>
-    <p>
-      {PREQUEL_ONLY_SHELLS.join(' and ')} were Shells in Mortal Shell (2020). Neither appears
-      anywhere in the retail achievement list, and the eight names above already account for the
-      full roster. Earlier drafts of this page listed Harros as the probable starting Shell on the
-      strength of the first game; that guess is now retired.
-    </p>
-    <p class="text-sm text-ash-500">
-      Detailed Shell pages (with stat tables, upgrade paths, and recommended builds) are expanded
-      only when a real acquisition route and reproducible current-build details are recorded. Until
-      then, each uncertainty stays visible instead of being guessed.
+      Steam snapshot from 1 September 2026, useful as find-order, not as a ranking:
+      {SHELLS.map((s) => `${s.name.split(',')[0]} ${s.unlockRate}%`).join(' · ')}.
     </p>
   </section>
 </Layout>

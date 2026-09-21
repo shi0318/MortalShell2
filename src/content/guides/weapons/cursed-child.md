@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Cursed Child"
 description: "Cursed Child in Mortal Shell 2: The strangest name on the list. It is grouped here because its achievement reads 'Unlock the Cursed Child' — the article pattern every…"
 category: weapons
 keyword: "mortal shell 2 cursed child"
-cover: /images/mortalshell2-world-map-overview.webp
+cover: /images/weapons/cursed-child.jpg
 status: official
 preRelease: false
 order: 41
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Cursed Child** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Beautiful Baby, unlocked by 32.4% of players.  The strangest name on the list. It is grouped here because its achievement reads "Unlock the Cursed Child" — the article pattern every item entry follows and no Shell entry does. Neither patch mentions it, so this row rests on the article pattern alone.
 
-![Mortal Shell II world map overview showing interconnected regions in fog](/images/mortalshell2-world-map-overview.webp)
+![Cursed Child sidearm in Mortal Shell 2](/images/weapons/cursed-child.jpg)
 
 ## Confirmed facts
 

@@ -1,5 +1,4 @@
 ---
-import StatusBadge from './StatusBadge.astro';
 import type { ConfidenceStatus } from '../data/sources';
 
 interface Props {
@@ -38,7 +37,6 @@ const { href, title, description, cover, label, verified, status } = Astro.props
         <h2 class="text-base font-semibold leading-snug text-ash-100 group-hover:text-amber-glow md:text-lg">
           {title}
         </h2>
-        <StatusBadge status={status} size="sm" />
       </div>
       <p class="line-clamp-3 flex-1 text-sm leading-relaxed text-ash-400">{description}</p>
       <span class="mt-4 text-sm font-medium text-amber-glow/90 group-hover:text-amber-glow">

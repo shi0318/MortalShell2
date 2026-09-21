@@ -46,11 +46,15 @@ const WEEK_1_UPDATE: SourceRef = {
   note: 'Cold Symmetry\'s Week 1 Update (August 29, 2026) lists further per-weapon changes under the "Weapons, Items and Balance" heading: Obsidian Hammer had a full balance pass and now hits substantially harder; the Great Martyr\'s Blade deals more damage and the notes admit the prior +20% buff "didn\'t actually make it in the last patch"; Salvaged Trebuchaxe: Tarred Fragment was redesigned; Axatana weapon ability now grants invulnerability frames and inflicts Fragile stacks; Weltcap is stronger in both active and passive forms; and heavy weapons in general had a poise and damage pass.',
 };
 
+export type PatchClass = 'melee' | 'fires' | 'unclassified';
+
 export interface Weapon {
   slug: string;
   name: string;
   // 武器类型（如 Greatsword / Hammer & Chisel）
   type: string;
+  // 补丁能钉死的机械分类。未点名的保持 unclassified，不猜 Weapon/Sidearm。
+  patchClass: PatchClass;
   // 一句话定位
   summary: string;
   // 已知属性（按来源版本标记，未记录的零售版数值不补猜）
@@ -131,6 +135,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'axe-and-dagger',
     name: 'Axe and Dagger',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'unclassified',
     summary:
       'The earliest of the thirteen by unlock rate, and the only one that also existed as an Open Beta objective — the Beta had a "Find Axe and Dagger" achievement of its own.',
     knownStats: UNDOCUMENTED,
@@ -144,6 +149,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'forgotten-crossbow',
     name: 'Forgotten Crossbow',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'unclassified',
     summary:
       'A ranged name, and the second-most-unlocked of the thirteen. Neither patch mentions it, so unlike the Caged Hystrix and Triarch Repeater there is no published confirmation that it fires.',
     knownStats: UNDOCUMENTED,
@@ -157,6 +163,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'veterans-battle-axe',
     name: "Veteran's Battle Axe",
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'unclassified',
     summary: 'Unlocked by roughly six in ten players, so an early or hard-to-miss pickup.',
     knownStats: UNDOCUMENTED,
     acquisition: 'Not published.',
@@ -169,6 +176,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'great-martyrs-blade',
     name: "Great Martyr's Blade",
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'unclassified',
     summary:
       'The most-buffed weapon in the game, and the closest thing to a returning name: Mortal Shell (2020) had a "Martyr\'s Blade". Whether this is the same weapon rescaled or a new one sharing the name is not stated.',
     knownStats: [
@@ -187,6 +195,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'salvaged-trebuchaxe',
     name: 'Salvaged Trebuchaxe',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'unclassified',
     summary:
       'A new name with no prequel counterpart. Its weapon ability component, the Tarred Fragment, was rebuilt a week after launch.',
     knownStats: [
@@ -204,6 +213,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'axatana',
     name: 'Axatana',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'melee',
     summary:
       'Returns from the first game, where it was the "Martelli Axatana" — a switchable axe/katana. The only weapon named in both post-launch patches, and the one with the most confirmed mechanics.',
     knownStats: [
@@ -223,6 +233,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'triarch-repeater',
     name: 'Triarch Repeater',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'fires',
     summary:
       'Confirmed to be a weapon that fires, because Balance Patch 1 removed its minimum resolve requirement "to fire". That is the strongest published hint that it is a Sidearm rather than a Weapon.',
     knownStats: [
@@ -241,6 +252,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'black-needle',
     name: 'Black Needle',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'melee',
     summary:
       'Its achievement reads "Unlock Black Needle" without the definite article every other item entry uses, which is why the name is often mistaken for a Shell. It is not one: Balance Patch 1 lists it under Weapons.',
     knownStats: [
@@ -258,6 +270,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'clockwork-scythe',
     name: 'Clockwork Scythe',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'melee',
     summary:
       'A new name with no prequel counterpart, confirmed as a melee weapon by a patch line about its light attacks.',
     knownStats: [
@@ -275,6 +288,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'caged-hystrix',
     name: 'Caged Hystrix',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'fires',
     summary:
       'Named like a creature rather than a weapon, but Balance Patch 1 confirms it fires — which makes it one of the two likeliest Sidearms on the list.',
     knownStats: [
@@ -293,6 +307,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'obsidian-hammer',
     name: 'Obsidian Hammer',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'unclassified',
     summary:
       'Rebuilt a week after launch: the Week 1 Update gave it a full balance pass and says it "now hits substantially harder". Any damage impression formed in the first nine days is out of date.',
     knownStats: [
@@ -310,6 +325,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'cursed-child',
     name: 'Cursed Child',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'unclassified',
     summary:
       'The strangest name on the list. It is grouped here because its achievement reads "Unlock the Cursed Child" — the article pattern every item entry follows and no Shell entry does. Neither patch mentions it, so this row rests on the article pattern alone.',
     knownStats: UNDOCUMENTED,
@@ -323,6 +339,7 @@ export const WEAPONS: Weapon[] = [
     slug: 'ballistazooka',
     name: 'Ballistazooka',
     type: 'Weapon or Sidearm (split not published)',
+    patchClass: 'unclassified',
     summary:
       'The rarest of the thirteen at 31.9%, so the best candidate for a late or well-hidden pickup. Neither post-launch patch touches it.',
     knownStats: UNDOCUMENTED,
@@ -340,6 +357,12 @@ export const PREQUEL_ONLY_WEAPONS = [
   'Hammer and Chisel',
   'Smoldering Mace',
 ] as const;
+
+export const PATCH_CLASS_NOTE =
+  'Balance Patch 1 is the only first-party split that does not guess Weapon versus Sidearm. It removed a minimum resolve requirement "to fire" from the Caged Hystrix and Triarch Repeater, so those two fire. The same patch improved light-attack tracking for the Axatana, Black Needle and Clockwork Scythe, so those three are melee. The other eight achievement weapons, plus Iconoclast and Naylshotte, stay unclassified. A Week 1 line about "heavy weapons" is not enough to put Great Martyr\'s Blade or Obsidian Hammer in the melee column. Unlock rate is not a power ranking.';
+
+export const WEAPON_LOCATION_NOTE =
+  'Cold Symmetry has not published drop coordinates for any weapon. Community reports say Merrick in Marrow Keep sells weapon-location maps. That is a merchant, not a pin on the world map, and this page does not invent a grid.';
 
 export const WEAPON_CLASSIFICATION_NOTE =
   'Mortal Shell II has separate achievements for "Unlock all Weapons" (Lord of War, 26.1%) and "Unlock all Sidearms" (Guns. Lots of Guns, 23.8%), which proves the two categories exist and are tracked separately. What Valve never publishes is which of the thirteen names below belongs to which category, so every row is labelled "Weapon or Sidearm" rather than guessed. The post-launch patch notes narrow it in two places without settling it: Balance Patch 1 removed minimum resolve requirements "to fire" from the Caged Hystrix and Triarch Repeater, which means both fire and makes them the likeliest Sidearms, and the same patch improved light-attack tracking for the Axatana, Black Needle and Clockwork Scythe, which makes those three melee. That is five of thirteen placed on mechanical evidence rather than on their names. It also settles a question this page previously answered from a community guide: Black Needle is a weapon, confirmed by Cold Symmetry, not a Shell.';

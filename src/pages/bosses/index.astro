@@ -1,22 +1,21 @@
 ---
-// Bosses 分类聚合页 —— CollectionPage schema（方案 3.1：列表页不标 Article）。
-// 正式版已发售；Open Beta、预告片和前作信息继续保留为历史证据，零售版结论逐项核实。
 import Layout from '../../layouts/Layout.astro';
 import MediaFigure from '../../components/MediaFigure.astro';
 import { SITE_IMAGES } from '../../data/images';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import PreReleaseNotice from '../../components/PreReleaseNotice.astro';
-import StatusBadge from '../../components/StatusBadge.astro';
-import { BOSSES, BOSS_ROSTER_NOTE, BOSS_KNOWN_ISSUE } from '../../data/bosses';
+import { BOSSES } from '../../data/bosses';
+import { BOSS_REWARD_TYPES, STORY_BOSS, MINIBOSSES } from '../../data/encounters';
 
-const title = 'Mortal Shell 2 Bosses — All 18 Boss Names from Official Patch Notes';
+const title = 'Mortal Shell 2 Bosses — Tar Golem, Rewards, and Miniboss Routes';
 const description =
-  'All eighteen Mortal Shell 2 boss names from Cold Symmetry\'s official Week 1 Update patch notes, with named attacks and balance numbers for The Monolith and The Lost Child.';
+  'Mortal Shell 2 bosses: Tar Golem in Disciple\'s Grotto, how Gloom Glimpse Tarstone and Ova drops work, plus miniboss routes and rewards.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
   { name: 'Bosses', url: '/bosses/' },
 ];
+
+const namedPatch = BOSSES.filter((b) => b.slug !== 'open-beta-mini-bosses');
 ---
 
 <Layout title={title} description={description} schemaType="collection" breadcrumb={crumbs}>
@@ -25,107 +24,95 @@ const crumbs = [
   <header class="mb-8">
     <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell 2 Bosses Guide</h1>
     <p class="mt-3 max-w-2xl text-lg text-ash-400">
-      Eighteen named bosses and minibosses, taken from <strong>Cold Symmetry's own patch notes</strong> rather
-      than from a community list. Valve hides every boss achievement in this game, so the roster was invisible
-      until the developer published a fix list naming each encounter. Fifteen are named in the Week 1 Update's
-      "Bosses and Minibosses" section with specific attacks; three more —
-      Vellen, Larreth and The Silent Sester — surface in its softlock and riposte fixes. Two bosses have exact
-      balance numbers from Balance Patch 1. What is not here: phase charts, parry windows and drop tables,
-      because the developer has never published them.
+      Story opener is Tar Golem. After that, named patch encounters and the miniboss list below. Gloom amounts
+      move with New Game cycles, so this page names the item, not a fake gold value.
     </p>
   </header>
 
-  <div class="mb-6"><PreReleaseNotice /></div>
   <div class="mb-8">
     <MediaFigure
       src={SITE_IMAGES.cathedralBoss.src}
       alt={SITE_IMAGES.cathedralBoss.alt}
       width={SITE_IMAGES.cathedralBoss.width}
       height={SITE_IMAGES.cathedralBoss.height}
-      credit={SITE_IMAGES.cathedralBoss.credit}
     />
   </div>
 
+  <section class="prose-body mb-10 max-w-3xl space-y-3 text-ash-300">
+    <h2 class="text-xl font-semibold text-ash-100">What bosses drop</h2>
+    <ul class="list-disc space-y-1 pl-5">
+      {BOSS_REWARD_TYPES.map((row) => (
+        <li>
+          <strong class="text-ash-100">{row.name}.</strong> {row.note}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="mb-10">
+    <h2 class="mb-4 text-xl font-semibold text-ash-100">Tar Golem</h2>
+    <article class="surface-card space-y-3 p-5 text-sm text-ash-300">
+      <p>
+        <strong class="text-ash-100">Area.</strong> {STORY_BOSS.area}
+      </p>
+      <p>
+        <strong class="text-ash-100">Trigger.</strong> {STORY_BOSS.trigger}
+      </p>
+      <p>
+        <strong class="text-ash-100">Rewards.</strong> {STORY_BOSS.rewards}
+      </p>
+      <p>
+        <strong class="text-ash-100">Fight.</strong> {STORY_BOSS.tips}
+      </p>
+    </article>
+  </section>
+
+  <h2 class="mb-4 text-xl font-semibold text-ash-100">Named patch encounters</h2>
+  <p class="mb-4 max-w-3xl text-sm text-ash-400">
+    These names are in Cold Symmetry's Week 1 notes. Use the detail pages for attack fixes. Locations and
+    extra drops sit in the miniboss table when the walkthrough recorded them.
+  </p>
+  <ul class="mb-10 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
+    {
+      namedPatch.map((b) => (
+        <li>
+          {b.hasDetailPage ? (
+            <a href={b.detailHref ?? `/bosses/${b.slug}/`} class="text-amber-glow hover:underline">
+              {b.name}
+            </a>
+          ) : (
+            <span class="text-ash-200">{b.name}</span>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2 class="mb-4 text-xl font-semibold text-ash-100">Minibosses</h2>
   <div class="overflow-x-auto surface-card">
-    <table class="w-full border-collapse text-sm">
+    <table class="w-full min-w-[52rem] border-collapse text-sm">
       <thead class="bg-ash-900 text-left text-ash-300">
         <tr>
-          <th class="px-4 py-3 font-semibold">Boss / encounter</th>
-          <th class="px-4 py-3 font-semibold">Known info</th>
-          <th class="px-4 py-3 font-semibold">Location</th>
-          <th class="px-4 py-3 font-semibold">Status</th>
+          <th class="px-4 py-3 font-semibold">Name</th>
+          <th class="px-4 py-3 font-semibold">Area / route</th>
+          <th class="px-4 py-3 font-semibold">Rewards</th>
+          <th class="px-4 py-3 font-semibold">Fight</th>
         </tr>
       </thead>
       <tbody>
         {
-          BOSSES.map((b) => (
-            <tr class="border-t border-white/5 align-top hover:bg-ash-900/50">
-              <td class="px-4 py-3 font-medium text-ash-100">
-                {b.hasDetailPage ? (
-                  <a href={b.detailHref ?? `/bosses/${b.slug}/`} class="text-amber-glow hover:underline">
-                    {b.name}
-                  </a>
-                ) : (
-                  b.name
-                )}
-              </td>
+          MINIBOSSES.map((row) => (
+            <tr class="border-t border-white/5 align-top">
+              <td class="px-4 py-3 font-medium text-ash-100">{row.name}</td>
               <td class="px-4 py-3 text-ash-300">
-                <ul class="list-disc space-y-1 pl-4">
-                  {b.knownInfo.map((i) => (
-                    <li>{i}</li>
-                  ))}
-                </ul>
+                {row.area} {row.trigger}
               </td>
-              <td class="px-4 py-3 text-ash-400">{b.location}</td>
-              <td class="px-4 py-3"><StatusBadge status={b.source.status} /></td>
+              <td class="px-4 py-3 text-ash-400">{row.rewards}</td>
+              <td class="px-4 py-3 text-ash-400">{row.tips}</td>
             </tr>
           ))
         }
       </tbody>
     </table>
   </div>
-
-  <section class="prose-body mt-8 max-w-3xl space-y-4 text-ash-300">
-    <h2 class="text-xl font-semibold text-ash-100">Why Valve hid every boss achievement</h2>
-    <p>{BOSS_ROSTER_NOTE}</p>
-
-    <h2 class="text-xl font-semibold text-ash-100">The two bosses with exact balance numbers</h2>
-    <p>
-      <strong>Balance Patch 1</strong> (20 August 2026, smithbodie [DEVELOPER]) published exact percentage
-      reductions for two bosses:
-    </p>
-    <ul class="list-disc space-y-1 pl-5">
-      <li>
-        <strong>The Lost Child:</strong> base damage −10%, maximum health −15%
-      </li>
-      <li>
-        <strong>The Monolith:</strong> base damage −19%, maximum health −10%
-      </li>
-    </ul>
-    <p>
-      Those are the only two boss health or damage numbers Cold Symmetry has published. Every other row in the
-      table describes named attacks or fixes without percentages.
-    </p>
-
-    <h2 class="text-xl font-semibold text-ash-100">The one boss bug still open</h2>
-    <p>{BOSS_KNOWN_ISSUE}</p>
-
-    <h2 class="text-xl font-semibold text-ash-100">Why most rows have no location</h2>
-    <p>
-      Patch notes name the boss and describe what was fixed — they are not a walkthrough. Fifteen of the
-      eighteen rows say "Not published" for location because Cold Symmetry did not state where the arena is.
-      Community-reported coordinates exist for several, but this page keeps official and community evidence
-      separate instead of presenting player reports as developer facts.
-    </p>
-
-    <h2 class="text-xl font-semibold text-ash-100">Pre-29-August difficulty reports are outdated</h2>
-    <p>
-      The Week 1 Update shipped on <strong>29 August 2026</strong>, nine days after launch. Anything written
-      before that date describes bosses that have since been retuned, debugged, or reworked. The Monolith's
-      attack spam was a bug. Tainted Vestige's ranged attacks missed without reason. The Warden and Urrig
-      gained new ice attacks. Sir Isaac's phase transition riposte worked wrong against a wall. If a complaint
-      or strategy predates 29 August, cross-check it against the Week 1 change list before trusting it on the
-      current build.
-    </p>
-  </section>
 </Layout>

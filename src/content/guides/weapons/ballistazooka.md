@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Ballistazooka"
 description: "Ballistazooka in Mortal Shell 2: The rarest of the thirteen at 31.9%, so the best candidate for a late or well-hidden pickup. Neither post-launch patch touches it."
 category: weapons
 keyword: "mortal shell 2 ballistazooka"
-cover: /images/mortalshell2-masked-shell-portrait.webp
+cover: /images/weapons/ballistazooka.jpg
 status: official
 preRelease: false
 order: 42
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Ballistazooka** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Speared, unlocked by 31.9% of players.  The rarest of the thirteen at 31.9%, so the best candidate for a late or well-hidden pickup. Neither post-launch patch touches it.
 
-![Mortal Shell II character portrait of a masked woman in red with gold jewelry](/images/mortalshell2-masked-shell-portrait.webp)
+![Ballistazooka sidearm in Mortal Shell 2](/images/weapons/ballistazooka.jpg)
 
 ## Confirmed facts
 
