@@ -5,6 +5,7 @@ description: "Axe and Dagger in Mortal Shell 2: The earliest of the thirteen by 
 category: weapons
 keyword: "mortal shell 2 axe and dagger"
 cover: /images/weapons/axe-and-dagger.jpg
+coverAlt: "Axe and Dagger weapon icon from Mortal Shell 2"
 status: official
 preRelease: false
 order: 30
@@ -15,7 +16,7 @@ updatedAt: "2026-09-15"
 
 **Axe and Dagger** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Deep Cuts, unlocked by 64.7% of players.  The earliest of the thirteen by unlock rate, and the only one that also existed as an Open Beta objective — the Beta had a "Find Axe and Dagger" achievement of its own.
 
-![Axe and Dagger dual-wield weapon in Mortal Shell 2](/images/weapons/axe-and-dagger.jpg)
+![Axe and Dagger weapon icon from Mortal Shell 2](/images/weapons/axe-and-dagger.jpg)
 
 ## Confirmed facts
 

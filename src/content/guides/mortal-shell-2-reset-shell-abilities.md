@@ -8,7 +8,7 @@ status: official
 preRelease: false
 order: 14
 updatedAt: "2026-09-02"
-cover: /images/mortalshell2-masked-shell-portrait.webp
+cover: /images/mortalshell2-rainy-path-combat.webp
 sources:
   - status: official
     sourceUrl: "https://store.steampowered.com/news/app/2584270/view/690892955941077484"
@@ -31,8 +31,8 @@ sources:
 If you are searching **Mortal Shell 2 reset Shell abilities**, there is now an official answer, and it arrived with the Week 1 Update on August 29, 2026: **Mether's Severance**. Give it to **Zhirelle, the shell keeper**, and she severs your bond with a Shell, resetting it and **returning every Glimpse you spent on it**.
 
 <figure>
-  <img src="/images/mortalshell2-masked-shell-portrait.webp" alt="Mortal Shell 2 Shell character portrait for an ability reset guide" width="1600" height="900" loading="lazy" decoding="async" />
-  <figcaption>Official Steam portrait. Shell resets moved from player report to published mechanic in the Week 1 Update.</figcaption>
+  <img src="/images/mortalshell2-rainy-path-combat.webp" alt="Hooded Mortal Shell II player-character used to illustrate a Shell ability reset" width="1600" height="900" loading="lazy" decoding="async" />
+  <figcaption>Playable-Shell combat shot. Shell resets moved from player report to published mechanic in the Week 1 Update.</figcaption>
 </figure>
 
 ## Where to get it

@@ -4,7 +4,8 @@ heading: "Mortal Shell 2 Tiel, the Acolyte"
 description: "Mortal Shell 2 Tiel is one of eight playable Shells. Official Open Beta notes explain how Tiel is discovered and possessed without invented kit stats."
 category: shells
 keyword: "mortal shell 2 tiel"
-cover: /images/mortalshell2-masked-shell-portrait.webp
+cover: /images/mortalshell2-rainy-path-combat.webp
+coverAlt: "Hooded Mortal Shell II player-character on a rainy village path — used for Tiel because no Tiel-specific portrait is published"
 status: official
 preRelease: true
 order: 8

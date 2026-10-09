@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Weltcap"
 description: "Weltcap in Mortal Shell 2: Named in the Week 1 Update as 'stronger in both its active and passive forms', so it has an active ability. No unlock achievement."
 category: weapons
 keyword: "mortal shell 2 weltcap"
-cover: /images/mortalshell2-world-map-cover.webp
+cover: /images/mortalshell2-shell-greatsword-closeup.webp
 status: official
 preRelease: false
 order: 61
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Weltcap** exists in Mortal Shell 2 — Named in the Week 1 Update as "stronger in both its active and passive forms", so it has an active ability. No unlock achievement.
 
-![Mortal Shell II world map cover thumbnail](/images/mortalshell2-world-map-cover.webp)
+![Mortal Shell II warrior with a greatsword — used for Weltcap because no Weltcap-specific icon is published](/images/mortalshell2-shell-greatsword-closeup.webp)
 
 ## Confirmed facts
 

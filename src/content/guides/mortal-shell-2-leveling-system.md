@@ -8,7 +8,7 @@ status: community
 preRelease: false
 order: 13
 updatedAt: "2026-08-20"
-cover: /images/mortalshell2-masked-shell-portrait.webp
+cover: /images/mortalshell2-rainy-path-combat.webp
 sources:
   - status: community
     sourceUrl: "https://steamcommunity.com/app/2584270/reviews/?browsefilter=mostrecent"
@@ -25,8 +25,8 @@ sources:
 The **Mortal Shell 2 leveling system** does not map neatly onto a traditional strength, dexterity, or intelligence menu. A public launch review describes progression as permanent growth to the main stats, while Shell abilities and weapon fragments provide much of the build experimentation.
 
 <figure>
-  <img src="/images/mortalshell2-masked-shell-portrait.webp" alt="Mortal Shell 2 Shell portrait used to illustrate character progression" width="1600" height="900" loading="lazy" decoding="async" />
-  <figcaption>Official Steam portrait used for the Mortal Shell 2 leveling-system guide.</figcaption>
+  <img src="/images/mortalshell2-rainy-path-combat.webp" alt="Hooded Mortal Shell II player-character used to illustrate Shell progression" width="1600" height="900" loading="lazy" decoding="async" />
+  <figcaption>Playable-Shell combat shot used for the Mortal Shell 2 leveling-system guide.</figcaption>
 </figure>
 
 ## What the launch discussion says

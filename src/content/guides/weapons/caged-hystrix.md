@@ -5,6 +5,7 @@ description: "Caged Hystrix in Mortal Shell 2: Named like a creature rather than
 category: weapons
 keyword: "mortal shell 2 caged hystrix"
 cover: /images/weapons/caged-hystrix.jpg
+coverAlt: "Caged Hystrix pickup location in Mortal Shell 2; the screenshot marks the drop, not a separate weapon icon"
 status: official
 preRelease: false
 order: 39

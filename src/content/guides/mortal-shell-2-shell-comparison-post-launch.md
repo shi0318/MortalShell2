@@ -8,14 +8,14 @@ status: official
 preRelease: false
 order: 30
 updatedAt: "2026-09-08"
-cover: /images/mortalshell2-masked-shell-portrait.webp
+cover: /images/mortalshell2-rainy-path-combat.webp
 sources: []
 ---
 
 **Mortal Shell II has eight playable Shells.** The useful question is not which one has a universal S-tier label; it is which Shell gives your current weapon, sidearm and parry habits enough room to work.
 
 <figure>
-  <img src="/images/mortalshell2-masked-shell-portrait.webp" alt="Masked Mortal Shell II Shell portrait" width="1600" height="900" loading="lazy" decoding="async" />
+  <img src="/images/mortalshell2-rainy-path-combat.webp" alt="Hooded Mortal Shell II player-character used for a Shell comparison" width="1600" height="900" loading="lazy" decoding="async" />
   <figcaption>Choose a Shell by the problem it solves for your run, not by an unverified tier list.</figcaption>
 </figure>
 

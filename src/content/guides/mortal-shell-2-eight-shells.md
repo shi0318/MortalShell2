@@ -8,13 +8,13 @@ status: official
 preRelease: false
 order: 5
 updatedAt: "2026-09-17"
-cover: /images/mortalshell2-masked-shell-portrait.webp
+cover: /images/mortalshell2-rainy-path-combat.webp
 sources: []
 ---
 
 Cold Symmetry's retail game has **eight playable Shells**. Reviews even spell that number out: you start weak and collect bodies. Valve's Unlock achievements plus the Week 1 Shells patch heading are how the names were locked in.
 
-![Mortal Shell 2 Shell portrait](/images/mortalshell2-masked-shell-portrait.webp)
+![Hooded Mortal Shell II player-character representing the playable Shell roster](/images/mortalshell2-rainy-path-combat.webp)
 
 ## The eight names
 

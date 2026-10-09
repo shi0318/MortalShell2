@@ -4,7 +4,7 @@ heading: "Mortal Shell 2 Smert"
 description: "Smert in Mortal Shell 2: Built around a stance rather than a cooldown ability: the Week 1 patch notes describe Smert as having a 'permanent fight stance', which no…"
 category: shells
 keyword: "mortal shell 2 smert"
-cover: /images/mortalshell2-masked-shell-portrait.webp
+cover: /images/mortalshell2-rainy-path-combat.webp
 status: official
 preRelease: false
 order: 40
@@ -15,7 +15,7 @@ updatedAt: "2026-09-15"
 
 **Smert** is one of the eight playable Shells in Mortal Shell 2. Built around a stance rather than a cooldown ability: the Week 1 patch notes describe Smert as having a "permanent fight stance", which no other Shell is described that way.
 
-![Mortal Shell II character portrait of a masked woman in red with gold jewelry](/images/mortalshell2-masked-shell-portrait.webp)
+![Hooded Mortal Shell II player-character — used for Smert because no Smert-specific portrait is published](/images/mortalshell2-rainy-path-combat.webp)
 
 ## How we know it is a Shell
 

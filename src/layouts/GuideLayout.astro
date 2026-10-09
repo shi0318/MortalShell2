@@ -5,6 +5,7 @@ import Layout from './Layout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import PreReleaseNotice from '../components/PreReleaseNotice.astro';
 import RelatedGuides from '../components/RelatedGuides.astro';
+import MediaFigure from '../components/MediaFigure.astro';
 import { SITE, isReleased } from '../data/site';
 import type { ConfidenceStatus, SourceRef } from '../data/sources';
 import { formatDate, toDateString } from '../utils/dates';
@@ -24,6 +25,8 @@ interface Props {
   preRelease?: boolean;
   updatedAt: string | Date;
   datePublished?: string | Date;
+  cover?: string; // frontmatter cover，既渲染到正文顶部，也用作 OG image
+  coverAlt?: string;
 }
 
 const {
@@ -36,6 +39,8 @@ const {
   preRelease = true,
   updatedAt,
   datePublished,
+  cover,
+  coverAlt,
 } = Astro.props;
 
 // 已知路径段的友好显示名（未列出的段用标题化的 slug）
@@ -115,6 +120,7 @@ const steamCtaLabel =
   datePublished={publishedDate}
   dateModified={verifiedDate}
   noindex={noindex}
+  ogImage={cover}
 >
   <article class="mx-auto max-w-3xl">
     <Breadcrumb items={crumbs} />
@@ -128,6 +134,17 @@ const steamCtaLabel =
         Last verified <time datetime={verifiedDate}>{verifiedDate}</time>
       </p>
     </header>
+
+    {
+      cover && (
+        <MediaFigure
+          src={cover}
+          alt={coverAlt ?? title}
+          class="mt-6"
+          priority
+        />
+      )
+    }
 
     {
       showSteamCta && (

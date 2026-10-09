@@ -4,7 +4,8 @@ heading: "Magdalena, the Lady of the Woods: location, charge attack and the hidd
 description: "Where to find Magdalena, the Lady of the Woods in Mortal Shell 2, the hidden achievement she unlocks, and what the Week 1 patch changed about her charge."
 category: bosses
 keyword: "mortal shell 2 magdalena lady of the woods"
-cover: /images/mortalshell2-bear-shaman-encounter.webp
+cover: /images/mortalshell2-masked-shell-portrait.webp
+coverAlt: "Magdalena, the Lady of the Woods — the red-masked woman in gold jewelry from Mortal Shell 2"
 status: official
 preRelease: false
 order: 9

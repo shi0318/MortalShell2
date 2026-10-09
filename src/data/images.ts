@@ -26,8 +26,10 @@ export const SITE_IMAGES = {
     credit: 'Steam store screenshot | Mortal Shell II',
   },
   shellsPortrait: {
-    src: '/images/mortalshell2-masked-shell-portrait.webp',
-    alt: 'Mortal Shell II character portrait of a masked woman in red with gold jewelry',
+    // Was the red-masked woman (reads as NPC Magdalena, not a playable Shell);
+    // now uses the hooded player-character combat shot to represent the playable shells.
+    src: '/images/mortalshell2-rainy-path-combat.webp',
+    alt: 'Mortal Shell II hooded player-character approaching an enemy through a rainy torch-lit village path',
     width: 1600,
     height: 900,
     credit: 'Steam store screenshot | Mortal Shell II',

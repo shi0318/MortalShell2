@@ -45,6 +45,8 @@ const guides = defineCollection({
     draft: z.boolean().default(false),
     // optional card thumbnail for list pages
     cover: z.string().optional(),
+    // accessible alt text for the cover image; falls back to page title when absent
+    coverAlt: z.string().optional(),
     updatedAt: dateString,
   }),
 });
