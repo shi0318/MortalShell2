@@ -9,7 +9,7 @@ export interface LoadoutWeapon {
 
 export const MELEE_WEAPONS: LoadoutWeapon[] = [
   {
-    slug: null,
+    slug: 'iconoclast',
     name: 'The Iconoclast',
     feel: 'Light greatsword, all-rounder. Prologue starter.',
     location: 'Prologue. Talk to the Undermether, inhabit Harros — it is already in the inventory.',
@@ -83,7 +83,7 @@ export const MELEE_WEAPONS: LoadoutWeapon[] = [
 
 export const SIDEARMS: LoadoutWeapon[] = [
   {
-    slug: null,
+    slug: 'naylshotte',
     name: 'Naylshotte',
     feel: 'Close shotgun interrupt.',
     location: 'Prologue with Harros and the Untarnished Seal. Automatic.',

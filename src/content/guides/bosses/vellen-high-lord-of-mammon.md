@@ -1,40 +1,48 @@
 ---
-title: "Mortal Shell 2 Vellen, High Lord of Mammon — Boss Guide"
+title: "Mortal Shell 2 Vellen, High Lord of Mammon — Lazlo Shell Boss"
 heading: "Mortal Shell 2 Vellen, High Lord of Mammon"
-description: "Vellen, High Lord of Mammon in Mortal Shell 2: Named only in the Week 1 softlock fixes: players could lure it out of its arena, which the patch closed. That confirms…"
-category: bosses
-keyword: "mortal shell 2 vellen, high lord of mammon"
-cover: /images/mortalshell2-rainy-path-combat.webp
-status: official
+description: "Beat Vellen, High Lord of Mammon in Mortal Shell 2: Royal Crypt route from High Lord's Courtyard, scythe tells, how to fight close, and the Lazlo Shell unlock."
+category: "bosses"
+keyword: "mortal shell 2 vellen"
+status: "community"
 preRelease: false
 order: 44
-updatedAt: "2026-09-15"
+cover: "/images/ms2-hot-5.webp"
+coverAlt: "A Shell with a greatsword walks a dark overgrown path"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Vellen, High Lord of Mammon** guards the bottom of the **Royal Crypt of Mammon** and the corpse of **Lazlo, the Justicar** – the tank Shell with the highest base health in the game. It is an optional fight, but if you want Lazlo you have to go through him.
 
-**Vellen, High Lord of Mammon** is a named boss encounter in the Mortal Shell II retail game. Named only in the Week 1 softlock fixes: players could lure it out of its arena, which the patch closed. That confirms it as an arena boss in Mammon.
+![A Shell with a greatsword walks a dark overgrown path](/images/ms2-hot-5.webp)
 
-![Mortal Shell II hooded warrior approaching an enemy through a rainy torch-lit village path](/images/mortalshell2-rainy-path-combat.webp)
+## Route
 
-## What the official record confirms
+From the **Outskirts of Mammon** beacon travel west to **High Lord's Courtyard** and activate its beacon. Enter the keep; the crypt entrance is a little west of the beacon beside the arches at the back. The crypt is one main path down with side rooms – check them for loot before the lowest floor.
 
-- Confirmed as an arena boss — the Week 1 Update fixed "being able to lure Vellen, High Lord of Mammon out of his arena".
-- The title places it in Mammon, the region whose enemies drop double gold since Balance Patch 1.
-- Named in the softlock section rather than the boss section, so no attack description is published.
-- No moveset, phase, or reward detail published.
+## Moveset
 
-## Location
+- Long, unhurried scythe combos – the easiest chain in the region to answer cleanly once you see the rhythm.
+- The **overhead swing** is the most reliable attack to parry.
+- The **jab with the butt of the scythe** is faster than everything else and catches players who are reading the big swings.
+- Long reach overall: he plays like a larger Confessor-type enemy.
 
-Mammon (implied by the title).
+## Strategy
 
-## What is not published
+- Stay close and take openings; spacing out only feeds his reach in a small arena.
+- Parry the overheads and chain your defence through the whole string.
+- Infuse early – he barely repositions, so status effects tick for most of the fight.
+- Circle rather than backing toward walls.
 
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for Vellen, High Lord of Mammon is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+## Rewards
+
+Glimpse and a large pile of Gloom. Walk into the chamber behind the arena and interact with Lazlo's corpse to claim the Shell.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)
+- [Lazlo Shell guide](/shells/lazlo/)

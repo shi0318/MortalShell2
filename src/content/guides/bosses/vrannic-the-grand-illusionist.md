@@ -1,39 +1,47 @@
 ---
-title: "Mortal Shell 2 Vrannic, the Grand Illusionist — Boss Guide"
+title: "Mortal Shell 2 Vrannic, the Grand Illusionist — Hall of Illusions"
 heading: "Mortal Shell 2 Vrannic, the Grand Illusionist"
-description: "Vrannic, the Grand Illusionist in Mortal Shell 2: Uses projectiles, which received new visual trails in the Week 1 Update — a readability change rather than a balance…"
-category: bosses
-keyword: "mortal shell 2 vrannic, the grand illusionist"
-cover: /images/mortalshell2-spider-boss-fight.webp
-status: official
+description: "Find and beat Vrannic in Mortal Shell 2: Mushroom Village Gate beacon, illusory walls, his unblockable thrust and three-hit combo, and the Volatile Fragment."
+category: "bosses"
+keyword: "mortal shell 2 vrannic"
+status: "community"
 preRelease: false
 order: 40
-updatedAt: "2026-09-15"
+cover: "/images/mortalshell2-swamp-serpent-encounter.webp"
+coverAlt: "A Shell kneels in swamp water beside a pale robed figure"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Vrannic, the Grand Illusionist** hides inside the **Mushroom Village Gate** beacon – the Hall of Illusions. Beating him cleanses the beacon and opens the way into the **Glutted Mire**, so he is effectively the gatekeeper for Magdalena.
 
-**Vrannic, the Grand Illusionist** is a named boss encounter in the Mortal Shell II retail game. Uses projectiles, which received new visual trails in the Week 1 Update — a readability change rather than a balance one.
+![A Shell kneels in swamp water beside a pale robed figure](/images/mortalshell2-swamp-serpent-encounter.webp)
 
-![Player fighting a multi-limbed spider-like boss among candles in Mortal Shell II](/images/mortalshell2-spider-boss-fight.webp)
+## Finding him
 
-## What the official record confirms
+- Many corridors look like dead ends but open once you pass through the ritual gates.
+- Strike the **illusory wall beside the Resolve tree** to reveal the onward path.
+- The last room seems to have no exit. Look up: Vrannic stands on wooden planks overhead, and spotting him drops you into the fight.
 
-- Uses projectile attacks, which now have new VFX trails to make them easier to read.
-- That is the only change the official notes make to this boss.
-- No moveset, phase, or location detail published.
+## Moveset
 
-## Location
+- **Unblockable thrust** – a long lunge; dodge to the side.
+- **Three-hit combo** – the first two hits can be parried or blocked, the third cannot. Parry two, roll the third.
+- **Sack projectiles** – he throws from the bag on his back; close the distance instead of trading at range.
 
-Not published.
+## Rewards
 
-## What is not published
-
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for Vrannic, the Grand Illusionist is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+| Reward | Notes |
+|---|---|
+| Volatile Fragment | Tarstone |
+| Glimpse | Spend at the Shellkeeper or on Shell bonds |
+| Gloom | About 3,000 |
+| Ovum | Cleanses the Mushroom Village Gate and opens the Glutted Mire |
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)
+- [Glutted Mire walkthrough](/mortal-shell-2-glutted-mire/)

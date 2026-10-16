@@ -1,76 +1,41 @@
 ---
 title: "Do You Need Mortal Shell 1 Before Mortal Shell II?"
 heading: "Do You Need Mortal Shell 1 Before Mortal Shell II?"
-description: "Do you need Mortal Shell 1 before Mortal Shell II? Official sequel framing, what returns, and what new players can expect without the original."
-category: guide
+description: "Do you need to play Mortal Shell 1 before Mortal Shell II? No – here is what returns (Tiel, Eredrim, Genessa, Harden, Axatana) and what the sequel explains itself."
+category: "guide"
 keyword: "do you need to play mortal shell 1 first"
-cover: /images/mortalshell2-official-keyart-3.webp
-status: official
-preRelease: true
+status: "community"
+preRelease: false
 order: 10
-updatedAt: "2026-07-24"
-sources:
-  - status: official
-    sourceUrl: "https://mortalshell.com/"
-    lastChecked: "2026-07-24"
-    note: "Official site presents Mortal Shell II as an ambitious sequel with new open-world scope"
-  - status: official
-    sourceUrl: "https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/"
-    sourceDate: "2026-06-05"
-    lastChecked: "2026-07-24"
-    note: "Open Beta framing introduces Harbinger journey without requiring ownership of the first game"
-  - status: prequel
-    note: "Series identity references (Shell possession fantasy) drawn from Mortal Shell 2020 for context only"
-    lastChecked: "2026-07-24"
+cover: "/images/mortalshell2-official-keyart-3.webp"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+No – you do not need to play the first **Mortal Shell** (2020) before **Mortal Shell II**. The sequel introduces its own world, protagonist and systems. Playing the original adds context, not requirements.
 
-**No official source says you must own or finish Mortal Shell (2020) to play Mortal Shell II.** The sequel is marketed as a standalone dark action RPG experience with its own Harbinger journey, open-world structure, and eight-Shell roster.
+![A Shell with a sword wades through a swamp toward a pale robed figure](/images/mortalshell2-official-keyart-3.webp)
 
-If you want the smoothest onboarding, the free [Open Beta](/download/) is the best teacher.
+## What carries over from the first game
 
-## What official materials emphasize
-
-From official sequel marketing:
-
-- "Ambitious, adrenaline-fueled sequel to Mortal Shell"
-- Interconnected open world
-- Possess unique warriors / Shells
-- Combat unrestricted by stamina
-- Sidearms and upgrade options
-
-None of that is gated behind a "complete the first game" requirement in public store or official site copy.
-
-## What returning players will recognize
-
-Useful prequel familiarity (not required):
-
-- Possessing fallen warriors (Shells)
-- High-stakes melee timing
-- Bleak fantasy tone and brutal executions
-
-## What is new or expanded in the sequel pitch
-
-- Larger open-world framing
-- Eight playable Shells (Tiel confirmed among them)
-- Sidearms called out as a combat pillar
-- Stamina-unrestricted combat framing
-- Early open-world beacons and optional dungeons in the beta slice
-
-## Recommendation by player type
-
-| Player type | Recommendation |
+| Element | In Mortal Shell II |
 |---|---|
-| Brand new to the series | Start Mortal Shell II Open Beta directly |
-| Liked the first game | Jump in; treat systems as remixed, not identical |
-| Want lore maximum | Optional: play or watch a story recap of Mortal Shell (2020) |
-| Only care about launch rewards | Play beta enough for Flayed Harbinger + Marrow Keep threshold |
+| Shells | Returning: **Tiel**, **Eredrim** and **Sester Genessa** (as Genessa, the Wayward); new: Proxima, Smert, Gragu, Sariel, Lazlo |
+| Harden | Still the core defence, now granted by **Vatra's Seal** |
+| Weapons | The **Axatana** returns (it was the Martelli Axatana); the Great Martyr's Blade echoes the old Martyr's Blade |
+| Gloom, Glimpse, Tarstones | Same resource names, expanded systems |
+| Story | A new Harbinger, a new land (Fainweald, the Ruins of Mammon) and a new antagonist structure |
+
+## What the sequel explains on its own
+
+The prologue teaches inhabiting Shells through Harros, Marrow Keep explains Shell bonds and upgrades, and the Corrupted Gates are self-contained. You will not miss gameplay knowledge by skipping the first game.
+
+## Should you play it anyway?
+
+If you have 15 hours and like the sequel's combat, yes – Mortal Shell (2020) is shorter and tighter, and you will recognise Tiel, Eredrim and Genessa's personalities. It is often heavily discounted.
 
 ## Related pages
 
-- [Beginner first hours](/beginner-guide/)
-- [Open Beta guide](/open-beta/)
-- [Shells](/shells/)
-- [Release date](/release-date/)
-- [Download](/download/)
+- [Story and lore](/story-and-lore/)
+- [All 8 Shells](/mortal-shell-2-eight-shells/)
+- [Beginner guide](/beginner-guide/)

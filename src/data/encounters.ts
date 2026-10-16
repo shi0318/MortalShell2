@@ -19,7 +19,7 @@ export const STORY_BOSS: Encounter = {
   area: 'Disciple\'s Grotto. From the Beacon, down the slope, white web launch to the high ledge, second launch into the stone-ruins arena. Be in Harros.',
   trigger: 'Interact with the torch at the far end of the arena.',
   rewards:
-    'Achievements No, You Still Can\'t Win and Finish the Fight. After the cutscene, interact with Harros\'s stone form for Vartra\'s Seal (Harden). No regular gear.',
+    'Achievements No, You Still Can\'t Win and Finish the Fight. After the cutscene, interact with Harros\'s stone form for Vatra\'s Seal (Harden). No regular gear.',
   tips: 'Scripted tutorial. Parry axe swings into Riposte. Red jump slam is unblockable — dodge sideways. Optional Tainted Vestige before the arena drops Burnt Effigy for fire resist. Drag it too long and the fight ends on its own.',
 };
 

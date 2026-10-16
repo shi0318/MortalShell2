@@ -71,7 +71,7 @@ export const SHELLS: Shell[] = [
       'Innate abilities awaken after possession (Open Beta description)',
       'Prequel context: mobile / aggressive identity in Mortal Shell (2020) — the retail kit is still unpublished',
     ],
-    acquisition: 'Seek Tiel\'s remains and possess him. Was also obtainable on the Open Beta route. Like most Shells, the body sits near Zhirelle, the Shellkeeper.',
+    acquisition: 'Fast travel to Widow\'s Overlook, turn around, follow the dirt path to the yard and interact with the body in the shallow grave.',
     shellConfirmedBy: 'Official Gameplay Reveal (2026-04-01)',
     unlockAchievement: 'Forever Alone?',
     unlockRate: 79.7,
@@ -91,7 +91,7 @@ export const SHELLS: Shell[] = [
       'No stats or damage numbers published',
     ],
     shellConfirmedBy: 'Official Gameplay Reveal + Week 1 Update notes',
-    acquisition: 'Route not published. The 78.0% unlock rate puts it alongside Tiel in the early game.',    unlockAchievement: 'Arrival',
+    acquisition: 'Cross from Widow\'s Overlook to Blackridge Pass, head north-east past the Treant and clear the Shattered Beacon dungeon.',    unlockAchievement: 'Arrival',
     unlockRate: 78.0,
     source: ACHIEVEMENTS,
     hasDetailPage: true,
@@ -107,7 +107,7 @@ export const SHELLS: Shell[] = [
       'One of three Shells shown in the Official Gameplay Reveal',
       'Prequel context: highest health, lowest stamina — a slow, hits-absorbing tank. Not verified for the sequel.',
     ],
-    acquisition: 'Route not published.',
+    acquisition: 'Defeat The Warden in the Citadel of Penance (gate opens with the Citadel Gate Lever from the Bloodcursed Lithopod).',
     shellConfirmedBy: 'Official Gameplay Reveal + Week 1 Update notes',
     unlockAchievement: 'Vengeance is Mine',
     unlockRate: 56.7,
@@ -126,7 +126,7 @@ export const SHELLS: Shell[] = [
       'No stats or numbers published.',
     ],
     acquisition:
-      'Found near Zhirelle, the Shellkeeper, like most Shells; the location can be tracked by spending Gloom (community-reported).',
+      'Fill every blood-offering circle at Prophet\'s Rest near the Outskirts of Nochte, then interact with Smert\'s body.',
     shellConfirmedBy: 'Week 1 Update notes, Shells section',
     unlockAchievement: 'My Brether',
     unlockRate: 49.1,
@@ -144,7 +144,7 @@ export const SHELLS: Shell[] = [
       'No stats or numbers published.',
     ],
     acquisition:
-      'Community-reported route: meet him in the bar, exhaust every dialogue option, then bring him a heart found east of the bar through a portal to a temple.',
+      'With Mether\'s Breath, bring the Heart of Vatra from the eastern temple statue back to Gragu in the One-Legged Wolf Tavern.',
     shellConfirmedBy: 'Week 1 Update notes, Shells section',
     unlockAchievement: 'Heartless',
     unlockRate: 48.3,
@@ -161,7 +161,7 @@ export const SHELLS: Shell[] = [
       'Players report a pain-conversion mechanic where damage becomes pain and pain heals on hit; unverified.',
     ],
     acquisition:
-      'Found near Zhirelle, the Shellkeeper; the location can be tracked by spending Gloom (community-reported).',
+      'Drive Sariel off at The Silent Steps, then destroy the tombstones and defeat it in the Chamber of Becoming.',
     shellConfirmedBy: 'Community achievement guide only — no first-party mention',
     unlockAchievement: 'The Alchemist',
     unlockRate: 35.2,
@@ -180,7 +180,7 @@ export const SHELLS: Shell[] = [
       'Was the checkpoint NPC in Mortal Shell (2020) — players note the change; no official statement ties the two.',
     ],
     acquisition:
-      'Community-reported route: in the lower eastern map area, head to the graves and find a red-petal-covered area surrounded by sisters. Interact with a floating red orb by the wall, defeat Sister Secunda in the opened dimension, then bring the censer she drops to Sester Genessa.',
+      'Defeat Sester Secundus among the red specters east of Outskirts of Mammon and deliver Sester\'s Censer to Genessa in Marrow Keep.',
     shellConfirmedBy: 'Week 1 Update notes, Shells section (as "Genessa")',
     unlockAchievement: 'Sester',
     unlockRate: 33.9,
@@ -198,7 +198,7 @@ export const SHELLS: Shell[] = [
       'No stats or numbers published.',
     ],
     acquisition:
-      'Found near Zhirelle, the Shellkeeper; the location can be tracked by spending Gloom (community-reported). The low rate suggests a late or optional acquisition.',
+      'Defeat Vellen, High Lord of Mammon, in the Royal Crypt below High Lord\'s Courtyard.',
     shellConfirmedBy: 'Week 1 Update notes, indirectly (fixes to Lazlo\'s Rekindle)',
     unlockAchievement: 'Down with the Thickness',
     unlockRate: 31.4,
@@ -211,7 +211,7 @@ export const SHELLS: Shell[] = [
 export const PREQUEL_ONLY_SHELLS = ['Harros', 'Solomon'] as const;
 
 export const HARROS_NOTE =
-  'Harros was a Shell in Mortal Shell (2020). It is not in the retail eight, not in Valve unlock achievements, and not in Cold Symmetry\'s Week 1 Shells heading. This site does not add a Harros row to Mortal Shell II.';
+  'Harros was a Shell in Mortal Shell (2020). He is the prologue body in Mortal Shell II and is destroyed after the Tar Golem, so he is not one of the eight Shells you keep, not in the Valve unlock achievements, and not in Cold Symmetry\'s Week 1 Shells heading. His page is /shells/harros/. This site does not add him as a ninth row in the eight-Shell table.';
 
 export const GENESSA_ROUTE = {
   status: 'community' as const,

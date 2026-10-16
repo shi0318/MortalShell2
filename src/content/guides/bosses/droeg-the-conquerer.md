@@ -1,41 +1,55 @@
 ---
-title: "Mortal Shell 2 Droeg, the Conquerer — Boss Guide"
+title: "Mortal Shell 2 Droeg, the Conquerer Boss Guide — Frost and Orbs"
 heading: "Mortal Shell 2 Droeg, the Conquerer"
-description: "Droeg, the Conquerer in Mortal Shell 2: Spelled 'Conquerer' in the official notes. Its arena had navigation problems at launch, and the approach to it had a stuck spot…"
-category: bosses
-keyword: "mortal shell 2 droeg, the conquerer"
-cover: /images/mortalshell2-gloom-spider-creature.webp
-status: official
+description: "Beat Droeg, the Conquerer in Mortal Shell 2: Conquered Temple route, club sweeps, the curl-up orb attack, frost resistance and the Conqueror's Reward."
+category: "bosses"
+keyword: "mortal shell 2 droeg"
+status: "community"
 preRelease: false
 order: 33
-updatedAt: "2026-09-15"
+cover: "/images/ms2-hot-7.webp"
+coverAlt: "A Shell in heavy armour confronts an enemy on a frosty castle road"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Droeg, the Conquerer** guards the **Conquered Temple** Corrupted Gate in the Ruins of Mammon. It is a slow giant with a bone club that deals **Frost**, and below half health it starts curling up to fire tracking orbs. The fight is forgiving if you parry, punishing if you trade.
 
-**Droeg, the Conquerer** is a named boss encounter in the Mortal Shell II retail game. Spelled "Conquerer" in the official notes. Its arena had navigation problems at launch, and the approach to it had a stuck spot in the snow.
+![A Shell in heavy armour confronts an enemy on a frosty castle road](/images/ms2-hot-7.webp)
 
-![Gloom-wreathed spider-like creature emerging in a foggy swamp in Mortal Shell II](/images/mortalshell2-gloom-spider-creature.webp)
+## Route
 
-## What the official record confirms
+Sester's Gate Beacon → Winterglass Lake Beacon (Caged Grisha) → the broken bridge with three bells → **Urrig, the Executioner** → Ovate's Chamber Beacon. From Ovate's Chamber take the traversal gate across the gap; a short scene starts the fight. Pick up **Martyr's Ash** in the snowy valley on the way – it is common there and resists Freeze.
 
-- Arena navigation was repaired in the Week 1 Update, so enemies and the boss move correctly.
-- Riposte alignment and hit reactions were corrected.
-- Fire and snowfall effects received a pass, and the arena effects were optimised for performance.
-- A stuck spot in the snow on the approach to the arena was fixed.
-- No moveset, phase, or reward detail published.
+## Attacks
 
-## Location
+| Attack | What to do |
+|---|---|
+| Two club sweeps + delayed ground smash | Parry the two sweeps, dodge the smash |
+| Shoulder smack into two sweeps | Harden the smack, parry the sweeps |
+| Three overheads in a row | It turns slowly – dodge behind it after the first and get free hits |
+| Blue-flame club | Inflicts Frost and Burn; block, do not trade |
+| Head-hold → curl-up orbs (from ~40% HP) | Get distance and run sideways until the orbs disperse |
 
-Reached through a snow approach (implied by the fixed stuck spot). Not stated directly.
+At about 30% health it uses the curl-up constantly. Be patient: hide behind the **large stone slab on the left** or the **tree on the right**, but not cover close to Droeg – the orbs splash.
 
-## What is not published
+## Preparation
 
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for Droeg, the Conquerer is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+- Equip Martyr's Ash, or play Eredrim with his Frost resistance upgraded.
+- A parry Seal (Untarnished or Infinite) turns the sweeps into stagger damage.
+
+## Rewards
+
+Conqueror's Reward (Ability Tarstone tied to the Black Needle) and the **Conqueror's Hoard** beacon, whose blizzard route ends at a chest with the **Frostshard Stone**.
+
+## Patch history
+
+The 13 October 2026 hotfix improved Droeg's hitboxes and added a new explosion version for the orb attack.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)
+- [Conquered Temple walkthrough](/mortal-shell-2-conquered-temple/)

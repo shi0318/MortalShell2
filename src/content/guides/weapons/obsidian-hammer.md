@@ -1,44 +1,52 @@
 ---
-title: "Mortal Shell 2 Obsidian Hammer — Stats, Unlock & Patch History"
+title: "Mortal Shell 2 Obsidian Hammer — Location and How to Use It"
 heading: "Mortal Shell 2 Obsidian Hammer"
-description: "Obsidian Hammer in Mortal Shell 2: Rebuilt a week after launch: the Week 1 Update gave it a full balance pass and says it 'now hits substantially harder'. Any damage…"
-category: weapons
+description: "Obsidian Hammer in Mortal Shell 2: Obsidianite Mines route, the Prophet of Profane Infinities drop, and why the Week 1 balance pass made it hit far harder."
+category: "weapons"
 keyword: "mortal shell 2 obsidian hammer"
-cover: /images/weapons/obsidian-hammer.jpg
-status: official
+status: "community"
 preRelease: false
-order: 40
-updatedAt: "2026-09-15"
+order: 55
+cover: "/images/weapons/obsidian-hammer.jpg"
+coverAlt: "Obsidian Hammer icon from Mortal Shell 2"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+The **Obsidian Hammer** is the heaviest weapon you can carry, and since the Week 1 balance pass it "hits substantially harder" – the strongest buff language the developer used for any weapon.
 
-**Obsidian Hammer** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Stop - Hammer Time, unlocked by 33.9% of players.  Rebuilt a week after launch: the Week 1 Update gave it a full balance pass and says it "now hits substantially harder". Any damage impression formed in the first nine days is out of date.
+![Obsidian Hammer icon from Mortal Shell 2](/images/weapons/obsidian-hammer.jpg)
 
-![Obsidian Hammer in Mortal Shell 2](/images/weapons/obsidian-hammer.jpg)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Stop - Hammer Time |
-| Global unlock rate | 33.9% |
-| Weapon / Sidearm split | Not published |
-| Acquisition | Not published. |
+| Type | Primary weapon – very heavy hammer |
+| Region | Obsidianite Mines, Ruins of Mammon |
+| Unlock achievement | Stop - Hammer Time (33.9% of players) |
+| Drop from | Prophet of Profane Infinities |
 
-## What the patches changed
+## Where to find it
 
-- Received a full balance pass in the Week 1 Update and "now hits substantially harder" — the strongest buff language used for any weapon.
-- A heavy weapon, so it also received the Week 1 poise and damage pass applied to heavy weapons generally.
-- No damage values or scaling published, before or after the buff.
+1. From the **Outskirts of Mammon Beacon** go west to the quarry with a large flooded pit.
+2. Drop into the water to enter the **Obsidianite Mines**.
+3. At the large vertical chasm, drop ledge to ledge rather than straight down.
+4. Defeat the **Prophet of Profane Infinities** at the bottom – he drops the hammer (and Paradoxical Scripture).
 
-## Reading the unlock rate
+## How to use it
 
-Valve publishes the global achievement rate, which is the only population data available for Obsidian Hammer. At 33.9%, it is one of the rarer unlocks on the list — consistent with a late, optional, or well-hidden acquisition.
+- Every hit is a stagger threat; time swings into boss recoveries rather than starting combos.
+- Genessa's Faithful Doubles copy your weapon – with the hammer they hit very hard.
+- Lost Clotstone (from The Lost Child) is one of its ability Tarstones.
+
+## Patch history
+
+- Week 1 Update: full balance pass; "now hits substantially harder"; heavy weapon poise/damage pass.
+- 13 October 2026: fixed Lost Clotstone Genessa clones getting stuck with the Obsidian Hammer.
 
 ## Related pages
 
 - [All Mortal Shell 2 weapons](/weapons/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)
 - [Best weapon guide](/mortal-shell-2-best-weapon/)
 - [Weapon upgrade guide (Tarforge)](/mortal-shell-2-weapon-upgrade-guide/)
-- [Fragments and weapon skills](/mortal-shell-2-fragments-weapon-skills/)

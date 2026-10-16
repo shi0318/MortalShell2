@@ -1,32 +1,50 @@
 ---
 title: "Proxima the Broodseeker: Biosampler and Grafted Armor"
 heading: "Proxima: hook first, then the Lightning hit"
-description: "Proxima the Broodseeker hooks with Biosampler for a Lightning follow-up, and Grafted Armor mitigates hits. Here is the shell in practice."
-category: shells
+description: "Proxima's Biosampler in Mortal Shell 2: the hook bugs and the three hotfixes that fixed them, her kit, Lightning stacking and how to use the hook well."
+category: "shells"
 keyword: "proxima the broodseeker"
-status: community
+status: "community"
 preRelease: false
 order: 3
-cover: /images/ms2-hot-0.webp
-updatedAt: "2026-10-08"
+cover: "/images/ms2-hot-0.webp"
+updatedAt: "2026-10-15"
 sources: []
 ---
 
-<figure>
-  <img src="/images/ms2-hot-0.webp" alt="Proxima the Broodseeker on the Mortal Shell 2 equipment screen" width="1400" height="788" loading="lazy" decoding="async" />
-</figure>
+**Proxima, the Broodseeker** had the most bug reports of any Shell after launch, almost all of them about her **Biosampler** hook. Three hotfixes addressed it. If the hook froze you, failed to pull a boss or broke your weapon swap, this is the page.
 
-Proxima, the Broodseeker, is a shell you inhabit, not a costume on the Foundling. The equipment screen at Marrow Keep spells the kit out.
+![The Mortal Shell 2 equipment screen showing Proxima, the Broodseeker and her abilities](/images/ms2-hot-0.webp)
 
-**Biosampler** fires a hook from her left arm. It pulls an enemy in, or pulls Proxima to the enemy, and the follow-up inflicts Lightning. That is the whole opener. If you hook and then menu, you are the player the hotfix was written for: Proxima could get stuck in the Biosampler animation. Patch before you build a fight around the hook.
+## Proxima's kit
 
-**Grafted Armor** is a base 15 percent chance to mitigate melee or ranged damage. Mitigated damage is reduced by a base 50 percent, and the mitigation prevents stagger. It is a chance, not a shield. Do not stand in a combo because the tooltip exists.
+| Ability | Effect |
+|---|---|
+| Biosampler (active) | Fires a hook from her left arm that pulls an enemy to you – or you to it – then strikes and inflicts Lightning |
+| Grafted Armour (passive) | Base 15% chance to mitigate a melee or ranged hit, reducing it by a base 50% and preventing stagger |
+| Lightning | Stacks on a target until it bursts into a damage-over-time shockwave |
 
-## How to fight in her
+## The Biosampler fixes
 
-- Hook the isolated enemy, not the one already inside your weapon arc. The pull is the gap closer. The Lightning hit is the punish.
-- Harden still matters. Grafted Armor does not replace it.
-- If the hook animation does not return control, you are on the pre-hotfix build. The notes also unstick a related Biosampler loop and fix Lazlo's Temperament infinite perk. Install that pass before you call the shell broken.
+| Hotfix | Fix |
+|---|---|
+| Week 1 (29 August) | Riposte alignment fixed on The Silent Sester |
+| 14 September | Proxima no longer gets stuck in the Biosampler animation |
+| 13 October | Cancelling the ability no longer stops weapons re-equipping; Cursed Child and Grisha summons are no longer hit by Biosampler; better interaction with The Monolith and with Bor, the Deluded Monarch |
 
-The line under her name is flavor: purpose gives the soul its shape. The numbers above are the part that changes a hit.
+## Using Biosampler well after the fixes
 
+- **Pull ranged enemies** off ledges and towers – the crossbow Sesters and Ballista Heads are ideal targets.
+- **Close distance on big bosses.** Against The Monolith and Hexapod, hook in during recoveries instead of walking through their attacks.
+- **Do not hook into crowds.** Pulling yourself into a pack of Unfound Path cockroaches ends badly.
+- **Stack Lightning fast** with a quick weapon (Axe and Dagger, Iconoclast) so the shockwave triggers before the target recovers.
+
+## Where to get her
+
+From the Widow's Overlook Beacon cross the ravine to Blackridge Pass, activate its beacon, head north-east past the Treant and clear the **Shattered Beacon** dungeon. Full Shell page: [Proxima](/proxima/).
+
+## Related pages
+
+- [Lazlo Temperament fix](/mortal-shell-2-lazlo-temperament/)
+- [October 13 hotfix](/mortal-shell-2-october-13-hotfix/)
+- [All 8 Shells](/mortal-shell-2-eight-shells/)

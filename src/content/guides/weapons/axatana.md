@@ -1,46 +1,52 @@
 ---
-title: "Mortal Shell 2 Axatana — Stats, Unlock & Patch History"
+title: "Mortal Shell 2 Axatana — Location and How to Use It"
 heading: "Mortal Shell 2 Axatana"
-description: "Axatana in Mortal Shell 2: Returns from the first game, where it was the 'Martelli Axatana' — a switchable axe/katana. The only weapon named in both post-launch…"
-category: weapons
+description: "Axatana in Mortal Shell 2: Forgotten Tower route and Dagger Sester fight, the i-frame weapon ability with Fragile stacks, and the Dual Wielding achievement."
+category: "weapons"
 keyword: "mortal shell 2 axatana"
-cover: /images/weapons/axatana.jpg
-status: official
+status: "community"
 preRelease: false
-order: 35
-updatedAt: "2026-09-15"
+order: 56
+cover: "/images/weapons/axatana.jpg"
+coverAlt: "Axatana icon from Mortal Shell 2"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+The **Axatana** returns from the first game as a switchable axe/katana and has the most clearly described weapon ability in the sequel: it grants invulnerability frames and inflicts **Fragile** stacks.
 
-**Axatana** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Dual Wielding, unlocked by 43.6% of players.  Returns from the first game, where it was the "Martelli Axatana" — a switchable axe/katana. The only weapon named in both post-launch patches, and the one with the most confirmed mechanics.
+![Axatana icon from Mortal Shell 2](/images/weapons/axatana.jpg)
 
-![Axatana, a transforming axe and dual-katana weapon in Mortal Shell 2](/images/weapons/axatana.jpg)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Dual Wielding |
-| Global unlock rate | 43.6% |
-| Weapon / Sidearm split | Not published |
-| Acquisition | Not published. |
+| Type | Primary weapon – switchable axe/katana |
+| Region | Forgotten Tower, near Sester's Gate (Ruins of Mammon) |
+| Unlock achievement | Dual Wielding (43.6% of players) |
+| Ability Tarstone | Hexapod Core (from Hexapod) |
 
-## What the patches changed
+## Where to find it
 
-- Its weapon ability grants invulnerability frames and inflicts Fragile stacks (Week 1 Update). This is the only weapon ability whose effect the developer states outright.
-- Has light attacks, whose tracking was improved in Balance Patch 1.
-- Its combat Tarstone active now triggers correctly (Week 1 Update), so it interacts with the Tarstone system.
-- Its achievement is titled "Dual Wielding", consistent with a two-stance weapon, but that is a title and not a mechanic statement.
-- No damage values or scaling published.
+1. Travel to the **Sester's Gate Beacon** and enter the courtyard with the Rollerball enemy.
+2. Drop onto the lower ledge over the courtyard edge and turn **left** (not toward the abbey).
+3. Use the jump gate to cross the ravine into the **Forgotten Tower**, then a second jump gate to the far side.
+4. Step on the plate beside the metal door and defeat the **Dagger Sester**.
+5. Take the Axatana from the nearby niche.
 
-## Reading the unlock rate
+The route is easy to confuse with the path to the Revered Beacon (Cursed Child).
 
-Valve publishes the global achievement rate, which is the only population data available for Axatana. At 43.6%, it sits mid-pack: a meaningful number of players finish without it.
+## How to use it
+
+- Use the weapon ability to pass through big attacks while applying Fragile, then follow up with heavy hits.
+- Light attack tracking was improved in Balance Patch 1, so the katana stance is reliable on dodgy enemies.
+- Week 1 fixed its combat Tarstone active not triggering.
+
+
 
 ## Related pages
 
 - [All Mortal Shell 2 weapons](/weapons/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)
 - [Best weapon guide](/mortal-shell-2-best-weapon/)
 - [Weapon upgrade guide (Tarforge)](/mortal-shell-2-weapon-upgrade-guide/)
-- [Fragments and weapon skills](/mortal-shell-2-fragments-weapon-skills/)

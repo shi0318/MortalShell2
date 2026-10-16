@@ -1,39 +1,45 @@
 ---
-title: "Mortal Shell 2 Larreth, the Brigand King — Boss Guide"
+title: "Mortal Shell 2 Larreth, the Brigand King — What Is Known"
 heading: "Mortal Shell 2 Larreth, the Brigand King"
-description: "Larreth, the Brigand King in Mortal Shell 2: Named only in a Week 1 cosmetic fix: it 'now appears without his helmet'. Enough to confirm the name, not enough for a…"
-category: bosses
-keyword: "mortal shell 2 larreth, the brigand king"
-cover: /images/mortalshell2-swamp-serpent-encounter.webp
-status: official
+description: "Larreth, the Brigand King in Mortal Shell 2: the only official mention, why community boss lists skip him, and how brigand fights in Mammon play out."
+category: "bosses"
+keyword: "mortal shell 2 larreth"
+status: "community"
 preRelease: false
 order: 45
-updatedAt: "2026-09-15"
+cover: "/images/ms2-ss-13.webp"
+coverAlt: "A Shell fires a crossbow at brigands in a sunlit castle courtyard"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Larreth, the Brigand King** is a name that exists in Mortal Shell 2's own patch notes but not in the community boss rosters. That gap is the answer most searchers are looking for.
 
-**Larreth, the Brigand King** is a named boss encounter in the Mortal Shell II retail game. Named only in a Week 1 cosmetic fix: it "now appears without his helmet". Enough to confirm the name, not enough for a strategy page.
+![A Shell fires a crossbow at brigands in a sunlit castle courtyard](/images/ms2-ss-13.webp)
 
-![Player kneeling in swamp water before a large serpent-like creature in Mortal Shell II](/images/mortalshell2-swamp-serpent-encounter.webp)
+## What the official record says
 
-## What the official record confirms
+The Week 1 Update (29 August 2026) fixed Larreth appearing with a helmet he should not have: he "now appears without his helmet". That is a visual fix – it confirms the name and that he has a distinct model, nothing more.
 
-- Confirmed by name in the Week 1 Update, which fixed it appearing with a helmet it should not have.
-- That is a visual fix, so nothing about its moveset or difficulty is published.
-- No location, phase, or reward detail published.
+## Why boss checklists do not list him
 
-## Location
+The largest community checklists (46 named bosses and minibosses, from the Tar Golem to Zmey) do not include Larreth. The most likely reading is that he is a **named elite** rather than a health-bar boss: Mortal Shell 2 gives several enemy leaders unique names without a boss arena or a guaranteed drop. If you meet him, he is fought like the other brigands.
 
-Not published.
+## Fighting brigands
 
-## What is not published
+Brigands are common in the snowy **Valley of the Revered** before Winterglass Lake, along the Conquered Temple route and in the Withered Shoals.
 
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for Larreth, the Brigand King is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+- They hit hard and some freeze you, but **one parry staggers them** – keep a parry Seal equipped.
+- Ranged brigands on thin paths are easier with a sidearm than with a chase.
+- Martyr's Ash (common in the valley) resists the Freeze build-up.
+
+## What we will add
+
+If you have fought Larreth and noted where, what he drops and which attacks he uses, [send it in](/contact/) and this page will be updated.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)

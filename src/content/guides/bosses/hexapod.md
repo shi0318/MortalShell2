@@ -1,41 +1,50 @@
 ---
-title: "Mortal Shell 2 Hexapod — Boss Guide"
+title: "Mortal Shell 2 Hexapod Boss Guide — Withered Shoals"
 heading: "Mortal Shell 2 Hexapod"
-description: "Hexapod in Mortal Shell 2: The only boss the Week 1 Update made harder: its area attack 'deals considerably more splash damage' than at launch."
-category: bosses
+description: "Beat Hexapod in Mortal Shell 2: Withered Shoals route, where to stand, the 60% projectile phase, Proxima and Triarch Repeater tactics, and the Hexapod Core."
+category: "bosses"
 keyword: "mortal shell 2 hexapod"
-cover: /images/mortalshell2-swamp-serpent-encounter.webp
-status: official
+status: "community"
 preRelease: false
-order: 35
-updatedAt: "2026-09-15"
+order: 31
+cover: "/images/mortalshell2-gloom-spider-creature.webp"
+coverAlt: "A huge long-legged creature looming over a torch-lit forest path"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Hexapod** ends the **Withered Shoals** Corrupted Gate in the Ruins of Mammon. It attacks almost entirely forward with a fan of appendages around its face, and its tells are short, so this is a fight about positioning rather than reactions.
 
-**Hexapod** is a named boss encounter in the Mortal Shell II retail game. The only boss the Week 1 Update made harder: its area attack "deals considerably more splash damage" than at launch.
+![A huge long-legged creature looming over a torch-lit forest path](/images/mortalshell2-gloom-spider-creature.webp)
 
-![Player kneeling in swamp water before a large serpent-like creature in Mortal Shell II](/images/mortalshell2-swamp-serpent-encounter.webp)
+## Route
 
-## What the official record confirms
+Gate of Mammon Beacon (Infested Miner miniboss, Wretchcaller's Stone) → Withered Shoals → Ossinite Falls (the waterfall hides the **Torpor Stone**) → Nameless Pass (chest: **Charged Stone**). Before you drop into the hollowed-out tree, land on the underside of its lower trunk and turn around for the **Depleted Gland** – one of the three glands for Seedbearer's Scripture. Drop into the fog to start the fight.
 
-- Has an area attack that now deals considerably more splash damage — an intentional buff, not a fix.
-- Has a shooting attack, which it could previously interrupt itself out of.
-- Has a dive attack, which could wedge it into the environment.
-- One attack was retimed to be fairer.
-- Its arena was made smaller, and the arena beacon is now lit by default.
+## How to fight it
 
-## Location
+- **Stay behind it.** It turns after each hit you land; reposition and repeat.
+- Most dangerous attacks are unblockable with very short tells. **Dodge left** as soon as the dodge icon appears.
+- Never stand in front when the tentacles are spread – a heavy attack is coming.
+- **Harden** absorbs the poorly telegraphed blockable swings better than a parry.
+- **At about 60% health** it backs away, gathers energy in its mouth and fires projectiles that land after a short delay. Use the large skeletons for cover or keep moving sideways.
 
-Has a dedicated arena with a beacon. Location not published.
+## Ranged option
 
-## What is not published
+Summon the **Proxima** support Shell nearby – she uses the **Triarch Repeater**. If you carry it yourself, dodge and shoot its face whenever the appendages part. The **Forgotten Crossbow** with the Shuddering Stone can knock it back when it lunges.
 
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for Hexapod is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+## Rewards
+
+Hexapod Core (Ability Tarstone tied to the Axatana). The **Hexapod's Burrow** beacon appears afterward but is hidden in fog – search the arena before leaving.
+
+## Patch history
+
+The 14 September hotfix stopped its diving attack from triggering after death; the 24 September hotfix fixed players being pushed outside the arena.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)
+- [Withered Shoals walkthrough](/mortal-shell-2-withered-shoals/)

@@ -1,46 +1,48 @@
 ---
-title: "Mortal Shell 2 Caged Hystrix — Stats, Unlock & Patch History"
+title: "Mortal Shell 2 Caged Hystrix — Location and How to Use It"
 heading: "Mortal Shell 2 Caged Hystrix"
-description: "Caged Hystrix in Mortal Shell 2: Named like a creature rather than a weapon, but Balance Patch 1 confirms it fires — which makes it one of the two likeliest Sidearms…"
-category: weapons
+description: "Caged Hystrix in Mortal Shell 2: why it only appears after beating Sariel twice, where it sits in the Chamber of Becoming, and how its spikes play."
+category: "weapons"
 keyword: "mortal shell 2 caged hystrix"
-cover: /images/weapons/caged-hystrix.jpg
-coverAlt: "Caged Hystrix pickup location in Mortal Shell 2; the screenshot marks the drop, not a separate weapon icon"
-status: official
+status: "community"
 preRelease: false
-order: 39
-updatedAt: "2026-09-15"
+order: 65
+cover: "/images/weapons/caged-hystrix.jpg"
+coverAlt: "Caged Hystrix icon from Mortal Shell 2"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+The **Caged Hystrix** is a spike-firing sidearm hidden at the end of the **Chamber of Becoming**. It only appears after you have beaten Sariel, the Endless twice.
 
-**Caged Hystrix** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Spiked, unlocked by 35.7% of players.  Named like a creature rather than a weapon, but Balance Patch 1 confirms it fires — which makes it one of the two likeliest Sidearms on the list.
+![Caged Hystrix icon from Mortal Shell 2](/images/weapons/caged-hystrix.jpg)
 
-![Caged Hystrix sidearm in Mortal Shell 2](/images/weapons/caged-hystrix.jpg)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Spiked |
-| Global unlock rate | 35.7% |
-| Weapon / Sidearm split | Not published |
-| Acquisition | Not published. |
+| Type | Sidearm – spike launcher |
+| Region | Chamber of Becoming, south-eastern Mammon |
+| Unlock achievement | Spiked (35.7% of players) |
+| Resource | Resolve |
 
-## What the patches changed
+## Where to find it
 
-- It fires, and as of Balance Patch 1 it no longer has a minimum resolve requirement to do so.
-- Named in the same patch line as the Triarch Repeater, so the two share a firing mechanic.
-- Its achievement uses the definite article ("Unlock the Caged Hystrix"), the pattern every item entry follows.
-- No damage values, ammo counts, or scaling published.
+1. Head south-east from **The Silent Steps** beacon to the stone platform where Sariel ambushes you.
+2. Drive Sariel off and follow it south; it phases through a wall and opens the Chamber of Becoming.
+3. Win the rematch – break all four tombstones before finishing it.
+4. Climb the stairs at the back of the arena; the sidearm is near the dungeon exit.
 
-## Reading the unlock rate
+## How to use it
 
-Valve publishes the global achievement rate, which is the only population data available for Caged Hystrix. At 35.7%, it is one of the rarer unlocks on the list — consistent with a late, optional, or well-hidden acquisition.
+- Spikes are a mid-range option between the crossbow and the repeater.
+- Since Balance Patch 1 it has no minimum Resolve requirement to fire.
+
+
 
 ## Related pages
 
 - [All Mortal Shell 2 weapons](/weapons/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)
 - [Best weapon guide](/mortal-shell-2-best-weapon/)
 - [Weapon upgrade guide (Tarforge)](/mortal-shell-2-weapon-upgrade-guide/)
-- [Fragments and weapon skills](/mortal-shell-2-fragments-weapon-skills/)

@@ -134,12 +134,12 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'axe-and-dagger',
     name: 'Axe and Dagger',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Weapon – paired axe and dagger',
     patchClass: 'unclassified',
     summary:
       'The earliest of the thirteen by unlock rate, and the only one that also existed as an Open Beta objective — the Beta had a "Find Axe and Dagger" achievement of its own.',
     knownStats: UNDOCUMENTED,
-    acquisition: 'Was findable in the Open Beta region. Retail location not published.',
+    acquisition: 'Shrine of Trials near Mushroom Village: Chapel Key, three rooms, Armored Knight.',
     unlockAchievement: 'Deep Cuts',
     unlockRate: 64.7,
     source: ACHIEVEMENTS,
@@ -148,12 +148,12 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'forgotten-crossbow',
     name: 'Forgotten Crossbow',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Sidearm – crossbow',
     patchClass: 'unclassified',
     summary:
       'A ranged name, and the second-most-unlocked of the thirteen. Neither patch mentions it, so unlike the Caged Hystrix and Triarch Repeater there is no published confirmation that it fires.',
     knownStats: UNDOCUMENTED,
-    acquisition: 'Not published.',
+    acquisition: 'Flooded Village: Damp Key from the back-left house, middle building table.',
     unlockAchievement: 'Old School',
     unlockRate: 63.9,
     source: ACHIEVEMENTS,
@@ -162,11 +162,11 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'veterans-battle-axe',
     name: "Veteran's Battle Axe",
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Weapon – heavy battle axe',
     patchClass: 'unclassified',
     summary: 'Unlocked by roughly six in ten players, so an early or hard-to-miss pickup.',
     knownStats: UNDOCUMENTED,
-    acquisition: 'Not published.',
+    acquisition: 'End of the King\'s Crypt, north-west of the Shattered Beacon.',
     unlockAchievement: 'Cut You Down to Size',
     unlockRate: 59.3,
     source: ACHIEVEMENTS,
@@ -175,7 +175,7 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'great-martyrs-blade',
     name: "Great Martyr's Blade",
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Weapon – greatsword',
     patchClass: 'unclassified',
     summary:
       'The most-buffed weapon in the game, and the closest thing to a returning name: Mortal Shell (2020) had a "Martyr\'s Blade". Whether this is the same weapon rescaled or a new one sharing the name is not stated.',
@@ -185,7 +185,7 @@ export const WEAPONS: Weapon[] = [
       'A heavy weapon, so it also received the Week 1 poise and damage pass applied to heavy weapons generally.',
       'Base damage numbers and scaling are still unpublished.',
     ],
-    acquisition: 'Not published.',
+    acquisition: 'End of Martyr\'s Prison, via the coin pouch at the Citadel of Penance.',
     unlockAchievement: 'Big Boi',
     unlockRate: 55.5,
     source: WEEK_1_UPDATE,
@@ -194,7 +194,7 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'salvaged-trebuchaxe',
     name: 'Salvaged Trebuchaxe',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Sidearm – axe launcher',
     patchClass: 'unclassified',
     summary:
       'A new name with no prequel counterpart. Its weapon ability component, the Tarred Fragment, was rebuilt a week after launch.',
@@ -203,7 +203,7 @@ export const WEAPONS: Weapon[] = [
       'That means guides written in the first nine days describe a version of this weapon that no longer exists.',
       'What the redesigned Tarred Fragment now does is not described in the notes.',
     ],
-    acquisition: 'Not published.',
+    acquisition: 'Ravaged Hideout, behind the Bloodcursed Lithopod in Gloomshade Grove.',
     unlockAchievement: 'Chop Chop',
     unlockRate: 47.5,
     source: WEEK_1_UPDATE,
@@ -212,7 +212,7 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'axatana',
     name: 'Axatana',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Weapon – axe/katana',
     patchClass: 'melee',
     summary:
       'Returns from the first game, where it was the "Martelli Axatana" — a switchable axe/katana. The only weapon named in both post-launch patches, and the one with the most confirmed mechanics.',
@@ -223,7 +223,7 @@ export const WEAPONS: Weapon[] = [
       'Its achievement is titled "Dual Wielding", consistent with a two-stance weapon, but that is a title and not a mechanic statement.',
       'No damage values or scaling published.',
     ],
-    acquisition: 'Not published.',
+    acquisition: 'Forgotten Tower near Sester\'s Gate; defeat the Dagger Sester.',
     unlockAchievement: 'Dual Wielding',
     unlockRate: 43.6,
     source: WEEK_1_UPDATE,
@@ -232,7 +232,7 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'triarch-repeater',
     name: 'Triarch Repeater',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Sidearm – automatic repeater',
     patchClass: 'fires',
     summary:
       'Confirmed to be a weapon that fires, because Balance Patch 1 removed its minimum resolve requirement "to fire". That is the strongest published hint that it is a Sidearm rather than a Weapon.',
@@ -242,7 +242,7 @@ export const WEAPONS: Weapon[] = [
       'Named alongside Caged Hystrix in the same patch line, so the two share a firing mechanic.',
       'No damage values, ammo counts, or scaling published.',
     ],
-    acquisition: 'Not published.',
+    acquisition: 'Blackwell Cavern below the Castigator\'s Keep beacon.',
     unlockAchievement: 'Old Painless',
     unlockRate: 39.0,
     source: BALANCE_PATCH_1,
@@ -251,7 +251,7 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'black-needle',
     name: 'Black Needle',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Weapon – spear',
     patchClass: 'melee',
     summary:
       'Its achievement reads "Unlock Black Needle" without the definite article every other item entry uses, which is why the name is often mistaken for a Shell. It is not one: Balance Patch 1 lists it under Weapons.',
@@ -260,7 +260,7 @@ export const WEAPONS: Weapon[] = [
       'Has light attacks, therefore a melee weapon rather than a Sidearm.',
       'No damage values or scaling published.',
     ],
-    acquisition: 'Not published.',
+    acquisition: 'Sester\'s Bastion: drop from the Twin and Stray Sesters.',
     unlockAchievement: 'Point Taken',
     unlockRate: 38.1,
     source: BALANCE_PATCH_1,
@@ -269,7 +269,7 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'clockwork-scythe',
     name: 'Clockwork Scythe',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Weapon – scythe',
     patchClass: 'melee',
     summary:
       'A new name with no prequel counterpart, confirmed as a melee weapon by a patch line about its light attacks.',
@@ -278,7 +278,7 @@ export const WEAPONS: Weapon[] = [
       'Has light attacks, therefore a melee weapon rather than a Sidearm.',
       'No damage values or scaling published.',
     ],
-    acquisition: 'Not published.',
+    acquisition: 'Chamber of Becoming: drop from Sariel, the Endless.',
     unlockAchievement: 'Like Clockwork',
     unlockRate: 35.8,
     source: BALANCE_PATCH_1,
@@ -287,7 +287,7 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'caged-hystrix',
     name: 'Caged Hystrix',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Sidearm – spike launcher',
     patchClass: 'fires',
     summary:
       'Named like a creature rather than a weapon, but Balance Patch 1 confirms it fires — which makes it one of the two likeliest Sidearms on the list.',
@@ -297,7 +297,7 @@ export const WEAPONS: Weapon[] = [
       'Its achievement uses the definite article ("Unlock the Caged Hystrix"), the pattern every item entry follows.',
       'No damage values, ammo counts, or scaling published.',
     ],
-    acquisition: 'Not published.',
+    acquisition: 'Chamber of Becoming exit, after the second Sariel fight.',
     unlockAchievement: 'Spiked',
     unlockRate: 35.7,
     source: BALANCE_PATCH_1,
@@ -306,7 +306,7 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'obsidian-hammer',
     name: 'Obsidian Hammer',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Weapon – very heavy hammer',
     patchClass: 'unclassified',
     summary:
       'Rebuilt a week after launch: the Week 1 Update gave it a full balance pass and says it "now hits substantially harder". Any damage impression formed in the first nine days is out of date.',
@@ -315,7 +315,7 @@ export const WEAPONS: Weapon[] = [
       'A heavy weapon, so it also received the Week 1 poise and damage pass applied to heavy weapons generally.',
       'No damage values or scaling published, before or after the buff.',
     ],
-    acquisition: 'Not published.',
+    acquisition: 'Obsidianite Mines: drop from the Prophet of Profane Infinities.',
     unlockAchievement: 'Stop - Hammer Time',
     unlockRate: 33.9,
     source: WEEK_1_UPDATE,
@@ -324,12 +324,12 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'cursed-child',
     name: 'Cursed Child',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Sidearm – summoning relic',
     patchClass: 'unclassified',
     summary:
       'The strangest name on the list. It is grouped here because its achievement reads "Unlock the Cursed Child" — the article pattern every item entry follows and no Shell entry does. Neither patch mentions it, so this row rests on the article pattern alone.',
     knownStats: UNDOCUMENTED,
-    acquisition: 'Not published.',
+    acquisition: 'Top of the Revered Beacon tower near Sester\'s Gate.',
     unlockAchievement: 'Beautiful Baby',
     unlockRate: 32.4,
     source: ACHIEVEMENTS,
@@ -338,12 +338,12 @@ export const WEAPONS: Weapon[] = [
   {
     slug: 'ballistazooka',
     name: 'Ballistazooka',
-    type: 'Weapon or Sidearm (split not published)',
+    type: 'Sidearm – explosive launcher',
     patchClass: 'unclassified',
     summary:
       'The rarest of the thirteen at 31.9%, so the best candidate for a late or well-hidden pickup. Neither post-launch patch touches it.',
     knownStats: UNDOCUMENTED,
-    acquisition: 'Not published. The low unlock rate suggests late or optional.',
+    acquisition: 'Sentry\'s Grave: drop from the Subjugated Guardian.',
     unlockAchievement: 'Speared',
     unlockRate: 31.9,
     source: ACHIEVEMENTS,

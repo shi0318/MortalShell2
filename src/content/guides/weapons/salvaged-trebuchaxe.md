@@ -1,44 +1,48 @@
 ---
-title: "Mortal Shell 2 Salvaged Trebuchaxe — Stats, Unlock & Patch History"
+title: "Mortal Shell 2 Salvaged Trebuchaxe — Location and How to Use It"
 heading: "Mortal Shell 2 Salvaged Trebuchaxe"
-description: "Salvaged Trebuchaxe in Mortal Shell 2: A new name with no prequel counterpart. Its weapon ability component, the Tarred Fragment, was rebuilt a week after launch."
-category: weapons
+description: "Salvaged Trebuchaxe in Mortal Shell 2: Ravaged Hideout location behind the Bloodcursed Lithopod, the axe throw, Tarred Fragment redesign, and when to use it."
+category: "weapons"
 keyword: "mortal shell 2 salvaged trebuchaxe"
-cover: /images/weapons/salvaged-trebuchaxe.jpg
-status: official
+status: "community"
 preRelease: false
-order: 34
-updatedAt: "2026-09-15"
+order: 60
+cover: "/images/weapons/salvaged-trebuchaxe.jpg"
+coverAlt: "Salvaged Trebuchaxe icon from Mortal Shell 2"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+The **Salvaged Trebuchaxe** is a sidearm that throws axes. Shots are slow and costly, but they kill small and medium enemies outright – an ideal opener.
 
-**Salvaged Trebuchaxe** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Chop Chop, unlocked by 47.5% of players.  A new name with no prequel counterpart. Its weapon ability component, the Tarred Fragment, was rebuilt a week after launch.
+![Salvaged Trebuchaxe icon from Mortal Shell 2](/images/weapons/salvaged-trebuchaxe.jpg)
 
-![Salvaged Trebuchaxe sidearm in Mortal Shell 2](/images/weapons/salvaged-trebuchaxe.jpg)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Chop Chop |
-| Global unlock rate | 47.5% |
-| Weapon / Sidearm split | Not published |
-| Acquisition | Not published. |
+| Type | Sidearm – axe launcher |
+| Region | Ravaged Hideout, south of Gloomshade Grove (Fainweald) |
+| Unlock achievement | Chop Chop (47.5% of players) |
+| Resource | Resolve (high cost per shot) |
 
-## What the patches changed
+## Where to find it
 
-- Has a component called Tarred Fragment, redesigned in the Week 1 Update because it was "simultaneously overpowered and broken".
-- That means guides written in the first nine days describe a version of this weapon that no longer exists.
-- What the redesigned Tarred Fragment now does is not described in the notes.
+1. Head south into the poison-filled area below the **Gloomshade Grove** beacon.
+2. Kill the **Bloodcursed Lithopod** – this opens a crevice in the rock formation.
+3. Squeeze through to the final chamber and fight the reaper-style enemies.
+4. Loot the kneeling corpse at the back of the room.
 
-## Reading the unlock rate
+## How to use it
 
-Valve publishes the global achievement rate, which is the only population data available for Salvaged Trebuchaxe. At 47.5%, it sits mid-pack: a meaningful number of players finish without it.
+- Open fights with it, then switch to melee – the fire rate is too slow for sustained use.
+- Its Tarstone component **Tarred Fragment** (dropped by the Tarblighted Stoner) was redesigned in the Week 1 Update because it was "simultaneously overpowered and broken".
+
+
 
 ## Related pages
 
 - [All Mortal Shell 2 weapons](/weapons/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)
 - [Best weapon guide](/mortal-shell-2-best-weapon/)
 - [Weapon upgrade guide (Tarforge)](/mortal-shell-2-weapon-upgrade-guide/)
-- [Fragments and weapon skills](/mortal-shell-2-fragments-weapon-skills/)

@@ -1,82 +1,52 @@
 ---
-title: "Mortal Shell 2 Tiel Guide — How to Find and Claim Tiel"
+title: "Mortal Shell 2 Tiel, the Acolyte — Location, Abilities and Best Use"
 heading: "Mortal Shell 2 Tiel, the Acolyte"
-description: "Mortal Shell 2 Tiel is one of eight playable Shells. Official Open Beta notes explain how Tiel is discovered and possessed without invented kit stats."
-category: shells
+description: "Mortal Shell 2 Tiel, the Acolyte: where to find him near Widow's Overlook, Lingering Shadow and Shadow Dash explained, clones, and the best fights for Tiel."
+category: "shells"
 keyword: "mortal shell 2 tiel"
-cover: /images/mortalshell2-rainy-path-combat.webp
-coverAlt: "Hooded Mortal Shell II player-character on a rainy village path — used for Tiel because no Tiel-specific portrait is published"
-status: official
-preRelease: true
+status: "community"
+preRelease: false
 order: 8
-updatedAt: "2026-07-24"
-sources:
-  - status: official
-    sourceUrl: "https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/"
-    sourceDate: "2026-06-05"
-    gameVersion: "Open Beta store listing"
-    lastChecked: "2026-07-24"
-    note: "Steam confirms Tiel as one of eight playable Shells discoverable in Open Beta"
-  - status: prequel
-    note: "Tiel appears in Mortal Shell (2020); sequel kit details remain officially limited"
-    lastChecked: "2026-07-24"
+cover: "/images/mortalshell2-rainy-path-combat.webp"
+coverAlt: "A hooded Shell walks a torch-lit village path in the rain"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Tiel, the Acolyte** is the first Shell most players claim – nearly 80% of Steam players have unlocked him – and he stays useful to the last boss. He is the hit-and-run Shell: dodge in, take a target out, vanish, repeat.
 
-**Tiel, the Acolyte** is officially confirmed as **one of eight playable Shells** in Mortal Shell II. In the Open Beta, players can **discover Tiel**, seek his remains, possess him, and awaken innate abilities.
+![A hooded Shell walks a torch-lit village path in the rain](/images/mortalshell2-rainy-path-combat.webp)
 
-Source: [Steam Open Beta page](https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/).
+## At a glance
 
-## Why people search this page
-
-High-intent queries this page targets:
-
-- "Tiel Mortal Shell 2"
-- "Mortal Shell 2 shells"
-- "how many shells Mortal Shell 2"
-- "Tiel location Open Beta"
-
-## Confirmed facts
-
-| Fact | Status |
+| Detail | Value |
 |---|---|
-| Tiel is playable in Mortal Shell II | Official |
-| Tiel is one of **eight** Shells | Official |
-| Discoverable during Open Beta | Official |
-| Exact map pin / step-by-step GPS route | Not published on the store page |
-| Full stat sheet / unique kit numbers | Not fully published officially yet |
+| Region | Fainweald, near Widow's Overlook / Mushroom Village |
+| Requirement | None – no boss or quest |
+| Unlock achievement | Forever Alone? (79.7% of players) |
+| Playstyle | Evasive assassin, poison and clones |
+| Returning? | Yes, from Mortal Shell (2020) |
 
-## How acquisition is described
+## Abilities
 
-Official wording tells players to:
+- **Lingering Shadow** (active): Tiel gains *Shadow* and readies a dagger **Shadow Strike**. While Shadow is active, enemies cannot detect him.
+- **Shadow Dash** (passive): dashing just before you are hit grants Shadow and deals Stagger damage.
+- **Shadow Clone** (tier-4 skill): a perfect dodge leaves a poisoning clone behind that draws enemy attacks. The 13 October 2026 hotfix added new VFX for the clones and fixed the Poison Shadow Clones.
 
-1. Seek **Tiel's remains**
-2. **Possess** his flesh
-3. Awaken innate abilities
+## How to unlock
 
-We will only publish a pin-level location route after hands-on verification. Until then, treat community coordinates as **unconfirmed**.
+Fast travel to the **Widow's Overlook Beacon**, turn around and follow the dirt path to a nearby yard. Interact with the body in the shallow grave and complete its Memory sequence. That's it – Tiel is the Shell the game expects you to find first.
 
-## Prequel context (clearly labeled)
+## How to play it
 
-In Mortal Shell (2020), Tiel was associated with a more mobile / stamina-leaning identity. That history is useful for expectations, but **sequel balance is not guaranteed to mirror the first game**. Anything carried from 2020 is marked **Prequel**, not Official.
-
-## Roster context
-
-Official materials repeatedly state Mortal Shell II has **eight playable Shells**. Public store text currently names **Tiel** explicitly among them. Other named bodies may appear in marketing or beta client data later; this wiki promotes a Shell to its own page only when acquisition + role are sourceable.
-
-See the full tracker: [All Shells](/shells/).
-
-## Practical beta advice
-
-- Finding Tiel is one of the best beta goals because the Shell fantasy is core to the sequel pitch
-- Historical note: possessed Shell progress from the Open Beta **did not** carry into retail saves
-- The permanent beta rewards are the **Flayed Harbinger** cosmetic and optional **prologue skip** after Marrow Keep — not the Shell itself
+- Build around **Shadow Dash**: you want to dodge *into* attacks at the last moment, not away from them.
+- Clones are the best boss tool in the game. Sir Isaac, The Monolith and Zmey all lose track of you when a clone appears.
+- A raised bond reduces poison build-up – handy in the Glutted Mire.
+- Low health means Harden is still your safety net when a dodge goes wrong.
 
 ## Related pages
 
-- [All Shells](/shells/)
-- [Beginner first hours](/beginner-guide/)
-- [Open Beta guide](/open-beta/)
-- [Map overview](/map/)
-- [Beta progress](/beta-progress/)
+- [All Mortal Shell 2 Shells](/shells/)
+- [Every Shell location in one route](/mortal-shell-2-all-shell-locations/)
+- [Shell selection guide](/shell-selection-guide/)
+- [Reset Shell abilities](/mortal-shell-2-reset-shell-abilities/)

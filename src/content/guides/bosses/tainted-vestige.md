@@ -1,39 +1,45 @@
 ---
-title: "Mortal Shell 2 Tainted Vestige — Boss Guide"
+title: "Mortal Shell 2 Tainted Vestige — Prologue Miniboss and Burnt Effigy"
 heading: "Mortal Shell 2 Tainted Vestige"
-description: "Tainted Vestige in Mortal Shell 2: A ranged attacker whose shots were missing without reason before the Week 1 Update, meaning it was accidentally easier at launch…"
-category: bosses
+description: "Tainted Vestige in Mortal Shell 2: the hidden prologue miniboss near Disciple's Grotto, how to reach it, and why its Burnt Effigy helps against the Tar Golem."
+category: "bosses"
 keyword: "mortal shell 2 tainted vestige"
-cover: /images/mortalshell2-bear-shaman-encounter.webp
-status: official
+status: "community"
 preRelease: false
 order: 42
-updatedAt: "2026-09-15"
+cover: "/images/mortalshell2-bear-shaman-encounter.webp"
+coverAlt: "A Shell faces an antlered shaman figure in a dark forest"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Tainted Vestige** is an optional miniboss tucked into the prologue. Most players walk past it, but its drop – the **Burnt Effigy** – reduces Fire damage and is the single best item to carry into the Tar Golem fight that ends the prologue (and later into Magdalena and Orrem).
 
-**Tainted Vestige** is a named boss encounter in the Mortal Shell II retail game. A ranged attacker whose shots were missing without reason before the Week 1 Update, meaning it was accidentally easier at launch than intended.
+![A Shell faces an antlered shaman figure in a dark forest](/images/mortalshell2-bear-shaman-encounter.webp)
 
-![Player confronting a tattooed bear-headed enemy with antlers in Mortal Shell II](/images/mortalshell2-bear-shaman-encounter.webp)
+## Where it is
 
-## What the official record confirms
+It waits in a small hidden area just before the **Disciple's Grotto Beacon**. On the route to the Grotto, drop down from the bridge with the ranged soldiers and the armoured lance knight instead of crossing it; the Vestige's cave is below.
 
-- Uses ranged attacks, which "no longer miss without reason" as of the Week 1 Update.
-- That fix makes it more dangerous than it was at launch, not less.
-- No moveset, phase, or location detail published.
+## How to fight it
 
-## Location
+- You are still playing as **Harros** at this point with the Iconoclast and Naylshotte. Use the Naylshotte's close-range spread to stagger it.
+- Guard its slower swings to build Break damage; when the Break bar is full, riposte.
+- It is a test of patience rather than damage: do not chase it into the corners of the cave.
 
-Not published.
+## Rewards
 
-## What is not published
+| Reward | Use |
+|---|---|
+| Burnt Effigy | Passive slot item that reduces Fire damage taken |
+| Gloom | About 2,400 |
 
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for Tainted Vestige is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+Equip the Effigy before you touch the torch that starts the Tar Golem fight.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)
+- [Tar Golem](/bosses/tar-golem/)

@@ -1,47 +1,52 @@
 ---
-title: "Mortal Shell 2 Lazlo — Shell Guide"
-heading: "Mortal Shell 2 Lazlo"
-description: "Lazlo in Mortal Shell 2: The lowest-unlock Shell on the list at 31.4%, which makes it the most likely late-game or well-hidden acquisition of the eight."
-category: shells
+title: "Mortal Shell 2 Lazlo, the Justicar — Location, Abilities and Best Use"
+heading: "Mortal Shell 2 Lazlo, the Justicar"
+description: "Mortal Shell 2 Lazlo, the Justicar: Royal Crypt location behind Vellen, Retribution and Overheat, Fortified Plate, Temperament fix, and how to tank with him."
+category: "shells"
 keyword: "mortal shell 2 lazlo"
-cover: /images/mortalshell2-village-accordion-npc.webp
-status: official
+status: "community"
 preRelease: false
-order: 44
-updatedAt: "2026-09-15"
+order: 43
+cover: "/images/ms2-hot-7.webp"
+coverAlt: "A Shell in heavy plate armour on a frosty castle road"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Lazlo, the Justicar** has the highest base health of any Shell and is built to take hits instead of dodging them. He heats his armour to blast enemies away and can overheat it for a stronger, burning shockwave.
 
-**Lazlo** is one of the eight playable Shells in Mortal Shell 2. The lowest-unlock Shell on the list at 31.4%, which makes it the most likely late-game or well-hidden acquisition of the eight.
+![A Shell in heavy plate armour on a frosty castle road](/images/ms2-hot-7.webp)
 
-![Mortal Shell II village scene with an old accordion player among wooden houses](/images/mortalshell2-village-accordion-npc.webp)
-
-## How we know it is a Shell
-
-Week 1 Update notes, indirectly (fixes to Lazlo's Rekindle)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Down with the Thickness |
-| Global unlock rate | 31.4% |
-| Acquisition | Found near Zhirelle, the Shellkeeper; the location can be tracked by spending Gloom (community-reported). The low rate suggests a late or optional acquisition. |
+| Region | Royal Crypt of Mammon, western Ruins of Mammon |
+| Requirement | Defeat Vellen, High Lord of Mammon |
+| Unlock achievement | Down with the Thickness (31.4% of players) |
+| Playstyle | Tank, shockwaves, Burn |
 
-## Abilities on the record
+## Abilities
 
-- Has an ability called Rekindle (named in the Week 1 Update notes)
-- Players describe a heat meter that stops draining once full and holds at 100% until the ability is used again; unverified.
-- No stats or numbers published.
+- **Retribution** (active): heats his armour for a **Shockwave**. Using it repeatedly causes **Overheat** – a stronger shockwave that inflicts **Burn** but temporarily disables his armour.
+- **Fortified Plate** (passive): a base 10% damage reduction while the armour is on.
+- **Temperament**: an upgrade perk; the 14 September hotfix fixed an infinite Temperament glitch.
 
-## What is not published
+## How to unlock
 
-No stat sheet, Resilience value, or ability cooldown for Lazlo has been published by Cold Symmetry. Numbers appearing in community videos are player measurement, not developer data.
+From the **Outskirts of Mammon Beacon** travel west to **High Lord's Courtyard** and activate the beacon. Enter the keep, descend into the crypt and defeat **Vellen**. Enter the chamber behind the arena and interact with Lazlo's corpse.
 
+## How to play it
+
+- Lazlo is the Shell that can survive Malborn Offspring's grabs.
+- Do not Overheat into a boss combo – your armour drops and you lose Fortified Plate.
+- Upgrade his Burn resistance before Magdalena and Orrem.
+- He is weak against Sir Isaac's double hits; swap there.
+
+See also [Lazlo Temperament perk fix](/mortal-shell-2-lazlo-temperament/).
 ## Related pages
 
-- [All Shells](/shells/)
+- [All Mortal Shell 2 Shells](/shells/)
+- [Every Shell location in one route](/mortal-shell-2-all-shell-locations/)
 - [Shell selection guide](/shell-selection-guide/)
-- [Shell abilities guide](/mortal-shell-2-shell-abilities-guide/)
-- [Post-launch shell comparison](/mortal-shell-2-shell-comparison-post-launch/)
+- [Reset Shell abilities](/mortal-shell-2-reset-shell-abilities/)

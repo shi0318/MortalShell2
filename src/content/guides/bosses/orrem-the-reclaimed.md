@@ -1,39 +1,56 @@
 ---
-title: "Mortal Shell 2 Orrem, the Reclaimed — Boss Guide"
+title: "Mortal Shell 2 Orrem, the Reclaimed Boss Guide — Both Forms"
 heading: "Mortal Shell 2 Orrem, the Reclaimed"
-description: "Orrem, the Reclaimed in Mortal Shell 2: Displayed the wrong name in game until the Week 1 Update, so early guides and videos may refer to it by a different name…"
-category: bosses
-keyword: "mortal shell 2 orrem, the reclaimed"
-cover: /images/mortalshell2-cathedral-guardian-boss.webp
-status: official
+description: "How to beat Orrem in Mortal Shell 2: Bridge of Procession route, the Discarded Golem form, the centipede second form, resistances and the Orrem's Head reward."
+category: "bosses"
+keyword: "mortal shell 2 orrem"
+status: "community"
 preRelease: false
 order: 38
-updatedAt: "2026-09-15"
+cover: "/images/ms2-ss-09.webp"
+coverAlt: "A giant armoured figure swinging two burning flails in a dark arena"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Orrem** is the third Unfound Path guardian and a callback to the prologue: the first form, **Orrem, the Discarded Golem**, is the same Tar Golem that broke Harros. Empty its bar and it explodes, then returns as **Orrem, the Reclaimed** – a four-legged form with a centipede riding its back.
 
-**Orrem, the Reclaimed** is a named boss encounter in the Mortal Shell II retail game. Displayed the wrong name in game until the Week 1 Update, so early guides and videos may refer to it by a different name entirely.
+![A giant armoured figure swinging two burning flails in a dark arena](/images/ms2-ss-09.webp)
 
-![Player facing a massive crystal-crowned cathedral guardian boss in Mortal Shell II](/images/mortalshell2-cathedral-guardian-boss.webp)
+## Route
 
-## What the official record confirms
+From the main corrupted beacon go right, drop down with the jump spring and take the Stone Portal. Kill the spider, climb past the scythe enemies and take the staircase up on the left to **Bridge of Procession**. Fight through multi-legged and spider enemies (the hollow eggshell is good cover) and cross the bridge.
 
-- Was displaying the wrong name in game before the Week 1 Update. Footage or guides from the first nine days may label it incorrectly.
-- Attack and riposte alignment were improved.
-- No moveset, phase, or location detail published.
+## Form one: the Discarded Golem
 
-## Location
+- It plays like the prologue Tar Golem: a four-hit spinning string you can guard, axe swings that smash into the ground, and a plunge whose landing spot is telegraphed.
+- Its attacks inflict **Burn** – equip a **Burnt Effigy**. Some players also report Bloodcurse build-up, so **Bloodseed** is cheap insurance.
+- When the bar empties it explodes. Stay away from the body.
 
-Not published.
+## Form two: Orrem, the Reclaimed
 
-## What is not published
+- **Arm slams** follow your side – dodge to the opposite side and hit the leg.
+- **Spinning slams** – dodge under the other leg once it stops.
+- **Fast lunge** if you stand far away. Stay close.
+- **Centipede projectiles** – dodge sideways.
+- Moving toward its back keeps you out of most of the moveset.
 
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for Orrem, the Reclaimed is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+Summoning **Sariel** as a support Shell draws aggro and makes the second form much calmer.
+
+## Rewards
+
+Orrem's Head (trade item, 5,000 coins), an elevator to the **Empty Cradle** beacon (giant cockroach guards its corruption source) and, past the spider path behind it, the last Corrupted Ovum.
+
+## Patch history
+
+- **Week 1:** the boss displayed the wrong name in game until this patch.
+- **24 September 2026:** fixed a bug that could kill Orrem instantly.
+- **13 October 2026:** adjusted Orrem's triple slam.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)
+- [Tar Golem (prologue)](/bosses/tar-golem/)

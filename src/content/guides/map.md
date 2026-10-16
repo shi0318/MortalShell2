@@ -8,7 +8,7 @@ cover: /images/mortalshell2-world-map-cover.webp
 status: "official"
 preRelease: false
 order: 40
-updatedAt: "2026-09-01"
+updatedAt: "2026-10-15"
 sources:
   - status: official
     sourceUrl: https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/
@@ -29,7 +29,7 @@ This is an **Open Beta map archive and region overview**, not a finished interac
 
 *World layout overview used for early-game orientation. Fogged islands and incomplete edges are not treated as confirmed retail locations.*
 
-The overview above is a world-layout reference for the Open Beta route. Fogged or incomplete areas should be treated as **unconfirmed** in the current evidence set. Retail pins for Shells, weapons, beacons, and bosses belong on this page only after a current-build location is documented.
+The overview above is a world-layout reference for the Open Beta route. Fogged or incomplete areas on that image are still **unconfirmed**. Current-build region routes, Shell pickups, and weapon tables now live on the linked pages below — this image is not a pin map.
 
 ## Officially named early-game structure
 
@@ -53,7 +53,7 @@ From the [Open Beta Steam page](https://store.steampowered.com/app/4711740/Morta
 | Compare the historical opening route | [Open Beta archive](/open-beta/) → official Steam record |
 | Reach prologue-skip unlock | Progress beyond **Marrow Keep** |
 | Track checkpoints | Read [Beacons](/beacons/) |
-| Plan first hours | Read [Open Beta guide](/open-beta/) |
+| Plan first hours | Read [first hours](/mortal-shell-2-first-hours/) and the [region walkthroughs](#region-walkthroughs) |
 
 ## Trailer-only environment labels
 
@@ -74,6 +74,16 @@ When a current-build result is documented, this page can show:
 - Boss arena entrances
 
 Each marker will carry a confirmation status so you can tell current-build locations from historical Beta data.
+
+## Region walkthroughs {#region-walkthroughs}
+
+- [Glutted Mire](/mortal-shell-2-glutted-mire/) – Vrannic, the Wandering Shepherd, Magdalena
+- [Sanguine Caverns](/mortal-shell-2-sanguine-caverns/) – Lucian, Tarblighted Stoner, The Lost Child
+- [Prisoner's Domain](/mortal-shell-2-prisoners-domain/) – Vrago, Tishina's Confessor, The Nameless Captive
+- [Withered Shoals](/mortal-shell-2-withered-shoals/) – Infested Miner, Hexapod
+- [Conquered Temple](/mortal-shell-2-conquered-temple/) – Sesters, Urrig, Droeg
+- [Faded Citadel](/mortal-shell-2-faded-citadel/) – Starved Harridan, Solnir, Sir Isaac
+- [The Unfound Path](/mortal-shell-2-unfound-path/) – Malborn Offspring, The Monolith, Orrem, Zmey
 
 ## Related pages
 

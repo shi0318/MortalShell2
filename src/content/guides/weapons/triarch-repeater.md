@@ -1,45 +1,51 @@
 ---
-title: "Mortal Shell 2 Triarch Repeater — Stats, Unlock & Patch History"
+title: "Mortal Shell 2 Triarch Repeater — Location and How to Use It"
 heading: "Mortal Shell 2 Triarch Repeater"
-description: "Triarch Repeater in Mortal Shell 2: Confirmed to be a weapon that fires, because Balance Patch 1 removed its minimum resolve requirement 'to fire'. That is the…"
-category: weapons
+description: "Triarch Repeater in Mortal Shell 2: Blackwell Cavern location from Castigator's Keep, burst fire, the Resolve change, and why it is a Hexapod favourite."
+category: "weapons"
 keyword: "mortal shell 2 triarch repeater"
-cover: /images/weapons/triarch-repeater.jpg
-status: official
+status: "community"
 preRelease: false
-order: 36
-updatedAt: "2026-09-15"
+order: 63
+cover: "/images/weapons/triarch-repeater.jpg"
+coverAlt: "Triarch Repeater icon from Mortal Shell 2"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+The **Triarch Repeater** fires long automatic bursts. Individual bullets are weak, but sustained fire shreds weak enemies and keeps big targets like Hexapod under pressure.
 
-**Triarch Repeater** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Old Painless, unlocked by 39% of players.  Confirmed to be a weapon that fires, because Balance Patch 1 removed its minimum resolve requirement "to fire". That is the strongest published hint that it is a Sidearm rather than a Weapon.
+![Triarch Repeater icon from Mortal Shell 2](/images/weapons/triarch-repeater.jpg)
 
-![Triarch Repeater sidearm in Mortal Shell 2](/images/weapons/triarch-repeater.jpg)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Old Painless |
-| Global unlock rate | 39% |
-| Weapon / Sidearm split | Not published |
-| Acquisition | Not published. |
+| Type | Sidearm – automatic repeater |
+| Region | Blackwell Cavern, near Castigator's Keep (Ruins of Mammon) |
+| Unlock achievement | Old Painless (39.0% of players) |
+| Resource | Resolve |
 
-## What the patches changed
+## Where to find it
 
-- It fires, and as of Balance Patch 1 it no longer has a minimum resolve requirement to do so (previously it did).
-- Resolve returns from the first game as a resource, and this line confirms it gates ranged use in the sequel.
-- Named alongside Caged Hystrix in the same patch line, so the two share a firing mechanic.
-- No damage values, ammo counts, or scaling published.
+1. Drop down behind the **Castigator's Keep Beacon** to the lower level.
+2. Follow the cliffside path and take the wooden lift down.
+3. Circle the grassy field until the cave mouth appears.
+4. The cavern is very dark – lock on to each wraith to see it coming.
+5. Take the repeater from beside a corpse in the first lit chamber.
 
-## Reading the unlock rate
+## How to use it
 
-Valve publishes the global achievement rate, which is the only population data available for Triarch Repeater. At 39%, it is one of the rarer unlocks on the list — consistent with a late, optional, or well-hidden acquisition.
+- Pair it with a damage-over-time Tarstone so every bullet stacks status.
+- The Proxima support summon uses it against Hexapod; you can do the same – shoot the face when the appendages part.
+
+## Patch history
+
+- Balance Patch 1: no longer has a minimum Resolve requirement to fire.
 
 ## Related pages
 
 - [All Mortal Shell 2 weapons](/weapons/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)
 - [Best weapon guide](/mortal-shell-2-best-weapon/)
 - [Weapon upgrade guide (Tarforge)](/mortal-shell-2-weapon-upgrade-guide/)
-- [Fragments and weapon skills](/mortal-shell-2-fragments-weapon-skills/)

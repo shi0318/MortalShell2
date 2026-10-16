@@ -36,7 +36,7 @@ export const SHELL_FIND = [
     href: '/shells/gragu/',
     name: 'Gragu',
     role: 'Exploration and self-heal.',
-    how: 'One-Legged Wolf Tavern after Mother\'s Breath. He wants the Heart of Vatra from the temple east of the cliffs. Hand it over; he dies and leaves the Shell.',
+    how: 'One-Legged Wolf Tavern after Mether\'s Breath. He wants the Heart of Vatra from the temple east of the cliffs. Hand it over; he dies and leaves the Shell.',
     extra: 'Heart of Vatra. Lute is on the same tavern stage.',
   },
   {

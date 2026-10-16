@@ -1,40 +1,41 @@
 ---
-title: "Mortal Shell 2 Bloodcursed Lithopod — Boss Guide"
+title: "Mortal Shell 2 Bloodcursed Lithopod — Gloomshade Grove Miniboss"
 heading: "Mortal Shell 2 Bloodcursed Lithopod"
-description: "Bloodcursed Lithopod in Mortal Shell 2: Had the most physical-collision problems of any boss at launch: it could clip into other enemies and nudge a standing player…"
-category: bosses
+description: "Bloodcursed Lithopod in Mortal Shell 2: where it sits in Gloomshade Grove, Bloodcurse prep, and why the Citadel Gate Lever and Trebuchaxe make it a must-kill."
+category: "bosses"
 keyword: "mortal shell 2 bloodcursed lithopod"
-cover: /images/mortalshell2-gloom-spider-creature.webp
-status: official
+status: "community"
 preRelease: false
 order: 41
-updatedAt: "2026-09-15"
+cover: "/images/mortalshell2-rainy-path-combat.webp"
+coverAlt: "A Shell walks a torch-lit muddy path between wooden posts"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+The **Bloodcursed Lithopod** is a stone-shelled creature parked in front of a corrupted dungeon entrance by the small lake in **Gloomshade Grove**, Fainweald. It is not a long fight, but it is one of the most important kills in the region because of what it unlocks.
 
-**Bloodcursed Lithopod** is a named boss encounter in the Mortal Shell II retail game. Had the most physical-collision problems of any boss at launch: it could clip into other enemies and nudge a standing player into the air.
+![A Shell walks a torch-lit muddy path between wooden posts](/images/mortalshell2-rainy-path-combat.webp)
 
-![Gloom-wreathed spider-like creature emerging in a foggy swamp in Mortal Shell II](/images/mortalshell2-gloom-spider-creature.webp)
+## Why you want it dead
 
-## What the official record confirms
+- It drops the **Citadel Gate Lever**, which opens the main gate of the **Citadel of Penance** – the route to The Warden and the Eredrim Shell.
+- Killing it opens a crevice in the rock next to it, leading into **Ravaged Hideout**. The kneeling corpse at the back of that dungeon holds the **Salvaged Trebuchaxe** sidearm. The entrance does not exist until the Lithopod dies.
 
-- Has jump attacks, whose damage and turning were retuned in the Week 1 Update.
-- Before Week 1 it glitched when colliding with other enemies, so its arena can contain additional enemies.
-- It could nudge a standing player into the air — fixed.
-- No phase or reward detail published.
+## How to fight it
 
-## Location
+- The area to the south is soaked in poison; clear the small enemies first so you are not chipped during the fight.
+- Its hits apply **Bloodcurse**. Equip Bloodseed if you have it, or keep the fight short with an infused weapon.
+- It is armoured and slow: guard its swings, punish from the side, and use sidearm shots to finish it when it rears back.
 
-Not published.
+## Rewards
 
-## What is not published
-
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for Bloodcursed Lithopod is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+Citadel Gate Lever, coins and roughly 2,900 Gloom.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)

@@ -1,42 +1,49 @@
 ---
-title: "Mortal Shell 2 Ballistazooka — Stats, Unlock & Patch History"
+title: "Mortal Shell 2 Ballistazooka — Location and How to Use It"
 heading: "Mortal Shell 2 Ballistazooka"
-description: "Ballistazooka in Mortal Shell 2: The rarest of the thirteen at 31.9%, so the best candidate for a late or well-hidden pickup. Neither post-launch patch touches it."
-category: weapons
+description: "Ballistazooka in Mortal Shell 2: Sentry's Grave route, beating the Subjugated Guardian, and why it is the hardest-hitting sidearm in the game."
+category: "weapons"
 keyword: "mortal shell 2 ballistazooka"
-cover: /images/weapons/ballistazooka.jpg
-status: official
+status: "community"
 preRelease: false
-order: 42
-updatedAt: "2026-09-15"
+order: 66
+cover: "/images/weapons/ballistazooka.jpg"
+coverAlt: "Ballistazooka icon from Mortal Shell 2"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+The **Ballistazooka** fires explosive projectiles and is the hardest-hitting sidearm in Mortal Shell 2. It is also the rarest sidearm achievement on Steam.
 
-**Ballistazooka** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Speared, unlocked by 31.9% of players.  The rarest of the thirteen at 31.9%, so the best candidate for a late or well-hidden pickup. Neither post-launch patch touches it.
+![Ballistazooka icon from Mortal Shell 2](/images/weapons/ballistazooka.jpg)
 
-![Ballistazooka sidearm in Mortal Shell 2](/images/weapons/ballistazooka.jpg)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Speared |
-| Global unlock rate | 31.9% |
-| Weapon / Sidearm split | Not published |
-| Acquisition | Not published. The low unlock rate suggests late or optional. |
+| Type | Sidearm – explosive launcher |
+| Region | Sentry's Grave, Lonesome Spire (Ruins of Mammon) |
+| Unlock achievement | Speared (31.9% of players) |
+| Drop from | Subjugated Guardian |
 
-## What the patches changed
+## Where to find it
 
-- No damage values, moveset, or scaling published.
+1. From the **Gate of Mammon** beacon go north-west up the first staircase.
+2. Follow the first level clockwise to the stairs down into **Sentry's Grave**.
+3. Break line of sight from the Ballista Heads between pushes.
+4. Close in on the **Subjugated Guardian** – up close it stops its explosive volleys and uses slow head slams you can block.
+5. The Ballistazooka drops on the kill.
 
-## Reading the unlock rate
+## How to use it
 
-Valve publishes the global achievement rate, which is the only population data available for Ballistazooka. At 31.9%, it is one of the rarer unlocks on the list — consistent with a late, optional, or well-hidden acquisition.
+- Big single-shot damage: use it to finish a staggered boss or to delete a ranged elite.
+- Splash can hit you at point-blank range – fire from mid-distance.
+
+
 
 ## Related pages
 
 - [All Mortal Shell 2 weapons](/weapons/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)
 - [Best weapon guide](/mortal-shell-2-best-weapon/)
 - [Weapon upgrade guide (Tarforge)](/mortal-shell-2-weapon-upgrade-guide/)
-- [Fragments and weapon skills](/mortal-shell-2-fragments-weapon-skills/)

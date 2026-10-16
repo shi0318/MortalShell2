@@ -1,28 +1,50 @@
 ---
 title: "Mortal Shell 2 Last Boss: Bring the Optional Item"
 heading: "The last boss is the run, and it wants the optional item"
-description: "Players who finished Mortal Shell 2 keep naming the last boss as the wall. The optional item for that fight is the difference."
-category: bosses
+description: "The optional item for Mortal Shell 2's last boss: how to craft Seedbearer's Scripture from three glands, why Cosmic Disease matters, and what else to bring."
+category: "bosses"
 keyword: "mortal shell 2 last boss"
-status: community
+status: "community"
 preRelease: false
 order: 3
-cover: /images/ms2-hot-3.webp
-updatedAt: "2026-10-08"
+cover: "/images/ms2-hot-3.webp"
+updatedAt: "2026-10-15"
 sources: []
 ---
 
-<figure>
-  <img src="/images/ms2-hot-3.webp" alt="A late-game Mortal Shell 2 fight" width="1400" height="788" loading="lazy" decoding="async" />
-</figure>
+Players who finished Mortal Shell 2 agree on one piece of advice for the final boss: **bring Seedbearer's Scripture.** It is optional on paper, but without it Zmey's second phase can strip you of everything.
 
-Four-playthrough reviews still single out the last boss. The rest of the game gets the praise. That fight is where people stall, and the consistent advice from people who cleared it is to bring the optional item the game offers for that encounter. It is optional on the label. It is not optional if you are tired of the phase.
+![A Shell fights a pale figure on a field of red leaves](/images/ms2-hot-3.webp)
 
-## Before you pull it
+## Why it matters
 
-- Riposte damage scales with enemy health after the Week 1 update. A riposte guide written at launch underestimates the punish. Use it.
-- Do not walk in on a Shell you have not respecced since the refund item existed. Week 1 made Glimpses reusable across a single playthrough. A bad tree is a choice now, not a lock.
-- If Adaptive Difficulty is on, turn it off for this attempt so the health you learned yesterday is the health you fight today.
+Zmey, the Unbidden builds **Cosmic Disease** with its breath and its phase-two waves – even when you parry. When the bar fills you lose your Shell, items, Tarstones and weapon and fight on as a frail Harbinger. Seedbearer's Scripture in the passive slot gives about **80% Cosmic Disease resistance**, and the 13 October hotfix doubled your base resistance on top of that.
 
-The [boss list](/bosses/) names the roster. This page is the prep: item, riposte, a tree you would actually spend again.
+## How to make it
 
+| Step | Where |
+|---|---|
+| Depleted Gland | Withered Shoals – underside of the hollow tree's lower trunk, just before Hexapod |
+| Thawed Gland | Conquered Temple – the great hall in the snowy valley (backtrack from Winterglass Lake) |
+| Faded Gland | Faded Citadel – circular path south of the Citadel Annex beacon, in a chest guarded by dancers |
+| Night | Take the **Gloombound Flame** (south of Widow's Overlook) to the lantern on top of Marrow Keep, then talk to **Thestus** |
+| Craft | At night, go to the **Forgotten Tower near Sester's Refuge** and give the three glands to the creature stuck in stone |
+
+## Bring these too
+
+- **Paradoxical Scripture** (Prophet of Profane Infinities) cures **Stasis**, Zmey's phase-one status.
+- **Vatra's Seal** for Harden against the triple stomp.
+- **Tiel** for clones – the community's favourite Shell for this fight.
+- Spend your Gloom on levels before the Hidden Nave gate takes it.
+
+## Before you pull
+
+- Turn **Adaptive Difficulty** off so the boss you learn is the boss you fight.
+- Respec if your Shell tree was a guess – Mether's Severance refunds every Glimpse.
+- Ripostes scale with enemy health since the Week 1 Update; use every one.
+
+## Related pages
+
+- [Zmey boss guide](/bosses/zmey/)
+- [The Unfound Path](/mortal-shell-2-unfound-path/)
+- [Endgame and last boss](/mortal-shell-2-endgame-last-boss/)

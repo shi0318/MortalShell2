@@ -1,47 +1,53 @@
 ---
-title: "Mortal Shell 2 Gragu — Shell Guide"
-heading: "Mortal Shell 2 Gragu"
-description: "Gragu in Mortal Shell 2: New name from the retail achievement list, unlocked at almost the same rate as Smert. Unlike most Shells it comes from a dialogue quest rather…"
-category: shells
+title: "Mortal Shell 2 Gragu, the Insatiable — Location, Abilities and Best Use"
+heading: "Mortal Shell 2 Gragu, the Insatiable"
+description: "Mortal Shell 2 Gragu, the Insatiable: the Heart of Vatra quest at the One-Legged Wolf Tavern, Staggering Blow, Revered Heart healing and how to play him."
+category: "shells"
 keyword: "mortal shell 2 gragu"
-cover: /images/mortalshell2-hero-banner.webp
-status: official
+status: "community"
 preRelease: false
 order: 41
-updatedAt: "2026-09-15"
+cover: "/images/ms2-ss-12.webp"
+coverAlt: "A Shell with a lute on its back faces an enemy on a misty plain"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Gragu, the Insatiable** is the only Shell you meet alive. He sits in the **One-Legged Wolf Tavern**, and getting his body means doing him a favour first. In play he trades the normal heal for a heart that refills by killing.
 
-**Gragu** is one of the eight playable Shells in Mortal Shell 2. New name from the retail achievement list, unlocked at almost the same rate as Smert. Unlike most Shells it comes from a dialogue quest rather than a body you stumble on.
+![A Shell with a lute on its back faces an enemy on a misty plain](/images/ms2-ss-12.webp)
 
-![Mortal Shell II player facing a bear-headed shaman enemy in a dark forest clearing](/images/mortalshell2-hero-banner.webp)
-
-## How we know it is a Shell
-
-Week 1 Update notes, Shells section
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Heartless |
-| Global unlock rate | 48.3% |
-| Acquisition | Community-reported route: meet him in the bar, exhaust every dialogue option, then bring him a heart found east of the bar through a portal to a temple. |
+| Region | One-Legged Wolf Tavern, eastern Fainweald |
+| Requirement | Mether's Breath (5+ siphoned Ova) and the Heart of Vatra quest |
+| Unlock achievement | Heartless (48.3% of players) |
+| Playstyle | Sustain and burst stagger |
 
-## Abilities on the record
+## Abilities
 
-- Carries the Heart of Vatra (named in the Week 1 Update notes)
-- Has a sheep form — the patch notes fix the Heart of Vatra trailing behind you while in it
-- No stats or numbers published.
+- **Staggering Blow** (active): a charged punch that applies heavy stagger; the longer you charge, the more damage.
+- **Revered Heart** (active): restores a portion of Health. Its power is replenished by slaying foes.
 
-## What is not published
+## How to unlock
 
-No stat sheet, Resilience value, or ability cooldown for Gragu has been published by Cold Symmetry. Numbers appearing in community videos are player measurement, not developer data.
+1. Siphon about five more Ova at Marrow Keep to get **Mether's Breath**, which clears the corrupted growth on the eastern route.
+2. Speak to Gragu in the tavern (the **Troubador's Lute** is on the stage in the same building).
+3. Head east along the cliffside path, cross the chasm and climb through the temple grounds to the top.
+4. Take the **Heart of Vatra** from the corrupted statue and survive the petrified enemies that wake up.
+5. Return and give Gragu the Heart. He dies, and you can claim his body.
+
+## How to play it
+
+- Gragu wants a steady stream of kills – he is at his best in horde areas.
+- Charge Staggering Blow during a boss recovery for a near-guaranteed Break.
+- The 13 October 2026 hotfix fixed a bug that blocked Gragu from being possessed and slightly adjusted his height.
 
 ## Related pages
 
-- [All Shells](/shells/)
+- [All Mortal Shell 2 Shells](/shells/)
+- [Every Shell location in one route](/mortal-shell-2-all-shell-locations/)
 - [Shell selection guide](/shell-selection-guide/)
-- [Shell abilities guide](/mortal-shell-2-shell-abilities-guide/)
-- [Post-launch shell comparison](/mortal-shell-2-shell-comparison-post-launch/)
+- [Reset Shell abilities](/mortal-shell-2-reset-shell-abilities/)

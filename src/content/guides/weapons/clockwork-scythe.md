@@ -1,44 +1,54 @@
 ---
-title: "Mortal Shell 2 Clockwork Scythe — Stats, Unlock & Patch History"
+title: "Mortal Shell 2 Clockwork Scythe — Location and How to Use It"
 heading: "Mortal Shell 2 Clockwork Scythe"
-description: "Clockwork Scythe in Mortal Shell 2: A new name with no prequel counterpart, confirmed as a melee weapon by a patch line about its light attacks."
-category: weapons
+description: "Clockwork Scythe in Mortal Shell 2: earned from Sariel, the Endless in the Chamber of Becoming, its reach, elemental fix, and the Like Clockwork achievement."
+category: "weapons"
 keyword: "mortal shell 2 clockwork scythe"
-cover: /images/weapons/clockwork-scythe.jpg
-status: official
+status: "community"
 preRelease: false
-order: 38
-updatedAt: "2026-09-15"
+order: 58
+cover: "/images/weapons/clockwork-scythe.jpg"
+coverAlt: "Clockwork Scythe icon from Mortal Shell 2"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+The **Clockwork Scythe** is the reward for beating Sariel, the Endless – the same fight that unlocks the Sariel Shell. Long, sweeping arcs make it the best crowd weapon among the primaries.
 
-**Clockwork Scythe** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Like Clockwork, unlocked by 35.8% of players.  A new name with no prequel counterpart, confirmed as a melee weapon by a patch line about its light attacks.
+![Clockwork Scythe icon from Mortal Shell 2](/images/weapons/clockwork-scythe.jpg)
 
-![Clockwork Scythe in Mortal Shell 2](/images/weapons/clockwork-scythe.jpg)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Like Clockwork |
-| Global unlock rate | 35.8% |
-| Weapon / Sidearm split | Not published |
-| Acquisition | Not published. |
+| Type | Primary weapon – scythe |
+| Region | Chamber of Becoming, south-eastern Mammon |
+| Unlock achievement | Like Clockwork (35.8% of players) |
+| Drop from | Sariel, the Endless |
+| Ability Tarstone | Scholar's Wormstone (from Sir Isaac) |
 
-## What the patches changed
+## Where to find it
 
-- Balance Patch 1 improved tracking for its light attacks, alongside the Axatana and Black Needle.
-- Has light attacks, therefore a melee weapon rather than a Sidearm.
-- No damage values or scaling published.
+1. Travel to **The Silent Steps Beacon** and head south-east to the large stone platform.
+2. Use the jump gate to Sariel's area and fight until it retreats.
+3. Follow it up the steps into the **Chamber of Becoming** and push to the second encounter.
+4. Destroy the tombstones, defeat **Sariel, the Endless** and take the scythe.
 
-## Reading the unlock rate
+![A Shell with a scythe faces a long-legged creature on a frozen plain](/images/ms2-ss-14.webp)
 
-Valve publishes the global achievement rate, which is the only population data available for Clockwork Scythe. At 35.8%, it is one of the rarer unlocks on the list — consistent with a late, optional, or well-hidden acquisition.
+## How to use it
+
+- Wide arcs hit several enemies – excellent in the Unfound Path hordes.
+- Light attack tracking improved in Balance Patch 1.
+- Merrick sells a map that marks its location.
+
+## Patch history
+
+- 24 September 2026: fixed Clockwork Scythe elemental effects not applying correctly.
 
 ## Related pages
 
 - [All Mortal Shell 2 weapons](/weapons/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)
 - [Best weapon guide](/mortal-shell-2-best-weapon/)
 - [Weapon upgrade guide (Tarforge)](/mortal-shell-2-weapon-upgrade-guide/)
-- [Fragments and weapon skills](/mortal-shell-2-fragments-weapon-skills/)

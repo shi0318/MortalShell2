@@ -1,41 +1,68 @@
 ---
-title: "Mortal Shell 2 The Monolith — Boss Guide"
+title: "Mortal Shell 2 The Monolith Boss Guide — Phases, Lasers, Parries"
 heading: "Mortal Shell 2 The Monolith"
-description: "The Monolith in Mortal Shell 2: Received the heaviest official rework of any boss: Balance Patch 1 cut its damage and health, and the Week 1 Update retimed its two…"
-category: bosses
+description: "How to beat The Monolith in Mortal Shell 2: Obsidian Vault route, all three phases, parry windows on the ball slams, laser dodges and the reward."
+category: "bosses"
 keyword: "mortal shell 2 the monolith"
-cover: /images/mortalshell2-cathedral-guardian-boss.webp
-status: official
+status: "community"
 preRelease: false
-order: 30
-updatedAt: "2026-09-15"
+order: 35
+cover: "/images/mortalshell2-cathedral-guardian-boss.webp"
+coverAlt: "A towering stone guardian lit by fire in a dark Mortal Shell 2 arena"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**The Monolith** is one of the three guardians of **The Unfound Path**, the endgame area you open after returning roughly 160 Ova to Milos in Marrow Keep. It is a parry test: a stone slab that swings a chained bell-ball, then opens up into a laser turret. Most deaths come from greed in phase two, not from the slams you can see coming.
 
-**The Monolith** is a named boss encounter in the Mortal Shell II retail game. Received the heaviest official rework of any boss: Balance Patch 1 cut its damage and health, and the Week 1 Update retimed its two signature attacks and confirmed the attack spam was a bug.
+![A towering stone guardian lit by fire in a dark Mortal Shell 2 arena](/images/mortalshell2-cathedral-guardian-boss.webp)
 
-![Player facing a massive crystal-crowned cathedral guardian boss in Mortal Shell II](/images/mortalshell2-cathedral-guardian-boss.webp)
+## Location and route
 
-## What the official record confirms
+| Detail | Value |
+|---|---|
+| Area | The Unfound Path (endgame) |
+| Beacons on the way | Brether's Court → Obsidian Vault |
+| Usual order | Second of the three guardians (after Malborn Offspring, before Orrem) |
+| Reward | Monolith Fragment (trade item, sells for 5,000 coins) and access to the Corrupted Ovum in the arena |
 
-- Has a laser attack and a spin attack, both given "more consistent, readable timings" in the Week 1 Update.
-- The repeated attack spam players complained about was officially a bug, now fixed — so pre-29-August difficulty reports describe behaviour that no longer exists.
-- Balance Patch 1: base damage −19%, maximum health −10%.
-- Some hitboxes were bad and were adjusted; a bug causing double damage on certain hits was fixed.
-- No phase chart, parry window, or drop table published.
+From the corrupted beacon platform, go left, then right to the jump spring and the Stone Portal. Kill the snake-tailed enemy, pass the pods and cleanse **Brether's Court**. Pull the switch on the stone structure left of the locked gate, take the elevator, deal with the dual-wielding dancer and go down the stairs on the left to **Obsidian Vault**. On the surface again, the downward path on the right ends in the arena.
 
-## Location
+## Phase one: the bell slab
 
-Not published.
+- **Single or double ball smash** – both hits are safe to parry once you know the rhythm. Two clean parries in a row is the fastest stagger you will get all fight.
+- **Pull then flat slam (twice)** – it drags you in, then flattens the area in front. Do not try to parry the pull; walk out of its reach and punish after the second slam.
+- The body takes damage even while it is closed. A sidearm volley between slams is free chip damage.
 
-## What is not published
+## Phase two: lasers and chained slams
 
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for The Monolith is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+A forced stun opens phase two. Use it for a riposte, then reset your spacing.
+
+- **Chained ball slams while pulling in** – back away. Parries are unreliable here because the chain changes the timing of the third hit.
+- **Single tracking laser** – dodge once to the side as it fires, not before.
+- **Back-and-forth laser fan** – dodge *through* the beam toward the boss rather than away from it.
+- Getting behind it during the repeated bell attacks gives you the longest damage windows of the fight.
+
+## Phase three: spin and jump
+
+- It spins across the arena, then leaps to land on you. Keep moving and roll when it is airborne.
+- **Four spinning arena lasers** – dodge through them in the same direction the boss is rotating; dodging against the spin is what catches most players.
+
+## Shells and gear that help
+
+- **Tiel** – Shadow Dash clones pull aggro during the ground slams, so you usually need a single dodge instead of three.
+- **Proxima** – the 13 October 2026 hotfix improved how the Monolith reacts to Biosampler, so the hook is reliable again for closing distance.
+- Any +16 weapon is enough; the fight is about the parry, not damage.
+
+## Patch history
+
+- **Balance Patch 1:** base damage −19%, maximum health −10%.
+- **Week 1 Update:** laser and spin attack timings made "more consistent", and the attack spam players reported at launch was confirmed as a bug and removed.
+- **13 October 2026 hotfix:** better interaction with Proxima's Biosampler; main-boss phase changes fixed.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)

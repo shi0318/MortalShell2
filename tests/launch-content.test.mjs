@@ -92,8 +92,10 @@ test('SEO hubs target distinct Mortal Shell 2 search intents', async () => {
   assert.match(weapons, /Melee weapons/);
   assert.match(weapons, /Tarforge levels/);
   assert.match(weapons, /Player ranking/);
-  assert.match(weapons, /\/images\/weapons\/axatana\.jpg/);
-  assert.match(weapons, /\/images\/weapons\/naylshotte\.jpg/);
+  const loadout = await source('data/loadout.ts');
+  assert.match(loadout, /\/images\/weapons\/axatana\.jpg/);
+  assert.match(loadout, /\/images\/weapons\/naylshotte\.jpg/);
+  assert.match(weapons, /w\.image/);
   assert.match(bosses, /Tar Golem/);
   assert.match(bosses, /What bosses drop/);
   assert.match(bosses, /MINIBOSSES/);

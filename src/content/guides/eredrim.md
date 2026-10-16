@@ -1,67 +1,51 @@
 ---
-title: "Mortal Shell 2 Eredrim Guide — The Venerable Shell"
+title: "Mortal Shell 2 Eredrim, the Venerable — Location, Abilities and Best Use"
 heading: "Mortal Shell 2 Eredrim, the Venerable"
-description: "Mortal Shell 2 Eredrim, the Venerable, is confirmed as a playable Shell in the Official Gameplay Reveal. Official facts and prequel context."
-category: shells
+description: "Mortal Shell 2 Eredrim, the Venerable: beat The Warden in the Citadel of Penance, Shoulder Bash, Ethereal Diapason and the Executioner passive explained."
+category: "shells"
 keyword: "mortal shell 2 eredrim"
-cover: /images/mortalshell2-shell-greatsword-closeup.webp
-status: official
-preRelease: true
+status: "community"
+preRelease: false
 order: 10
-updatedAt: "2026-07-30"
-sources:
-  - status: official
-    sourceUrl: "https://store.steampowered.com/news/app/2584270"
-    sourceDate: "2026-04-01"
-    gameVersion: "Official Gameplay Reveal"
-    note: "Cold Symmetry's Official Gameplay Reveal names Eredrim, The Venerable as one of three playable Shells shown, each carving a different trail through the open world."
-    lastChecked: "2026-07-30"
-  - status: prequel
-    note: "Eredrim appears in Mortal Shell (2020) as the highest-health, lowest-stamina Shell. Sequel kit not fully detailed."
-    lastChecked: "2026-07-30"
+cover: "/images/ms2-hot-5.webp"
+coverAlt: "A Shell carrying a greatsword walks through a dark overgrown ruin"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Eredrim, the Venerable** is the stagger-and-control Shell. Where Tiel avoids hits, Eredrim breaks enemies and executes them. He returns from the first game, but his kit is new.
 
-**Eredrim, the Venerable** is officially confirmed as a **playable Shell in Mortal Shell II**. Cold Symmetry's Official Gameplay Reveal showed three playable Shells — Tiel, Eredrim, and Proxima — each described as carving a different trail through the game's interconnected open world.
+![A Shell carrying a greatsword walks through a dark overgrown ruin](/images/ms2-hot-5.webp)
 
-Source: [Official Gameplay Reveal](https://store.steampowered.com/news/app/2584270) (Cold Symmetry, 1 April 2026).
+## At a glance
 
-## Why people search this page
-
-- "Eredrim Mortal Shell 2"
-- "Mortal Shell 2 tank shell"
-- "Mortal Shell 2 playable shells"
-- "Eredrim the Venerable"
-
-## Confirmed facts
-
-| Fact | Status |
+| Detail | Value |
 |---|---|
-| Eredrim is playable in Mortal Shell II | Official |
-| Named "The Venerable" in the reveal | Official |
-| One of three Shells shown in the Gameplay Reveal | Official |
-| One of **eight** playable Shells total | Official |
-| Full stat sheet / unique kit numbers | Not published yet |
-| Exact acquisition route | Not published yet |
+| Region | Citadel of Penance, north-western Fainweald |
+| Requirement | Defeat The Warden |
+| Unlock achievement | Vengeance is Mine (56.7% of players) |
+| Playstyle | Break damage, crowd control, executions |
+| Returning? | Yes, from Mortal Shell (2020) |
 
-## The "different trail" framing
+## Abilities
 
-The single most useful line from the reveal is that each of the three Shells "carves a different trail" across the land. That confirms the sequel keeps the first game's core idea — Shells are **playstyles**, not skins — and that Eredrim is meant to play differently from Tiel and Proxima, not just look different.
+- **Shoulder Bash** (active): lunges and slams enemies for Break damage.
+- **Ethereal Diapason** (active): a blinding shockwave that deals Break damage to everything in range.
+- **Executioner** (passive): executes low-health enemies and gains **Slaughterer** stacks via Riposte. Each stack raises the health threshold for executions; stacks are lost when you rest or are severed.
 
-## Prequel context (clearly labeled)
+## How to unlock
 
-In **Mortal Shell (2020)**, Eredrim was the tank: the **highest health pool** and the **lowest stamina** of the Shells, rewarding a slow, deliberate, hits-absorbing style. That is the expectation to carry in — but sequel balance is not guaranteed to mirror the original, so treat any specific numbers from 2020 as **Prequel**, not Official.
+From the **Citadel of Penance Beacon** enter the Citadel (the main gate needs the Citadel Gate Lever from the Bloodcursed Lithopod; a pouch near the Overrun Quarry is an alternate way in). Go to the central courtyard, drop to the lower section and continue to the locked arena. Ride the elevator, survive **The Warden's** ambush, defeat him and interact with Eredrim's corpse.
 
-If the sequel keeps that identity, Eredrim is the recommended body for players who want to learn boss patterns while surviving mistakes, the opposite of the mobile, aggressive read on Tiel.
+## How to play it
 
-## Roster context
-
-Cold Symmetry states Mortal Shell II has **eight playable Shells**. Three are now named on the record — **Tiel, the Acolyte**; **Eredrim, the Venerable**; and **Proxima, the Broodseeker**. This wiki promotes a Shell to its own page only once its role is sourceable; the rest sit in the [All Shells tracker](/shells/).
+- Riposte as often as possible early in a run to build Slaughterer stacks, then let Executioner clean up.
+- Ethereal Diapason is a crowd answer for the Prisoner's Way and Unfound Path hordes.
+- Upgrade his Frost resistance before Droeg.
 
 ## Related pages
 
-- [Proxima, the Broodseeker](/proxima/)
-- [Tiel, the Acolyte](/tiel/)
-- [All Shells](/shells/)
-- [Beginner first hours](/beginner-guide/)
+- [All Mortal Shell 2 Shells](/shells/)
+- [Every Shell location in one route](/mortal-shell-2-all-shell-locations/)
+- [Shell selection guide](/shell-selection-guide/)
+- [Reset Shell abilities](/mortal-shell-2-reset-shell-abilities/)

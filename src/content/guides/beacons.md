@@ -1,57 +1,53 @@
 ---
-title: "Beacons in Mortal Shell II — What Open Beta Confirms"
-heading: Beacons in Mortal Shell II
-description: "Official Open Beta confirmation that Mortal Shell II includes beacons you can cleanse, plus what is still unverified about checkpoints and upgrades."
-category: mechanics
+title: "Mortal Shell 2 Beacons — All 49 Locations and How to Cleanse Them"
+heading: "Mortal Shell 2 beacons"
+description: "All 49 beacons in Mortal Shell 2 by region, how cleansing works, what the beacon menu does, Mether's Breath fast travel and the So Fresh, So Clean achievement."
+category: "mechanics"
 keyword: "mortal shell 2 beacons"
-cover: /images/mortalshell2-village-accordion-npc.webp
-status: official
-preRelease: true
+status: "community"
+preRelease: false
 order: 40
-updatedAt: "2026-07-24"
-sources:
-  - status: official
-    sourceUrl: https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/
-    sourceDate: "2026-06-05"
-    gameVersion: "Open Beta store listing"
-    lastChecked: "2026-07-24"
-    note: "Steam Open Beta page states players can cleanse beacons in the early region."
-  - status: prequel
-    note: "Checkpoint/upgrade behaviour inferred from Mortal Shell (2020) Sester Genessa system until hands-on verification."
-    lastChecked: "2026-07-24"
+cover: "/images/mortalshell2-village-accordion-npc.webp"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-Beacons are part of Mortal Shell II's early-game loop. The official Open Beta Steam page states that players can **cleanse beacons** while exploring the first open-world section.
+**Beacons** are Mortal Shell 2's checkpoints – the equivalent of bonfires. There are **49** of them, and cleansing them is how you progress, fast travel and level up.
 
-## What is officially confirmed
+![A hooded villager stands among barrels in a village](/images/mortalshell2-village-accordion-npc.webp)
 
-From the [Open Beta store page](https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/):
+## What a beacon does
 
-- Beacons exist in the sequel
-- Players can **cleanse** them during the opening hours of content
-- They appear alongside optional dungeons, mini-bosses, and Shell possession
+- Restores Health and Resolve, respawns regular enemies (bosses stay dead) and sets your revival point.
+- A **cleansed** beacon menu offers: Enter/Cleanse Beacon, **Level Up** (spend Gloom on the Harbinger), **Change Equipment** (weapon, sidearm, Seal, Shell), **Mether's Pulse** (spend a Revered Gland or Synaptic Vessel) and **Return to Marrow Keep**.
+- With **Mether's Breath**, every cleansed beacon is a fast-travel point.
 
-That is enough to move this page from pure speculation to **Official** for the existence and cleanse action. Exact checkpoint rules are still not fully documented on the store page.
+## Corrupted beacons
 
-![Rainy path with torchlight leading into a Mortal Shell II settlement](/images/mortalshell2-rainy-path-combat.webp)
+A corrupted beacon is a bare checkpoint until you cleanse it. Cleansing means entering a short dungeon – enemies, sometimes a miniboss – and claiming an **Ovum** at the end. It also clears nearby corruption blocking loot. Three beacons start cleansed: **Marrow Keep, Widow's Overlook and Outskirts of Mammon**, leaving 46 to cleanse for **So Fresh, So Clean**.
 
-## What is still unconfirmed
+## Beacon list by region
 
-The Steam text does **not** yet spell out:
+| Region | Beacons |
+|---|---|
+| Fainweald (11) | Marrow Keep, Stonebled Gate, Mushroom Village Gate, Nochtean Gate, Mushroom Village, Outskirts of Nochte, Blackridge Pass, Widow's Overlook, Gloomshade Grove, Citadel of Penance, One Legged Wolf |
+| Ruins of Mammon (9) | Outskirts of Mammon, Sester's Gate, Gate of Infinity, Castigator's Keep, Abbey Entrance, Abandoned Outpost, Gate of Mammon, The Silent Steps, High Lord's Courtyard |
+| Glutted Mire | Seeping Mire, Sunken Village, Magdalena's Glade |
+| Prisoner's Domain | Hangman's Scaffold, Executioner's Pulpit, Slumwater Drain, Captive's End |
+| Sanguine Caverns | Pulsing Caves, Sanguine Shoreline, Child's Feeding Grounds |
+| Conquered Temple | Ovate's Chamber, Winterglass Lake, Conqueror's Hoard |
+| Faded Citadel | Citadel Annex, Citadel Atrium, Scholar-Prince's Chamber |
+| Withered Shoals | Nameless Pass, Ossinite Falls, Hexapod's Burrow |
+| Unfound Path & Disciple's Pass | The Hidden Nave, Receiving Hall, Faithful's Shelter, Brether's Court, Obsidian Vault, Bridge of Procession, Empty Cradle, Chamber of the Forsaken, Disciple's Grotto, Village Outskirts |
 
-- Whether cleansing a beacon fully restores health / healing charges
-- Whether beacons are used for leveling Shells
-- Whether beacons enable fast travel
-- How many beacons appear in the full game
+The last beacon in each Corrupted Gate appears only after that gate's boss dies.
 
-Until those are verified in-game, do not treat any forum "beacon = bonfire" claim as settled.
+## Notable beacon rewards
 
-## Prequel context (inference only)
-
-In Mortal Shell (2020), checkpoint duties were handled by **Sester Genessa**. Resting restored resources and supported upgrades. It is reasonable to compare beacons to that role, but this remains **prequel-based inference**, not an official MS2 rulebook.
+Village Outskirts (Muradean Actuator), Mushroom Village (Emberseed Stone), Sunken Village (Corroded Stone), Disciple's Grotto (Ventrium). Nothing is missable – you can finish cleansing after the final boss, before New Game Plus.
 
 ## Related pages
 
-- [Open Beta guide](/open-beta/)
-- [Map / known regions](/map/)
-- [Shells](/shells/)
+- [Map and fast travel](/mortal-shell-2-map-fast-travel/)
+- [Respawn points](/mortal-shell-2-respawn-points/)
+- [World map](/map/)

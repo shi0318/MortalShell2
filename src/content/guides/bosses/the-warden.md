@@ -1,40 +1,52 @@
 ---
-title: "Mortal Shell 2 The Warden — Boss Guide"
+title: "Mortal Shell 2 The Warden Boss Guide — Citadel of Penance"
 heading: "Mortal Shell 2 The Warden"
-description: "The Warden in Mortal Shell 2: Reworked alongside Urrig in the Week 1 Update, with retuned attacks and new ice attacks added to both."
-category: bosses
+description: "Beat The Warden in Mortal Shell 2: Citadel of Penance route and elevator ambush, sweeping combos, how to punish, and the Eredrim Shell reward."
+category: "bosses"
 keyword: "mortal shell 2 the warden"
-cover: /images/mortalshell2-rainy-path-combat.webp
-status: official
+status: "community"
 preRelease: false
 order: 36
-updatedAt: "2026-09-15"
+cover: "/images/ms2-ss-08.webp"
+coverAlt: "Armoured knights with polearms advance through an underground stone crypt"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**The Warden** is the boss that stands between you and **Eredrim, the Venerable**. It ambushes you in the middle of the **Citadel of Penance** in north-western Fainweald, and its long sweeping combos are the reason many players meet the Citadel twice.
 
-**The Warden** is a named boss encounter in the Mortal Shell II retail game. Reworked alongside Urrig in the Week 1 Update, with retuned attacks and new ice attacks added to both.
+![Armoured knights with polearms advance through an underground stone crypt](/images/ms2-ss-08.webp)
 
-![Mortal Shell II hooded warrior approaching an enemy through a rainy torch-lit village path](/images/mortalshell2-rainy-path-combat.webp)
+## Route
 
-## What the official record confirms
+The main gate opens with the **Citadel Gate Lever**, dropped by the **Bloodcursed Lithopod** in Gloomshade Grove. From the Citadel of Penance beacon go to the central courtyard, drop to the lower section and continue to the locked arena. Take the elevator to the top floor and walk toward the centre – the Warden leaps at you and both of you crash down into the arena. A mysterious pouch near the Overrun Quarry is an alternate way into the Citadel.
 
-- Was reworked in the Week 1 Update with retuned attacks.
-- Gained new ice attacks, so anything written before 29 August describes an incomplete moveset.
-- Paired with Urrig, the Executioner in the patch notes, suggesting a shared encounter type or region.
-- No phase, parry, or reward detail published.
+## Moveset
 
-## Location
+- Circular sweeps that keep coming as it advances; combos are long.
+- Fire-lit swings from launch, plus the **ice attacks** added in the Week 1 Update.
+- It is slow to reposition and never dodges, so damage-over-time infusions (Burn or Frost Tarstones) stay on for most of the fight.
 
-Not published.
+## How to beat it
 
-## What is not published
+1. Pick your Seal before the elevator. Plan to dodge first and only guard swings you are sure of.
+2. **Wait out the full combo.** If you are still swinging when the next string starts, you trade badly.
+3. **Roll sideways through the sweep** rather than backing away – it puts you past the arc and behind it.
+4. Infuse your weapon before you step on the lift.
 
-No phase chart, parry window, or drop table for this boss has ever been published by Cold Symmetry. Any guide that shows exact timings or rewards for The Warden is describing player observation, not developer data — this page only states what the official patches and achievement record support.
+## Rewards
+
+About 6,500 Gloom and the **Eredrim** Shell, claimed from his corpse in the arena. Eredrim's Shoulder Bash and Ethereal Diapason make him the go-to stagger Shell.
+
+## Patch history
+
+- **Week 1:** attacks retuned and new ice attacks added (the same pass reworked Urrig).
+- **24 September 2026:** jump timing and trigger boxes made more responsive, and it no longer jumps through walls.
 
 ## Related pages
 
 - [All Mortal Shell 2 bosses](/bosses/)
+- [Every miniboss and where to find it](/mortal-shell-2-minibosses-list/)
 - [Boss preparation guide](/mortal-shell-2-boss-preparation-guide/)
-- [Boss difficulty breakdown](/mortal-shell-2-boss-difficulty/)
 - [Boss runback routes](/mortal-shell-2-boss-runback/)
+- [Eredrim Shell](/eredrim/)

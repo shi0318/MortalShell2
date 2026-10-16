@@ -1,43 +1,51 @@
 ---
-title: "Mortal Shell 2 Axe and Dagger — Stats, Unlock & Patch History"
+title: "Mortal Shell 2 Axe and Dagger — Location and How to Use It"
 heading: "Mortal Shell 2 Axe and Dagger"
-description: "Axe and Dagger in Mortal Shell 2: The earliest of the thirteen by unlock rate, and the only one that also existed as an Open Beta objective — the Beta had a 'Find Axe…"
-category: weapons
+description: "Axe and Dagger in Mortal Shell 2: Chapel Key and Shrine of Trials walkthrough, the three rooms and Armored Knight, and the Deep Cuts achievement."
+category: "weapons"
 keyword: "mortal shell 2 axe and dagger"
-cover: /images/weapons/axe-and-dagger.jpg
-coverAlt: "Axe and Dagger weapon icon from Mortal Shell 2"
-status: official
+status: "community"
 preRelease: false
-order: 30
-updatedAt: "2026-09-15"
+order: 52
+cover: "/images/weapons/axe-and-dagger.jpg"
+coverAlt: "Axe and Dagger icon from Mortal Shell 2"
+updatedAt: "2026-10-15"
+sources: []
 ---
 
-## Short answer
+**Axe and Dagger** is a fast paired weapon and usually the first weapon players earn rather than receive. Getting it means solving the **Shrine of Trials** – a short three-room dungeon near Mushroom Village.
 
-**Axe and Dagger** is one of the thirteen Mortal Shell 2 weapons confirmed by a Valve "Unlock" achievement — Deep Cuts, unlocked by 64.7% of players.  The earliest of the thirteen by unlock rate, and the only one that also existed as an Open Beta objective — the Beta had a "Find Axe and Dagger" achievement of its own.
+![Axe and Dagger icon from Mortal Shell 2](/images/weapons/axe-and-dagger.jpg)
 
-![Axe and Dagger weapon icon from Mortal Shell 2](/images/weapons/axe-and-dagger.jpg)
-
-## Confirmed facts
+## At a glance
 
 | Detail | Value |
 |---|---|
-| Unlock achievement | Deep Cuts |
-| Global unlock rate | 64.7% |
-| Weapon / Sidearm split | Not published |
-| Acquisition | Was findable in the Open Beta region. Retail location not published. |
+| Type | Primary weapon – paired axe and dagger |
+| Region | Shrine of Trials, Mushroom Village (Fainweald) |
+| Unlock achievement | Deep Cuts (64.7% of players) |
+| Ability Tarstone | Magdalena's Memento (from Magdalena) |
 
-## What the patches changed
+## Where to find it
 
-- No damage values, moveset, or scaling published.
+1. Find the **Chapel Key** on a plateau near the Mushroom Village Beacon.
+2. Go to the Grisha Hunter camp beside the locked tower and open the Shrine of Trials.
+3. **Room 1:** face the king pillar and walk backward – the false wall disappears.
+4. **Room 2:** push the movable stone blocks until both sit on the two pressure plates.
+5. **Room 3:** defeat the **Armored Knight**.
+6. Take the weapon from the reward area.
 
-## Reading the unlock rate
+## How to use it
 
-Valve publishes the global achievement rate, which is the only population data available for Axe and Dagger. At 64.7%, most players have it — consistent with an early or hard-to-miss pickup.
+- Quick strings feed Resolve fast, which makes it a great partner for ability-heavy Shells like Tiel and Proxima.
+- Equip **Magdalena's Memento** for its weapon ability.
+- Short reach – stay on the flank of big enemies instead of trading face-on.
+
+
 
 ## Related pages
 
 - [All Mortal Shell 2 weapons](/weapons/)
+- [All weapon and sidearm locations](/mortal-shell-2-all-weapon-locations/)
 - [Best weapon guide](/mortal-shell-2-best-weapon/)
 - [Weapon upgrade guide (Tarforge)](/mortal-shell-2-weapon-upgrade-guide/)
-- [Fragments and weapon skills](/mortal-shell-2-fragments-weapon-skills/)
