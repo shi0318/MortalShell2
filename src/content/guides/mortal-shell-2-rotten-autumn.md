@@ -7,7 +7,7 @@ keyword: "mortal shell 2 rotten autumn update"
 status: official
 preRelease: false
 order: 2
-updatedAt: "2026-10-20"
+updatedAt: "2026-10-23"
 cover: "/images/mortalshell2-world-map-overview.webp"
 coverAlt: "The Mortal Shell 2 world map"
 sources: []

@@ -7,7 +7,7 @@ keyword: "mortal shell 2 nightmode presets"
 status: official
 preRelease: false
 order: 8
-updatedAt: "2026-10-21"
+updatedAt: "2026-10-23"
 cover: "/images/ms2-ss-08.webp"
 coverAlt: "A dark Mortal Shell 2 path"
 sources: []

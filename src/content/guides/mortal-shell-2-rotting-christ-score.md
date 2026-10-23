@@ -7,7 +7,7 @@ keyword: "mortal shell 2 rotting christ soundtrack"
 status: official
 preRelease: false
 order: 6
-updatedAt: "2026-10-21"
+updatedAt: "2026-10-23"
 cover: "/images/mortalshell2-village-accordion-npc.webp"
 coverAlt: "A village musician in Mortal Shell 2"
 sources: []

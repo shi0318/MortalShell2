@@ -7,7 +7,7 @@ keyword: "mortal shell 2 sheep tarstone"
 status: official
 preRelease: false
 order: 5
-updatedAt: "2026-10-20"
+updatedAt: "2026-10-23"
 cover: "/images/mortalshell2-gloom-spider-creature.webp"
 coverAlt: "A creature encounter in Mortal Shell 2"
 sources: []

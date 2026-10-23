@@ -7,7 +7,7 @@ keyword: "mortal shell 2 photo mode overkill"
 status: official
 preRelease: false
 order: 3
-updatedAt: "2026-10-20"
+updatedAt: "2026-10-23"
 cover: "/images/mortalshell2-masked-shell-portrait.webp"
 coverAlt: "A masked shell portrait in Mortal Shell 2"
 sources: []

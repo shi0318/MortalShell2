@@ -7,7 +7,7 @@ keyword: "mortal shell 2 pumpkin helmet"
 status: official
 preRelease: false
 order: 7
-updatedAt: "2026-10-21"
+updatedAt: "2026-10-23"
 cover: "/images/mortalshell2-masked-shell-portrait.webp"
 coverAlt: "A masked shell in Mortal Shell 2"
 sources: []

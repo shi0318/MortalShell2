@@ -7,7 +7,7 @@ keyword: "mortal shell 2 15 new dungeons"
 status: official
 preRelease: false
 order: 4
-updatedAt: "2026-10-20"
+updatedAt: "2026-10-23"
 cover: "/images/mortalshell2-swamp-cart-boss.webp"
 coverAlt: "A swamp encounter in Mortal Shell 2"
 sources: []
