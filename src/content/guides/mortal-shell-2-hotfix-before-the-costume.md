@@ -7,7 +7,7 @@ keyword: "mortal shell 2 october 13 hotfix before costume"
 status: official
 preRelease: false
 order: 7
-updatedAt: "2026-10-25"
+updatedAt: "2026-10-26"
 cover: "/images/ms2-ss-11.webp"
 coverAlt: "A Mortal Shell 2 fight in a stone arena"
 sources: []
@@ -17,7 +17,7 @@ sources: []
 
 Rotten Autumn's highlight list says it includes polish and bug fixes. It does not reprint the October 13 hotfix. If a boss feels different from August, read the October 13 note before you thank a pumpkin helmet. A hat is not a nerf. A seasonal score is not a balance pass. Fifteen new dungeons are new rooms, not a retroactive change to a fight you already learned.
 
-On **October 25, 2026** the US page was **$49.99** and Very Positive: **9,899** English reviews, **84%** of **1,186** in 30 days. That month contains both the hotfix and the seasonal pack. A review that says "they nerfed it" may mean either. Your patch list can separate them. The percentage cannot.
+On **October 26, 2026** the US page was **$49.99** and Very Positive: **9,899** English reviews, **84%** of **1,186** in 30 days. That month contains both the hotfix and the seasonal pack. A review that says "they nerfed it" may mean either. Your patch list can separate them. The percentage cannot.
 
 ## Separate the notes
 
@@ -43,31 +43,31 @@ The sheep Tarstone is an item, not a dungeon and not a hotfix. Read its text. Eq
 
 **$49.99** does not include a personal patch historian. You are the historian for your own file. Very Positive reviewers are not inside your boss room. Harden is. Spend it on the swing you cannot read, on the build you have actually identified. The costume can wait in the menu. It has nowhere else it needs to be.
 
-October 25 was $49.99, Very Positive, 9,899 English reviews, 84% of 1,186 in 30 days. That month holds both the October 13 hotfix and the October 20 costume pack. Separate them. Old fight, no helmet, no new score, no new Tarstone. If the swing matches August, the hotfix did not change it. If it does not, read the October 13 lines before you thank a pumpkin. Fifteen dungeons are new rooms. Shades are colors. There is no sheep dungeon. Harden is still the unreadable swing. $49.99 is not a personal patch historian. You are, for your own file. One change, then write the result down.
+October 26 was $49.99, Very Positive, 9,899 English reviews, 84% of 1,186 in 30 days. That month holds both the October 13 hotfix and the October 20 costume pack. Separate them. Old fight, no helmet, no new score, no new Tarstone. If the swing matches August, the hotfix did not change it. If it does not, read the October 13 lines before you thank a pumpkin. Fifteen dungeons are new rooms. Shades are colors. There is no sheep dungeon. Harden is still the unreadable swing. $49.99 is not a personal patch historian. You are, for your own file. One change, then write the result down.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
