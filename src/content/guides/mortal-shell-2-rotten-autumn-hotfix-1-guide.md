@@ -36,6 +36,8 @@ Ability indicators should now refresh correctly at the end of a Shell memory. If
 
 ## Check Tarstones, drops, and inventory state
 
+When you compare your inventory before and after the update, make a small record instead of relying on memory. Note the room, the item name, whether the pickup animation completed, and whether the entry appears after opening the inventory again. This is particularly useful for a rare Tarstone because a missing item and a delayed interface refresh can look identical for a few seconds. The hotfix is intended to address the award behavior; it does not change the route or make an uncollected item appear automatically. If the entry remains absent after a clean restart and a verified pickup, describe the exact steps and the current build when reporting it.
+
 The **Wellspring Tarstone** was sometimes not added to inventory. After obtaining it, open the inventory and verify that it appears before leaving the area or beginning another run. The notes do not describe a new acquisition route, so do not repeat an entire dungeon immediately if the item is simply hidden by a filter or category tab.
 
 Other item fixes include duplicated drops in certain areas, a Channeler's Stone that did not refund resolve after some weapon uses, and visual effects from the lute that could continue indefinitely. Check the actual resource count after the relevant action. A lingering visual effect is not proof that the Tarstone remains active; a duplicated pickup is not a reliable farming method. If a resource still fails to update after the hotfix, record the item, weapon, Shell, area, and exact sequence before restarting the save.
