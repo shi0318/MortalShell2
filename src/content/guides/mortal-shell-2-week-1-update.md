@@ -65,7 +65,7 @@ Four supporting changes go with it:
 
 One change goes the other way: **Mini-Beacons no longer award a Glimpse.** That is the only economy nerf in the post, and it matters mainly to anyone who was routing around the map to farm them.
 
-The knock-on effects are covered on the [Shells roster](/shells/) and the [best Shell guide](/shell-selection-guide/), both of which now describe the post-patch economy. For the resource itself see the [Gloom guide](/gloom/) and the [Gloom farming guide](/mortal-shell-2-gloom-farming-guide/).
+The knock-on effects are covered on the [Shells roster](/shells/) and the [best Shell guide](/shell-selection-guide/), both of which now describe the post-patch economy. For the resource itself see the [Tarstones and Gloom upgrades guide](/mortal-shell-2-tarstones-gloom-upgrades/) and the [Gloom farming guide](/mortal-shell-2-gloom-farming-guide/).
 
 ## Four new stones
 

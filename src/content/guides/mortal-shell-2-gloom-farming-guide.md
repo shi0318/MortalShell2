@@ -36,7 +36,7 @@ The important idea is order, not a magic farming route: resolve the sacrifice pr
 
 The original post describes many chests and Gloom trees that respawn, which naturally makes the area look like an unlimited resource loop. But a room can contain repeatable enemies or trees and still attach a one-time dungeon decision to the exit. Do not collect a large amount and then assume that walking through the next door is harmless.
 
-Keep the [Mortal Shell 2 Gloom guide](/gloom/) open for the general resource context, and use the [Mortal Shell 2 dungeon exploration guide](/dungeon-exploration-guide/) when you are planning a return path. The [Mortal Shell 2 Patch 1 notes](/mortal-shell-2-balance-patch-1/) also matter because the patch changed the Gloom cost of Shell map locations and reduced Tarforge smelting costs by 75%.
+Keep the [Mortal Shell 2 Tarstones and Gloom upgrades guide](/mortal-shell-2-tarstones-gloom-upgrades/) open for the general resource context, and use the [Mortal Shell 2 dungeon exploration guide](/dungeon-exploration-guide/) when you are planning a return path. The [Mortal Shell 2 Patch 1 notes](/mortal-shell-2-balance-patch-1/) also matter because the patch changed the Gloom cost of Shell map locations and reduced Tarforge smelting costs by 75%.
 
 ## Do not use this as a universal farming exploit
 

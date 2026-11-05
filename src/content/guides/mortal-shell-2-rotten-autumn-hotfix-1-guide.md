@@ -54,7 +54,7 @@ For performance issues, do not read the seasonal update's new graphics options a
 
 ## What the hotfix does not confirm
 
-The patch does not publish a full set of boss health values, a new Shell tier list, or the secret location of every Rotten Autumn room. It also does not state that the 15 new dungeons are required for the main story. Keep those questions separate from the fixes listed above. For the seasonal content itself, see the [Rotten Autumn update guide](/mortal-shell-2-rotten-autumn-update-guide/) and the [all Shells hub](/shells/).
+The patch does not publish a full set of boss health values, a new Shell tier list, or the secret location of every Rotten Autumn room. It also does not state that the 15 new dungeons are required for the main story. Keep those questions separate from the fixes listed above. For the seasonal content itself, see the [Rotten Autumn update guide](/mortal-shell-2-rotten-autumn/) and the [all Shells hub](/shells/).
 
 ## Quick verification checklist
 
