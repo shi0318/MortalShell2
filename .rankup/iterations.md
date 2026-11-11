@@ -12,3 +12,8 @@
 ## 2026-11-01 — gameplay content batch A
 
 Added two original English gameplay articles, each over 1,000 body words, with local game images, guide-hub discovery, accurate canonical and sitemap dates. Main navigation does not link individual new articles. Official Steam announcement raw evidence, article manifest and output checks are recorded in _hot-research/2026-11-01/a/. Production build and relevant test suite both pass; November Phantom schema dates are explicitly checked. No deployment executed. No measured search-volume or recent popularity claim is made.
+
+
+## 2026-11-10 — gameplay content batch A
+
+Added one original English article over 1,000 body words, with local game images, guide-hub discovery, accurate canonical and sitemap dates. Main navigation does not link individual new articles. Official Steam announcement raw evidence, article manifest and output checks are recorded in _hot-research/2026-11-10/a/. Production build and relevant test suite both pass; New article canonical, dates, image and body links checked. No deployment executed. No measured search-volume or recent popularity claim is made.
