@@ -11,7 +11,7 @@ interface Crumb {
 
 interface Props {
   // 页面类型，决定生成哪种 Schema
-  type: 'home' | 'article' | 'news' | 'collection';
+  type: 'home' | 'article' | 'news' | 'collection' | 'page';
   // 当前页面绝对路径（含尾斜杠），用于 @id 与 url
   path: string;
   title?: string;
@@ -45,7 +45,7 @@ const imageUrl = ogImage || abs('/og-default.jpg');
 const organization = {
   '@type': 'Organization',
   '@id': `${SITE.url}/#organization`,
-  name: SITE.name,
+  name: SITE.name + ' editorial team',
   url: SITE.url + '/',
   logo: {
     '@type': 'ImageObject',
@@ -60,7 +60,7 @@ const organization = {
 const author = {
   '@type': 'Organization',
   '@id': `${SITE.url}/#organization`,
-  name: SITE.name,
+  name: SITE.name + ' editorial team',
   url: SITE.url + '/',
 };
 
@@ -135,6 +135,8 @@ if (type === 'home') {
   });
   if (breadcrumbList) graph.push(breadcrumbList);
 }
+
+if (type === 'page') { graph.push(organization, { '@type': 'WebPage', '@id': pageUrl + '#page', url: pageUrl, name: title, description, ...(modified ? {dateModified: modified} : {}) }); if (breadcrumbList) graph.push(breadcrumbList); }
 
 const jsonLd = {
   '@context': 'https://schema.org',

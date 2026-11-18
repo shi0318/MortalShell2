@@ -5,9 +5,9 @@ export const SITE = {
   url: 'https://mortalshell2.wiki',
   // Official full release date (Playstack + Steam full game page)
   releaseDate: '2026-08-20',
-  tagline: 'Verified Launch Guides',
+  tagline: 'Independent Game Guides',
   description:
-    'Independent Mortal Shell 2 wiki with source-tracked launch guides for PC, combat, Shells, weapons, bosses, maps, Steam reviews, and systems. Every fact carries a confirmation status.',
+    'Independent Mortal Shell 2 wiki with source-tracked launch guides for PC, combat, Shells, weapons, bosses, maps, Steam reviews, and systems. Facts, player reports and editorial advice are distinguished.',
   locale: 'en',
   developer: 'Cold Symmetry',
   publisher: 'Playstack',
@@ -29,16 +29,7 @@ export const SITE = {
 } as const;
 
 export const NAV = [
-  { label: 'Guide', href: '/guide/' },
-  { label: 'Beginner Guide', href: '/beginner-guide/' },
-  { label: 'Shells', href: '/shells/' },
-  { label: 'Weapons', href: '/weapons/' },
-  { label: 'Bosses', href: '/bosses/' },
-  { label: 'Map', href: '/map/' },
-  { label: 'Gloom', href: '/mortal-shell-2-gloom-farming-guide/' },
-  { label: 'PC Requirements', href: '/pc-requirements/' },
-  { label: 'Tools', href: '/tools/' },
-  { label: 'Download', href: '/download/' },
+ {label:'Guides',href:'/guide/'}, {label:'Shells',href:'/shells/'}, {label:'Weapons',href:'/weapons/'}, {label:'Bosses',href:'/bosses/'}, {label:'Tools & Overlays',href:'/tools/'}
 ] as const;
 
 export function isReleased(now: Date = new Date()): boolean {

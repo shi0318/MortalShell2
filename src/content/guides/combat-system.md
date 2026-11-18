@@ -1,127 +1,81 @@
 ---
-title: "Mortal Shell II Combat System — No Stamina, Posture & Criticals"
-heading: "How Mortal Shell II combat works: no stamina bar, posture breaks, sidearms"
-description: "Mortal Shell II combat is unrestricted by stamina and built on shattering enemy posture for criticals. What Cold Symmetry confirmed, and what is unpublished."
+title: "Mortal Shell II Combat Guide — Posture, Criticals and Sidearms"
+heading: "Mortal Shell II combat: choose an opening, then break posture"
+description: "Learn a practical combat decision loop for Mortal Shell II: control distance, recognise attack recovery, use posture opportunities and choose when sidearms help."
 category: mechanics
 keyword: "mortal shell 2 combat system"
 status: official
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
-preRelease: true
+preRelease: false
 order: 4
-updatedAt: "2026-08-03"
-sources:
-  - status: official
-    sourceUrl: "https://www.mortalshell.com/"
-    sourceDate: "2026-08-03"
-    lastChecked: "2026-08-03"
-    note: "Official site combat copy: 'unrestricted by stamina', 'shatter enemy posture and strike critically', 'bolstered by powerful sidearms and extensive upgrade options', and the eight playable Shells count."
-  - status: official
-    sourceUrl: "https://store.steampowered.com/app/2584270/Mortal_Shell_II/"
-    sourceDate: "2026-08-03"
-    lastChecked: "2026-08-03"
-    note: "Steam store page App 2584270: 'agile yet grounded' combat line, Shell possession and lost memories, deeper weapon design with extensive upgrades, more than 80 dungeons, Harbinger premise, single-player feature list."
-  - status: official
-    sourceUrl: "https://store.steampowered.com/news/app/2584270"
-    sourceDate: "2026-04-01"
-    lastChecked: "2026-08-03"
-    note: "Official Gameplay Reveal post: Tiel the Acolyte, Eredrim the Venerable and Proxima the Broodseeker each 'carve a different trail' through the interconnected open world."
-  - status: official
-    sourceUrl: "https://www.coldsymmetry.com/mortal-shell-2"
-    lastChecked: "2026-08-03"
-    note: "Developer page: combat described as 'fast-paced and fluid with more weapons, shells, and abilities to match any playstyle'."
-  - status: prequel
-    lastChecked: "2026-08-03"
-    note: "Comparisons to Mortal Shell (2020) systems — Harden, Resolve, Riposte — are labelled as prequel-based context, not confirmed Mortal Shell II mechanics."
+updatedAt: "2026-11-18"
+sources: []
 ---
 
-Cold Symmetry have published one precise sentence about how *Mortal Shell II* plays, and almost every combat claim circulating right now is a rewrite of it. Here is the sentence, from the official site:
+**Mortal Shell II removes stamina restrictions, but your next attack still needs a safe opening.** Use movement to understand an enemy's reach, make one deliberate offensive decision, then watch its response. Posture breaks and critical opportunities are part of that loop; they are not proof that every ordinary hit or defensive option works identically against every opponent.
 
-> "Mortal Shell II's combat system is unrestricted by stamina, allowing players to exploit multiple tactics to shatter enemy posture and strike critically. Combat choices are bolstered by powerful sidearms and extensive upgrade options."
+This guide covers how to make those decisions in the released game. It separates the published system description from practice advice. It does not offer a universal input sequence, an undocumented posture formula or a claim that one weapon can interrupt every boss. For the opening route and exploration priorities, start with the [beginner guide](/beginner-guide/).
 
-The Steam store page adds one more framing word pair: the system is **"agile yet grounded."** That is the whole of the first-party description. This page separates what those lines actually establish from what people are filling in around them.
+## What the released combat system establishes
 
-<figure>
-  <img src="/images/mortalshell2-shell-greatsword-closeup.webp" alt="A pale Mortal Shell II warrior holding a greatsword over one shoulder" width="1600" height="900" loading="lazy" decoding="async" />
-  <figcaption>Steam store screenshot | Mortal Shell II</figcaption>
-</figure>
+The current game description identifies combat without stamina restrictions, enemy posture breaks and critical strikes. It also describes strategic upgrades for melee and ranged weapons, while the official site identifies sidearms as another combat choice. Shells have their own innate abilities. Those facts give you several decisions to make within an encounter, rather than a reason to repeat one attack continuously.
 
-## 1. No stamina bar — what that does and does not mean
+A useful learning order is **distance, recognition, response, then longer commitment**. Learn where an attack reaches before trying to optimise how much damage you can fit between attacks. Once you can recognise a repeatable opening, compare a short response with a longer one. A successful trade on one attempt is not enough to establish that the longer action is safe every time.
 
-**Confirmed:** combat is *unrestricted by stamina*. There is no stamina meter gating your attacks, dodges and sprints.
+## No stamina restriction: manage commitment instead
 
-**Not confirmed:** what replaces it. This is the single most important gap on this page. Every soulslike needs some cost attached to swinging a heavy weapon, and Cold Symmetry have not said what theirs is. Three possibilities are consistent with the published wording, and none of them has been confirmed:
+Removing a stamina limit does not remove the enemy's next attack. If you keep issuing offensive inputs after an opening closes, you can be committed when you need to reposition. Judge the result of the action you selected before asking for another. This is especially useful when learning a slower or unfamiliar weapon: the important question is whether you can recover before the enemy answers, rather than whether another input is available.
 
-- **Animation commitment only** — the cost of an attack is its own recovery frames, so spacing and timing are the limiter rather than a bar.
-- **A different resource** — a meter that powers abilities or criticals rather than basic actions.
-- **Per-Shell budgets** — a cost carried by the Shell you are possessing rather than a universal bar.
+Try this practice exercise against a familiar opponent. Spend the first exchange looking at its range and the end of its attack. On the next clear opening, use a brief response and return to a position where you can see the next action. Extend the response only when you can explain why the window is long enough. This is a learning method, not a claim about a hidden combo multiplier or a required playstyle.
 
-If you see a page describing Mortal Shell II's "stamina replacement system" in detail, ask which source it comes from. As of 3 August 2026 there is not one.
+If you are hit while moving in, reconsider your starting distance. If you are hit after your own attack, reconsider its commitment or timing. If a nearby second enemy hits you, reconsider the encounter position. Those are three different errors; changing your whole build after each one makes the problem harder to identify.
 
-What the removal *does* reliably tell you: the classic stamina-duel rhythm from other soulslikes — poke, back off, wait for the bar — is not the intended rhythm here. "Agile" and "adrenaline-charged" are the studio's own adjectives, and both point at fewer forced pauses.
+## Posture and criticals: recognise the opportunity
 
-## 2. Posture is the actual win condition
+Posture is a combat objective alongside the damage you can observe. The published system supports breaking enemy posture and making critical attacks. It does not justify treating posture as the only way to win, or assuming that every hit, parry or projectile contributes the same amount. Use the feedback in the encounter rather than importing a numerical rule from another game.
 
-The offensive loop the studio describes is not "reduce health to zero." It is:
+When an opponent becomes vulnerable, first recognise the change in its state. Then position yourself to use the available critical opportunity. An opportunity that expires while you cross the arena is a positioning problem; an attack that never produced the expected opening is a different question. Keep those failures separate when practising.
 
-1. Apply **multiple tactics** to an enemy.
-2. **Shatter their posture.**
-3. **Strike critically** in the window that opens.
+## Sidearms: give the shot a specific job
 
-That is a poise-break economy: damage is the reward for winning a positional and timing exchange, not the thing you grind out with chip hits. It also explains the "multiple tactics" phrasing — posture systems in this genre usually respond to several different pressures (heavy hits, parries, ranged interrupts, ability procs) rather than one, which is what makes the sidearm mention below load-bearing rather than decorative.
+A ranged option is most useful when you know why you are choosing it. You might want to reach an enemy without closing the gap or preserve space while assessing a dangerous approach. Check the equipped weapon's description, displayed requirements and current availability before relying on it. This page does not assume all sidearms share ammunition rules, range, reload behaviour or interruption effects.
 
-**Unpublished:** whether posture is a visible meter, how fast it recovers, whether it differs by enemy class, and what a critical strike is actually called in-game. No frame data, no numbers.
+Compare the result with the alternative. Did the shot improve the position, finish a vulnerable target or let you avoid an unsafe approach? Or did preparing it leave you exposed? A sidearm that is useful across open ground may be inconvenient when another attacker is already beside you. Choose a moment with enough room to complete the action and observe the outcome.
 
-## 3. Sidearms are a stated pillar, not a footnote
+Do not assume a projectile cancels a boss attack because it interrupted an ordinary enemy. Treat a first attempt as a test of that particular situation. If the enemy continues its action, respond to that action instead of repeating shots in expectation of an undocumented guaranteed stagger.
 
-The official line says combat choices are **"bolstered by powerful sidearms."** The word *powerful* is doing real work — sidearms are positioned as part of the tactical set that breaks posture, not as a chip-damage plink.
+## Read the attack, not only the enemy name
 
-What has not been published: how many sidearms exist, whether ammunition is finite, whether they occupy a dedicated slot per Shell, or whether they upgrade along the same path as melee weapons. Treat any specific sidearm list you find as unverified.
+Two documented examples show why a defensive response needs to match the actual move. The Week 1 update corrected the warning on **Urrig, the Executioner's spin**, identifying that it cannot be parried. Treat that warning as a reason to choose another defensive response. Repeating a successful parry habit from a different attack is not a solution to an explicitly unparryable move.
 
-## 4. Weapons and upgrades
+The **Nameless Captive** has a different distinction. A developer reply identifies three spin attacks; the special seven-hit horizontal sequence is different from the more vertical headbanging motion. For ordinary combat, the lesson is to recognise the animation before choosing a response. Two moves described casually as “the spin” need not be the same defensive problem. The achievement-specific attempt belongs in the separate checklist linked below.
 
-Steam describes **"deeper weapon design with extensive upgrade options"** as one of the three ways the sequel expands on the original, and Cold Symmetry's own site adds **"more weapons, shells, and abilities to match any playstyle."**
+Version changes matter too. Week 1 notes describe adjustments to **the Monolith's laser and spin timing**, hitboxes and a double-damage bug. If an old clip and your current fight do not match, compare the installed update before copying the clip's rhythm. This is a documented past correction, not a claim that every present hit is a bug or that a fixed timing works for every attack.
 
-So the intended shape is: pick a weapon, invest in it, and let that investment define your answer to posture problems. Our [weapons page](/weapons/) tracks every weapon named so far with its confirmation status attached — most are still trailer-level sightings rather than confirmed movesets.
+## Diagnose the exchange before changing equipment
 
-## 5. Shells are the other half of the system
+| What keeps happening | First question | A focused practice change |
+| --- | --- | --- |
+| You are hit while approaching | Did you enter the attack's reach too early? | Watch the attack from outside its reach before closing. |
+| You are hit after attacking | Did your response continue after the opening ended? | Shorten the response and compare the next exchange. |
+| A critical opportunity expires | Were you too far away when it appeared? | Prioritise a position from which you can react to the opening. |
+| A second enemy interrupts | Are you watching only the first target? | Reposition so you can see the surrounding threats. |
+| A new weapon feels inconsistent | Did several parts of the build change together? | Return to a familiar encounter and isolate the weapon change. |
 
-Combat is not just weapon plus sidearm. From the store page: dormant Shells are **awakened and possessed**, and each one unlocks **innate strengths and unique abilities**; you **evolve your own style of combat** by harnessing them, and **unravel their secrets through lost memories**. The official site confirms there are **eight playable Shells**.
+These checks help identify decisions you can control. They are not guarantees that every death is a tactical mistake. If inputs arrive late throughout the game, or crowded areas visibly slow down, use the [PC requirements and performance guide](/pc-requirements/) to separate a technical symptom from an encounter-learning problem.
 
-The Gameplay Reveal on 1 April 2026 showed three of them — **Tiel, the Acolyte**, **Eredrim, the Venerable**, and **Proxima, the Broodseeker** — and framed each as carving **a different trail** through the world. That is the clearest official statement that Shell choice changes how you fight, not just how you look. Per-Shell detail lives on our [Shells hub](/shells/).
+## Shells and upgrades: compare an actual problem
 
-## 6. Where the combat happens
+Choose equipment around a concrete need rather than a claim that a single build is best everywhere. Read the Shell ability and weapon upgrade descriptions in your installed build. Ask what they change about an encounter you understand: your preferred distance, the action you want to use or the opportunity you struggle to exploit. The [Shell overview](/shells/) and [weapon overview](/weapons/) provide the wider equipment context.
 
-Two structural facts shape how often you will fight:
+Before spending an upgrade resource, identify which weapon you actually want to continue using. Try its ordinary behaviour long enough to judge whether you enjoy its reach and commitment. An upgrade cannot by itself establish that an unfamiliar action fits your timing. Avoid spreading limited resources merely because a list puts several options in the same tier.
 
-- The world is an **interconnected open world**, "expansive yet deliberately compact," designed to respect the player's time.
-- Scattered through it are **more than 80 dungeons**, each pitched against "the talents and weaponry you have accrued on your way."
+## A repeatable combat practice loop
 
-Eighty-plus discrete challenge spaces is a lot of combat surface for a game that also advertises compactness — which is a reasonable read, but a read, so we will check the real distribution after launch.
+1. Identify the opponent and make enough space to see its next attack.
+2. Watch where the attack ends before choosing your response.
+3. Use a short, deliberate action, then assess your position.
+4. Recognise posture and critical opportunities without assuming an automatic trigger.
+5. Change one decision if the exchange fails; keep the parts that worked.
 
-## 7. What Mortal Shell (2020) did — as context, not as fact
-
-The first game's mechanics are the most common source of confident-sounding Mortal Shell II claims, so it is worth stating them separately and labelling them clearly. In **Mortal Shell (2020)**:
-
-- **Harden** turned you to stone on command, absorbing a hit and interrupting the attacker. It was the signature defensive tool.
-- **Resolve** built up through combat and powered special attacks.
-- **Riposte** returned health on a well-timed parry, gated by a consumable seal.
-- Stamina **did** exist and did gate your actions.
-
-That last point is the one that matters: the sequel has explicitly changed it. Nothing in Cold Symmetry's Mortal Shell II material confirms that Harden, Resolve or Riposte return in any form. They may; treat every "Harden works like X in the sequel" claim as **prequel-based inference** until launch. If you are wondering whether you need the original first, we answer that separately in [do you need to play Mortal Shell 1](/do-you-need-mortal-shell-1/).
-
-## 8. Practical notes you can actually rely on now
-
-| Question | Status |
-|---|---|
-| Is there a stamina bar? | **No** — officially confirmed |
-| Do you break posture for criticals? | **Yes** — officially confirmed |
-| Are there ranged options? | **Yes** — "powerful sidearms," officially confirmed |
-| Are there difficulty settings? | **Not stated.** Steam's feature list for App 2584270 does not include an "Adjustable Difficulty" tag. That is an absence of a tag, not a confirmed absence of the feature |
-| Is any of it co-op? | **No.** Steam lists Single-player only |
-| Controller support | **Full controller support**, with DualShock and DualSense support listed |
-
-For the hands-on side of this — what the Open Beta build actually let players do — see the [Open Beta page](/open-beta/) and the [beginner guide](/beginner-guide/). For the hardware you need to run it, see [PC settings](/pc-settings/).
-
-## How this page gets updated
-
-*Mortal Shell II* releases **20 August 2026**, with Devout Edition pre-orders getting up to 72 hours of advanced access. Within the first days of playing the retail build, every "unpublished" item above gets replaced with tested behaviour and its own source row — and anything on this page that the final game contradicts gets rewritten, not quietly deleted.
+For a boss, repeat this around one recognisable sequence before trying to optimise the entire fight. Special achievement actions are separate objectives: a successful kill does not prove that a required parry sequence occurred. Check the [missable achievement checklist](/mortal-shell-2-missable-achievements/) before ending an encounter that matters to your completion plan.

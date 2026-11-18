@@ -1,97 +1,58 @@
 ---
-title: "Mortal Shell 2 Release Date — Mortal Shell II Launch Details"
-heading: "Mortal Shell 2 Release Date — August 20, 2026"
-description: "Mortal Shell 2, officially titled Mortal Shell II, is available from August 20, 2026 on PS5, Xbox Series X|S and Steam. Platforms, Beta status and editions explained."
+title: "Mortal Shell II Buying Guide: Released Platforms, Editions and Ownership"
+heading: "Mortal Shell II Buying Guide: Released Platforms, Editions and Ownership"
+description: "Choose a Mortal Shell II platform and edition, separate current ownership from historical advance access, and assess the game without treating review totals as a verdict."
 category: guide
-keyword: "mortal shell 2 release date"
-cover: /images/mortalshell2-official-keyart-1.webp
 status: official
 preRelease: false
-order: 2
-updatedAt: "2026-08-20"
-sources:
-  - status: official
-    sourceUrl: "https://www.playstack.com/news/mortal-shell-ii-release-date/"
-    sourceDate: "2026-07-08"
-    gameVersion: "Playstack release announcement"
-    lastChecked: "2026-08-18"
-    note: "Playstack confirms worldwide digital launch date and platforms"
-  - status: official
-    sourceUrl: "https://mortalshell.com/"
-    lastChecked: "2026-08-18"
-    note: "Official Mortal Shell II site lists August 20, 2026 and edition messaging"
-  - status: official
-    sourceUrl: "https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/"
-    sourceDate: "2026-06-05"
-    gameVersion: "Open Beta store listing"
-    lastChecked: "2026-07-24"
-    note: "Open Beta availability and carry-over rewards"
+order: 3
+updatedAt: "2026-11-18"
+cover: /images/mortalshell2-official-keyart-2.webp
+sources: []
 ---
 
-## Short answer
+![Mortal Shell II official game artwork](/images/mortalshell2-official-keyart-2.webp)
 
-**Mortal Shell II releases on August 20, 2026** for:
+Mortal Shell II is available now. The Steam listing records August 20, 2026 as its release date, and the publisher's release announcement names PC, PlayStation 5 and Xbox Series X|S. For a purchase today, the important distinctions are the platform licence, the base game versus additional edition content, and whether the game's combat and exploration suit what you want to play. Historical early-access advertising is not a new waiting period.
 
-- **PC (Steam)**
-- **PlayStation 5**
-- **Xbox Series X|S**
+## Start with the platform you will use
 
-Sources: [Playstack release announcement](https://www.playstack.com/news/mortal-shell-ii-release-date/) and the official site [mortalshell.com](https://mortalshell.com/).
+A Steam purchase is a PC licence. The existence of console releases does not make that purchase redeemable on another store. Check the account and library you intend to use before buying a second copy. For a console disc, check the console model, supported platform and retailer's description rather than assuming every version includes the same physical items.
 
-The [Mortal Shell 2 physical Xbox disc guide](/mortal-shell-2-physical-xbox-disc/) explains what the current official edition information says about digital Xbox release and the physical PS5 Revered Edition. For the Beta and full-game scope, see [How Long Is Mortal Shell 2?](/how-long-is-mortal-shell-ii/).
+The official product links are [Steam](https://store.steampowered.com/app/2584270/Mortal_Shell_II/) and the stores linked by the [official game website](https://mortalshell.com/). This site does not host installers or sell activation keys. A link labelled as a store opens the retailer; it is not an automatic download and does not bypass the retailer's account or regional requirements.
 
-## Current release status
+If subscription access determines your decision, inspect the current catalog in your region and on your device. A platform logo alone does not establish inclusion in a subscription. Likewise, the PC listing cannot establish console frame rates, display modes or the amount of storage required by every platform build.
 
-| Item | Status |
-|---|---|
-| Full release | Available from August 20, 2026 |
-| Platforms | Steam, PS5, Xbox Series X|S |
-| PC Open Beta | Available on Steam (opening hours of the game) |
-| Developer | Cold Symmetry |
-| Publisher | Playstack |
+## Read the edition contents rather than the launch slogan
 
-The Steam Open Beta is a **limited in-development build** covering the **Prologue into the first explorable region**, described as roughly the **opening three hours**.
+The Steam base-game price checked on November 18, 2026 is US$49.99 with no listed discount. That is a dated US storefront observation, not a worldwide price promise. Taxes, local currency, retailer pricing and later promotions can differ. Check the amount shown in the checkout attached to your own account.
 
-## What you can play right now
+Devout Edition was advertised with an Obsidian skin set for the eight playable Shells. The publisher also advertised advance access before general release. That launch-window benefit has elapsed; do not pay a premium today because an old article tells you it is necessary to begin playing. Read the current edition listing to determine the additional content actually supplied now.
 
-If you are searching "Mortal Shell 2 release date" because you want to play today:
+Revered Edition is a physical collector offering associated with PlayStation 5, with physical and digital extras described by the retailer. A photograph of a collector package does not establish stock, region compatibility or that a separate PC code is included. Check the exact product contents, supported platform and shipping conditions before ordering.
 
-1. Buy or launch the full game from the official [Mortal Shell II Steam page](https://store.steampowered.com/app/2584270/Mortal_Shell_II/)
-2. Check [Mortal Shell II PC requirements](/pc-requirements/) first (SSD required)
-3. Use the [Mortal Shell II beginner combat tips](/mortal-shell-2-beginner-combat-tips/) before your first serious run
+If you already own the base game, inspect whether the additional item is an upgrade or a complete edition. An upgrade may require an existing game licence. Do not assume an add-on is a standalone purchase, and do not buy a second base copy merely because an old preorder comparison lists different names.
 
-## What the Open Beta carried into launch
+## Understand the combat you are buying
 
-Official Steam carry-over rules, as they applied on 20 August 2026:
+Steam describes a standalone sequel with combat unrestricted by stamina. That does not mean every action is free of commitment or that there are no other resources to manage. The combat centers on breaking enemy posture and creating critical openings, while upgrading melee and ranged weapons. Use the [combat reference](/combat-system/) for that distinction before importing a conventional stamina-bar strategy from another soulslike.
 
-- Full beta inventory **did not** transfer (currency, weapons, Shells, collectibles)
-- Playing the beta unlocked **The Flayed Harbinger** cosmetic, claimable in the full game
-- Progress beyond **Marrow Keep** unlocked an optional **prologue skip** (the retail achievement spells the location "Marrowkeep")
+The game presents eight lost warriors' Shells to find and possess. Their innate abilities are part of the reason to explore away from the main route. The [Shell comparison](/shell-selection-guide/) separates abilities explicitly described in developer material from recommendations about choosing a body you can control. An achievement's global unlock percentage is not a measured ranking of Shell strength or difficulty.
 
-Details: [Beta save transfer](/beta-progress/).
+The open world is described as compact and interconnected. Those words do not guarantee that you will never become lost or that every route is equally suitable at the start. Consider whether you enjoy returning to connected areas, looking for optional equipment and learning the relationship between routes. Do not translate marketing about respecting your time into a promised completion-hour total.
 
-## Editions and early access
+## Judge reviews by the problem you care about
 
-Official marketing currently highlights:
+A dated Very Positive headline is not the current review set. When comparing owner feedback, inspect the platform, game build, review date and the specific issue being discussed. A performance complaint on an older PC build may not answer your console purchase question; a patch note acknowledging a repair does not prove that every affected machine is now free of the problem.
 
-- **Devout Edition** — digital deluxe with the **Obsidian** skin set for all **eight playable Shells**, plus up to **72 hours** advanced access
-- **Revered Edition** — physical collector package for **PS5** (artbook, steelcase, fine art prints, digital extras)
+Separate descriptions of symptoms from proposed causes. A player can reliably report a hitch in a particular area without proving the renderer, input system or a specific setting caused it. Look for repeated, sufficiently detailed reports that match your hardware or intended use. Treat a forum workaround as a reported option, not a guaranteed repair bundled with your purchase.
 
-Compare them on [Editions](/editions/).
+Likewise, do not use completion statistics to infer how many owners abandoned a boss, whether a particular weapon is viable, or the time a new player must invest. Those figures involve different account populations and achievement conditions. The [achievement reference](/mortal-shell-2-achievements/) is useful for understanding published unlock requirements, rather than guessing individual players' decisions from aggregate percentages.
 
-## What the full game is sold as
+## Prepare for installation without mixing in the old beta
 
-Official site framing (not a full feature checklist yet):
+Use the [PC requirements and diagnosis guide](/pc-requirements/) before committing disk space or changing a configuration. Match the actual hardware and operating system to the published requirements; a minimum specification is not a promise of a particular resolution, quality preset or frame rate.
 
-- Sequel to Mortal Shell in an **interconnected open world**
-- **Eight playable Shells**
-- Combat **unrestricted by stamina**
-- **Sidearms** and broader upgrade options
+The Open Beta used a separate Steam app. Its recorded scope and any advertised launch rewards are historical information. Do not assume its installation is a replacement for the full game, that it remains newly downloadable, or that every part of its inventory transfers. The [installation and beta reference](/download/) keeps those boundaries visible.
 
-## Related pages
-
-- [Download Open Beta](/download/)
-- [Open Beta guide](/open-beta/)
-- [Editions](/editions/)
-- [Beginner first hours](/beginner-guide/)
-- [PC settings](/pc-settings/)
+Before paying, confirm the platform, account, edition contents, current price and retailer refund terms. Before playing, confirm the version you installed and whether advice you are following concerns the released game or an old test. Those checks answer a buying decision more directly than another page repeating a store rating or a single product fact.

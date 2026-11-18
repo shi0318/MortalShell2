@@ -1,0 +1,24 @@
+---
+import SitePage from '../layouts/SitePage.astro';
+import { SITE } from '../data/site';
+---
+
+<SitePage title="Terms of Use — Mortal Shell 2 Wiki" heading="Terms of use" description="Terms for reading and reusing this independent fan guide, including game ownership, external links, reasonable use, accuracy limits and correction requests.">
+
+<section><h2>Scope and site identity</h2>
+<p>These terms describe use of {SITE.name} at mortalshell2.wiki. The site publishes information and editorial advice about a video game. It does not sell the game, provide account services, run multiplayer servers or offer official technical support. <strong>Unofficial fan guide. Not affiliated with Cold Symmetry or Playstack.</strong></p>
+<p>Reading the site does not create a purchase or support contract with any of those companies. If you buy a game through an external store, the transaction, licence and refund conditions are between you and that store or the relevant publisher.</p></section>
+<section><h2>Using our writing and game materials</h2>
+<p>You may read the guides, link to their public URLs and keep a personal copy for reference. Brief quotations of our original writing should identify the guide and link to the relevant page. These permissions do not include republishing complete articles, reproducing the site as a competing database or representing our writing as your own work. Contact us if you need broader republication permission.</p>
+<p>Game screenshots, logos, characters, artwork and trademarks remain the property of their respective rights holders. Permission to use our original text does not grant permission to reuse those assets, redistribute game files or claim an official association. We do not distribute game installers, cracks, account credentials or paid unlock services.</p></section>
+<section><h2>Accuracy and use of advice</h2>
+<p>Game versions, regional store details and online features can change. A recommendation is information to help you decide what to try, not a guarantee of performance, an unlock, a refund or a successful attempt. Read the conditions in the relevant guide and confirm important purchase details in the store you intend to use.</p>
+<p>For troubleshooting, follow the game's own support instructions where available. Preserve saves and configuration files before making changes that could affect them. Do not treat an unverified player workaround as a required repair. We cannot recover your account or save data, and no guide can remove every risk associated with changing software settings.</p>
+<p>The site is provided as available. We do not promise uninterrupted access or that every historic observation remains current. Nothing in these terms excludes rights or liabilities that cannot lawfully be excluded. The <a href="/editorial/">editorial policy</a> explains our approach to uncertain evidence, dates and corrections.</p></section>
+<section><h2>Reasonable use and third-party links</h2>
+<p>Do not attempt to disrupt the site, probe other visitors' information, bypass access controls or send malicious files through the contact channel. Use public pages in a way that does not impair access for other readers. These terms do not prohibit normal linking or ordinary search-engine indexing of public content.</p>
+<p>External links may lead to stores, developer material or community discussions. Those services operate under their own terms and privacy practices. We do not control their availability, user posts, prices or account decisions. Check the destination before submitting personal or payment information.</p></section>
+<section><h2>Contact, privacy and changes</h2>
+<p>There is no public comment or submission system on the current site. If you send a correction or rights request by email, include only information relevant to the issue. Your message is not automatically published. If we want to publish material you supplied, we should agree on the intended use rather than assume an email transfers ownership.</p>
+<p>For content concerns, permissions or privacy requests, use <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> and include the page URL. The <a href="/privacy/">privacy policy</a> explains current technical and email data handling. We may revise these terms when the site's services change; the update date identifies this version and does not imply that every game fact was retested that day.</p></section>
+</SitePage>

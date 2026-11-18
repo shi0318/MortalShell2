@@ -59,7 +59,7 @@ Smelting a weapon at the **Tarforge** now costs **75% less Gloom**. If you were 
 
 The official wording is: **“Smelting a weapon at the Tarforge costs 75% less Gloom.”**
 
-For the wider weapon system, see the [Mortal Shell 2 weapons guide](/weapons/) and [Mortal Shell 2 weapon upgrade guide](/mortal-shell-2-weapon-upgrade-guide/).
+For the wider weapon system, see the [Mortal Shell 2 weapons guide](/weapons/) and [Mortal Shell 2 weapon upgrade guide](/mortal-shell-2-best-weapon/#tarforge-upgrades-and-switching-weapons).
 
 ## Enemy and boss balance changes
 
@@ -77,7 +77,7 @@ The named enemy changes are:
 - **Infested Stalker:** maximum health reduced by 52.4%.
 - **Rusted Knave with halberd:** maximum health reduced by 20.8%, with overhead-strike hit detection fixed.
 
-These are patch-note values, not a complete enemy database. They do not tell us every attack's damage, stagger threshold, drop table, or location. For player-reported encounter problems, compare the [Mortal Shell 2 launch-bugs page](/mortal-shell-2-launch-bugs/) with the [Mortal Shell 2 boss difficulty guide](/mortal-shell-2-boss-difficulty/).
+These are patch-note values, not a complete enemy database. They do not tell us every attack's damage, stagger threshold, drop table, or location. For player-reported encounter problems, compare the [Mortal Shell 2 launch-bugs page](/pc-requirements/#record-the-failure-before-changing-settings) with the [Mortal Shell 2 boss difficulty guide](/mortal-shell-2-boss-preparation-guide/#difficulty-night-mode-and-later-runs).
 
 ## Weapon changes in Balance Patch 1
 
@@ -88,16 +88,16 @@ The official post lists four weapon-related changes:
 3. **Caged Hystrix and Triarch Repeater:** no longer require a minimum Resolve to fire. The phrase "to fire" is the only official confirmation that these two are ranged, which makes them the strongest Sidearm candidates on the roster.
 4. **Axatana, Black Needle and Clockwork Scythe:** improved tracking for light attacks. This line is how we know **Black Needle is a weapon and not a Shell** — Shells do not have light attacks, and the achievement text for Black Needle is ambiguous enough that it is widely miscategorised.
 
-Damage buffs are not promises about total damage per second. Attack speed, reach, recovery, enemy resistance, Shell abilities and Tarstones can all affect a real build. The separate [Great Martyr's Blade patch guide](/mortal-shell-2-great-martyrs-blade-patch/) covers the two-patch buff history in full, and the [weapons hub](/weapons/) records which rows now rest on patch evidence rather than on their names.
+Damage buffs are not promises about total damage per second. Attack speed, reach, recovery, enemy resistance, Shell abilities and Tarstones can all affect a real build. The separate [Great Martyr's Blade patch guide](/mortal-shell-2-best-weapon/#weapon-changes-worth-knowing) covers the two-patch buff history in full, and the [weapons hub](/weapons/) records which rows now rest on patch evidence rather than on their names.
 
 ## Seals, Tarstones and stability
 
 The patch makes one direct Seal change: **Guard can now be used while walking**. The official note also says that Parasitic Stone, Grudge Stone, Bulwark Stone, Clerik's Stone and Squall Stone were buffed. It does not publish new numeric effects for those Tarstones in the post, so this page does not invent them.
 
-The final section is labelled miscellaneous crash fixes, bug fixes and performance updates. That is useful confirmation that stability work shipped, but it is not a complete crash log. If your PC still has blur, stutter or frame-generation trouble, use the reversible checks in the [Mortal Shell 2 PC performance guides](/mortal-shell-2-launch-bugs/) and record your hardware and current build before reporting it.
+The final section is labelled miscellaneous crash fixes, bug fixes and performance updates. That is useful confirmation that stability work shipped, but it is not a complete crash log. If your PC still has blur, stutter or frame-generation trouble, use the reversible checks in the [Mortal Shell 2 PC performance guides](/pc-requirements/#record-the-failure-before-changing-settings) and record your hardware and current build before reporting it.
 
 ## What Patch 1 does not confirm
 
 The same official post says larger future updates may extend features such as **Night Mode, Tarstones and PP Items**. That is a development statement, not a promise that those future extensions are already present in Balance Patch 1. It also does not provide a full weapon-location list, complete boss guide, or universal performance guarantee.
 
-For the next step, update the game, confirm the platform's installed build, then retest the weapon or encounter that brought you here. The [Mortal Shell 2 Steam reviews guide](/mortal-shell-2-steam-reviews/) remains a useful snapshot of player feedback, while this page is limited to the official patch post.
+For the next step, update the game, confirm the platform's installed build, then retest the weapon or encounter that brought you here. The [Mortal Shell 2 Steam reviews guide](/release-date/#judge-reviews-by-the-problem-you-care-about) remains a useful snapshot of player feedback, while this page is limited to the official patch post.

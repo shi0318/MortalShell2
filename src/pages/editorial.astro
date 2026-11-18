@@ -1,0 +1,25 @@
+---
+import SitePage from '../layouts/SitePage.astro';
+import { SITE } from '../data/site';
+---
+
+<SitePage title="Editorial Policy — Mortal Shell 2 Wiki" heading="Editorial policy" description="How our fan guide distinguishes documented facts, player reports and editorial advice, handles automated assistance, and corrects unsupported claims.">
+
+<section><h2>Editorial identity and responsibility</h2>
+<p>Our collective byline, <strong>{SITE.name} editorial team</strong>, identifies the publisher of the site text. It does not claim employment by Cold Symmetry or Playstack, and it is not a fictional individual author. The site operator is responsible for publication and receives accuracy concerns through <a href="/contact/">our contact page</a>.</p>
+<p>Automated assistance is used for drafting and organising material. A fluent draft is <strong>not a hands-on test</strong>, and neither an automated tool nor a source category establishes that a statement is correct. We do not invent a writer's biography, recorded playtime or review credentials to make a guide appear authoritative.</p></section>
+<section><h2>Different kinds of evidence answer different questions</h2>
+<p>Developer and publisher announcements can document named features or patch changes. Storefront listings can document the version, platform requirements and price displayed for a particular region and date. A storefront price is not automatically a worldwide console price, and a patch note describing a fix is not proof that every player's problem has disappeared.</p>
+<p>Player discussions help identify practical questions and reported symptoms. A dated discussion can show that someone asked about an issue; it cannot, by itself, prove its cause, its prevalence or that a proposed workaround works. We distinguish a player's account from a developer-confirmed change and avoid presenting one report as a measured community-wide trend.</p>
+<p>Advice such as learning an attack opening before committing a long combo is an editorial recommendation. It should explain its purpose and limits rather than invent an in-game reward, a hidden modifier or a universal optimal build. If the evidence does not establish an exact value or an unlock condition, the article should say so or omit that claim.</p></section>
+<section><h2>What qualifies as a first-hand test</h2>
+<p>A first-hand performance or gameplay claim needs a record of what was actually done. For a PC comparison, that means the game build, test date, hardware, driver, display settings, resolution and relevant quality or upscaling choices, plus a repeatable route or workload. A frame-rate number without the test conditions cannot support a general performance promise.</p>
+<p>For gameplay results, a useful record identifies the area, Shell, equipment, game build, conditions, number of attempts and what was measured. A single success is not a win-rate dataset. Official screenshots illustrate the game; they do not prove the editorial team captured a benchmark or completed an event. Unless a page supplies an actual test record, do not interpret its recommendations as a claim of personal testing.</p></section>
+<section><h2>Badges, dates and revisions</h2>
+<p>Guide labels describe editorial content types. They do not indicate developer endorsement, official affiliation or personal testing. Evidence and its limits belong with the relevant claim rather than being implied by a page-wide badge.</p>
+<p>“Last updated” records an editorial revision to that page. It does not mean that every sentence was freshly verified or every workaround repeated that day. We do not advance all article dates solely because the site is rebuilt, a footer changes or a calendar day passes. Where an original publication date is not established, we leave it out rather than derive it from the latest edit.</p>
+<p>When related short pages are consolidated, the retained guide should address the combined topic coherently and the old route should lead to the relevant section. A longer word count alone is not an improvement. Repetition, unsupported details and paragraphs unrelated to the reader's task should be removed.</p></section>
+<section><h2>Corrections and commercial separation</h2>
+<p>Send the page URL, disputed wording and relevant evidence to <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>. For a bug or changed mechanic, include the platform and build if known. We review whether the claim needs correction, a clearer limit, removal or an explanation that evidence is inconclusive. A report does not require the sender to reveal an account password or upload a full save.</p>
+<p>The current site does not run advertising, affiliate checkout links or paid placements. A link to a store is a route to another service, not a promise of support or an endorsement of every claim on that service. If a commercial relationship is introduced, it must be disclosed near the affected content. Payment must not be represented as independent testing or official confirmation.</p></section>
+</SitePage>

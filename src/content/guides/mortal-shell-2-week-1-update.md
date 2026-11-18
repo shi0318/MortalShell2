@@ -65,7 +65,7 @@ Four supporting changes go with it:
 
 One change goes the other way: **Mini-Beacons no longer award a Glimpse.** That is the only economy nerf in the post, and it matters mainly to anyone who was routing around the map to farm them.
 
-The knock-on effects are covered on the [Shells roster](/shells/) and the [best Shell guide](/shell-selection-guide/), both of which now describe the post-patch economy. For the resource itself see the [Tarstones and Gloom upgrades guide](/mortal-shell-2-tarstones-gloom-upgrades/) and the [Gloom farming guide](/mortal-shell-2-gloom-farming-guide/).
+The knock-on effects are covered on the [Shells roster](/shells/) and the [best Shell guide](/shell-selection-guide/), both of which now describe the post-patch economy. For the resource itself see the [Tarstones and Gloom upgrades guide](/mortal-shell-2-best-weapon/#tarforge-upgrades-and-switching-weapons) and the [Gloom farming guide](/beginner-guide/#spend-into-one-working-loadout).
 
 ## Four new stones
 
@@ -78,7 +78,7 @@ Fragile Tarstones are a new class: they break after losing durability, and **whe
 | **Egon's Stone** | Revives you at a dungeon's entrance at the cost of its durability. When it breaks, it prevents Gloom loss for that death. |
 | **Justicar's Stone / Gloombound Stone** | Both converted to Fragile, with increased passive effects and new on-break effects. Existing copies in your save were converted. |
 
-Egon's Stone is the one with a real effect on how you play: dying inside a dungeon normally costs you a walk back and risks your Gloom, and this item removes both for one death. Pair it with the [respawn points guide](/mortal-shell-2-respawn-points/) and the [boss runback guide](/mortal-shell-2-boss-runback/).
+Egon's Stone is the one with a real effect on how you play: dying inside a dungeon normally costs you a walk back and risks your Gloom, and this item removes both for one death. Pair it with the [respawn points guide](/beacons/#separate-arrival-from-cleansing) and the [boss runback guide](/mortal-shell-2-boss-preparation-guide/#confirm-the-arena-route).
 
 ## Ripostes got a full pass
 
@@ -90,7 +90,7 @@ This is the combat section that matters. The patch lists five riposte changes, a
 - **Riposte animations behave with your back to a wall** across the whole enemy roster, rather than sliding you through it.
 - **Riposte damage is now calculated and applied by the riposte itself**, which fixes cases where it applied twice or not at all.
 
-Read that list together and the conclusion is uncomfortable: before this patch, the payoff for the game's hardest defensive skill was sometimes not paid. If ripostes felt unrewarding to you in launch week, that was not a skill problem. The inputs themselves are in the [combat system guide](/combat-system/) and the [beginner combat tips](/mortal-shell-2-beginner-combat-tips/).
+Read that list together and the conclusion is uncomfortable: before this patch, the payoff for the game's hardest defensive skill was sometimes not paid. The documented bugs can explain some launch-week riposte complaints; they do not diagnose every unsuccessful attempt. The inputs themselves are in the [combat system guide](/combat-system/) and the [beginner combat tips](/combat-system/#a-repeatable-combat-practice-loop).
 
 Two related retunes: **base aggression and disengage ranges** were adjusted across the game, and **enemy tracking and magnetism maximums have been restricted**, with the post saying they will keep being adjusted individually in future patches.
 
@@ -99,13 +99,13 @@ Two related retunes: **base aggression and disengage ranges** were adjusted acro
 The [best weapon guide](/mortal-shell-2-best-weapon/) covers the recommendation; these are the published changes:
 
 - **Obsidian Hammer** had a full balance pass and "now hits substantially harder."
-- **Great Martyr's Blade** deals more damage — and the post admits the buff announced in Balance Patch 1 "didn't actually make it in the last patch," so it is stronger now to compensate. That episode has its own page: [the buff that was announced twice](/mortal-shell-2-great-martyrs-blade-patch/).
+- **Great Martyr's Blade** deals more damage — and the post admits the buff announced in Balance Patch 1 "didn't actually make it in the last patch," so it is stronger now to compensate. That episode has its own page: [the buff that was announced twice](/mortal-shell-2-best-weapon/#weapon-changes-worth-knowing).
 - **Heavy weapons in general** had a poise and damage pass.
 - **Salvaged Trebuchaxe: Tarred Fragment** was redesigned, described as "simultaneously overpowered and broken."
 - **Axatana**'s weapon ability now grants invulnerability frames and inflicts Fragile stacks, and its combat Tarstone active triggers correctly.
 - **Weltcap** is stronger in both active and passive forms.
 
-No percentages are published for any of these except the retracted +20% on the Blade. See the [weapons roster](/weapons/) and the [weapon upgrade guide](/mortal-shell-2-weapon-upgrade-guide/).
+No percentages are published for any of these except the retracted +20% on the Blade. See the [weapons roster](/weapons/) and the [weapon upgrade guide](/mortal-shell-2-best-weapon/#tarforge-upgrades-and-switching-weapons).
 
 ## The save-file fix you should care about most
 
@@ -113,7 +113,7 @@ Buried under "Softlocks and Lost Progress" is the most important line in the cha
 
 > Fixed an interrupted save being able to destroy your save file. Saves are now written so that a crash or a sudden shutdown cannot leave you with nothing.
 
-A crash at the wrong moment could take your whole run. If you have been playing since launch on a machine that crashes, that risk existed and is now gone. The related fix — **players being permanently locked out of Vatra's Temple** after exploring it — closed another run-ending case. Missing-save problems from the beta era are a separate issue, covered in [beta save missing](/mortal-shell-2-beta-save-missing/).
+The update addresses a specific interrupted-save corruption bug. It does not guarantee that crashes, hardware faults or future save problems cannot occur; preserve a current backup. The related fix — **players being permanently locked out of Vatra's Temple** after exploring it — closed another run-ending case. Missing-save problems from the beta era are a separate issue, covered in [beta save missing](/download/#compare-the-recorded-beta-with-a-retail-installation).
 
 Also closed: getting stuck at the castle gates, in the opening region's church, inside a house in the sunken village dungeon, in Castigator's Keep by walking through a wall, in the snow approaching one boss arena, and in a hole in Eredrim's castle jail. Collision holes and ground gaps were patched throughout the first two regions.
 
@@ -122,7 +122,7 @@ Also closed: getting stuck at the castle gates, in the opening region's church, 
 - **New Beacons in Fainweald and Mammon**, and the patch is explicit that they are **only active during the day**. If you looked for one at night and found nothing, that is the design. See the [Beacons guide](/beacons/) and the [Night Mode guide](/mortal-shell-2-night-mode-guide/).
 - **A teleporter now appears in one dungeon after the Grisha pit fight**, removing that walk back entirely.
 - **Two new cosmetic rewards** are placed in the world behind certain questlines.
-- Dungeon reward chests across the first two regions were revised, reward placement in Mammon updated, missing arena-dungeon rewards restored, and some chests replaced with straightforward pickups. See [dungeon exploration](/dungeon-exploration-guide/) and the [map](/map/).
+- Dungeon reward chests across the first two regions were revised, reward placement in Mammon updated, missing arena-dungeon rewards restored, and some chests replaced with straightforward pickups. See [dungeon exploration](/map/#optional-dungeons) and the [map](/map/).
 - The developers add, unprompted: **"You still haven't found the second Trollweed."** As of this patch it is still officially undiscovered.
 
 ## Bosses (names below this line)
@@ -137,14 +137,14 @@ Most bosses got a general polish pass. The specific ones worth knowing about:
 - **Droeg, the Conquerer** and **Sir Isaac, the Scholar-Prince** — arena navigation repaired and riposte alignment corrected on both.
 - **Bloodcursed Lithopod** — damage, turning and jump attacks retuned.
 
-For the difficulty picture see [boss difficulty](/mortal-shell-2-boss-difficulty/) and the source-tracked [boss roster](/bosses/).
+For the difficulty picture see [boss difficulty](/mortal-shell-2-boss-preparation-guide/#difficulty-night-mode-and-later-runs) and the source-tracked [boss roster](/bosses/).
 
 ## Performance, options and controllers
 
 - **The shader compilation hitch is fixed.** That work now happens while you are still in the menu instead of a few seconds into play.
 - **Fewer enemies in the busiest areas**, with the post saying the crowd was costing frame rate rather than adding difficulty. Spawners in the dense prison area were rebuilt.
-- **Frame generation reworked.** It now applies after a reload rather than conflicting in real time, and no longer switches on before the world has finished loading. NVIDIA frame generation can be selected on a much wider range of cards. See the [frame generation fix](/mortal-shell-2-frame-generation-fix/).
-- **Increased Geometry Budgets** is a new graphics option, off by default because the default uses less video memory. Turn it on if you have memory to spare. More in [PC settings](/pc-settings/).
+- **Frame generation reworked.** It now applies after a reload rather than conflicting in real time, and no longer switches on before the world has finished loading. NVIDIA frame generation can be selected on a much wider range of cards. See the [frame generation fix](/pc-requirements/#frame-generation-and-display-changes).
+- **Increased Geometry Budgets** is a new graphics option, off by default because the default uses less video memory. Turn it on if you have memory to spare. More in [PC settings](/pc-requirements/#record-the-failure-before-changing-settings).
 - **Ray tracing options that were not working as intended** are fixed, along with post-process options that had no effect.
 - **The game now defaults to your monitor's native resolution** and pauses when a system overlay opens.
 - **Switch Pro and Switch Pro 2 controllers are supported**, with an option to swap their glyphs, and **Steam Deck and Steam Controller now display the correct buttons.** The Steamworks update also improves Steam Deck detection. That last point matters for the [Steam Deck compatibility page](/mortal-shell-2-steam-deck/), because Valve's own report still lists a glyph warning that this patch says was addressed — Valve re-tests on its own schedule.
@@ -168,4 +168,4 @@ And one line that is not a known issue: **"Mutton is now immune to damage, he's 
 - **No frame rate measurements.** The performance items are the developer's descriptions, not benchmarks run here.
 - **No parry or invulnerability frame counts.** The riposte pass is described in words, not frame data, and this page does not invent any.
 
-The changelog was read on **September 2, 2026**, and the Week 1 Update was still the newest official post on the game's Steam news feed at that point. For everything that shipped at launch see the [launch bugs page](/mortal-shell-2-launch-bugs/), and for how players have received the game overall, the [Steam reviews breakdown](/mortal-shell-2-steam-reviews/).
+This is an archive of the August 29 Week 1 Update, originally checked on September 2. Later official updates, including November hotfixes, supersede it where they address the same behaviour. For everything that shipped at launch see the [launch bugs page](/pc-requirements/#record-the-failure-before-changing-settings), and for how players have received the game overall, the [Steam reviews breakdown](/release-date/#judge-reviews-by-the-problem-you-care-about).

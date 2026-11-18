@@ -1,0 +1,5 @@
+{
+  "baselineCommit": "c0e112a1d1d26b79bc7f696d525cdc03e3f6a7ce",
+  "requiredLegacySources": [],
+  "evidence": "No tracked public/_redirects, Astro redirect configuration or generated dist/_redirects in original baseline. New merged routes must be verified as actual HTTP301 on production."
+}

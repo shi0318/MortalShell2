@@ -1,0 +1,37 @@
+---
+import Layout from './Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+interface Props { title: string; heading: string; description: string; }
+const { title, heading, description } = Astro.props;
+// These policy and identity pages were substantively revised on this date.
+// Guide dates continue to come from each individual article's frontmatter.
+const updatedAt = '2026-11-18';
+const crumbs = [{ name: 'Home', url: '/' }, { name: heading, url: Astro.url.pathname }];
+---
+
+<Layout title={title} description={description} schemaType="page" breadcrumb={crumbs} dateModified={updatedAt}>
+  <article class="mx-auto max-w-3xl">
+    <Breadcrumb items={crumbs} />
+    <h1 class="mt-4 text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">{heading}</h1>
+    <p class="mt-3 text-lg text-ash-400">{description}</p>
+    <p class="mt-4 text-sm text-ash-500">Last updated <time datetime={updatedAt}>{updatedAt}</time></p>
+    <div class="policy-copy prose-body mt-8 space-y-6 text-ash-200"><slot /></div>
+  </article>
+</Layout>
+
+<style>
+  .policy-copy :global(h2) {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-ash-100);
+  }
+  .policy-copy :global(p + p) { margin-top: 0.75rem; }
+  .policy-copy :global(a) {
+    color: var(--color-amber-glow);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    overflow-wrap: anywhere;
+  }
+</style>

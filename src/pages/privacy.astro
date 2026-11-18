@@ -1,85 +1,30 @@
 ---
-// 隐私政策 —— AdSense 条件（8.1）：说明 Cookie、数据收集、第三方服务（GA4）。
-import Layout from '../layouts/Layout.astro';
-import Breadcrumb from '../components/Breadcrumb.astro';
+import SitePage from '../layouts/SitePage.astro';
 import { SITE } from '../data/site';
-
-const title = 'Privacy Policy — Mortal Shell II Wiki';
-const description =
-  'How Mortal Shell II Wiki handles cookies, analytics, and third-party services. What we collect, why, and the choices you have.';
-
-const crumbs = [
-  { name: 'Home', url: '/' },
-  { name: 'Privacy Policy', url: '/privacy/' },
-];
-
-const updated = '2026-07-23';
 ---
 
-<Layout title={title} description={description} schemaType="article" breadcrumb={crumbs}>
-  <article class="mx-auto max-w-3xl">
-    <Breadcrumb items={crumbs} />
+<SitePage title="Privacy Policy — Mortal Shell 2 Wiki" heading="Privacy policy" description="How this fan guide handles page requests and contact emails, why Google Analytics is paused, and what would need to change before advertising is introduced.">
 
-    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Privacy Policy</h1>
-    <p class="mt-2 text-sm text-ash-500">Last updated <time datetime={updated}>{updated}</time></p>
-
-    <div class="prose-body mt-8 space-y-6 text-ash-200">
-      <p>
-        This policy explains what data {SITE.name} collects and how it is used. We keep it
-        short and specific — no boilerplate we don't actually rely on.
-      </p>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Analytics</h2>
-        <p class="mt-2">
-          We use Google Analytics 4 to understand which guides are useful and where readers
-          run into trouble. GA4 sets cookies and collects anonymised usage data such as pages
-          visited, approximate region, device type, and session duration. We do not collect
-          your name, email, or any information that identifies you personally through
-          analytics.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Cookies</h2>
-        <p class="mt-2">
-          Cookies on this site come from the analytics and, in future, advertising services
-          named here. You can block or delete cookies in your browser settings; the site
-          continues to work without them. Where required, a consent banner lets you choose
-          before non-essential cookies are set.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Advertising</h2>
-        <p class="mt-2">
-          If and when we display ads (for example, Google AdSense), the ad provider may use
-          cookies to serve and measure ads. This section will be updated with the specific
-          provider and its policy link before any ads go live. Any sponsored link on this
-          site is marked with <code>rel="sponsored"</code>.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Third-party links</h2>
-        <p class="mt-2">
-          We link to official sources (developer posts, Steam, trailers) so you can verify
-          our facts. Those sites have their own privacy policies, which we don't control.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Contact</h2>
-        <p class="mt-2">
-          Questions about this policy? Email
-          <a
-            href={`mailto:${SITE.contactEmail}`}
-            class="text-amber-glow underline underline-offset-2"
-          >
-            {SITE.contactEmail}
-          </a>.
-        </p>
-      </section>
-    </div>
-  </article>
-</Layout>
+<section><h2>Who operates this site</h2>
+<p>This policy covers {SITE.name} at mortalshell2.wiki. It is an independent fan guide, not a service operated by the game's developer, publisher or Mortal Shell rights holders. Contact the site operator at <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> for privacy questions or requests about correspondence.</p></section>
+<section><h2>What happens when you read a page</h2>
+<p>The site serves public guide pages without an account or a login. Its current application has no registration, checkout, public comments, newsletter sign-up, on-site contact form or file-upload feature. Reading a guide does not require giving us your name or email address. The application does not request your device's precise location.</p>
+<p>Your browser still sends ordinary network information when requesting a page or image. That includes the requested address, an IP address and browser information needed to deliver the response. Hosting and network providers may process request and security logs to deliver pages, diagnose errors or protect the service. These network records are distinct from an advertising profile. We do not promise that no technical data is processed merely because a page is static.</p></section>
+<section><h2>Google Analytics is paused</h2>
+<p>The current site template <strong>does not load Google Analytics</strong>. A previously configured Google Analytics 4 tag was paused during the November 18, 2026 revision because it loaded without a visitor consent choice. Pausing that tag stops new browser collection by that integration on the revised pages; it does not itself delete any data previously collected by the analytics provider.</p>
+<p>We have not confirmed the previous property's retention settings or historical records from its dashboard. Contact us if your request concerns earlier collection, and identify the approximate dates without sending passwords or additional sensitive information. If Google Analytics or an additional analytics service is introduced, this policy must identify the service and the site must implement the relevant consent controls before loading its tag.</p></section>
+<section><h2>Cloudflare performance and usage analytics</h2>
+<p>The live site uses <strong>Cloudflare Web Analytics</strong>, added by the hosting service when pages are delivered. Its browser beacon reports usage and page-load performance to Cloudflare. This helps us understand which pages are read and investigate loading problems. It is separate from the paused Google Analytics integration and is not an advertising service.</p>
+<p>Cloudflare describes this analytics service as cookie-free: it does not use browser cookies or local storage to collect usage metrics, or fingerprint people to follow them across sites for analytics. The beacon uses browser performance information to measure page loading. This does not mean that visiting the site involves no network processing; normal page and beacon requests still travel through network providers. See Cloudflare's <a href="https://developers.cloudflare.com/web-analytics/data-metrics/data-origin-and-collection/">data collection explanation</a>, <a href="https://www.cloudflare.com/web-analytics/">Web Analytics privacy information</a> and <a href="https://www.cloudflare.com/privacypolicy/">privacy policy</a> for the provider's practices.</p>
+<p>Your browser's script controls or content-blocking tools can limit the beacon; the guides remain readable without it. We do not currently provide an on-site analytics toggle. For questions about the site's use of this service or a data request, contact the site operator using the address above.</p></section>
+<section><h2>Cookies, storage and advertising</h2>
+<p>The current guide application does not set analytics or advertising cookies, create a local-storage visitor identifier, or run a personalised-advertising system. The site <strong>does not currently serve advertising</strong> and does not load Google AdSense code. There is no advertising consent banner or Google-certified advertising consent platform active on the current site. A statement in this policy is not a consent mechanism.</p>
+<p>Previously stored cookies may remain in your browser after an integration is paused. You can inspect, block or delete site cookies through your browser settings and continue reading the guides. Hosting-provider security measures and the websites reached through external links may have their own cookie behaviour.</p>
+<p>If advertising is introduced, this policy will need to describe the active providers, identifiers, purposes and available choices. Where advertising requires consent, visitors must be given an appropriate choice before the relevant advertising is activated.</p></section>
+<section><h2>Messages you choose to send</h2>
+<p>Using an email link opens your own email application. Sending a message discloses your email address, message and any attachments to the site's mailbox provider and operator. We use that correspondence to respond to the issue you raised, such as correcting a guide or reviewing an image-rights concern. We do not use the contact channel to build an advertising audience.</p>
+<p>Please send only information needed for the issue. Do not include passwords, payment details, account recovery codes, government documents or unrelated personal data. We do not intentionally solicit personal information from children. If you believe a child has sent personal information, contact us so the correspondence can be reviewed.</p></section>
+<section><h2>Requests, retention and external services</h2>
+<p>You may ask to access, correct or delete correspondence you sent. Describe the message and date so that the operator can locate it. We may need to confirm that a request concerns your own address. The current application does not have an automated deletion or retention system for email. Messages may remain while a correction, rights request or dispute is being handled, and provider backups or legally required records may limit immediate deletion. We cannot change records held independently by a third-party website.</p>
+<p>External store, support and reference links lead to services with their own policies. Our <a href="/contact/">contact page</a> is the route for concerns about this site. Changes to these practices will be reflected in this policy's update date; the date does not represent a review of every third-party provider's account settings.</p></section>
+</SitePage>

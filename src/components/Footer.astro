@@ -11,28 +11,19 @@ const footerNav = [
       { label: 'Release Date', href: '/release-date/' },
       { label: 'Beginner Guide', href: '/beginner-guide/' },
       { label: 'All Shells', href: '/shells/' },
-      { label: 'Tiel', href: '/tiel/' },
+
       { label: 'Boss Guide', href: '/bosses/' },
       { label: 'Map', href: '/map/' },
     ],
   },
-  {
-    title: 'Open Beta',
-    links: [
-      { label: 'Download Open Beta', href: '/download/' },
-      { label: 'Open Beta Guide', href: '/open-beta/' },
-      { label: 'Editions', href: '/editions/' },
-      { label: 'Beta Save Progress', href: '/beta-progress/' },
-      { label: 'PC Settings', href: '/pc-settings/' },
-      { label: 'Need Mortal Shell 1?', href: '/do-you-need-mortal-shell-1/' },
-    ],
-  },
+
   {
     title: 'Site',
     links: [
       { label: 'About', href: '/about/' },
       { label: 'Contact', href: '/contact/' },
       { label: 'Privacy Policy', href: '/privacy/' },
+      {label:'Terms of use',href:'/terms/'}, {label:'Editorial policy',href:'/editorial/'},
     ],
   },
 ];
@@ -55,10 +46,10 @@ const footerNav = [
           </div>
         </div>
         <p class="mt-4 max-w-xs text-sm leading-relaxed text-ash-400">
-          A verified, source-tracked wiki for Mortal Shell II. Every fact carries a confirmation status and a source.
+          An independent guide to the released Mortal Shell II, with gameplay decisions and clearly bounded historical references.
         </p>
-        <a href={SITE.openBetaUrl} target="_blank" rel="nofollow noopener noreferrer" class="btn-primary mt-5 !px-3.5 !py-2 text-xs">
-          Steam Open Beta ↗
+        <a href={SITE.fullGameUrl} target="_blank" rel="nofollow noopener noreferrer" class="btn-primary mt-5 !px-3.5 !py-2 text-xs">
+          Mortal Shell II on Steam ↗
         </a>
       </div>
 
@@ -82,12 +73,10 @@ const footerNav = [
 
     <div class="mt-12 space-y-3 border-t border-white/5 pt-7 text-xs leading-relaxed text-ash-500">
       <p>
-        <strong class="text-ash-400">Independent fan site.</strong> This is an independent fan site. Not affiliated with
-        or endorsed by {SITE.developer} / {SITE.publisher}. All trademarks are the property of their respective owners.
+        Unofficial fan site. Not affiliated with Cold Symmetry or Playstack. All trademarks are the property of their respective owners.
       </p>
       <p>
-        <strong class="text-ash-400">Sources &amp; imagery.</strong> Screenshots are captured in-game or taken from
-        official media kits. Every page notes the source and confirmation status of its information. To request removal
+        <strong class="text-ash-400">Sources &amp; imagery.</strong> Game imagery illustrates the subjects discussed; it is not evidence of our own benchmark or playthrough. To request removal
         of any content, see our <a href="/contact/" class="underline hover:text-ash-300">contact page</a>.
       </p>
       <p class="pt-1 text-ash-600">&copy; {year} {SITE.name}. Content licensed for personal use.</p>

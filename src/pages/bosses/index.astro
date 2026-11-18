@@ -1,123 +1,16 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import MediaFigure from '../../components/MediaFigure.astro';
-import { SITE_IMAGES } from '../../data/images';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { BOSSES } from '../../data/bosses';
-import { BOSS_REWARD_TYPES, STORY_BOSS, MINIBOSSES } from '../../data/encounters';
-
-const title = 'Mortal Shell 2 Bosses — Tar Golem, Rewards, and Miniboss Routes';
-const description =
-  'Mortal Shell 2 bosses: Tar Golem in Disciple\'s Grotto, how Gloom Glimpse Tarstone and Ova drops work, plus miniboss routes and rewards.';
-
-const crumbs = [
-  { name: 'Home', url: '/' },
-  { name: 'Bosses', url: '/bosses/' },
-];
-
-const namedPatch = BOSSES.filter((b) => b.slug !== 'open-beta-mini-bosses');
+const title = "Mortal Shell II Bosses: Encounters and Preparation Guides";
+const description = "Find Mortal Shell II named encounters, relevant patch changes, achievement objectives and focused boss preparation guides without invented drop tables.";
+const crumbs = [{name:'Home',url:'/'},{name:"Bosses",url:'/bosses/'}];
 ---
-
 <Layout title={title} description={description} schemaType="collection" breadcrumb={crumbs}>
-  <Breadcrumb items={crumbs} />
-
-  <header class="mb-8">
-    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">Mortal Shell 2 Bosses Guide</h1>
-    <p class="mt-3 max-w-2xl text-lg text-ash-400">
-      Story opener is Tar Golem. After that, named patch encounters and the miniboss list below. Gloom amounts
-      move with New Game cycles, so this page names the item, not a fake gold value. The
-      <a href="/mortal-shell-2-minibosses-list/" class="text-amber-glow hover:underline">miniboss checklist</a>{' '}
-      is the short index; the table further down keeps the longer route notes.
-    </p>
-  </header>
-
-  <div class="mb-8">
-    <MediaFigure
-      src={SITE_IMAGES.cathedralBoss.src}
-      alt={SITE_IMAGES.cathedralBoss.alt}
-      width={SITE_IMAGES.cathedralBoss.width}
-      height={SITE_IMAGES.cathedralBoss.height}
-    />
-  </div>
-
-  <section class="prose-body mb-10 max-w-3xl space-y-3 text-ash-300">
-    <h2 class="text-xl font-semibold text-ash-100">What bosses drop</h2>
-    <ul class="list-disc space-y-1 pl-5">
-      {BOSS_REWARD_TYPES.map((row) => (
-        <li>
-          <strong class="text-ash-100">{row.name}.</strong> {row.note}
-        </li>
-      ))}
-    </ul>
-  </section>
-
-  <section class="mb-10">
-    <h2 class="mb-4 text-xl font-semibold text-ash-100">Tar Golem</h2>
-    <article class="surface-card space-y-3 p-5 text-sm text-ash-300">
-      <p>
-        <strong class="text-ash-100">Area.</strong> {STORY_BOSS.area}
-      </p>
-      <p>
-        <strong class="text-ash-100">Trigger.</strong> {STORY_BOSS.trigger}
-      </p>
-      <p>
-        <strong class="text-ash-100">Rewards.</strong> {STORY_BOSS.rewards}
-      </p>
-      <p>
-        <strong class="text-ash-100">Fight.</strong> {STORY_BOSS.tips}
-      </p>
-      <p>
-        <a href="/bosses/tar-golem/" class="text-amber-glow hover:underline">Tar Golem fight page</a>
-      </p>
-    </article>
-  </section>
-
-  <h2 class="mb-4 text-xl font-semibold text-ash-100">Named patch encounters</h2>
-  <p class="mb-4 max-w-3xl text-sm text-ash-400">
-    These names are in Cold Symmetry's Week 1 notes. Use the detail pages for attack fixes. Locations and
-    extra drops sit in the miniboss table when the walkthrough recorded them.
-  </p>
-  <ul class="mb-10 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-    {
-      namedPatch.map((b) => (
-        <li>
-          {b.hasDetailPage ? (
-            <a href={b.detailHref ?? `/bosses/${b.slug}/`} class="text-amber-glow hover:underline">
-              {b.name}
-            </a>
-          ) : (
-            <span class="text-ash-200">{b.name}</span>
-          )}
-        </li>
-      ))
-    }
-  </ul>
-
-  <h2 class="mb-4 text-xl font-semibold text-ash-100">Minibosses</h2>
-  <div class="overflow-x-auto surface-card">
-    <table class="w-full min-w-[52rem] border-collapse text-sm">
-      <thead class="bg-ash-900 text-left text-ash-300">
-        <tr>
-          <th class="px-4 py-3 font-semibold">Name</th>
-          <th class="px-4 py-3 font-semibold">Area / route</th>
-          <th class="px-4 py-3 font-semibold">Rewards</th>
-          <th class="px-4 py-3 font-semibold">Fight</th>
-        </tr>
-      </thead>
-      <tbody>
-        {
-          MINIBOSSES.map((row) => (
-            <tr class="border-t border-white/5 align-top">
-              <td class="px-4 py-3 font-medium text-ash-100">{row.name}</td>
-              <td class="px-4 py-3 text-ash-300">
-                {row.area} {row.trigger}
-              </td>
-              <td class="px-4 py-3 text-ash-400">{row.rewards}</td>
-              <td class="px-4 py-3 text-ash-400">{row.tips}</td>
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
-  </div>
+<Breadcrumb items={crumbs} />
+<img src="/images/mortalshell2-cathedral-guardian-boss.webp" alt="Mortal Shell II bosses overview" width="1600" height="900" class="my-6 rounded-xl" loading="eager" decoding="async" /><header class="max-w-3xl"><h1 class="text-3xl font-bold text-ash-100">Mortal Shell II Bosses: Encounters and Preparation Guides</h1><p class="mt-4 text-ash-300">Choose an encounter to see its documented patch context and the guide relevant to your goal. This is an encounter index, not a complete boss-health or loot database. Historical fixes are labelled as changes in their update; they do not promise every current save is free of an issue.</p></header>
+<div class="mt-7 mb-8 flex flex-wrap gap-3">{BOSSES.map(item => <a class="text-amber-glow underline" href={`#${item.slug}`}>{item.name}</a>)}</div>
+<p class="mb-7 text-ash-300">Use <a class="text-amber-glow underline" href="/mortal-shell-2-boss-preparation-guide/">boss preparation</a> for loadout, runback and attack-window decisions. <a class="text-amber-glow underline" href="/mortal-shell-2-missable-achievements/">Tar Golem and the Nameless Captive action objectives</a> deserve a separate check before advancing. The <a class="text-amber-glow underline" href="/mammon-second-visit-survival-route/">Mammon return route</a> addresses exploration pressure rather than a universal boss order.</p>
+<div class="grid gap-6 md:grid-cols-2">{BOSSES.map(item => <section id={item.slug} class="surface-card p-6 scroll-mt-24"><h2 class="text-xl font-semibold text-ash-100">{item.name}</h2><p class="mt-3 text-ash-300">{item.note}</p><p class="mt-3"><a class="text-amber-glow underline" href="/mortal-shell-2-boss-preparation-guide/">Arena route and combat preparation</a> · <a class="text-amber-glow underline" href="/mortal-shell-2-missable-achievements/">Missable actions</a></p></section>)}</div>
+<p class="mt-10 text-ash-300"><a href="/guide/" class="text-amber-glow underline">Browse all gameplay guides</a> · <a href="/mortal-shell-2-achievements/" class="text-amber-glow underline">Full achievement conditions</a></p>
 </Layout>

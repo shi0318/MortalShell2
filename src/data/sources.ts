@@ -20,16 +20,16 @@ export interface StatusMeta {
 
 export const STATUS_META: Record<ConfidenceStatus, StatusMeta> = {
   official: {
-    label: 'Official',
+    label: 'Guide',
     icon: '✅',
     classes: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
-    description: 'Confirmed by the developer via official website, Steam, or Discord.',
+    description: 'Consult the evidence for each claim; this category is not developer endorsement.',
   },
   beta: {
-    label: 'Beta-tested',
+    label: 'Editorial analysis',
     icon: '🔬',
     classes: 'bg-sky-500/15 text-sky-300 border-sky-500/30',
-    description: 'Personally verified in a Beta build. Version and test date noted.',
+    description: 'Editorial interpretation; not a claim of personal testing.',
   },
   community: {
     label: 'Community reports',

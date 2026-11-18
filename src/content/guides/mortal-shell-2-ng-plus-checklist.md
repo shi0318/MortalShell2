@@ -20,7 +20,7 @@ sources:
 
 Starting **Mortal Shell 2 New Game Plus** is a one-way transition for the current world state. The game's Marrow Keep Gloom Siphon offers **Send Ova** after the final boss, and the existing NG+ guide documents the confirmed carry-over and reset behavior. Before selecting it, use this checklist to finish anything you still want from the current cycle. In particular, verify the two prologue achievements, any unresolved NPC requests, and optional exploration that you do not want to repeat immediately.
 
-This page is a pre-transition checklist, not a second carry-over table. For the full comparison of what persists and resets, see [Mortal Shell 2 New Game Plus](/mortal-shell-2-new-game-plus/). The list below focuses on decisions worth making before Send Ova, and clearly marks where the game's current records do not establish a permanent miss.
+This page is a pre-transition checklist, not a second carry-over table. For the full comparison of what persists and resets, see [Mortal Shell 2 New Game Plus](/mortal-shell-2-ng-plus-checklist/). The list below focuses on decisions worth making before Send Ova, and clearly marks where the game's current records do not establish a permanent miss.
 
 <figure>
   <img src="/images/mortalshell2-world-map-overview.webp" alt="Mortal Shell II interconnected world map overview for a pre-NG+ cleanup route" width="1800" height="1800" loading="lazy" decoding="async" />
@@ -33,7 +33,7 @@ The launch achievement record identifies **No, You Still Can't Win** as the Tar 
 
 The public missables page also lists **Mid Summer?** among achievements to check before advancing. Verify your own platform's achievement screen and the latest guide notes before assuming the objective is complete. If the achievement remains locked, read its current trigger requirements and finish that task while the relevant world state is still available. Do not rely on a general memory of having completed a similar interaction.
 
-**Peter's Perfect Parry** is tied to parrying every hit of The Nameless Captive's phase-two headspin. If it is still locked, use the [Nameless Captive boss route](/bosses/the-nameless-captive/) to review the attack and achievement timing before starting NG+. A sequence-based trophy is easier to verify in the current encounter than to reconstruct from a later cycle.
+**Peter's Perfect Parry** is tied to parrying every hit of The Nameless Captive's phase-two headspin. If it is still locked, use the [Nameless Captive boss route](/bosses/#the-nameless-captive) to review the attack and achievement timing before starting NG+. A sequence-based trophy is easier to verify in the current encounter than to reconstruct from a later cycle.
 
 Use [Mortal Shell 2 missable achievements](/mortal-shell-2-missable-achievements/) for the community report and [all achievements](/mortal-shell-2-achievements/) for the current published objectives. An achievement page may be updated after this checklist, so confirm the current text on your platform before making a final decision.
 
@@ -49,13 +49,13 @@ The current NG+ guide documents that NPC quests reset, and it records several po
 
 Do not treat a quest reset as evidence that every quest reward is lost forever. It means the next cycle may require repeating the NPC sequence. If you want a questline's current outcome saved in your notes, record the NPC, location, last conversation, and resulting item or change before you leave. A dated screenshot can be clearer than trying to reconstruct dialogue after a patch.
 
-The [NPC and quest references](/mortal-shell-2-all-shell-locations/) and individual region pages help with route planning, but not every optional conversation has a published complete transcript. Keep the observation and the inference separate.
+The [NPC and quest references](/shell-selection-guide/#unlocking-a-shell-and-buying-location-information) and individual region pages help with route planning, but not every optional conversation has a published complete transcript. Keep the observation and the inference separate.
 
 ## 4. Decide which optional dungeons to clear
 
 New Game Plus reseals dungeons and corrupted gates according to the documented reset table. If a dungeon contains a weapon, Shell, Tarstone, quest item, or route you want to understand before the map resets, finish it now and record its entrance and reward. If you only want another attempt at its enemies, you can leave it for the new cycle.
 
-Before a cleanup run, use the [map and fast-travel guide](/mortal-shell-2-map-fast-travel/) to travel between cleansed beacons. Mark any unresolved door or one-way route rather than assuming that a map icon tells you its key condition. The [dungeon exploration guide](/dungeon-exploration-guide/) offers a simple route log for entrances, rest points, blocked paths, and exits.
+Before a cleanup run, use the [map and fast-travel guide](/beacons/#travel-access-is-a-separate-progression-check) to travel between cleansed beacons. Mark any unresolved door or one-way route rather than assuming that a map icon tells you its key condition. The [dungeon exploration guide](/map/#optional-dungeons) offers a simple route log for entrances, rest points, blocked paths, and exits.
 
 This step is about avoiding needless rediscovery, not clearing every dungeon twice. Pick the few optional areas that support the build or collection goal you actually want to pursue.
 
@@ -63,7 +63,7 @@ This step is about avoiding needless rediscovery, not clearing every dungeon twi
 
 The NG+ guide confirms that you keep Gloom, Glimpse, coins, Shells, weapons, and many progression items. Carry-over means you do not need to spend every currency before Send Ova. Still, the final encounter can involve a Gloom decision, and the current boss-route pages warn players to level up before a point where the carried balance may be at risk.
 
-If you plan to use Gloom for a Harbinger level, upgrade, or Tarforge experiment, make that choice before the final route asks you to part with it. Balance Patch 1 reduced Tarforge smelting costs by 75%, so check current costs rather than relying on launch-era farming assumptions. The [Tarstones and Gloom upgrades guide](/mortal-shell-2-tarstones-gloom-upgrades/) explains how to test upgrades without inventing yields.
+If you plan to use Gloom for a Harbinger level, upgrade, or Tarforge experiment, make that choice before the final route asks you to part with it. Balance Patch 1 reduced Tarforge smelting costs by 75%, so check current costs rather than relying on launch-era farming assumptions. The [Tarstones and Gloom upgrades guide](/mortal-shell-2-best-weapon/#tarforge-upgrades-and-switching-weapons) explains how to test upgrades without inventing yields.
 
 Do not farm a specific amount merely because another save reports one. Your level, purchased upgrades, patch, and route determine what is useful. Use the current menu cost as the reliable number for your file.
 
@@ -73,11 +73,11 @@ The next cycle makes enemies more demanding while preserving most equipment prog
 
 Take a screenshot or write down your current Shell bond, weapon upgrade, Seal, Tarstone, and key ability setup. This is useful if an update changes a description or if you decide to test a new build after arriving back at Marrow Keep. It is not necessary to maximize every Shell before the transition; the existing guide says full bonding across the roster is one reason to pursue NG+.
 
-If you want to refund ability points, see [how to respec a Shell](/how-to-respec-a-shell/) before starting. Do not confuse a respec with resetting the world. They answer different problems.
+If you want to refund ability points, see [how to respec a Shell](/shell-selection-guide/#respec-with-methers-severance) before starting. Do not confuse a respec with resetting the world. They answer different problems.
 
 ## 7. Understand what the cycle resets
 
-The documented NG+ table lists these important resets: the Ovum count, Corrupted Gates and dungeons, most beacons, NPC quests, opened chests, and map markers. Fast travel and the revealed map persist according to the same record, while the world still requires you to revisit reset content. Verify the current full table on the [NG+ guide](/mortal-shell-2-new-game-plus/) if a particular item or flag matters to your plan.
+The documented NG+ table lists these important resets: the Ovum count, Corrupted Gates and dungeons, most beacons, NPC quests, opened chests, and map markers. Fast travel and the revealed map persist according to the same record, while the world still requires you to revisit reset content. Verify the current full table on the [NG+ guide](/mortal-shell-2-ng-plus-checklist/) if a particular item or flag matters to your plan.
 
 That distinction changes what you should do before clicking the menu option. A map that remains revealed does not mean every beacon remains cleansed. A weapon remaining in your inventory does not mean its original chest will remain empty. A quest character returning does not mean your previous conversation sequence has been preserved.
 
@@ -91,6 +91,6 @@ Before confirming the next cycle, verify each line that matters to your save:
 - Clear optional dungeons tied to a goal you do not want to repeat immediately.
 - Spend Gloom that you are willing to risk on the next progression gate.
 - Record the Shell, weapon, sidearm, Seal, and upgrade setup you plan to carry forward.
-- Read the complete [NG+ carry-over table](/mortal-shell-2-new-game-plus/) once more.
+- Read the complete [NG+ carry-over table](/mortal-shell-2-ng-plus-checklist/) once more.
 
-After that, go to the Gloom Siphon at Marrow Keep and select **Send Ova** only when you are ready to leave the current world state. If you want a fuller route for the first hours of the next cycle, use the [first-hours guide](/mortal-shell-2-first-hours/) as a refresher and check current patch notes before repeating a step that has changed.
+After that, go to the Gloom Siphon at Marrow Keep and select **Send Ova** only when you are ready to leave the current world state. If you want a fuller route for the first hours of the next cycle, use the [first-hours guide](/beginner-guide/#learn-one-exchange-before-adding-a-combo) as a refresher and check current patch notes before repeating a step that has changed.

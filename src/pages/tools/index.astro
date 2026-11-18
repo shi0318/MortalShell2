@@ -3,9 +3,9 @@
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 
-const title = 'Mortal Shell II Tools — PC Requirements, Map & Launch Checks';
+const title = 'Mortal Shell II Tools — PC Diagnosis, Map and Completion Checks';
 const description =
-  'Mortal Shell II tools for PC requirements, launch checks, map notes, weapons evidence, Shell roster and archived Open Beta performance reports.';
+  'Practical Mortal Shell II references for PC diagnosis, Beacon progress, route planning, Tarstone resets, achievements and New Game Plus decisions.';
 
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -13,48 +13,12 @@ const crumbs = [
 ];
 
 const tools = [
-  {
-    href: '/mortal-shell-2-gloom-farming-guide/',
-    label: 'Gloom',
-    title: 'Gloom farming',
-    description: 'Community order for the reported endgame chest room and the sacrifice prompt.',
-  },
-  {
-    href: '/mortal-shell-2-tarstones-gloom-upgrades/',
-    label: 'Upgrades',
-    title: 'Tarstones and Gloom upgrades',
-    description: 'The 75% Tarforge Gloom discount from Balance Patch 1 and how to plan upgrades after it.',
-  },
-  {
-    href: '/mortal-shell-ii-open-beta-walkthrough/',
-    label: 'Route checklist',
-    title: 'Open Beta Walkthrough',
-    description: 'Track the Prologue, first region, Tiel, Beacons, optional dungeons, challenges and Marrow Keep.',
-  },
-  {
-    href: '/mortal-shell-ii-open-beta-weapons-guide/',
-    label: 'Weapons evidence',
-    title: 'Open Beta Weapons Guide',
-    description: 'Review the confirmed Axe-and-Dagger objective and separate Beta evidence from unverified retail stats.',
-  },
-  {
-    href: '/shells/',
-    label: 'Shell roster',
-    title: 'Verified Shells Tracker',
-    description: 'Compare the Shell information that official Open Beta and reveal material currently confirm.',
-  },
-  {
-    href: '/map/',
-    label: 'Route map',
-    title: 'Known Regions Map',
-    description: 'Use the current official region, Beacon, Shell and route notes without treating the Beta-era map as a complete retail map.',
-  },
-  {
-    href: '/mortal-shell-2-beta-performance-fixes/',
-    label: 'PC checks',
-    title: 'Beta Performance Checks',
-    description: 'Work through official requirements and public reports about crashes, stutter and camera problems.',
-  },
+ {href:'/pc-requirements/',label:'PC diagnosis',title:'Requirements and troubleshooting',description:'Compare the published hardware requirements, then investigate shader hitches, crowded-area slowdowns and display changes.'},
+ {href:'/beacons/',label:'Checkpoint progress',title:'Beacon cleansing and travel checks',description:'Distinguish discovery, cleansing, travel access and an unavailable upgrade before repeating a route.'},
+ {href:'/map/',label:'Navigation',title:'Map and route planning',description:'Plan a return route, compare elevations and decide when to enter an optional dungeon.'},
+ {href:'/mortal-shell-2-achievements/',label:'Completion reference',title:'All published achievement conditions',description:'Find the exact 53 Steam conditions, separate collection goals and check a special action before another cycle.'},
+ {href:'/rotten-autumn-tarstone-build-reset/',label:'Build changes',title:'Tarstone reset workflow',description:'Use the documented Rotten Autumn changes to reset the Tarstone part of a build, separately from a Shell bond.'},
+ {href:'/mortal-shell-2-ng-plus-checklist/',label:'Before advancing',title:'New Game Plus checklist',description:'Check current objectives and unfinished decisions before choosing another campaign cycle.'},
 ];
 ---
 
@@ -62,11 +26,10 @@ const tools = [
   <Breadcrumb items={crumbs} />
 
   <header class="mb-8">
-    <p class="section-kicker">Play while you check</p>
+    <p class="section-kicker">Practical references</p>
     <h1 class="section-title mt-3 md:text-5xl">Mortal Shell 2 Tools</h1>
     <p class="mt-3 max-w-3xl text-lg text-ash-400">
-      These tools are deliberately small and evidence-led. Each one answers a task you can act on in
-      the released Mortal Shell II instead of presenting an unverified database full of empty fields.
+      Choose the task you are working on in the released Mortal Shell II. These references connect the current system, its documented changes and the next action to check.
     </p>
   </header>
 
@@ -82,12 +45,10 @@ const tools = [
   </section>
 
   <section class="surface-card mt-10 p-6 md:p-8">
-    <p class="section-kicker">Evidence boundary</p>
-    <h2 class="section-title mt-3">What these tools do not invent</h2>
+    <p class="section-kicker">Build planning</p>
+    <h2 class="section-title mt-3">Choose the right part of your build</h2>
     <p class="mt-3 max-w-3xl text-ash-400">
-      Beta pages remain historical evidence. Exact retail weapon locations, final Shell stats,
-      complete boss order and full-game completion time are added only when the current build or a
-      repeatable source verifies them.
+      Shell bonding, Tarstone upgrades and weapon smelting are different systems. A Shell respec does not reset every part of a loadout. If you are changing equipment, begin with the relevant system and keep the rest constant while comparing the result.
     </p>
   </section>
 </Layout>

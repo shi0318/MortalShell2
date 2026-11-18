@@ -1,60 +1,77 @@
 ---
-title: "Mortal Shell II PC Requirements — Official System Specs"
-heading: "Mortal Shell II PC Requirements"
-description: "Mortal Shell II PC requirements from Steam: minimum CPU, GPU, RAM, storage, Windows version, DirectX 12 and the SSD requirement."
+title: "Mortal Shell II PC Requirements and Performance Troubleshooting"
+heading: "Mortal Shell II PC Requirements and Performance Troubleshooting"
+description: "Check the published PC hardware floor, then distinguish shader hitches, crowded areas, frame generation and latency settings without invented FPS promises."
 category: guide
-keyword: "mortal shell 2 pc requirements"
 status: official
 preRelease: false
-order: 6
-updatedAt: "2026-08-20"
+updatedAt: "2026-11-18"
 cover: /images/mortalshell2-shell-greatsword-closeup.webp
-sources:
-  - status: official
-    sourceUrl: https://store.steampowered.com/app/2584270/Mortal_Shell_II/
-    sourceDate: "2026-08-14"
-    lastChecked: "2026-08-20"
-    note: "Steam full-game listing for Mortal Shell II, including the August 20, 2026 release date and published minimum PC requirements."
+sources: []
 ---
 
-**Mortal Shell II is now available on PC through Steam.** This page answers the practical search question — “can my PC run Mortal Shell II?” — using the full game's official Steam requirements. These are published requirements, not a personal benchmark or a promise of a specific frame rate.
+Start with the full game's published minimum requirements, then identify the symptom you actually need to solve. A pause after loading, a slow crowded fight and an input-delay complaint are different problems. The same graphics change need not help all three. This guide combines the current Steam hardware listing with specific documented optimization changes; it does not publish a personal benchmark or promise an official frame-rate target.
 
-<figure>
-  <img src="/images/mortalshell2-shell-greatsword-closeup.webp" alt="Mortal Shell II shell warrior holding a greatsword in official Steam artwork" width="1920" height="1080" loading="lazy" decoding="async" />
-  <figcaption>Official Mortal Shell II Steam artwork used for this PC requirements guide.</figcaption>
-</figure>
+## Published PC requirements
 
-## Minimum system requirements
+The Steam Windows listing checked on November 18, 2026 provides the following minimum tier. It does not supply a complete recommended CPU/GPU tier or a resolution-and-quality performance guarantee.
 
-| Component | Official minimum |
+| Component | Published minimum |
 | --- | --- |
 | Operating system | Windows 10 / 11 |
-| Processor | Intel Core i7-10700K or AMD Ryzen 5 3600 |
+| Processor | Intel Core i7-10700K at 3.8 GHz or better, or AMD Ryzen 5 3600 at 3.6 GHz or better |
 | Memory | 16 GB RAM |
 | Graphics | NVIDIA GeForce RTX 2060 SUPER 8 GB or AMD Radeon RX 6600 8 GB |
+| DirectX | Version 12 |
 | Storage | 70 GB available space |
-| Additional note | SSD required |
+| Additional requirement | SSD required |
 
-## Is a recommended specification available?
+Check the drive containing the Steam library, not only the drive where a desktop shortcut exists. Available storage is not a promise about download size, patch staging space or every future installation. Leave room for updating. Meeting the table establishes eligibility against the published floor; it does not identify the cause of a particular crash or certify every laptop power configuration.
 
-The public Steam listing currently supplies the minimum block but does not provide a complete recommended CPU and GPU tier. That means a “recommended RTX” or an official 1080p/60 FPS target would be an invention unless the developer adds it to Steam.
+For purchasing and installation, use the [installation guide](/download/). A retail requirement is not evidence that an old Open Beta build remains downloadable, and a beta result is not automatically a benchmark for the installed retail version.
 
-The safe planning answer is:
+## Record the failure before changing settings
 
-- **16 GB RAM is the published minimum**, not a recommended target.
-- **An RTX 2060 SUPER 8 GB or RX 6600 8 GB is the published graphics floor.**
-- **70 GB of storage and an SSD are required by the listing.**
-- Leave additional free space for updates rather than treating 70 GB as a guaranteed download size.
+Write down whether the issue happens in the menu, after shader compilation, when entering an area, while cleansing a tar gate or during a dense fight. Include the game build if visible, GPU driver, display resolution and relevant quality settings. A location-specific report is more useful than saying the entire game runs badly.
 
-## Mortal Shell II PC launch checklist
+Choose a short comparison that you can repeat without risking important progress. Keep the Shell, route and encounter conditions similar. Changing a weapon, entering a different dungeon and switching several display options creates too many competing explanations. Compare the same action before drawing a conclusion about the setting.
 
-1. Confirm that Windows is 64-bit and that the CPU/GPU match or exceed the Steam minimum.
-2. Check that the game library is installed on an SSD with more than the listed free space if possible.
-3. Leave extra SSD space for patches instead of treating 70 GB as a guaranteed final install size.
-4. Treat Open Beta performance reports separately from the retail build and compare any issue against the latest patch.
+Distinguish a crash from an image pause. If sound and input continue, note that; if the process exits, preserve its error message. If the image stays smooth but a button response feels delayed, follow the latency section rather than assuming that storage is causing the problem.
 
-This page will be updated when the official listing changes or a reproducible retail-build test supplies new data. For Beta-specific context, use the [Open Beta guide](/open-beta/) and keep those observations labelled as Beta.
+## Shader and loading hitches
 
-## Source
+The official Week 1 update describes a significant hitch shortly after the shader compilation screen and says that work was moved into the menu. That is a specific historical fix, not proof that every later pause has the same cause. Another official hotfix records rebuilt shader/PSO caches and world HLODs.
 
-- [Mortal Shell II on Steam](https://store.steampowered.com/app/2584270/Mortal_Shell_II/) — official full-game listing, release date, platform and PC requirements, checked August 14, 2026.
+Confirm that Steam has applied the available game update before troubleshooting a symptom already addressed in an older build. Allow the loading process to finish before judging whether the next area is responsive. Repeatedly terminating a progressing launch makes it harder to distinguish a slow operation from a genuine failure.
+
+Do not delete arbitrary shader directories, configuration files or saves just because a post says a cache reset helped its author. A file reset is a separate intervention with a specific target and recovery plan. First record the error and current settings; use normal Steam file verification when damaged or missing installation files are a plausible cause.
+
+## Crowded areas and location-specific slowdowns
+
+The Week 1 notes separately mention reducing enemies in some crowded areas, rebuilding dense-prison spawners and fixing a frame-rate drop when cleansing tar gates. These are useful distinctions: crowd load, an environmental interaction and shader work were separate documented problems.
+
+If your problem appears only in a busy fight, compare that encounter with a quieter stretch at the same display settings. Do not call that comparison a controlled FPS benchmark: the workload differs. Its purpose is to establish where the failure occurs so that the next test or support report is specific.
+
+If a visible pause repeatedly follows cleansing a gate, capture the sequence and check the installed version. Changing combat equipment is not a demonstrated graphics repair. Conversely, a consistently missed dodge during an otherwise smooth encounter may require a control or combat check rather than lower texture settings.
+
+## Frame generation and display changes
+
+The Week 1 notes say NVIDIA frame generation became selectable on a wider range of cards. That does not mean every GPU supports the option or that every generated frame improves control response. Inspect the options available to your own hardware instead of copying a configuration from an unrelated card.
+
+For a problem that starts after enabling frame generation, compare the same scene with that feature disabled while retaining the other settings. Note image quality, response and stability separately. A displayed FPS counter alone cannot tell you whether input feels better or whether intermittent pauses have disappeared.
+
+A later optimization hotfix fixed a missing VSync tooltip while frame generation was enabled. A tooltip fix is not evidence of a newly measured performance increase. Read what the current menu actually allows. Do not combine frame generation, VSync, resolution and display mode changes in one attempt and then attribute the result to one of them.
+
+## Low Latency Mode and input complaints
+
+An official hotfix added a Low Latency Mode menu option for NVIDIA Reflex and AMD Anti-Lag 2. Use the game's current exposed control where supported rather than assuming that an Engine.ini line from an old post is necessary.
+
+Compare a repeatable input, such as a menu response or a familiar movement in a safe area, before returning to a demanding fight. Keep the controller connection and display setup unchanged during that comparison. A different input device or Bluetooth connection adds another variable.
+
+This is not a recommendation to force every external driver setting. If the in-game option is unavailable or behaves unexpectedly, record the GPU, driver and menu state. A report about one manufacturer's supported feature cannot establish how another implementation behaves.
+
+## When to stop experimenting
+
+Stop making configuration changes when you cannot identify which alteration affected the symptom. Restore the last known stable display setup when possible, preserve saves and report the repeatable failure through the game's official support route. Include the steps, location, hardware, build and changes already tried; omit account credentials.
+
+Use the [guide directory](/guide/) when the issue is progression or combat rather than performance. A stable image does not guarantee a successful encounter, and a difficult fight does not itself establish a PC fault. Keeping those questions separate prevents replacing a gameplay decision with an unsupported system tweak.

@@ -16,7 +16,7 @@ interface Crumb {
 interface Props {
   title: string;
   description: string;
-  schemaType?: 'home' | 'article' | 'news' | 'collection';
+  schemaType?: 'home' | 'article' | 'news' | 'collection' | 'page';
   breadcrumb?: Crumb[];
   datePublished?: string | Date;
   dateModified?: string | Date;
@@ -46,7 +46,8 @@ const canonicalUrl = isErrorPage
   ? undefined
   : (canonical ?? new URL(path, SITE.url).href);
 const ogImageUrl = new URL(ogImage, SITE.url).href;
-const GA_ID = 'G-FE8CNPWM8M';
+// Retained configuration; loading requires a reviewed consent implementation.
+const pausedGA4 = 'G-FE8CNPWM8M';
 const published = toDateString(datePublished);
 const modified = toDateString(dateModified);
 const ogType = schemaType === 'article' || schemaType === 'news' ? 'article' : 'website';
@@ -86,13 +87,6 @@ const ogType = schemaType === 'article' || schemaType === 'news' ? 'article' : '
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="application-name" content={SITE.name} />
     <meta name="theme-color" content="#0a0a0b" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-
     <Schema
       type={schemaType}
       path={path}
@@ -104,19 +98,7 @@ const ogType = schemaType === 'article' || schemaType === 'news' ? 'article' : '
       ogImage={ogImageUrl}
     />
 
-    {
-      GA_ID && (
-        <>
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
-          <script is:inline set:html={`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_ID}');
-          `} />
-        </>
-      )
-    }
+
   </head>
   <body class="flex min-h-screen flex-col">
     <AmbientParticles />

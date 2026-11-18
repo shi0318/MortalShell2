@@ -8,14 +8,18 @@ status: community
 preRelease: false
 cover: /images/mortalshell2-village-accordion-npc.webp
 coverAlt: "Mortal Shell II: Pulse Upgrade Unselectable at a Beacon gameplay illustration"
-updatedAt: "2026-11-10"
+updatedAt: "2026-11-18"
 order: 1
 sources: []
 ---
 
-If a Pulse upgrade cannot be selected at a Beacon in Mortal Shell II, inspect the exact menu label, displayed material requirement, and input focus before spending resources elsewhere. A November player report describes an inability to select or upgrade the entry; that report is not proof of a universal bug or an official workaround. The steps below help you establish what the current save is doing while preserving a usable campaign. They deliberately avoid assuming that reloading guarantees a fix or that buying another material always unlocks the option.
+If a Pulse upgrade cannot be selected at a Beacon in Mortal Shell II, inspect the exact menu label, displayed material requirement, and input focus before spending resources elsewhere. A November player report described an inability to select or upgrade the entry; the November 16 official hotfix subsequently addressed mouse selection for Mether Pulse in the Beacon menu. The steps below help you establish what the current save is doing while preserving a usable campaign. They deliberately avoid assuming that reloading guarantees a fix or that buying another material always unlocks the option.
 
 <figure><img src="/images/mortalshell2-village-accordion-npc.webp" alt="Mortal Shell II: Pulse Upgrade Unselectable at a Beacon gameplay illustration" width="1200" height="675" loading="lazy" decoding="async" /></figure>
+
+## Install the November 16 mouse-selection fix
+
+The November 16 official hotfix explicitly says that Mether Pulse can now be selected with the mouse in the Beacon menu. If mouse selection is your exact symptom, fully close the game, let the update finish, and retest that row before investigating materials or rebuilding a character. This is a documented fix for a specific input interaction, not a promise that every unavailable upgrade shares that cause. If the row highlights but confirmation remains disabled, inspect the displayed requirement as described below. Record the installed build if mouse selection still fails after updating.
 
 ## Separate the upgrade from travel
 Start by reading the text in the Beacon menu rather than relying on a remembered spelling. Player discussions can use “Mother's Pulse” while other descriptions use “Mether's Pulse,” and similar names are easily confused with travel terminology. Your screen is the reference for the action you are attempting. Record whether you are trying to improve healing, increase uses, or select a destination. These are different goals. A travel destination refusing selection should not send you searching for a healing upgrade material, and a healing menu problem should not be diagnosed as a missing destination.
@@ -43,7 +47,7 @@ Closing and reopening a menu is a low-cost way to check whether the presentation
 If you can safely reach another already-known Beacon, you may compare the same action there using the same save and input device. Do not begin a difficult new route only to test a menu. A different result at another location is valuable evidence, but it still does not identify the underlying cause. Record both locations and the exact outcome. If the option remains unavailable everywhere you test, keep your resources intact and continue only with activities your present equipment can support. A blocked upgrade does not automatically mean the entire campaign must be restarted.
 
 ## Report the failure precisely
-A useful report includes platform, current build, Beacon location, the exact label, material requirement, owned count, input device, and where selection fails. Add whether the problem survives normal reopening or loading and whether another known Beacon behaves differently. Avoid calling it a confirmed patch regression unless you have a reliable comparison from the same save before and after that update. The latest available hotfix may address other systems without promising anything about this particular selection problem.
+A useful report includes platform, current build, Beacon location, the exact label, material requirement, owned count, input device, and where selection fails. Add whether the problem survives normal reopening or loading and whether another known Beacon behaves differently. Avoid calling it a confirmed patch regression unless you have a reliable comparison from the same save before and after that update. The November 16 mouse-selection fix is directly relevant when that is your symptom; a different failure, such as disabled confirmation despite normal focus, still needs its own reproduction.
 
 Should you start over? Only after understanding the consequences and exhausting a reasonable report path; a fresh campaign is a large cost for an unproven repair. Should you edit the save? An undocumented edit can damage progression and erase the evidence. Should you farm more materials despite meeting the displayed requirement? That is not a demonstrated solution. Preserve the save, distinguish requirement checks from interface failures, and keep the next attempt short and reproducible. That gives you a practical way forward without turning one unavailable menu entry into a series of irreversible guesses.
 

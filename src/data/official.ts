@@ -33,7 +33,7 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   {
     label: 'Shells & World',
     value:
-      'The full game has eight playable Shells in a compact, interconnected world with more than 80 dungeons. Explore off the main path for Shells, weapons, upgrades, and curiosities.',
+      'The full game has eight playable Shells in a compact, interconnected world. Explore off the main path for Shells, weapons, upgrades, and curiosities.',
     sourceLabel: 'Steam',
     sourceUrl: SITE.fullGameUrl,
   },

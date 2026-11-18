@@ -1,140 +1,82 @@
 ---
-title: "Mortal Shell 2 Best Weapon — What the Patch Notes Actually Prove"
-heading: "Mortal Shell 2 Best Weapon: Ranked by Published Evidence"
-description: "Mortal Shell 2 best weapon: Cold Symmetry published no damage values, but two patches named ten weapons with exact buffs. Here is what that evidence proves."
-category: weapons
-keyword: "mortal shell 2 best weapon"
-status: official
+title: "Mortal Shell II Weapon Guide: Patch Changes, Upgrades and Safe Comparisons"
+heading: "Mortal Shell II Weapon Guide: Patch Changes, Upgrades and Safe Comparisons"
+description: "Choose a Mortal Shell II weapon using documented buffs, ability changes, Tarforge costs and a practical comparison method rather than an unsupported damage ranking."
+category: "weapons"
+cover: "/images/mortalshell2-shell-greatsword-closeup.webp"
+status: "official"
 preRelease: false
-order: 2
-updatedAt: "2026-09-02"
-cover: /images/mortalshell2-shell-greatsword-closeup.webp
-sources:
-  - status: official
-    sourceUrl: "https://steamcommunity.com/app/2584270/discussions/0/582805931178489108/"
-    sourceDate: "2026-08-20"
-    gameVersion: "Mortal Shell II Balance Patch 1"
-    lastChecked: "2026-09-02"
-    note: "Balance Patch 1 (smithbodie [DEVELOPER], 20 August 2026) lists Great Martyr's Blade Attack Damage +20%, Troubador's Lute Attack Damage +100%, removal of minimum resolve requirements to fire on Caged Hystrix and Triarch Repeater, improved light-attack tracking for Axatana / Black Needle / Clockwork Scythe, a 75% Tarforge smelting discount, and buffs to five named Tarstones."
-  - status: official
-    sourceUrl: "https://store.steampowered.com/news/app/2584270/view/690892955941077484"
-    sourceDate: "2026-08-29"
-    gameVersion: "Mortal Shell II Week 1 Update"
-    lastChecked: "2026-09-02"
-    note: "The Week 1 Update lists the Obsidian Hammer full balance pass, a second Great Martyr's Blade buff that admits the first never shipped, the heavy-weapon poise and damage pass, the Salvaged Trebuchaxe Tarred Fragment redesign, the Axatana ability granting invulnerability frames and inflicting Fragile stacks, Weltcap changes, and the full riposte scaling pass."
-  - status: official
-    sourceUrl: "https://steamcommunity.com/stats/2584270/achievements/"
-    sourceDate: "2026-09-01"
-    gameVersion: "Mortal Shell II retail, Steam App 2584270"
-    lastChecked: "2026-09-02"
-    note: "Valve's public achievement page supplies the thirteen weapon names and their global unlock rates. It publishes no damage values, movesets or locations."
+order: 4
+updatedAt: "2026-11-18"
+sources: []
 ---
 
-Short answer: **nobody can rank Mortal Shell 2 weapons by damage, because Cold Symmetry has never published a single damage value.** What the developer *has* published is which weapons they buffed and, in two cases, by exactly how much. That is a real basis for a recommendation, and it is the only one that exists.
+![Mortal Shell II official gameplay scene](/images/mortalshell2-shell-greatsword-closeup.webp)
 
-On that evidence the most defensible pick is the **Axatana**. The largest published number belongs to a weapon most lists leave out entirely — the **Troubador's Lute**, at +100% attack damage. And the single change that affects your damage more than any weapon choice is not a weapon change at all: the **Week 1 riposte pass**.
+The best weapon for your present Mortal Shell II encounter is one whose reach, recovery and ability fit the opening you can use. Published patch changes help identify weapons to revisit, but a percentage buff is not a damage ranking. Without a common baseline, attack speed, upgrade level and target, a larger buff cannot establish the highest damage per second.
 
-<figure>
-  <img src="/images/mortalshell2-shell-greatsword-closeup.webp" alt="Mortal Shell 2 warrior holding a greatsword over one shoulder, used for the best weapon guide" width="1600" height="900" loading="lazy" decoding="async" />
-  <figcaption>Official Steam weapon artwork. Thirteen weapons are named in the retail achievement list; eight of them have been named in a patch note, plus two more that have no achievement at all.</figcaption>
-</figure>
+This guide compares specific changes from Balance Patch 1 and the Week 1 Update, then explains how to choose between the weapons already in your inventory. These are historical changes, not a claim that August's notes are the latest patch. Check your installed build before comparing them with newer player demonstrations.
 
-## Why the Axatana is the defensible pick
+## Weapon changes worth knowing
 
-Three published facts, none of them a damage number:
+| Weapon or group | Documented change | How to use the information |
+|---|---|---|
+| Troubador's Lute | Balance Patch 1 increased attack damage by 100% | Reconsider an old launch impression; the percentage alone does not establish its absolute damage |
+| Great Martyr's Blade | A 20% increase was announced in Balance Patch 1; Week 1 says that change had not applied and supplies a larger adjustment without a percentage | Do not multiply the two announcements as if both buffs shipped |
+| Obsidian Hammer | Week 1 included a balance pass and increased its hitting power | Recheck a heavy punish window on the installed build |
+| Axatana | Improved light-attack tracking; Week 1 changed its ability to grant invulnerability frames and inflict Fragile stacks | Inspect the ability and practise its activation rather than assuming an old demonstration still applies |
+| Salvaged Trebuchaxe | Its Tarred Fragment was redesigned in Week 1 | A build depending on the launch Fragment needs a fresh comparison |
+| Weltcap | Week 1 strengthened active and passive forms | Read the current effect rather than treating the patch phrase as a full moveset description |
+| Caged Hystrix and Triarch Repeater | Balance Patch 1 removed minimum Resolve requirements to fire | Distinguish that threshold from the complete current cost and resource rules |
+| Black Needle and Clockwork Scythe | Balance Patch 1 improved light-attack tracking | Test whether a moving target still escapes your usual opening |
+| Heavy weapons | Week 1 adjusted poise and damage | Compare the individual weapon rather than assuming every heavy weapon changed identically |
 
-1. **It is the only weapon whose ability effect the developer states outright.** The Week 1 Update says the Axatana's weapon ability "now grants invulnerability frames and inflicts Fragile stacks". For every other weapon in the game, what its ability *does* is unpublished.
-2. **It is the only weapon named in both post-launch patches.** Balance Patch 1 improved its light-attack tracking; the Week 1 Update rebuilt its ability and fixed its combat Tarstone active so that it triggers correctly.
-3. **Invulnerability frames survive a rebalance in a way damage does not.** A weapon that is best because of an unpublished damage figure can be nerfed into irrelevance next patch. A weapon that makes you briefly untargetable is solving a different problem, and this game has already shown it will retune damage numbers twice in nine days.
+The table is a patch index, not a complete arsenal count. Achievement unlock entries do not necessarily enumerate every weapon or every Sidearm. An item without a dedicated unlock achievement can still exist, and an achievement called “unlock all Weapons” should not be reinterpreted from a count of individual achievement rows.
 
-Two honest caveats. The Axatana is unlocked by 43.6% of players, so it is not an opening-hours pickup, and its location is not published anywhere. And the phrase "Fragile stacks" is genuinely ambiguous: the same patch introduces **Fragile Tarstones**, a durability class that breaks. Whether an enemy carrying Axatana Fragile stacks takes more damage, breaks posture faster, or something else, the notes do not say. Anyone who tells you the multiplier is guessing.
+## Choosing a first comparison
 
-The Axatana also returns from Mortal Shell (2020) as the "Martelli Axatana", a switchable axe/katana, and its achievement is titled **Dual Wielding**. That is consistent with a two-stance weapon — but an achievement title is not a mechanic statement, and the retail moveset has never been documented.
+Take two weapons you can currently equip. Begin with the one whose ordinary attack recovers in time for the enemy's next swing. Compare a single light attack before adding a charged attack, Fragment or ability. This gives you a usable fallback when an ability is unavailable or an enemy does not react as expected.
 
-## Every published weapon change, in one table
+Reach can matter as much as damage in a narrow opening. If a weapon misses unless you move farther into a boss's follow-up, its nominal damage is not the whole comparison. Conversely, a longer weapon is not automatically safer in a tight room where the camera and walls hide the next attack. Use the arena and enemy you are trying to clear rather than one universal “best” label.
 
-| Weapon | What Cold Symmetry published | Source patch |
-| --- | --- | --- |
-| **Troubador's Lute** | Attack Damage **+100%** — the largest single buff either patch contains | Balance Patch 1 |
-| **Obsidian Hammer** | Full balance pass; "now hits substantially harder" — the strongest buff language used for any weapon | Week 1 Update |
-| **Great Martyr's Blade** | +20% announced, then admitted never to have shipped; replaced by a larger unstated buff | Both |
-| **Axatana** | Ability grants invulnerability frames and inflicts Fragile stacks; light-attack tracking improved; combat Tarstone active fixed | Both |
-| **Salvaged Trebuchaxe** | Tarred Fragment redesigned because it was "simultaneously overpowered and broken" | Week 1 Update |
-| **Weltcap** | "Stronger in both its active and passive forms" | Week 1 Update |
-| **Caged Hystrix** | No longer has a minimum resolve requirement to fire | Balance Patch 1 |
-| **Triarch Repeater** | No longer has a minimum resolve requirement to fire | Balance Patch 1 |
-| **Black Needle** | Light-attack tracking improved | Balance Patch 1 |
-| **Clockwork Scythe** | Light-attack tracking improved | Balance Patch 1 |
-| *All heavy weapons* | Poise and damage pass | Week 1 Update |
+The Axatana is worth inspecting if you want the ability behaviour described in Week 1. Its published invulnerability change is a concrete feature, but the note does not give a universal frame count or say that it defeats every grab and environmental hazard. Test the activation on a predictable attack. Treat the named Fragile stacks separately from Fragile Tarstones; a shared word does not establish that the two systems have identical rules.
 
-Five of the thirteen achievement-tracked weapons appear in neither patch: Axe and Dagger, Forgotten Crossbow, Veteran's Battle Axe, Cursed Child and Ballistazooka. For those, a name and an unlock rate is genuinely all that exists. The full table with unlock percentages is on the [Mortal Shell 2 weapons hub](/weapons/).
+The Great Martyr's Blade and Obsidian Hammer are reasonable candidates when you have a long punish window and want to revisit a heavy weapon after the August changes. The notes do not establish a fixed stagger threshold for every boss. Start with one punish, release the input and check recovery before trying a chain.
 
-## The +100% weapon that is not on most lists
+## Tarforge upgrades and switching weapons
 
-The **Troubador's Lute** received Attack Damage +100% in Balance Patch 1 — double, stated as a number by the developer. It is missing from most weapon rankings for a structural reason: **it has no unlock achievement.** Valve tracks thirteen "Unlock X" weapon achievements, and the Lute is not among them, so any guide built by reading the achievement list will never see it.
+Balance Patch 1 reduced Tarforge smelting's Gloom cost by 75%. This is a reduction to that documented cost, not a blanket discount on every item or upgrade. Check the current Tarforge screen, the material requirement and the weapon selected before committing. An old screenshot can show a different cost or a different stage of progression.
 
-That has a second implication worth stating plainly: **"Lord of War" (unlock all Weapons, 26.1%) does not actually mean all weapons.** At least four named weapons exist without unlock achievements — the Lute, **Weltcap** (named in the Week 1 Update as stronger in both forms), **Naylshotte** (a prologue firearm) and **Iconoclast**. The thirteen-weapon count is the number Valve tracks, not the size of the arsenal.
+If your goal is to compare weapons, first work out whether their upgrade levels are comparable. An upgraded weapon defeating an unupgraded one does not settle which moveset suits your build. If you cannot afford matching upgrades, compare reach and recovery first and postpone a numerical damage conclusion.
 
-What the +100% does not tell you: the Lute's base damage, whether doubling it makes it strong or merely usable, its attack speed, or where to find it. A 100% buff to a weak baseline is still weak. Cold Symmetry buffing something that hard is more reasonably read as evidence it was *underperforming* than as evidence it is now best in class.
+The Week 1 Update made Glimpses and Tarcores renewable, permitting more upgrades in one playthrough than the original finite economy allowed. This reduces the long-term cost of experimenting but does not place the required materials in your inventory immediately. Keep enough resources for the next essential upgrade before making several speculative changes at once.
 
-## The riposte pass matters more than your weapon
+## Fragments, Tarstones and Seals
 
-This is the part most "best weapon" pages miss. The Week 1 Update rewrote how ripostes work, and the change is structural:
+A weapon's ordinary attacks, its Fragment interaction and the Tarstones supporting the build are separate parts of the comparison. When a guide recommends a complete setup, check which part supplies the claimed effect. Swapping only the weapon may not reproduce a result that depended on a particular Fragment or Tarstone active.
 
-- **"Player riposte damage now scales with enemy health, so the damage keeps up properly with late game, NG+, and Night Mode."**
-- Invulnerability windows are now **consistent between ripostes** and last to the end of the animation instead of expiring partway through.
-- Many riposte recoveries **end sooner**, returning control to you faster.
-- Riposte damage is now calculated and applied by the riposte itself, fixing cases where it applied twice or not at all.
-- Riposte animations across the whole enemy roster now behave with your back to a wall instead of sliding you through it.
+The Salvaged Trebuchaxe is an important historical example: Week 1 redesigned its Tarred Fragment. A launch build demonstrating that Fragment is evidence about the earlier version. It cannot establish the current interaction by itself. Similarly, check any Seal or ability description directly in the installed build before carrying a resource assumption into a long dungeon.
 
-Read the first line again: riposte damage scales with **enemy health**, not with your weapon's damage stat. That means the highest-value damage in the game is a parry reward whose scaling is largely independent of which weapon you are holding — and it now keeps pace into NG+ and Night Mode, where it previously fell behind.
+For a reset of the Tarstone side of a build, use the [Rotten Autumn reset guide](/rotten-autumn-tarstone-build-reset/). For refunds on a Shell bond, use [Shell selection and respec](/shell-selection-guide/#respec-with-methers-severance). Those workflows should not be substituted for one another.
 
-The practical consequence: if you are choosing a weapon to deal more damage, **the parry timing you can read reliably matters more than the entry in the table above.** Pick the weapon whose swing recovery lets you get back to a guard, not the one with the biggest published buff. The [beginner combat tips](/mortal-shell-2-beginner-combat-tips/) and [combat system](/combat-system/) pages cover the defensive inputs; the [Shell recommendation guide](/shell-selection-guide/) covers which Shell abilities support that loop.
+## Sidearms and ranged attacks
 
-## Check when your tier list was written
+The official store identifies sidearms as part of the combat system. Balance Patch 1 specifically says Caged Hystrix and Triarch Repeater no longer require a minimum Resolve amount to fire. That statement concerns the firing threshold; it does not establish unlimited ammunition, zero cost or the exact resource rule for every other ranged item.
 
-Three of the weapons above changed materially after launch, which makes publication date a real accuracy filter:
+Week 1 also addressed sidearm projectiles failing to register on weak points and selecting an unintended target. If you compare a ranged option, use a clear line of sight and note the selected target. A miss can still result from distance, obstruction or aim; the existence of a historical bug does not diagnose every current failure.
 
-- **20–29 August:** the Great Martyr's Blade had received **no buff at all**, while every reader of Balance Patch 1 believed it had +20%. Anything written in that window tested an unbuffed weapon. The [Great Martyr's Blade patch history](/mortal-shell-2-great-martyrs-blade-patch/) covers this in full.
-- **Before 29 August:** the Salvaged Trebuchaxe's Tarred Fragment was a different component. It was rebuilt because it was "simultaneously overpowered and broken", so anything praising or dismissing it describes a version that no longer exists.
-- **Before 29 August:** the Obsidian Hammer had not had its full balance pass, and no heavy weapon had the poise and damage pass.
+## Ripostes are a separate measurement
 
-A launch-week ranking is not wrong about what it measured. It just is not describing the build you are playing.
+The Week 1 Update changed player riposte damage to scale with enemy health and adjusted invulnerability and recovery behaviour. Keep riposte damage separate from ordinary weapon hits when judging a weapon. Otherwise, a run with more successful parries may look like a better weapon test even though you changed the proportion of riposte damage.
 
-## The two confirmed ranged weapons
+The patch wording does not prove that every other damage factor is irrelevant or that ripostes always outperform a weapon ability. Choose the attack you can use reliably against the actual enemy. The [combat guide](/combat-system/) explains the defensive loop, while the [boss preparation guide](/mortal-shell-2-boss-preparation-guide/) turns it into an arena plan.
 
-Mortal Shell II tracks Weapons and Sidearms as separate achievement sets — "Lord of War" (26.1%) and "Guns. Lots of Guns" (23.8%) — but Valve never publishes which name belongs to which category. The patches narrow it on mechanics rather than on names:
+## A useful five-step comparison
 
-- **Caged Hystrix** and **Triarch Repeater** both **fire**, and as of Balance Patch 1 neither needs a minimum Resolve to do so. That phrasing is the only first-party confirmation that any named weapon is ranged, and it makes these two the strongest Sidearm candidates.
-- **Axatana**, **Black Needle** and **Clockwork Scythe** all have **light attacks**, which makes them melee.
+1. Confirm the game build and hold Shell, Tarstones, difficulty and target constant.
+2. Compare one ordinary light attack and one realistic punish window.
+3. Add the weapon ability separately, watching its activation and recovery.
+4. Compare resource use over several safe exchanges, not just a single spectacular hit.
+5. Keep the weapon that lets you repeat the successful sequence with a margin for the enemy's next attack.
 
-The Week 1 Update also fixed two sidearm reliability problems: projectiles that failed to register against enemy weak points, and sidearm projectiles choosing the wrong target. If a ranged option felt unreliable to you before 29 August, that was not entirely your aim. For the wider system, see [sidearms and ranged combat](/mortal-shell-2-sidearms-and-ranged-combat/).
-
-## How to test a weapon yourself for 75% less Gloom
-
-Balance Patch 1 cut Tarforge smelting costs by **75% Gloom**, which is what makes a real comparison affordable. Cold Symmetry's stated reason: the original cost was "set exorbitantly high" and the goal was to let players switch weapons "without the need to spend hours grinding through NG+ runs."
-
-A comparison that produces a usable answer:
-
-1. Confirm your installed build. Balance Patch 1 went to PC first with PlayStation 5 and Xbox Series "shortly" after, so a console player and a PC player may not be testing the same game.
-2. Hold **everything else constant** — same Shell, same Tarstones, same enemy, same attack input.
-3. Record ordinary hit damage **separately** from posture damage, ripostes and executions. The riposte scaling change means a weapon can look better purely because you parried more.
-4. Test a punish window as well as a safe opening. A high-damage swing that leaves you locked in recovery is not equivalent to a hit you can walk away from.
-5. Write down the patch you tested on. That single line is what separates a useful note from a stale one.
-
-## What no source establishes
-
-The checked official sources do **not** publish any of the following, so this page does not contain them:
-
-- base damage, scaling or attack speed for any weapon;
-- a moveset, frame count, parry window or posture-damage figure;
-- the acquisition location of any of the thirteen weapons;
-- what "Fragile stacks" numerically does;
-- the size of the buff that actually shipped for the Great Martyr's Blade;
-- what the redesigned Tarred Fragment now does;
-- the Weapon-versus-Sidearm split for eight of the thirteen names;
-- a damage-per-second ranking of any kind.
-
-The honest bottom line: **buffed is not the same as best.** Cold Symmetry has told us which weapons they were unhappy with, and that is genuinely useful information — but a developer raising a number is evidence that the number was low, not proof that it is now the highest. Until base values are published, the strongest recommendation the evidence supports is the Axatana for its stated invulnerability frames, and a parry-first playstyle for damage.
-
-For the full roster with unlock rates and the disputed Tarforge cap, see the [weapons hub](/weapons/) and the [weapon upgrade guide](/mortal-shell-2-weapon-upgrade-guide/). For Shell pairings, see the [best Shell guide](/shell-selection-guide/). For the complete patch record, see [Balance Patch 1](/mortal-shell-2-balance-patch-1/).
+A community test can provide information beyond official notes when it identifies its build and method. Treat it as that player's measurement rather than dismissing it because the developer did not publish the number. For a decision today, combine the current in-game description with a controlled comparison and the specific patch history above.

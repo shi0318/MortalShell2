@@ -72,7 +72,7 @@ const SEGMENT_LABEL: Record<string, string> = {
 
 const h1 = heading ?? title;
 const verifiedDate = formatDate(updatedAt);
-const publishedDate = toDateString(datePublished ?? updatedAt);
+const publishedDate = toDateString(datePublished);
 const titleize = (s: string) =>
   s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 
@@ -100,9 +100,8 @@ const released = isReleased();
 // 下载意图页：在正文前放官方 Steam 按钮，对齐竞品 open-beta walkthrough 的跳转行为
 const pageKey = segments[0] ?? '';
 const showSteamCta = ['download', 'open-beta', 'pc-settings', 'pc-requirements', 'beta-progress', 'beginner-guide', 'release-date'].includes(pageKey);
-// 发售后即使某页保留 Beta/预告历史，也应把普通页面指向零售版；只有明确的
-// download/open-beta 归档页继续指向 Open Beta，避免已发售站把读者送回测试版。
-const useFullGameCta = released && !['download', 'open-beta'].includes(pageKey);
+// 发售后所有普通和历史页面的商店按钮均指向零售版，避免送回旧测试版。
+const useFullGameCta = released;
 const steamCtaUrl = useFullGameCta ? SITE.fullGameUrl : SITE.openBetaUrl;
 const steamCtaLabel =
   useFullGameCta
@@ -131,7 +130,7 @@ const steamCtaLabel =
       <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">{h1}</h1>
       <p class="mt-3 text-lg text-ash-400">{description}</p>
       <p class="mt-4 text-sm text-ash-500">
-        Last verified <time datetime={verifiedDate}>{verifiedDate}</time>
+        By <a href="/editorial/" class="underline">Mortal Shell 2 Wiki editorial team</a> · Last updated <time datetime={verifiedDate}>{verifiedDate}</time>
       </p>
     </header>
 
@@ -170,12 +169,12 @@ const steamCtaLabel =
                 href="/download/"
                 class="btn-ghost !px-4 !py-2.5 text-sm"
               >
-                Download hub
+                Installation guide
               </a>
             )}
-            {pageKey !== 'pc-settings' && (
+            {pageKey !== 'pc-requirements' && (
               <a
-                href="/pc-settings/"
+                href="/pc-requirements/"
                 class="btn-ghost !px-4 !py-2.5 text-sm"
               >
                 System requirements
@@ -186,10 +185,20 @@ const steamCtaLabel =
       )
     }
 
-    <div class="prose-body mt-8 space-y-4 text-ash-200">
+    <div class="guide-copy prose-body mt-8 space-y-4 text-ash-200">
       <slot />
     </div>
 
     <RelatedGuides currentPath={Astro.url.pathname} category={category} />
   </article>
 </Layout>
+
+<style>
+.guide-copy :global(h2){font-size:1.5rem;font-weight:700;margin-top:2rem;margin-bottom:.8rem;}
+.guide-copy :global(h3){font-size:1.2rem;font-weight:600;margin-top:1.5rem;}
+.guide-copy :global(ul){list-style:disc;padding-left:1.5rem;}
+.guide-copy :global(ol){list-style:decimal;padding-left:1.5rem;}
+.guide-copy :global(table){display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;}
+.guide-copy :global(td),.guide-copy :global(th){padding:.6rem;border:1px solid #333;min-width:7rem;vertical-align:top;}
+.guide-copy :global(a){text-decoration:underline;overflow-wrap:anywhere;}
+</style>

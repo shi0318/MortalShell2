@@ -1,114 +1,64 @@
 ---
-title: "Mortal Shell 2 Beginner Guide — Open Beta First Hours & Launch Tips"
-heading: "Mortal Shell 2 Beginner Guide: First Hours"
-description: "Mortal Shell 2 beginner guide covering the archived Open Beta first hours, Prologue route, beacons, Tiel, Marrow Keep rewards and launch combat tips."
-category: walkthrough
-keyword: "mortal shell 2 beginner guide"
-cover: /images/mortalshell2-rainy-path-combat.webp
-status: official
-preRelease: true
-order: 3
-updatedAt: "2026-08-20"
-sources:
-  - status: official
-    sourceUrl: "https://store.steampowered.com/app/4711740/Mortal_Shell_II__Open_Beta/"
-    sourceDate: "2026-06-05"
-    gameVersion: "Open Beta store listing"
-    lastChecked: "2026-07-24"
-    note: "Official beta scope, named locations, rewards, and roster note for Tiel"
-  - status: official
-    sourceUrl: "https://mortalshell.com/"
-    lastChecked: "2026-07-24"
-    note: "Official combat framing: stamina-unrestricted combat and sidearms"
+title: "Mortal Shell II Beginner Guide: A Practical First-Session Route"
+heading: "Mortal Shell II Beginner Guide: A Practical First-Session Route"
+description: "Start the released Mortal Shell II with a clear combat, checkpoint, upgrade and exploration plan, including what to do after a death or an early difficulty spike."
+category: "walkthrough"
+cover: "/images/mortalshell2-rainy-path-combat.webp"
+status: "official"
+preRelease: false
+order: 4
+updatedAt: "2026-11-18"
+sources: []
 ---
 
-This **Mortal Shell 2 beginner guide** preserves the official Open Beta route and links the current launch combat advice separately. The Beta inventory reset at release, so use this page for route context and the [Mortal Shell 2 Beginner Combat Tips](/mortal-shell-2-beginner-combat-tips/) page for launch-day Steam guidance.
+![Mortal Shell II official gameplay scene](/images/mortalshell2-rainy-path-combat.webp)
 
-## Who this is for
+For a first session in the released Mortal Shell II, aim to establish a repeatable route between a safe checkpoint, an enemy you can handle and the next meaningful objective. The game uses stamina-unrestricted combat, Shell possession, posture pressure and sidearms. Those systems reward learning an exchange before extending a combo; removing a stamina bar does not remove an enemy's opportunity to hit you during recovery.
 
-Players searching "Mortal Shell 2 beginner guide", "first hours", or "Open Beta walkthrough" who want a **safe, official-first** route plan without invented boss timers or unconfirmed item farms.
+This is a retail starting plan. The June Open Beta had a restricted opening and temporary progression rules. Its installation and reward history are preserved in the [Open Beta archive](/download/), rather than being presented here as requirements for a new retail character.
 
-## Install and setup (5 minutes)
+## Before leaving the opening area
 
-1. Use only the official Steam install: [Download hub](/download/)
-2. Confirm [PC requirements](/pc-settings/) — **SSD required**, 16 GB RAM minimum
-3. Expect bugs and performance variance (developer labels this an in-development build)
-4. Full controller support is listed on the Steam Open Beta page
+Read the control prompts and make sure the displayed input matches the device you are using. Establish a comfortable camera speed and a clear view of the enemy before changing several combat settings. If the game is hitching, freezing or losing input, address that first with the [PC troubleshooting guide](/pc-requirements/). An unstable frame delivery problem can make a timing exercise difficult to interpret.
 
-## Official first-hours structure
+Check the actual inventory after picking up equipment. A tutorial message, an achievement and an equipped item are different kinds of confirmation. The achievement “You're More Than a Weapon” asks you to claim a Shell, Weapon and Sidearm. Use those three equipment categories as an early orientation checklist, rather than searching for an endgame build before you understand how to switch your current items.
 
-Steam describes the Open Beta as the **opening hours** of the full game:
+## Learn one exchange before adding a combo
 
-1. **Prologue**
-2. Enter the **first explorable region** of the open world
-3. **Cleanse beacons**
-4. Explore **optional dungeons**
-5. Face **hidden mini-bosses** and challenges
-6. Press toward **Magdalena, the Lady of the Woods**
+Choose an ordinary enemy on ground with room to retreat. Approach far enough to trigger its opening, avoid that attack, make one light attack and release the input. Watch whether the enemy follows up. Repeat until you can tell when your attack ends and when control returns.
 
-That is your high-level route. Do not over-farm temporary inventory.
+Next, add the defensive option described in your current tutorial or ability screen. Separate an avoided hit from a successful parry and the subsequent riposte. A bright impact or interruption is not enough to infer that you performed every part of the sequence. The [combat system guide](/combat-system/) explains the named mechanics and the patch changes affecting them.
 
-## Priority checklist
+Only then add a longer attack or ability. If the extra hit causes repeated trades, remove it and keep the shorter punish. You are trying to build a sequence that survives contact with the enemy's next action, not to spend an imaginary stamina budget that the sequel does not use.
 
-| Priority | Goal | Why it matters |
-|---|---|---|
-| 1 | Learn basic combat and possession loop | Core identity of the series |
-| 2 | Push the main early path | Unlocks more of the beta region |
-| 3 | Progress beyond **Marrow Keep** | Unlocks optional **prologue skip** at full launch |
-| 4 | Discover **Tiel, the Acolyte** | Confirmed beta Shell (one of eight) |
-| 5 | Cleanse beacons + optional dungeons | Official early-loop content |
+## Establish a checkpoint before ranging farther
 
-## Combat basics (official framing)
+When you reach a Beacon, distinguish discovering the landmark from completing its interaction. Read the prompt, clear the immediate threat if required and verify the resulting state. Do not assume that touching a landmark has completed every cleansing or travel condition.
 
-From the official Mortal Shell II site:
+The [Beacon guide](/beacons/) separates discovery, cleansing and travel. A player-reported total of 49 Beacons does not mean you need to find all of them before moving on, and it is not a list of coordinates. For an early route, the practical goal is a verified return point near the next challenge.
 
-- Combat is **unrestricted by stamina**
-- Focus is on multiple tactics to **shatter enemy posture** and strike critically
-- Loadouts are supported by **sidearms** and upgrade options
+Before entering a side path, look back at the approach. Note the junction, elevation change or doorway that distinguishes the way home. If a difficult room lies between the checkpoint and your next objective, practise crossing that room before committing to a long detour with resources you intend to spend.
 
-What this means for beginners:
+## What to do after you die
 
-- Practice spacing and commitment instead of assuming a classic stamina-bar duel rhythm from other soulslikes
-- Test weapon reach early before investing time in temporary beta gear
-- Treat deaths as route learning — beta progress is not permanent inventory
+First identify the point at which the attempt stopped being controlled. Was it an unseen second enemy, a grab, a ledge, a missed defensive input or a performance hitch? Choose one response to that specific failure. Pull enemies into a clearer approach, shorten a combo, give a ledge more space or investigate the technical fault.
 
-Full breakdown of the posture-and-criticals loop, the sidearm pillar, and what has **not** been published: [Mortal Shell II combat system](/combat-system/).
+Check the current inventory and checkpoint state instead of assuming the sequel copied every death penalty from Mortal Shell or another soulslike. This guide does not promise a universal recovery rule or tell you that a resource is safe without checking your current situation. If the next run is about recovering something, keep that route separate from a fresh exploration trip.
 
-## What to farm vs what to ignore
+For a prolonged early difficulty spike, use the [early-game recovery guide](/mortal-shell-2-early-game-too-hard/). Its purpose is to change the obstacle you are facing, not to prescribe repeated deaths as a farming method. If you want to inspect the game's adaptive setting, use the [adaptive-difficulty guide](/mortal-shell-2-adaptive-difficulty-toggle-guide/) and read the current option before changing it.
 
-### Worth doing
+## Spend into one working loadout
 
-- Learning enemy telegraphs
-- Reaching **Marrow Keep** threshold
-- Finding **Tiel**
-- Mapping beacon locations for your own notes
-- Reporting bugs via the official Discord linked from Steam
+Start with the weapon you can hit with safely, then inspect its next upgrade cost. Keep weapon upgrades, Shell bonding and Tarstone choices distinct. Changing all three at once makes it harder to tell which change solved the fight, and can leave you short of the material needed for the next clear improvement.
 
-### Not worth obsessing over
+Balance Patch 1 reduced Tarforge smelting's Gloom cost, while Week 1 made Glimpses and Tarcores renewable. Those changes support experimentation over a playthrough; they do not mean unlimited resources are immediately available. Read the current purchase screen and spend against a goal, such as making one reliable weapon stronger or enabling one Shell ability you can already use.
 
-- Perfect permanent builds (inventory **resets**)
-- Collecting every temporary currency pile
-- Waiting for unconfirmed exploit routes
+For a Shell choice, begin with what you have unlocked. The [Shell guide](/shell-selection-guide/) compares named abilities and explains Mether's Severance. A high global achievement percentage does not prove that a Shell is the best starter or that you must obtain it next. For weapons, the [comparison guide](/mortal-shell-2-best-weapon/) explains why a historical buff percentage is different from a present damage ranking.
 
-## Named early objectives
+## Explore with an exit condition
 
-- **Tiel, the Acolyte** — discoverable Shell in the Open Beta
-- **Magdalena, the Lady of the Woods** — early path destination / figure
-- **Marrow Keep** — progress threshold for prologue-skip unlock
-- **Beacons** — cleanseable route anchors in the early region
+The store describes an interconnected world designed to be deliberately compact. That does not make every visible destination accessible from your present side of a cliff or locked door. If a route does not connect, return to the last confirmed junction and check another level or entrance before forcing a jump.
 
-## After you finish a session
+Enter an optional dungeon with a purpose: identify its first challenge, locate a return route or obtain an item you can actually describe. If the enemy group overwhelms your current sequence, leave with that information and return after an upgrade. The [map and exploration guide](/map/) separates the historical opening from retail route planning without inventing a complete collectible map.
 
-1. Note which areas still feel unclear on the [Map overview](/map/)
-2. Read [Beta progress carry-over](/beta-progress/) so you know what survives to August 20
-3. If a named encounter is blocking you, open [Magdalena page](/magdalena/) for confirmation status only (no fake move lists)
-
-## Related pages
-
-- [Download Open Beta](/download/)
-- [Open Beta guide](/open-beta/)
-- [Story & lore: who is the Harbinger?](/story-and-lore/)
-- [Tiel, the Acolyte](/tiel/)
-- [Beacons](/beacons/)
-- [Shells](/shells/)
-- [Release date](/release-date/)
+At the end of the first session, a useful result is a working checkpoint, a loadout whose basic attack and defensive response you understand, and a clearly identified next obstacle. You do not need a universal completion order, a rare achievement or an irreversible build commitment to make that progress.

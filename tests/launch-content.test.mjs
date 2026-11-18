@@ -1,141 +1,46 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
-import { test } from 'node:test';
-
-const root = new URL('../src/', import.meta.url);
-
-async function source(path) {
-  return readFile(new URL(path, root), 'utf8');
-}
-
-test('homepage promotes the Mortal Shell II PC search page and launch guides', async () => {
-  const html = await source('pages/index.astro');
-
-  assert.match(html, /Available now/);
-  assert.match(html, /href: '\/pc-requirements\/'/);
-  assert.match(html, /href: '\/mortal-shell-2-beginner-combat-tips\/'/);
-  assert.match(html, /href: '\/mortal-shell-2-steam-reviews\/'/);
-  assert.match(html, /href: '\/mortal-shell-2-missable-achievements\/'/);
-  assert.doesNotMatch(html, /Mortal Shell 2 launches August 20, 2026/);
+import {readFile,access} from 'node:fs/promises';
+import {test} from 'node:test';
+const root=new URL('../',import.meta.url);
+const text=p=>readFile(new URL(p,root),'utf8');
+test('home promotes released game and canonical PC, combat, buying and achievement intents',async()=>{
+ const home=await text('dist/index.html');assert.match(home,/Available now/);
+ for(const path of ['pc-requirements','combat-system','release-date','mortal-shell-2-missable-achievements','beginner-guide','shells','weapons','bosses']) assert.ok(home.includes(`href="/${path}/"`),path);
+ assert.doesNotMatch(home,/Mortal Shell 2 launches August 20, 2026/);
 });
-
-test('guide hub uses launch wording while retaining Beta articles as historical content', async () => {
-  const html = await source('pages/guide/index.astro');
-
-  assert.match(html, /Mortal Shell 2 Guides — PC, Combat, Shells, Weapons & Bosses/);
-  assert.match(html, /Launch guides, PC requirements, combat, Shells, weapons, bosses, map, and Steam reports/);
-  assert.doesNotMatch(html, /Pre-release pages only/);
+test('PC requirements render real hardware floor with a visible image',async()=>{
+ const h=await text('dist/pc-requirements/index.html');
+ for(const fact of ['i7-10700K','Ryzen 5 3600','16 GB RAM','2060 SUPER','RX 6600','70 GB','SSD required'])assert.ok(h.includes(fact),fact);
+ assert.match(h,/<img[^>]+src="\/images\/mortalshell2-shell-greatsword-closeup\.webp"/);
+ assert.doesNotMatch(h,/Last verified|beta-settings/i);
 });
-
-test('PC requirements page targets Mortal Shell II PC intent with an image', async () => {
-  const markdown = await source('content/guides/pc-requirements.md');
-
-  assert.match(markdown, /title: "Mortal Shell II PC Requirements/);
-  assert.match(markdown, /heading: "Mortal Shell II PC Requirements"/);
-  assert.match(markdown, /Mortal Shell II is now available on PC through Steam/);
-  assert.match(markdown, /<img src="\/images\/mortalshell2-shell-greatsword-closeup\.webp"/);
+test('historical beta and old settings resolve to current installation and diagnosis',async()=>{
+ const map=JSON.parse(await text('src/data/content-redirects.json'));
+ assert.equal(map['/open-beta/'],'/download/#compare-the-recorded-beta-with-a-retail-installation');
+ assert.equal(map['/pc-settings/'],'/pc-requirements/#record-the-failure-before-changing-settings');
+ for(const id of ['open-beta','pc-settings','launch-day-checklist']) await assert.rejects(access(new URL(`dist/${id}/index.html`,root)));
+ const h=await text('dist/download/index.html');assert.match(h,/Beta/);assert.match(h,/2584270/);
 });
-
-test('category hubs do not describe the full-game sections as pre-release trackers', async () => {
-  const files = ['tools/index.astro', 'weapons/index.astro', 'bosses/index.astro', 'shells/index.astro'];
-  const pages = await Promise.all(files.map((file) => source(`pages/${file}`)));
-  const combined = pages.join('\n');
-
-  assert.doesNotMatch(combined, /pre-release arsenal tracker/i);
-  assert.doesNotMatch(combined, /pre-release Mortal Shell II boss tracker/i);
-  assert.doesNotMatch(combined, /This page is a <strong>pre-release tracker<\/strong>/i);
+test('category hubs retain distinct identities, real assets and useful linked guides',async()=>{
+ const titles=[];
+ for(const slug of ['weapons','shells','bosses']){
+   const h=await text(`dist/${slug}/index.html`);titles.push(h.match(/<title>(.*?)<\/title>/)?.[1]);
+   assert.match(h,/<h1[^>]*>/);assert.match(h,/<img[^>]+src="\/images\//);
+   assert.doesNotMatch(h,/pre-release (arsenal|Mortal Shell II boss) tracker|This page is a <strong>pre-release tracker/i);
+   assert.ok(h.includes(`href="https://mortalshell2.wiki/${slug}/"`));
+ }
+ assert.equal(new Set(titles).size,3);
 });
-
-test('Open Beta pages are historical and point PC players to the retail requirements', async () => {
-  const [download, openBeta, pcSettings, launchChecklist] = await Promise.all([
-    source('content/guides/download.md'),
-    source('content/guides/open-beta.md'),
-    source('content/guides/pc-settings.md'),
-    source('content/guides/launch-day-checklist.md'),
-  ]);
-
-  assert.match(download, /Open Beta.*Archive/i);
-  assert.match(openBeta, /Open Beta.*Archive/i);
-  assert.match(pcSettings, /Open Beta PC Settings.*Archived/i);
-  assert.match(pcSettings, /\[Mortal Shell II PC Requirements\]\(\/pc-requirements\/\)/);
-  assert.match(launchChecklist, /Mortal Shell II launched on August 20, 2026/);
+test('homepage retains local gameplay video with deliberate loading',async()=>{
+ const h=await text('dist/index.html');assert.match(h,/Mortal Shell II Gameplay Video/);
+ assert.match(h,/src="\/videos\/mortal-shell-2-gameplay\.webm"/);assert.match(h,/preload="none"/);
+ await access(new URL('public/videos/mortal-shell-2-gameplay.webm',root));
 });
-
-test('SEO hubs target distinct Mortal Shell 2 search intents', async () => {
-  const [home, guide, weapons, bosses, shells, beginner] = await Promise.all([
-    source('pages/index.astro'),
-    source('pages/guide/index.astro'),
-    source('pages/weapons/index.astro'),
-    source('pages/bosses/index.astro'),
-    source('pages/shells/index.astro'),
-    source('content/guides/beginner-guide.md'),
-  ]);
-
-  assert.match(home, /Mortal Shell 2 Wiki — Weapons, Shells, Bosses & Beginner Guide/);
-  assert.match(guide, /Mortal Shell 2 Guides — PC, Combat, Shells, Weapons & Bosses/);
-  assert.match(bosses, /Mortal Shell 2 Bosses Guide/);
-  assert.match(beginner, /title: "Mortal Shell 2 Beginner Guide — Open Beta First Hours & Launch Tips"/);
-  assert.match(beginner, /heading: "Mortal Shell 2 Beginner Guide: First Hours"/);
-  assert.match(beginner, /updatedAt: "2026-08-20"/);
-
-  const weaponsTitle = weapons.match(/const title = '([^']+)'/)?.[1] ?? '';
-  const shellsTitle = shells.match(/const title = '([^']+)'/)?.[1] ?? '';
-  const bossesTitle = bosses.match(/const title = '((?:[^'\\]|\\.)+)'/)?.[1] ?? '';
-  assert.match(weaponsTitle, /^Mortal Shell 2 Weapons —/);
-  assert.match(shellsTitle, /^Mortal Shell 2 Shells —/);
-  assert.match(bossesTitle, /^Mortal Shell 2 Bosses —/);
-  assert.notStrictEqual(weaponsTitle, shellsTitle);
-  assert.notStrictEqual(bossesTitle, weaponsTitle);
-  assert.notStrictEqual(bossesTitle, shellsTitle);
-  assert.match(weapons, /Mortal Shell 2 Weapons Guide/);
-  assert.match(shells, /Mortal Shell 2 Shells Guide/);
-  assert.match(weapons, /Melee weapons/);
-  assert.match(weapons, /Tarforge levels/);
-  assert.match(weapons, /Player ranking/);
-  const loadout = await source('data/loadout.ts');
-  assert.match(loadout, /\/images\/weapons\/axatana\.jpg/);
-  assert.match(loadout, /\/images\/weapons\/naylshotte\.jpg/);
-  assert.match(weapons, /w\.image/);
-  assert.match(bosses, /Tar Golem/);
-  assert.match(bosses, /What bosses drop/);
-  assert.match(bosses, /MINIBOSSES/);
-  assert.match(shells, /Harros/);
-  assert.match(shells, /HARROS_PROLOGUE/);
-  assert.match(shells, /how to get Genessa/);
-  assert.doesNotMatch(weapons, /StatusBadge/);
-  assert.doesNotMatch(bosses, /StatusBadge/);
-  assert.doesNotMatch(shells, /StatusBadge/);
-});
-
-test('homepage has contextual links into the main Mortal Shell 2 guide cluster', async () => {
-  const home = await source('pages/index.astro');
-
-  assert.match(home, /Mortal Shell 2 weapons guide/);
-  assert.match(home, /Mortal Shell 2 Shells guide/);
-  assert.match(home, /Mortal Shell 2 Bosses guide/);
-  assert.match(home, /Mortal Shell 2 beginner guide/);
-});
-
-test('homepage includes the local gameplay video without a visible Steam source note', async () => {
-  const home = await source('pages/index.astro');
-
-  assert.match(home, /Mortal Shell II Gameplay Video/);
-  assert.match(home, /src="\/videos\/mortal-shell-2-gameplay\.webm"/);
-  assert.match(home, /preload="none"/);
-  assert.doesNotMatch(home, /Steam source|Source: Steam/i);
-});
-
-test('homepage presents concise post-launch facts instead of a pre-release fact wall', async () => {
-  const home = await source('pages/index.astro');
-  const facts = await source('data/official.ts');
-  const start = home.indexOf('<!-- Official facts -->');
-  const end = home.indexOf('<!-- Essential guides -->', start);
-  const factsSection = home.slice(start, end);
-
-  assert.match(factsSection, /Mortal Shell II at a Glance/);
-  assert.match(factsSection, /Core facts for the released Mortal Shell II/);
-  assert.match(facts, /label: 'Shells & World'/);
-  assert.doesNotMatch(factsSection, /What is actually confirmed/);
-  assert.doesNotMatch(factsSection, /current retail build confirms/);
-  assert.doesNotMatch(factsSection, /Three are named so far|remaining five/i);
+test('home facts and guide collection do not regress to a future launch tracker',async()=>{
+ const home=await text('dist/index.html'),guide=await text('dist/guide/index.html');
+ assert.match(home,/Mortal Shell II at a Glance/);assert.match(guide,/latest-guides/);
+ assert.doesNotMatch(home,/Three are named so far|remaining five/i);
+ assert.doesNotMatch(guide,/Pre-release pages only/);
+ const schemas=[...guide.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m=>JSON.parse(m[1]));
+ assert.ok(schemas.some(s=>s['@graph']?.some(n=>n['@type']==='CollectionPage')));
 });

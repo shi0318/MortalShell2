@@ -1,105 +1,22 @@
 ---
-// 关于页 —— AdSense 条件（8.1）：说明站点定位、编辑团队、内容来源标注方式。
-import Layout from '../layouts/Layout.astro';
-import Breadcrumb from '../components/Breadcrumb.astro';
+import SitePage from '../layouts/SitePage.astro';
 import { SITE } from '../data/site';
-import { STATUS_META } from '../data/sources';
-
-const title = 'About Mortal Shell II Wiki — Editorial & Sourcing';
-const description =
-  'Who runs Mortal Shell II Wiki, how we verify every fact with a confirmation status, and where our information comes from. An independent fan-made resource.';
-
-const crumbs = [
-  { name: 'Home', url: '/' },
-  { name: 'About', url: '/about/' },
-];
-
-const statuses = Object.values(STATUS_META);
 ---
 
-<Layout title={title} description={description} schemaType="article" breadcrumb={crumbs}>
-  <article class="mx-auto max-w-3xl">
-    <Breadcrumb items={crumbs} />
+<SitePage title="About — Mortal Shell 2 Wiki" heading="About this guide" description="Who maintains this independent Mortal Shell II guide, what our articles cover, and how to understand our editorial identity and limitations.">
 
-    <h1 class="text-3xl font-bold tracking-tight text-ash-100 md:text-4xl">About this wiki</h1>
-    <p class="mt-3 text-lg text-ash-400">
-      An independent, fan-made guide to Mortal Shell II — built on one rule: every fact
-      carries a source and a confirmation status.
-    </p>
-
-    <div class="prose-body mt-8 space-y-6 text-ash-200">
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Image sources</h2>
-        <p class="mt-2">
-          Screenshots and promotional images on this site come from the Mortal Shell II Steam store page and the official Cold Symmetry page at
-          <a href="https://www.coldsymmetry.com/mortal-shell-2" class="text-amber-glow underline underline-offset-2" rel="nofollow noopener noreferrer" target="_blank">coldsymmetry.com/mortal-shell-2</a>.
-          We use them for fan-site documentation with attribution under each figure where practical.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">What this site is</h2>
-        <p class="mt-2">
-          Mortal Shell II Wiki is a community resource covering Shells, weapons, bosses,
-          mechanics, and walkthroughs for {SITE.developer}'s Mortal Shell II. We are not
-          affiliated with {SITE.developer} or {SITE.publisher}. This is a fan project.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Who writes it</h2>
-        <p class="mt-2">
-          The wiki is maintained by an independent editor who plays the game, captures
-          footage, and cross-checks every claim against official sources. Historical Open Beta,
-          trailer, and first-game material remains clearly labelled and is never presented as a
-          current retail fact.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">How we mark confirmation status</h2>
-        <p class="mt-2">
-          This is the core of the site. Instead of blending official facts with rumours,
-          every entry carries one of these labels so you always know how reliable it is:
-        </p>
-        <ul class="mt-3 space-y-2">
-          {
-            statuses.map((s) => (
-              <li class="flex gap-2">
-                <span class="shrink-0">{s.icon}</span>
-                <span>
-                  <strong class="text-ash-100">{s.label}</strong> — {s.description}
-                </span>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Where our information comes from</h2>
-        <p class="mt-2">Our sources, in order of authority:</p>
-        <ul class="mt-2 list-disc space-y-1 pl-5">
-          <li>Official developer channels — Steam store and news, official Discord, verified social accounts</li>
-          <li>Hands-on testing in Beta builds, with the version number and test date recorded</li>
-          <li>Official trailers, cited with a timestamp where relevant</li>
-          <li>The first Mortal Shell (2020), used only for clearly-labelled inference</li>
-        </ul>
-        <p class="mt-2">
-          Every article ends with a "Sources &amp; verification" table listing the source,
-          game version, and the date we last checked it.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-ash-100">Game images and assets</h2>
-        <p class="mt-2">
-          Screenshots are captured in-game or taken from official press material.
-          Trademarks and game assets belong to their respective owners. If you own rights to
-          content used here and would like it removed, contact us via the
-          <a href="/contact/" class="text-amber-glow underline underline-offset-2">contact page</a>.
-        </p>
-      </section>
-    </div>
-  </article>
-</Layout>
+<section><h2>Our purpose and independence</h2>
+<p>{SITE.name} helps players understand the game's exploration, Shell and weapon choices, bosses, progression and PC setup. Our guides organise related questions so that a player can choose a useful next step, recognise uncertainty and avoid confusing a reported problem with a confirmed feature.</p>
+<p><strong>Unofficial fan guide. Not affiliated with Cold Symmetry or Playstack.</strong> The site is not a developer support service, a licensed game database or an official store. Using the game's name identifies the subject of our writing; it does not indicate endorsement.</p></section>
+<section><h2>Who publishes the articles</h2>
+<p>Articles are published under the collective label <strong>{SITE.name} editorial team</strong>. This is the site's editorial identity, not a named game developer, a professional esports organisation or a claim that several independently identified reviewers tested each page. The site operator handles publication and can be contacted through our <a href="/contact/">contact page</a>.</p>
+<p>Automated writing assistance is used to help draft and organise material. That does not turn a draft into a verified result. We do not attach invented personal biographies, playtime totals, hardware configurations or test results to that work. The <a href="/editorial/">editorial policy</a> explains the evidence required for a first-hand test claim and how we handle corrections.</p></section>
+<section><h2>What you can expect from a guide</h2>
+<p>Store and developer material can establish release details, named modes or published requirements. Player discussions can reveal a question worth answering, but a forum report alone does not establish the cause of a bug or a universal solution. Recommendations about practice order or troubleshooting are editorial advice and should state the conditions under which they may help.</p>
+<p>A page's “Last updated” date concerns that page's editorial changes. It does not certify that every sentence was retested on that date. Guide labels describe the kind of editorial content, not official endorsement or personal testing. A source screenshot is not a screenshot from our own play session.</p></section>
+<section><h2>Game images and intellectual property</h2>
+<p>Game screenshots and promotional art illustrate the environments, characters and systems discussed here. Their use on the site does not transfer ownership or establish a licence for visitors to reuse them. Rights in Mortal Shell, the game, characters, logos and associated imagery remain with the respective owners. Our site text and editorial organisation are separate from those game assets.</p>
+<p>If an image is misidentified or you hold rights in material that should be removed, send the page URL and enough information to identify the material. We review requests through the same contact channel used for corrections; an attribution or fan-site disclaimer is not a substitute for reviewing a legitimate rights concern.</p></section>
+<section><h2>Contact and site policies</h2>
+<p>Send questions or corrections to <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>. Please include the article URL and a specific correction rather than account credentials or a full game save. Read the <a href="/privacy/">privacy policy</a> for how reading the site and contacting us can involve data, and the <a href="/terms/">terms of use</a> for reuse and third-party links.</p></section>
+</SitePage>

@@ -62,7 +62,7 @@ Turn it on if your priority is continuing through an encounter that has stopped 
 
 Leave it off when you want a consistent baseline for a guide, a co-op comparison is irrelevant but a repeatable solo boss test matters, or you are learning a specific parry and punish sequence. Since the system can change enemy properties over time, a note such as “the boss took six hits” is not a transferable recommendation unless you also record whether the option was enabled and what tier was shown.
 
-The setting is not a substitute for a route plan. Before retrying a boss, check the nearest beacon, simplify the runback, and keep a familiar loadout. The [boss preparation guide](/mortal-shell-2-boss-preparation-guide/) covers a repeatable pre-fight routine, while [respawn points](/mortal-shell-2-respawn-points/) and [map fast travel](/mortal-shell-2-map-fast-travel/) help distinguish a combat problem from a travel problem.
+The setting is not a substitute for a route plan. Before retrying a boss, check the nearest beacon, simplify the runback, and keep a familiar loadout. The [boss preparation guide](/mortal-shell-2-boss-preparation-guide/) covers a repeatable pre-fight routine, while [respawn points](/beacons/#separate-arrival-from-cleansing) and [map fast travel](/beacons/#travel-access-is-a-separate-progression-check) help distinguish a combat problem from a travel problem.
 
 ## Achievements and challenge modifiers
 
@@ -102,4 +102,4 @@ Do not claim that a single run proves a universal damage multiplier. The system 
 
 **What are the exact percentages?** The checked notes do not publish a full numerical table. Use the displayed tier and your own dated observations rather than invented multipliers.
 
-For the wider system overview, read [Mortal Shell 2 Adaptive Difficulty](/mortal-shell-2-adaptive-difficulty/). This page focuses on the menu choice and a practical testing routine; the existing guide retains the broader behavior summary and patch context.
+For the wider system overview, read [Mortal Shell 2 Adaptive Difficulty](/mortal-shell-2-adaptive-difficulty-toggle-guide/). This page focuses on the menu choice and a practical testing routine; the existing guide retains the broader behavior summary and patch context.

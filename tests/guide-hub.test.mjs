@@ -43,7 +43,7 @@ async function orderedGuideIds() {
     .map((entry) => entry.id);
 }
 
-test('guide hub promotes the most recently verified retail guides first', async () => {
+test('guide hub promotes the most recently updated retail guides first', async () => {
   const html = await readFile(new URL('../dist/guide/index.html', import.meta.url), 'utf8');
   const start = html.indexOf('latest-guides');
   const end = start < 0 ? -1 : html.indexOf('</section>', start);
@@ -64,7 +64,7 @@ test('guide hub promotes the most recently verified retail guides first', async 
   );
 });
 
-test('guide pages use explicit order for entries sharing a verified date', async () => {
+test('guide pages use explicit order for entries sharing an update date', async () => {
   const index = await readFile(new URL('../src/pages/guide/index.astro', import.meta.url), 'utf8');
   const paged = await readFile(new URL('../src/pages/guide/page/[page].astro', import.meta.url), 'utf8');
 

@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -9,6 +9,10 @@ import { dirname, join } from 'node:path';
 const SITE = 'https://mortalshell2.wiki';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
+// One reviewed migration map drives native host redirects and sitemap exclusion.
+// Do not configure Astro HTML redirect pages for retired content.
+const CONTENT_REDIRECTS = JSON.parse(readFileSync(join(ROOT, 'src/data/content-redirects.json'), 'utf8'));
+writeFileSync(join(ROOT, 'public/_redirects'), Object.entries(CONTENT_REDIRECTS).map(([from, to]) => `${from} ${to} 301`).join('\n') + '\n');
 const STATIC_LASTMOD = {
   '/': '2026-09-07',
 };
@@ -34,7 +38,7 @@ function lastmodFor(url) {
 const NOINDEX_URLS = [];
 const isNoindexUrl = (page) => {
   const path = new URL(page).pathname;
-  return NOINDEX_URLS.includes(path);
+  return NOINDEX_URLS.includes(path) || Object.hasOwn(CONTENT_REDIRECTS, path);
 };
 
 // Markdown 正文里的站外链接统一带 rel="nofollow noopener noreferrer"（.astro 页面里手写的锚点已逐个标注）。

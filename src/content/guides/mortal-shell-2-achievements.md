@@ -1,196 +1,129 @@
 ---
-title: "Mortal Shell 2 Achievements — All 53 With Unlock Rates"
-heading: "Mortal Shell II Achievements — All 53 With Global Unlock Rates"
-description: "All 53 Mortal Shell II Steam achievements with Valve's published requirements, global unlock rates, and community decodes for all 16 hidden entries."
+title: "Mortal Shell 2 Achievements — 53 Conditions and Cleanup Planning"
+heading: "All 53 Steam achievement conditions, with a practical cleanup plan"
+description: "Read all 53 Mortal Shell II Steam achievement conditions, separate collection sets from special actions, and plan Shell memories and encounter cleanup."
 category: guide
 keyword: "mortal shell 2 achievements"
 status: official
 preRelease: false
-order: 1
-updatedAt: "2026-09-01"
+order: 2
+updatedAt: "2026-11-18"
 cover: /images/mortalshell2-cathedral-guardian-boss.webp
+coverAlt: "A warrior with a greatsword confronting a tall guardian in a dark Mortal Shell II stone chamber"
 sources:
   - status: official
-    sourceUrl: "https://steamcommunity.com/stats/2584270/achievements/"
-    sourceDate: "2026-09-01"
-    gameVersion: "Mortal Shell II retail, Steam App 2584270"
-    lastChecked: "2026-09-01"
-    note: "Valve's public achievement stats page: 53 achievement names, the requirement text Valve publishes, and each achievement's global unlock percentage. 16 entries are hidden — Valve publishes the name but not the requirement. Percentages are a single snapshot and drift as more accounts play."
-  - status: community
-    sourceUrl: "https://steamcommunity.com/app/2584270/guides/"
-    sourceDate: "2026-08-22"
-    gameVersion: "Mortal Shell II retail"
-    lastChecked: "2026-09-01"
-    note: "Steam guide \"All Achievements in Mortal Shell 2\" by аврил лавин, posted 21 August 2026 and updated 22 August 2026. Source for the 16 hidden-achievement decodes, the boss names and gate locations, and the acquisition routes. Player-compiled, not a developer statement."
-  - status: community
-    sourceUrl: "https://steamcommunity.com/app/2584270/guides/"
-    sourceDate: "2026-08-29"
-    gameVersion: "Mortal Shell II retail"
-    lastChecked: "2026-09-01"
-    note: "Steam guide \"How to unlock all Shell Memories / get Glimpses\" by Zyloc, 29 August 2026. Independent corroboration that there are eight Shells, and source for the Tier IV bonding cap and the Glimpse arithmetic."
+    sourceUrl: "https://steamcommunity.com/achievements/2584270"
+    lastChecked: "2026-11-18"
+    note: "Current Valve SSR achievement data contains 53 entries with names, descriptions and hidden flags. Published conditions are not route or missability guarantees."
   - status: official
-    sourceUrl: "https://store.steampowered.com/app/2584270/Mortal_Shell_II/"
-    gameVersion: "Mortal Shell II full game listing"
-    lastChecked: "2026-09-01"
-    note: "Official Steam store page for the released game, used for the app id and achievement support."
+    sourceUrl: "https://store.steampowered.com/news/app/2584270/view/690892955941077484"
+    sourceDate: "2026-08-29"
+    lastChecked: "2026-11-18"
+    note: "Week 1 makes Glimpses and Tarcores non-finite and introduces the Shell bond reset item."
+  - status: official
+    sourceUrl: "https://steamcommunity.com/app/2584270/announcements/?l=english"
+    sourceDate: "2026-11-16"
+    lastChecked: "2026-11-18"
+    note: "Current hotfix fixes blocked Mornefrost Grave Ova, NPC interactions and specific dungeon progression cases. These are targeted fixes rather than universal completion repairs."
 ---
 
-**Mortal Shell II has 53 Steam achievements.** The list below is complete, read from Valve's public stats page for App 2584270 on 2026-09-01, with the requirement text Valve publishes and the global unlock rate for every entry. Sixteen are hidden: Valve publishes the name but not the requirement, so the main table says `Hidden` rather than guessing. A separate table further down gives what the community has decoded for all sixteen, clearly labelled as player-compiled.
+**The current Steam list has 53 achievements.** Use the conditions below to separate a missing unlock from a missing collection, a special action, or an unresolved encounter. This is a reference and cleanup plan, not a personally tested route to every reward. It does not infer difficulty, acquisition order or the cause of a failure from global unlock percentages.
 
-Two numbers frame the whole list. **This is Not an Achievement** — Valve's requirement text is literally "Complete Mortal Shell II" — sits at **17.3%**, so fewer than one in five owners has finished. **No Lifer**, the full completion achievement, is at **2.9%**.
 
-## All 53 Mortal Shell II achievements
+## All 53 published conditions
 
-Sorted by global unlock rate, most common first.
+Spoilers follow for boss and Shell names. Some achievements remain marked hidden in Steam's presentation; the current published achievement data nevertheless contains their descriptions. A hidden flag does not mean this reference needs to invent a requirement. Names below follow the Steam record checked on November 18, 2026, rather than a trophy translation or an old launch-day spelling.
 
-| # | Achievement | Requirement | Global unlock |
-| --- | --- | --- | --- |
-| 1 | You're More Than a Weapon | Claim your first Shell, Weapon and Sidearm | 93.0% |
-| 2 | Home at Last | Reach Marrowkeep | 91.3% |
-| 3 | Mid Summer? | Enter the Festival | 83.7% |
-| 4 | Forever Alone? | Unlock Tiel | 79.7% |
-| 5 | Arrival | Unlock Proxima | 78.0% |
-| 6 | Haunting Times | Watch your first Shell Memory | 70.4% |
-| 7 | Deep Cuts | Unlock Axe and Dagger | 64.7% |
-| 8 | Old School | Unlock the Forgotten Crossbow | 63.9% |
-| 9 | Wheelie Good Time | Hidden | 60.2% |
-| 10 | Cut You Down to Size | Unlock the Veteran's Battle Axe | 59.3% |
-| 11 | Vengeance is Mine | Unlock Eredrim | 56.7% |
-| 12 | Big Boi | Unlock Great Martyr's Blade | 55.5% |
-| 13 | Meat's Back on the Menu, Boys! | Hidden | 51.6% |
-| 14 | My Brether | Unlock Smert | 49.1% |
-| 15 | Heartless | Unlock Gragu | 48.3% |
-| 16 | Chop Chop | Unlock the Salvaged Trebuchaxe | 47.5% |
-| 17 | Decked Out | Reach the maximum bonding tier for a Shell at the Shellkeeper | 46.9% |
-| 18 | Headcase | Hidden | 44.0% |
-| 19 | Dual Wielding | Unlock the Axatana | 43.6% |
-| 20 | Old Painless | Unlock the Triarch Repeater | 39.0% |
-| 21 | Point Taken | Unlock Black Needle | 38.1% |
-| 22 | Like Clockwork | Unlock the Clockwork Scythe | 35.8% |
-| 23 | Spiked | Unlock the Caged Hystrix | 35.7% |
-| 24 | The Alchemist | Unlock Sariel | 35.2% |
-| 25 | Stop - Hammer Time | Unlock the Obsidian Hammer | 33.9% |
-| 26 | Sester | Hidden | 33.9% |
-| 27 | Over 9000 | Max out a Weapon at the Tarforge | 33.2% |
-| 28 | Beautiful Baby | Unlock the Cursed Child | 32.4% |
-| 29 | Speared | Unlock the Ballistazooka | 31.9% |
-| 30 | Something in the deep... | Hidden | 31.7% |
-| 31 | Down with the Thickness | Unlock Lazlo | 31.4% |
-| 32 | It burnssssssssss | Hidden | 31.3% |
-| 33 | Nightmare Fuel | Hidden | 28.1% |
-| 34 | Baghead | Hidden | 27.8% |
-| 35 | Sat Nav | Find all Map Fragments | 26.7% |
-| 36 | Feed Me | Hidden | 26.4% |
-| 37 | Lord of War | Unlock all Weapons | 26.1% |
-| 38 | Shell Seeker | Unlock all Shells | 24.3% |
-| 39 | Heavy Metal | Play all Lute Tracks in the Game | 23.9% |
-| 40 | Guns. Lots of Guns | Unlock all Sidearms | 23.8% |
-| 41 | Ultimate Gainz | Hidden | 23.7% |
-| 42 | Lost Your Head | Hidden | 23.7% |
-| 43 | Bring My Ova Back to Me | Collect all of the Ova | 23.1% |
-| 44 | Praise him! | Hidden | 23.1% |
-| 45 | Ascension | Hidden | 21.1% |
-| 46 | It's over now? | Hidden | 19.8% |
-| 47 | This is Not an Achievement | Complete Mortal Shell II | 17.3% |
-| 48 | So Fresh, So Clean | Cleanse All Beacons | 14.5% |
-| 49 | No, You Still Can't Win | Hidden | 14.3% |
-| 50 | Stoned | Find all Tarstones | 8.9% |
-| 51 | Peter's Perfect Parry | Hidden | 5.9% |
-| 52 | Seeking the Past | Watch all Shell Memories | 3.8% |
-| 53 | No Lifer | Unlock All Achievements for Mortal Shell II | 2.9% |
+The short descriptions are objectives, not step-by-step locations. In particular, an unlock entry names what must be acquired without establishing where it is found, how many resources it takes, or whether the next campaign cycle preserves it.
 
-## What the 16 hidden achievements are
+| # | Steam achievement | Objective to check |
+|---|---|---|
+| 1 | You're More Than a Weapon | Obtain your first Shell, weapon and sidearm. |
+| 2 | Mid Summer? | Enter the Festival. |
+| 3 | Home at Last | Reach Marrowkeep. |
+| 4 | Haunting Times | View one Shell Memory. |
+| 5 | Deep Cuts | Acquire Axe and Dagger. |
+| 6 | Big Boi | Acquire Great Martyr's Blade. |
+| 7 | Point Taken | Acquire Black Needle. |
+| 8 | Like Clockwork | Acquire Clockwork Scythe. |
+| 9 | Stop - Hammer Time | Acquire Obsidian Hammer. |
+| 10 | Dual Wielding | Acquire Axatana. |
+| 11 | Cut You Down to Size | Acquire Veteran's Battle Axe. |
+| 12 | Spiked | Acquire Caged Hystrix. |
+| 13 | Old Painless | Acquire Triarch Repeater. |
+| 14 | Beautiful Baby | Acquire Cursed Child. |
+| 15 | Speared | Acquire Ballistazooka. |
+| 16 | Chop Chop | Acquire Salvaged Trebuchaxe. |
+| 17 | Old School | Acquire Forgotten Crossbow. |
+| 18 | Bring My Ova Back to Me | Finish the complete Ova collection. |
+| 19 | Heavy Metal | Perform every lute track. |
+| 20 | Wheelie Good Time | Boss victory: Magdalena, the Lady of the Woods. |
+| 21 | Meat's Back on the Menu, Boys! | Boss victory: The Lost Child. |
+| 22 | Headcase | Boss victory: The Nameless Captive. |
+| 23 | Nightmare Fuel | Boss victory: Sir Isaac, the Scholar-Prince. |
+| 24 | Something in the deep... | Boss victory: Hexapod. |
+| 25 | Praise him! | Boss victory: The Monolith. |
+| 26 | It burnssssssssss | Boss victory: Droeg, the Conquerer. |
+| 27 | Ultimate Gainz | Boss victory: Malborn Offspring. |
+| 28 | Lost Your Head | Boss victory: Orrem, the Reclaimed. |
+| 29 | It's over now? | Boss victory: Zmey, the Unbidden. |
+| 30 | Sester | Acquire Sester Genessa. |
+| 31 | Forever Alone? | Acquire Tiel. |
+| 32 | Down with the Thickness | Acquire Lazlo. |
+| 33 | Vengeance is Mine | Acquire Eredrim. |
+| 34 | The Alchemist | Acquire Sariel. |
+| 35 | Arrival | Acquire Proxima. |
+| 36 | My Brether | Acquire Smert. |
+| 37 | Heartless | Acquire Gragu. |
+| 38 | Peter's Perfect Parry | Complete the Captive's headspin parry requirement. |
+| 39 | Stoned | Locate the full Tarstone collection. |
+| 40 | Decked Out | Reach a Shell's highest bonding tier at the Shellkeeper. |
+| 41 | Over 9000 | Finish upgrading a weapon at the Tarforge. |
+| 42 | Feed Me | Fulfil the event in which Egon passes away. |
+| 43 | So Fresh, So Clean | Complete all beacon cleansings. |
+| 44 | No, You Still Can't Win | Bring the prologue Tar Golem to its minimum health. |
+| 45 | Sat Nav | Obtain the complete map-fragment set. |
+| 46 | Seeking the Past | View the entire Shell Memory collection. |
+| 47 | Shell Seeker | Acquire every Shell. |
+| 48 | Guns. Lots of Guns | Acquire all sidearms. |
+| 49 | Lord of War | Acquire all weapons. |
+| 50 | Ascension | Discover the Mango secret. |
+| 51 | This is Not an Achievement | Complete the game. |
+| 52 | No Lifer | Complete the full achievement set. |
+| 53 | Baghead | A cryptic reward description; not a complete action list. |
 
-Valve hides the requirement for sixteen entries. A Steam guide, *All Achievements in Mortal Shell 2* by **аврил лавин** (posted 21 August 2026, updated 22 August 2026), decodes all sixteen. Everything in this table is that guide's claim, not Valve's text and not a developer statement — it is included because it is specific, checkable, and matches the unlock rates in the official table above.
+## Use the list as several different checklists
 
-| Achievement | Community-reported requirement | Global unlock |
-| --- | --- | --- |
-| Wheelie Good Time | Defeat Magdalena, the Lady of the Woods | 60.2% |
-| Meat's Back on the Menu, Boys! | Defeat The Lost Child | 51.6% |
-| Headcase | Defeat The Nameless Captive | 44.0% |
-| Sester | Unlock Sester Genessa (a Shell) | 33.9% |
-| Something in the deep... | Defeat Hexapod | 31.7% |
-| It burnssssssssss | Defeat Droeg, the Conquerer | 31.3% |
-| Nightmare Fuel | Defeat Sir Isaac, the Scholar-Prince | 28.1% |
-| Baghead | Complete Baghead's dialogue sequence and accept his throne | 27.8% |
-| Feed Me | Cause Egon to pass away by offering him Gloom | 26.4% |
-| Ultimate Gainz | Defeat Malborn Offspring | 23.7% |
-| Lost Your Head | Defeat Orrem, the Reclaimed | 23.7% |
-| Praise him! | Defeat The Monolith | 23.1% |
-| Ascension | "Discover the secret of the Mango" — method not documented | 21.1% |
-| It's over now? | Defeat Zmey, the Unbidden (the final boss) | 19.8% |
-| No, You Still Can't Win | Take the Tar Golem to his minimum health in the prologue | 14.3% |
-| Peter's Perfect Parry | Parry every one of The Nameless Captive's headspins | 5.9% |
+Start with the exact locked name. A weapon unlock and a weapon-upgrade achievement are different tasks: owning the item does not establish that it has reached the Tarforge maximum. Similarly, acquiring a Shell, reaching its highest bond, and watching its memories each answer a different question. Put the unmet action next to the name rather than writing only “Shell cleanup.”
 
-Eleven of the sixteen are boss kills, which is why this site's [bosses hub](/bosses/) was previously so thin: Valve hides every boss name in the achievement list, so the boss roster was invisible until players published it.
+Keep the collection sets separate. Ova, Tarstones, map fragments and beacon cleansings have distinct achievements. Finding a map fragment does not prove that every marked activity was completed. A location can be familiar while its reward or cleansing state is still unresolved. For an uncertain beacon, use the [beacon progress guide](/beacons/) to distinguish arrival, cleansing and travel access.
 
-**Ascension** is the one entry nobody has explained. The guide records the requirement — "Discover the secret of the Mango" — and then stops, with no method. At 21.1% it is clearly not obscure in practice, so the knowledge exists somewhere; it just is not written down in the sources checked here.
+For equipment, check each named unlock first, then the all-weapons and all-sidearms objectives. Do not classify an unfamiliar item solely from its achievement title or the presence of the word “the.” Use the equipment slot and in-game description. A completed individual unlock is a useful entry in your list, but it does not by itself explain which aggregate collection remains incomplete.
 
-## The 21 unlockables the achievement list names
+## Shell memories and upgrade collections
 
-Twenty-one achievements follow the pattern "Unlock X" — twenty with visible text plus the hidden **Sester** — and three separate completion achievements confirm the three-category structure: **Shell Seeker** (all Shells), **Lord of War** (all Weapons), and **Guns. Lots of Guns** (all Sidearms).
+Three objectives make a useful progression ladder: Haunting Times concerns one memory, Decked Out concerns maximum bonding for one Shell, and Seeking the Past concerns all memories. Shell Seeker is the separate ownership check. If Seeking the Past is locked, inspect which memories you have actually watched instead of assuming another Shell acquisition will automatically complete it.
 
-The split is **8 Shells** and **13 Weapons and Sidearms**:
+Build a small matrix with one row per owned Shell and columns for bond state and viewed memories. Record a memory only after viewing it; an available prompt and a completed viewing are different observations. If a memory cannot be selected, note the displayed prerequisite. This makes the next action specific: find an unowned Shell, raise a particular bond, or view an already available memory.
 
-| Category | Names |
-| --- | --- |
-| Shells (8) | Tiel, Proxima, Eredrim, Smert, Gragu, Sariel, Sester Genessa, Lazlo |
-| Weapons and Sidearms (13) | Axe and Dagger, Forgotten Crossbow, Veteran's Battle Axe, Great Martyr's Blade, Salvaged Trebuchaxe, Axatana, Triarch Repeater, Black Needle, Clockwork Scythe, Caged Hystrix, Obsidian Hammer, Cursed Child, Ballistazooka |
+The Week 1 update changed the economy: Glimpses and Tarcores became renewable, and Mether's Severance was introduced to reset a Shell bond and return spent Glimpses. Consequently, an old guide's claim that memory completion necessarily needs several campaigns should not be repeated as a fixed resource rule. Renewable materials do not mean every memory is immediately available, and a bond reset is not an achievement-completion shortcut. Check the effect on your current build before resetting anything.
 
-**Where that split comes from.** Valve's own text never says which category a name belongs to, and the obvious shortcut fails: most item rows read "Unlock **the** Obsidian Hammer" while Shell rows read "Unlock Tiel", but "Unlock Axe and Dagger" and "Unlock Great Martyr's Blade" are plainly weapons with no article. The split above comes from аврил лавин's guide, which groups the names into Shells and Weapons sections, and it is corroborated on the count by a second, independent guide — *How to unlock all Shell Memories / get Glimpses* by **Zyloc** (29 August 2026) — which states that the Seeking the Past achievement requires maximum bonding with "all (8) Shells". Eight also matches the eight playable Shells the Open Beta store page advertised.
+Over 9000 belongs on a different resource line: it asks for a weapon's maximum Tarforge upgrade. The achievement text does not publish a universal numeric cap in this reference. Compare the current upgrade interface with the goal instead of copying a disputed plus-number from an early guide. Use the [weapon decision guide](/mortal-shell-2-best-weapon/) for loadout choices, without treating an achievement reward as proof that one weapon is strongest.
 
-Two consequences worth stating plainly, because this site previously had them wrong. **Black Needle is a weapon, not a Shell** — the missing article made it look like one. And the eighth Shell is **Sester Genessa**, whose unlock achievement Valve hides, which is why no amount of reading the official list would have produced her. The [Shells hub](/shells/) and [Weapons hub](/weapons/) now follow this split, with the Community label on the rows that depend on it.
+## Special actions and unclear reward text
 
-## The six collectible sets
+Ordinary story progress is not a substitute for every optional action. Mid Summer?, the Tar Golem challenge and Peter's Perfect Parry deserve encounter-specific attention. Read the [missable achievement checklist](/mortal-shell-2-missable-achievements/) before leaving the opening or ending the Captive fight. That page separates developer clarification about the seven-hit spin from player retry advice; it does not call three entries an exhaustive missability total.
 
-Six achievements ask for a complete set, which is the clearest official statement of what Mortal Shell II asks you to hunt:
+Heavy Metal asks for the lute's track collection, so distinguish possessing the instrument from performing the tracks. Ascension names a Mango secret without explaining a full route. Feed Me concerns a specific Egon outcome; simply meeting the NPC is not the published goal. Baghead's text is deliberately cryptic and is not a precise instruction. Keep those objectives as separate tasks instead of interpreting a vague title as a guaranteed route or irreversible dialogue choice.
 
-| Set | Achievement | Global unlock |
-| --- | --- | --- |
-| Map Fragments | Sat Nav | 26.7% |
-| Lute Tracks | Heavy Metal | 23.9% |
-| Ova | Bring My Ova Back to Me | 23.1% |
-| Beacons (cleanse all) | So Fresh, So Clean | 14.5% |
-| Tarstones | Stoned | 8.9% |
-| Shell Memories (watch all) | Seeking the Past | 3.8% |
+For a special-action failure, describe what happened: the NPC interaction, selected action, encounter result and achievement state. Do not fill an unknown trigger with an invented item requirement or a number copied from another game's guide. The useful next step is the exact missing action, not repeating the whole campaign without knowing what you are testing.
 
-Valve publishes the category names, not the counts or the locations, so no totals are claimed here. The rates rank the difficulty for you: Map Fragments, Lute Tracks and Ova are cleared by roughly a quarter of players, while **Tarstones at 8.9%** and **Shell Memories at 3.8%** are the two that break completion runs. Shell Memories being rarer than the platinum-adjacent achievements above it suggests they are easy to walk past — **Haunting Times**, for watching your first one, is at 70.4%, so the drop from one to all is severe.
+## Before you start another cycle
 
-**So Fresh, So Clean** (Cleanse All Beacons, 14.5%) also confirms that beacons are cleansed rather than merely lit — see the [beacons guide](/beacons/).
+Open the platform achievement list and mark each remaining objective by type: acquisition, upgrade, collection, encounter action or unclear trigger. Check the available current-world opportunities before choosing a major transition. This is a completion review, not a claim that every activity remains accessible after every ending or that New Game Plus replays the prologue.
 
-## Systems and places the list confirms
+For an apparently blocked item, confirm that the game is updated and match the symptom to a specific fix. The November 16 hotfix addresses blocked Ova in Mornefrost Grave and certain NPC-interaction and dungeon-gate failures. It does not promise to repair every missing Ova record or award every achievement retroactively. Test the affected location normally before concluding that another cycle is required.
 
-Small facts, but each one is Valve's own wording:
+Preserve a working save and understand what a supported backup restores. Cloud synchronization should not be assumed to retain every earlier state indefinitely. If an encounter is already completed and no supported retry is available, decide deliberately whether another save or cycle is worth pursuing. Avoid a force-close or file edit presented as a guaranteed rollback.
 
-- **Marrowkeep** is a place you reach, and reaching it is achievement #2 at 91.3% — an early hub, not a late-game location.
-- **The Festival** is a place you enter (Mid Summer?, 83.7%). Note the exact spelling: launch-day community guides wrote this as "Midsommar?", but Valve's text is **Mid Summer?**.
-- **The Shellkeeper** hosts Shell bonding, and bonding has a **maximum tier** (Decked Out, 46.9%).
-- **The Tarforge** is where weapons are upgraded, and weapons can be **maxed out** (Over 9000, 33.2%).
-- **Shell Memories** are watchable cutscene-style content tied to Shells, not a combat system.
-
-Community guides fill in the numbers Valve leaves out, and these are the ones worth knowing before a completion run:
-
-- The Shellkeeper is named **Zhirelle**, and the bonding cap is **Tier IV**, at roughly **27 Glimpses per Shell** — about **216** for all eight, which is what Seeking the Past requires. Breaking a Glimpse Stone after twenty enemy kills reportedly gives three Glimpses, and up to thirteen Glimpse Stones can be bought from the hub merchant.
-- The Tarforge cap is **+16**.
-- There are **49 beacons**, but So Fresh, So Clean only needs **46** of them.
-- Weapon location maps are sold by a merchant named **Merrick** in Marrow Keep.
-- Map Fragments are marked on the map by **raven icons**, and the map starts covered by fog of war on a first playthrough.
-- Ova come from cleansing beacons and clearing Corrupted Gates, so that set fills in as a by-product of normal progress.
-
-All six of those are player-compiled, from the two guides credited in the sources below. None of them is a developer statement.
-
-## The three known missable achievements
-
-A launch-day Steam guide by MaU flagged three achievements as missable, and all three names check out against Valve's list: **Mid Summer?** (83.7%), **No, You Still Can't Win** (14.3%), and **Peter's Perfect Parry** (5.9%). That is a community report, not an official statement of missability — the [missable achievements guide](/mortal-shell-2-missable-achievements/) records it with its source and date.
-
-Peter's Perfect Parry at 5.9% is the rarest non-completion achievement in the game apart from Seeking the Past, and it is hidden, so its requirement is unpublished.
-
-## Reading the percentages
-
-These are Steam's global figures across every account that owns the game, read once on **2026-09-01**, twelve days after the 20 August 2026 release. They move. Story achievements are always understated this early because a large share of owners have not finished — expect **This is Not an Achievement** to climb well above 17.3%.
-
-The figures are also PC-only. PlayStation and Xbox trophy rates are tracked separately by those platforms and are not reflected here.
-
-## The short version
-
-Fifty-three achievements. Completion sits at 17.3%, full completion at 2.9%. Twenty-one "Unlock X" achievements name every Shell, Weapon and Sidearm in the game — **8 Shells** (Tiel, Proxima, Eredrim, Smert, Gragu, Sariel, Sester Genessa, Lazlo) and **13 Weapons and Sidearms** — though the split between the two categories comes from player-compiled guides rather than from Valve. Six collectible sets: Map Fragments, Lute Tracks, Ova, Beacons, Tarstones and Shell Memories, with Shell Memories the rarest at 3.8%. Sixteen entries are hidden by Valve; all sixteen have been decoded by the community, and eleven of them are boss kills — Magdalena, The Lost Child, The Nameless Captive, Hexapod, Droeg, Sir Isaac, Orrem, The Monolith, Malborn Offspring, Zmey and the prologue's Tar Golem.
+Finally, distinguish finishing the story from completing the whole list. This is Not an Achievement and No Lifer are separate entries. Verify the names that remain locked rather than assuming the ending scene also completed collections, upgrades or special actions. The [guide directory](/guide/) links the relevant systems without promising a single universal 100% route.
