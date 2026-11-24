@@ -1,21 +1,37 @@
 ---
-title: "Mortal Shell II: Rebuild Your Tarstones After Hotfix 1"
-description: "Recheck Lazlo, Proxima, Waning Stone and resolve spending after the October 30 Rotten Autumn hotfix with a controlled combat route."
-heading: "Mortal Shell II: Rebuild Your Tarstones After Hotfix 1"
+title: "Mortal Shell II Tarstone Builds After the November 16 Hotfix"
+description: "Test Fusillade Stone below full Resolve after the November 16 hotfix, then check Lazlo, Proxima, Waning Stone and Channeler’s Stone before a dungeon run."
+heading: "How to Rebuild Your Tarstones After the November 16 Hotfix"
 category: guide
 keyword: "rotten autumn tarstone build reset"
 status: community
 preRelease: false
 cover: /images/mortalshell2-gloom-spider-creature.webp
-coverAlt: "Mortal Shell II: Rebuild Your Tarstones After Hotfix 1 gameplay illustration"
-updatedAt: "2026-11-01"
+coverAlt: "Gloom-wreathed creature emerging from the fog in Mortal Shell II"
+updatedAt: "2026-11-24"
 order: 1
 sources: []
 ---
 
-The October 30 Rotten Autumn hotfix changes the assumptions behind several Mortal Shell II builds. Lazlo's protection no longer persists through shell switches or accumulates through repeated use, an invincibility exploit involving Proxima has been fixed, and the Waning Stone receives a resolve-cost improvement. If a recent build suddenly feels weaker, first determine whether it depended on behavior that the update intentionally removed. This guide proposes a practical rebuild process: preserve the useful parts of your loadout, test its resource cycle, and replace unreliable habits before attempting another demanding dungeon.
+**Fusillade Stone can activate without a full Resolve bar after the November 16 hotfix.** Start by finding out whether your usual approach leaves enough Resolve for Fusillade and your next planned action. Use a familiar encounter for that test before taking the build into a dungeon.
 
-<figure><img src="/images/mortalshell2-gloom-spider-creature.webp" alt="Mortal Shell II: Rebuild Your Tarstones After Hotfix 1 gameplay illustration" width="1200" height="675" loading="lazy" decoding="async" /></figure>
+Mortal Shell II launched August 20 on Steam, PS5, and Xbox Series X|S. The [November 16 hotfix announcement](https://steamcommunity.com/app/2584270/announcements/) places the Fusillade rework and Lazlo’s Triarch Repeater aiming fix in the same update. The [October 30 Hotfix 1 guide](/mortal-shell-2-rotten-autumn-hotfix-1-guide/) covers the earlier changes to Lazlo’s protection, Proxima’s melee weapon, and the Waning and Channeler’s Stones. Check your installed update before using an older build video as a reference.
+
+## Test Fusillade Stone below full Resolve
+
+Pick a low-risk enemy you can approach the same way each time. Keep your Shell, weapon, stone level and difficulty fixed, and write down the current loadout so you can restore it. Give yourself enough room to disengage between attempts.
+
+1. **Start with a full bar.** Try your usual Fusillade activation once. Record whether it activates, how much Resolve remains, and which action you want available immediately afterward. This gives you a working comparison on your current installation.
+2. **Repeat with a visibly partial bar.** Build Resolve normally on the same route and use the same input from a similar position. Record the amount before and after activation as the interface shows it. If Fusillade stays unavailable at that level, repeat with a higher partial bar and the same equipment. The announcement gives no exact minimum or per-level cost.
+3. **Try the defensive follow-up.** As soon as the opening ends, test the action you expect to use next. If you can fire on partial Resolve but cannot fund the follow-up, wait for a larger reserve in tougher fights. If the whole sequence works on repeated attempts, you can stop waiting for an entirely full bar on that route.
+
+Write the result as “Shell / weapon / stone level / Resolve before / activation / Resolve after / follow-up.” If the meter only gives you a visual estimate, a screenshot of the bar is more informative than an invented percentage. Retest after changing the stone level or weapon.
+
+## Check Lazlo’s aim before diagnosing a stone
+
+If you run Lazlo with the Triarch Repeater, aim at a familiar target from the same distance before testing damage or Resolve. Check whether the reticle and camera settle where you expect, then run the full-bar and partial-bar tries. If aiming behaves normally but the activation still fails, record your Resolve and equipped stones. If the input fires but the aim itself drifts, capture the aiming behavior on its own. The November notes describe the aiming fix and Fusillade’s Resolve change as separate items.
+
+For a boss check, run the same inputs on an ordinary enemy first. The November notes say the Laughing Flayer is protected until its final-phase transition finishes. Wait for the transition to end before spending your first shot on that phase. If the same setup works on your test enemy but you see no damage during the transition, retest after the phase begins before replacing a working stone. The [boss preparation guide](/mortal-shell-2-boss-preparation-guide/) has a route for checking harder fights with fewer variables.
 
 ## Make a record of the build you actually use
 Open the equipment screens and write down your shell, melee weapon, and equipped Tarstones. Describe the purpose of each choice in a few words. A protection effect, a resolve refund, and a damage tool occupy different jobs even if all three appeared in a popular setup. If you cannot say what an item contributes, leave it unchanged for the first comparison. You need a baseline before deciding which component failed. A remembered video title is less useful than the exact equipment on the character you are controlling.
