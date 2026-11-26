@@ -33,6 +33,8 @@ If you run Lazlo with the Triarch Repeater, aim at a familiar target from the sa
 
 For a boss check, run the same inputs on an ordinary enemy first. The November notes say the Laughing Flayer is protected until its final-phase transition finishes. Wait for the transition to end before spending your first shot on that phase. If the same setup works on your test enemy but you see no damage during the transition, retest after the phase begins before replacing a working stone. The [boss preparation guide](/mortal-shell-2-boss-preparation-guide/) has a route for checking harder fights with fewer variables.
 
+If you already defeated the boss and the exit stayed shut, check the [Laughing Flayer and Neglected Ward gate guide](/laughing-flayer-neglected-ward-gates/).
+
 ## Make a record of the build you actually use
 Open the equipment screens and write down your shell, melee weapon, and equipped Tarstones. Describe the purpose of each choice in a few words. A protection effect, a resolve refund, and a damage tool occupy different jobs even if all three appeared in a popular setup. If you cannot say what an item contributes, leave it unchanged for the first comparison. You need a baseline before deciding which component failed. A remembered video title is less useful than the exact equipment on the character you are controlling.
 

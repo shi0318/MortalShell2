@@ -7,6 +7,7 @@ import GuideCard from '../../../components/GuideCard.astro';
 import Pagination from '../../../components/Pagination.astro';
 import { SITE_IMAGES } from '../../../data/images';
 import { formatDate } from '../../../utils/dates';
+import { guidePageSize } from '../../../utils/guide-pagination.mjs';
 
 const title = 'Mortal Shell II Guides — Page ' + Astro.params.page;
 const description = 'More Mortal Shell II guides, sorted by the latest verified update date.';
@@ -25,25 +26,23 @@ const FALLBACK_COVER: Record<string, string> = {
   bosses: SITE_IMAGES.cathedralBoss.src, walkthrough: SITE_IMAGES.heroBanner.src,
   news: SITE_IMAGES.officialKeyart2.src,
 };
-const PAGE_SIZE = 9;
-
 export async function getStaticPaths() {
-  const PAGE_SIZE = 9;
   const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
     (a, b) =>
       b.data.updatedAt.localeCompare(a.data.updatedAt) ||
       (a.data.order ?? 100) - (b.data.order ?? 100) ||
       a.id.localeCompare(b.id),
   );
-  const totalPages = Math.ceil(guides.length / PAGE_SIZE);
+  const pageSize = guidePageSize(guides.length);
+  const totalPages = Math.ceil(guides.length / pageSize);
   return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => {
     const page = i + 2;
-    return { params: { page: String(page) }, props: { guides, page, totalPages } };
+    return { params: { page: String(page) }, props: { guides, page, pageSize, totalPages } };
   });
 }
 
-const { guides, page, totalPages } = Astro.props;
-const visibleGuides = guides.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+const { guides, page, pageSize, totalPages } = Astro.props;
+const visibleGuides = guides.slice((page - 1) * pageSize, page * pageSize);
 function coverOf(g: (typeof guides)[number]) {
   return g.data.cover ?? FALLBACK_COVER[g.data.category] ?? SITE_IMAGES.heroCombat.src;
 }

@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
 import { test } from 'node:test';
+import { guidePageSize } from '../src/utils/guide-pagination.mjs';
 
 const GUIDES_DIR = new URL('../src/content/guides/', import.meta.url);
-const PAGE_SIZE = 9;
 
 // Read a top-level frontmatter scalar. Anchored at line start so indented
 // `sources:` entries (which repeat keys like `status:`) can never match.
@@ -31,7 +31,7 @@ async function orderedGuideIds() {
     });
   }
 
-  assert.ok(entries.length > PAGE_SIZE, 'expected more guides than one hub page');
+  assert.ok(entries.length > guidePageSize(entries.length), 'expected more guides than one hub page');
 
   return entries
     .sort(
@@ -52,16 +52,36 @@ test('guide hub promotes the most recently updated retail guides first', async (
   assert.ok(latest, 'expected a latest guides section');
 
   const ordered = await orderedGuideIds();
+  const pageSize = guidePageSize(ordered.length);
 
-  for (const id of ordered.slice(0, PAGE_SIZE)) {
+  for (const id of ordered.slice(0, pageSize)) {
     assert.ok(latest.includes(`href="/${id}/"`), `expected /${id}/ on hub page 1`);
   }
 
-  const overflow = ordered[PAGE_SIZE];
+  const overflow = ordered[pageSize];
   assert.ok(
     !latest.includes(`href="/${overflow}/"`),
     `expected /${overflow}/ to be pushed to page 2`,
   );
+});
+
+test('guide pagination keeps all content on the first three pages and preserves legacy redirects', async () => {
+  const ordered = await orderedGuideIds();
+  const pageSize = guidePageSize(ordered.length);
+  const firstPage = '../dist/guide/index.html';
+  const laterPages = ['../dist/guide/page/2/index.html', '../dist/guide/page/3/index.html'];
+
+  for (const [index, path] of [firstPage, ...laterPages].entries()) {
+    const html = await readFile(new URL(path, import.meta.url), 'utf8');
+    for (const id of ordered.slice(index * pageSize, (index + 1) * pageSize)) {
+      assert.ok(html.includes(`href="/${id}/"`), `expected /${id}/ on hub page ${index + 1}`);
+    }
+    assert.doesNotMatch(html, /href="\/guide\/page\/4\//);
+  }
+
+  const redirects = await readFile(new URL('../dist/_redirects', import.meta.url), 'utf8');
+  assert.match(redirects, /^\/guide\/page\/4\/ \/guide\/ 301$/m);
+  await assert.rejects(readFile(new URL('../dist/guide/page/4/index.html', import.meta.url), 'utf8'), { code: 'ENOENT' });
 });
 
 test('guide pages use explicit order for entries sharing an update date', async () => {
